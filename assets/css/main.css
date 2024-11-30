@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 80px 20px;
 }
 
 /* Header Styles */
@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   text-align: left;
   width: 100vw; /* Ensure the hero spans the full viewport width */
+  height: 80vh; /* Ensure the hero spans the full viewport height */
   margin: 0;
   background-attachment: fixed; /* Fixed background image */
 }
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero .container {
-  max-width: 1000px; /* Maintain the content width within the hero */
+  max-width: 1160px; /* Maintain the content width within the hero */
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
@@ -190,20 +191,104 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.animated-svg path {
+  fill: #423d33; /* Optional: Only show the stroke for animation */
+  stroke: #423d33; /* Define the stroke color */
+  stroke-width: 2; /* Define the stroke width */
+  stroke-dasharray: 1800; /* Adjust to the length of your path */
+  stroke-dashoffset: 1800; /* Initially hide the stroke */
+  animation: draw 3s ease-in-out forwards; /* Animate stroke drawing */
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0; /* Reveal the stroke */
+  }
+}
+
 /* Grid layout */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
   gap: 2rem;
   padding: 2rem 0;
 }
 
-/* Cards */
+/* Card Base Styles */
 .card {
-  background: white;
   padding: 2rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 0.8rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: var(--color-charcoal); /* Ensure text contrasts against the background */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Terracotta Card */
+.card--terracotta {
+  background-color: var(--color-terracotta);
+}
+
+/* Sky Blue Card */
+.card--sky-blue {
+  background-color: var(--color-sky-blue);
+}
+
+/* Olive Green Card */
+.card--olive-green {
+  background-color: var(--color-olive-green);
+}
+
+/* Sun Gold Card */
+.card--sun-gold {
+  background-color: var(--color-sun-gold);
+}
+
+/* Card Heading and Text */
+.card h3 {
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.card .button {
+  background-color: white;
+  color: var(--color-charcoal);
+  padding: 0.75rem 1.5rem;
+  border-radius: 4rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card .button:hover {
+  background-color: var(--color-charcoal);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr; /* Stack cards in a single column */
+  }
+
+  .card {
+    margin: 1rem 0; /* Add spacing between stacked cards */
+  }
 }
 
 /* Buttons */
@@ -230,21 +315,90 @@ h1, h2, h3, h4, h5, h6 {
 .text-charcoal { color: var(--color-charcoal); }
 .text-olive-green { color: var(--color-olive-green); }
 .text-sun-gold { color: var(--color-sun-gold); }
+.text-white { color: white; }
 
 /* General Section Styles */
 .story-section {
   position: relative;
   display: flex;
   justify-content: center;
+  margin: 60px 0;
 }
 
 .story-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
- max-width: 1200px; /* Center the content with a maximum width */
+  max-width: 1200px; /* Center the content with a maximum width */
   width: 100%;
   gap: 2rem; /* Space between the two divs */
+}
+
+/* Full-Width Story Section */
+.story-hero {
+  position: relative;
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, rgba(167, 216, 240, 0.8), rgba(214, 138, 89, 0.8)), 
+              url('../images/seed-of-life-hero-right-1.png'); /* Replace with your parallax background image */
+  background-size: cover; /* Scale image to cover the section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-attachment: fixed; /* Enable parallax effect */
+  color: var(--color-charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.story-hero-container {
+  max-width: 1000px; /* Constrain the width of the content */
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Center-align text */
+}
+
+.story-hero-text {
+  max-width: 100%; /* Constrain text width */
+  color: var(--color-charcoal);
+}
+
+.story-hero-text h2 {
+  font-family: 'Cormorant', serif;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.story-hero-text p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .story-hero {
+    background-position: top; /* Focus on the top part of the background for mobile */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 4rem 0;
+  }
+
+  .story-hero-text h2 {
+    font-size: 2rem;
+  }
+
+  .story-hero-text p {
+    font-size: 1.2rem;
+  }
+
+  .story-hero-container {
+    padding: 0 10px; /* Add smaller padding for mobile */
+  }
 }
 
 /* Text Section */
@@ -298,31 +452,94 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Footer */
+/* Footer Base Styles */
 .site-footer {
-  background-color: var(--color-charcoal);
+  background-color: #2d2a26;
   color: white;
-  padding: 2rem 0;
-  text-align: center;
-  margin-top: 4rem;
+  padding: 2rem 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.9rem;
+}
+
+/* Footer Container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Ensure wrapping on smaller screens */
+  gap: 2rem;
+}
+
+.footer-left {
+  flex: 1;
+  max-width: 60%;
+  line-height: 1.6;
+}
+
+.footer-right {
+  flex: 1;
+  max-width: 40%;
+  text-align: right;
 }
 
 .footer-links {
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
+  gap: 1rem;
+  justify-content: flex-end;
 }
 
 .footer-links a {
-  margin: 0 1rem;
-  text-decoration: none;
   color: var(--color-sun-gold);
-  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
   color: var(--color-terracotta);
+}
+
+/* Divider Line */
+.footer-divider {
+  border: none;
+  border-top: 1px solid white; /* Adjust color if needed */
+  margin: 2rem auto;
+  width: 80%; /* Center and limit width */
+}
+
+/* Creative Commons Section */
+.footer-cc {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+.footer-cc a {
+  color: var(--color-sun-gold);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-cc a:hover {
+  color: var(--color-terracotta);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left, .footer-right {
+    max-width: 100%;
+  }
+
+  .footer-right .footer-links {
+    justify-content: center;
+  }
 }
 
 /* Responsive design */

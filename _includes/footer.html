@@ -1,9 +1,31 @@
 <footer class="site-footer">
-    <div class="container text-center">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+  <div class="footer-container">
+    <!-- Acknowledgment Section -->
+    <div class="footer-left">
+      <p>
+        We honour the Sacred Custodians of Australia’s lands and seas, the Aboriginal and Torres Strait Islander peoples, their elders past, present, and emerging, and Indigenous communities worldwide. We recognise their timeless wisdom and enduring connection to the lands that sustain all life.
+      </p>
+    </div>
+
+    <!-- Licensing and Links Section -->
+    <div class="footer-right">
       <div class="footer-links">
-        <a href="{{ '/contact' | relative_url }}">Contact</a>
+        <a href="https://www.linkedin.com/in/mathewmytka/">Contact</a>
         <a href="{{ '/privacy' | relative_url }}">Privacy</a>
       </div>
     </div>
-  </footer>
+  </div>
+
+  <!-- Horizontal Line -->
+  <hr class="footer-divider" />
+
+  <!-- Creative Commons Section -->
+  <div class="footer-cc">
+    <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+      <span property="dct:title">Collective Futurecrafting</span> is licensed under
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">
+        Creative Commons Attribution-ShareAlike 4.0 International
+      </a>
+    </p>
+  </div>
+</footer>
