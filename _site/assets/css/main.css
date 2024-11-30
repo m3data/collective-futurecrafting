@@ -105,7 +105,14 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   text-align: left;
   width: 100vw; /* Ensure the hero spans the full viewport width */
-  margin: 0; /* Remove any default margins */
+  margin: 0;
+  background-attachment: fixed; /* Fixed background image */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-position: top; /* Shift focus to the top for mobile */
+  }
 }
 
 .hero .container {
@@ -227,29 +234,68 @@ h1, h2, h3, h4, h5, h6 {
 /* General Section Styles */
 .story-section {
   position: relative;
-  padding-top: 60px;
   display: flex;
-  align-items: center;
   justify-content: center;
-  background-color: var(--color-terracotta); /* Optional: Different background colors for sections */
 }
 
 .story-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
+ max-width: 1200px; /* Center the content with a maximum width */
   width: 100%;
-  padding: 0 20px;
+  gap: 2rem; /* Space between the two divs */
 }
 
+/* Text Section */
 .story-text {
-  max-width: 50%;
+  flex: 1; /* Take up equal space */
+  max-width: 50%; /* Prevent content from exceeding half the width */
+  font-family: 'Cormorant', serif;
+  line-height: 1.6;
+  background-color: white;
+  padding: 20px;
 }
 
+.story-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.story-text p {
+  margin-bottom: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  color: var(--color-charcoal);
+}
+
+/* Image Section */
 .story-image {
-  max-width: 50%;
-  align-items: self-start;
+  flex: 1; /* Take up equal space */
+  max-width: 50%; /* Prevent content from exceeding half the width */
+  text-align: center;
+  background-color: white;
+}
+
+.story-image img {
+  max-width: 70%; /* Ensure the image scales responsively */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .story-container {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center-align content */
+  }
+
+  .story-text, .story-image {
+    max-width: 100%; /* Allow full width */
+    text-align: center; /* Center-align text */
+  }
+
+  .story-image img {
+    max-width: 80%; /* Limit image size for smaller screens */
+  }
 }
 
 /* Footer */
