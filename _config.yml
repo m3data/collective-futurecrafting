@@ -1,0 +1,50 @@
+title: Collective Futurecrafting
+description: The future is not written. It is crafted.
+baseurl: ""
+url: "https://m3data.github.io/collective-futurecrafting"
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-assets
+
+collections:
+  origins:
+    output: true
+    permalink: /:collection/:name
+  proem:
+    output: true
+    permalink: /:collection/:name
+  craft:
+    output: true
+    permalink: /:collection/:name
+  get-involved:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "origins"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "proem"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "craft"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "get-involved"
+    values:
+      layout: page
+
+include:
+  - assets

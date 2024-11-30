@@ -1,0 +1,307 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600;700&family=Nunito:wght@400;600&display=swap');
+
+/* Base styles */
+:root {
+  --color-terracotta: #D68A59;
+  --color-sky-blue: #A7D8F0;
+  --color-charcoal: #423D33;
+  --color-olive-green: #7B9361;
+  --color-sun-gold: #E3B646;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: var(--color-charcoal);
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant', serif;
+  line-height: 1.2;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+.site-header {
+  background-color: var(--color-charcoal);
+  color: var(--color-sun-gold);
+  padding: 1rem 0;
+  overflow: hidden; /* Prevent overflow issues */
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+.main-nav {
+  max-width: 1200px; /* Matches the width constraint */
+  width: 100%; /* Full width for the container */
+  margin: 0 auto; /* Center the navigation on the screen */
+  padding: 0 20px; /* Add spacing for both sides */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Distribute space evenly */
+  align-items: center; /* Align items vertically */
+  box-sizing: border-box; /* Include padding in total width calculation */
+  overflow: hidden; /* Prevent child elements from overflowing */
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem; /* Spacing between navigation links */
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  flex-wrap: wrap; /* Ensure links wrap on smaller screens */
+  overflow: hidden; /* Prevent horizontal overflow */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-sun-gold);
+  font-weight: 400;
+  font-size: 1.6rem; /* Adjust link font size */
+  white-space: nowrap; /* Prevent link text from wrapping */
+}
+
+.nav-links a:hover {
+  color: var(--color-terracotta); /* Change color on hover */
+}
+
+.header-logo {
+  width: 100px; /* Adjust logo size */
+  height: auto;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column; /* Stack navigation items vertically */
+    text-align: center; /* Center-align content */
+    padding: 1rem; /* Add spacing */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack links vertically */
+    gap: 1rem; /* Reduce spacing between links */
+  }
+}
+
+/* Hero Section */
+.hero {
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, rgba(167, 216, 240, 0.8), rgba(214, 138, 89, 0.8)), 
+              url('../images/hero_bark.jpg');
+  background-size: cover; /* Scale image to cover entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  color: var(--color-charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 100vw; /* Ensure the hero spans the full viewport width */
+  margin: 0; /* Remove any default margins */
+}
+
+.hero .container {
+  max-width: 1000px; /* Maintain the content width within the hero */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Space between text and SVG */
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Space between text and the SVG */
+}
+
+.hero-text {
+  max-width: 50%; /* Adjust text width for better layout */
+}
+
+.hero h1 {
+  font-family: 'Cormorant', serif;
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.hero p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  margin: 1rem 0 0;
+}
+
+.seed-of-life svg {
+  width: 400px;
+  height: 400px;
+  opacity: 0.8;
+}
+
+.seed-of-life circle {
+  stroke-dasharray: 314; /* Circumference of the circle */
+  stroke-dashoffset: 314; /* Start with the stroke hidden */
+  animation: draw 3s ease-in-out forwards; /* Animate the stroke */
+}
+
+/* Add a staggered delay for each circle */
+.seed-of-life-icon circle:nth-child(1) {
+  animation-delay: 0s;
+}
+.seed-of-life-icon circle:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.seed-of-life-icon circle:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.seed-of-life-icon circle:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.seed-of-life-icon circle:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.seed-of-life-icon circle:nth-child(6) {
+  animation-delay: 1s;
+}
+.seed-of-life-icon circle:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0; /* Reveal the full stroke */
+  }
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.button--primary {
+  background-color: var(--color-terracotta);
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: #c47a49;
+}
+
+/* Text colors */
+.text-terracotta { color: var(--color-terracotta); }
+.text-sky-blue { color: var(--color-sky-blue); }
+.text-charcoal { color: var(--color-charcoal); }
+.text-olive-green { color: var(--color-olive-green); }
+.text-sun-gold { color: var(--color-sun-gold); }
+
+/* General Section Styles */
+.story-section {
+  position: relative;
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-terracotta); /* Optional: Different background colors for sections */
+}
+
+.story-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.story-text {
+  max-width: 50%;
+}
+
+.story-image {
+  max-width: 50%;
+  align-items: self-start;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--color-charcoal);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--color-sun-gold);
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  color: var(--color-terracotta);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .seed-of-life {
+    visibility: hidden;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .seed-of-life {
+    margin: 2rem 0;
+    width: 200px;
+    height: 200px;
+  }
+}
