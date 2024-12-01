@@ -332,6 +332,57 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 1200px; /* Center the content with a maximum width */
   width: 100%;
   gap: 2rem; /* Space between the two divs */
+  height: 70vh; /* Full viewport height */
+}
+/* Text Section */
+.story-text {
+  flex: 1; /* Take up equal space */
+  max-width: 50%; /* Prevent content from exceeding half the width */
+  font-family: 'Cormorant', serif;
+  line-height: 1.6;
+  background-color: white;
+  padding: 20px;
+}
+
+.story-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.story-text p {
+  margin-bottom: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.2rem;
+  color: var(--color-charcoal);
+}
+
+/* Image Section */
+.story-image {
+  flex: 1; /* Take up equal space */
+  max-width: 50%; /* Prevent content from exceeding half the width */
+  text-align: center;
+  background-color: white;
+}
+
+.story-image img {
+  max-width: 70%; /* Ensure the image scales responsively */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .story-container {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center-align content */
+  }
+
+  .story-text, .story-image {
+    max-width: 100%; /* Allow full width */
+    text-align: center; /* Center-align text */
+  }
+
+  .story-image img {
+    max-width: 80%; /* Limit image size for smaller screens */
+  }
 }
 
 /* Full-Width Story Section */
@@ -398,57 +449,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .story-hero-container {
     padding: 0 10px; /* Add smaller padding for mobile */
-  }
-}
-
-/* Text Section */
-.story-text {
-  flex: 1; /* Take up equal space */
-  max-width: 50%; /* Prevent content from exceeding half the width */
-  font-family: 'Cormorant', serif;
-  line-height: 1.6;
-  background-color: white;
-  padding: 20px;
-}
-
-.story-text h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.story-text p {
-  margin-bottom: 1.5rem;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1rem;
-  color: var(--color-charcoal);
-}
-
-/* Image Section */
-.story-image {
-  flex: 1; /* Take up equal space */
-  max-width: 50%; /* Prevent content from exceeding half the width */
-  text-align: center;
-  background-color: white;
-}
-
-.story-image img {
-  max-width: 70%; /* Ensure the image scales responsively */
-  height: auto; /* Maintain the image's aspect ratio */
-}
-
-@media (max-width: 768px) {
-  .story-container {
-    flex-direction: column; /* Stack text and image vertically */
-    align-items: center; /* Center-align content */
-  }
-
-  .story-text, .story-image {
-    max-width: 100%; /* Allow full width */
-    text-align: center; /* Center-align text */
-  }
-
-  .story-image img {
-    max-width: 80%; /* Limit image size for smaller screens */
   }
 }
 
