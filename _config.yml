@@ -1,6 +1,6 @@
 title: Collective Futurecrafting
 description: The future is not written. It is crafted.
-baseurl: ""
+baseurl: "/collective-futurecrafting"
 url: "https://m3data.github.io/collective-futurecrafting"
 
 markdown: kramdown
