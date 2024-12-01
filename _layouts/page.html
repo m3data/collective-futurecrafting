@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="page">
+  <div class="page-header">
+    <div class="container">
+      {% if page.collection %}
+        <p class="section-label">{{ page.collection | capitalize }}</p>
+      {% endif %}
+      <h1 class="page-title">{{ page.title }}</h1>
+      {% if page.description %}
+        <p class="page-description">{{ page.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="page-content">
+      {{ content }}
+    </div>
+
+    {% if page.collection %}
+      <nav class="page-navigation">
+        {% assign pages = site[page.collection] | sort: 'nav_order' %}
+        {% for p in pages %}
+          {% if p.title %}
+            <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+              {{ p.title }}
+            </a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </div>
+</article>
