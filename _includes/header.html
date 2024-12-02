@@ -1,21 +1,16 @@
 <header class="site-header">
-  <div class="main-nav">
-    <!-- Logo on the left -->
+  <nav class="main-nav">
     <a href="{{ '/' | relative_url }}">
-      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Collective Futurecrafting Logo" class="header-logo" />
+      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Collective Futurecrafting Logo" class="header-logo">
     </a>
-
-    <!-- Hamburger Menu on the right -->
-    <button class="menu-toggle" aria-label="Toggle Menu">
-      ☰
-    </button>
-  </div>
-
-  <!-- Navigation Links -->
-  <ul class="nav-links">
-    <li><a href="{{ '/origins/' | relative_url }}">Origins</a></li>
-    <li><a href="{{ '/proem/' | relative_url }}">Proem</a></li>
-    <li><a href="{{ '/craft/' | relative_url }}">Craft</a></li>
-    <li><a href="{{ '/get-involved/' | relative_url }}">Get Involved</a></li>
-  </ul>
+    
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    
+    <ul>
+      <li><a href="{{ '/origins/' | relative_url }}">Origins</a></li>
+      <li><a href="{{ '/proem/' | relative_url }}">Proem</a></li>
+      <li><a href="{{ '/craft/' | relative_url }}">Craft</a></li>
+      <li><a href="{{ '/get-involved/' | relative_url }}">Get involved</a></li>
+    </ul>
+  </nav>
 </header>
