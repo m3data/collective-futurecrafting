@@ -38,6 +38,16 @@ html, body {
   line-height: 1.8;
 }
 
+.bold-highlight {
+  font-weight: 700 !important;
+  font-style: italic;
+}
+
+::selection {
+  background-color: var(--color-sun-gold); /* Highlight color */
+  color: #000000; /* Text color */
+}
+
 /* Layout Components */
 .container {
   width: 100%;
