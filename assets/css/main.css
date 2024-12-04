@@ -24,6 +24,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cormorant', serif;
   line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
 html, body {
@@ -32,6 +34,8 @@ html, body {
   position: relative;
   margin: 0;
   padding: 0;
+  font-weight: 300;
+  line-height: 1.8;
 }
 
 /* Layout Components */
@@ -85,6 +89,8 @@ html, body {
 
 .main-nav a:hover {
   color: var(--color-terracotta);
+  border-bottom: 2px solid var(--color-terracotta);
+  transition: border-bottom 0.3s ease-in-out;
 }
 
 /* Hamburger Menu */
@@ -173,6 +179,9 @@ html, body {
 /* Story Sections */
 .story-section {
   padding: var(--spacing-xl) 0;
+  box-sizing: border-box;
+  overflow: hidden; /* Changed from overflow-y to just overflow */
+  width: 100%;
 }
 
 .story-container {
@@ -181,14 +190,8 @@ html, body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 var(--spacing-base);
-  height: 70vh;
-}
-
-@media (min-width: 768px) {
-  .story-container {
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
+  height: auto; /* Changed from 70vh to auto for mobile */
+  box-sizing: border-box;
 }
 
 .story-text {
@@ -197,11 +200,48 @@ html, body {
 
 .story-image {
   text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 2rem 0;
 }
 
 .story-image img {
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
+  display: block; 
+  margin: 0 auto;
+  position: relative; 
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 767px) {
+  .story-container {
+    grid-template-columns: 1fr;
+    gap: 1rem; /* Reduce gap on mobile */
+    height: auto;
+    padding: 1rem;
+  }
+
+  .story-section {
+    padding: var(--spacing-lg) 0; /* Reduce padding on mobile */
+  }
+
+  .story-image {
+    margin: 1rem 0; /* Reduce margin on mobile */
+  }
+
+  .story-text {
+    padding: 0 1rem; /* Add some padding to the text */
+  }
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .story-container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 70vh; /* Keep the height for desktop */
+  }
 }
 
 /* Full-Width Story Section */
@@ -209,7 +249,7 @@ html, body {
   position: relative;
   padding: 5rem 0;
   background: linear-gradient(to bottom, rgba(167, 216, 240, 0.8), rgba(214, 138, 89, 0.8)), 
-              url('../images/seed-of-life-hero-right.png'); /* Replace with your parallax background image */
+              url('../images/seed-of-life-hero-rough.svg'); /* Replace with your parallax background image */
   background-size: cover; /* Scale image to cover the section */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent tiling */
@@ -221,7 +261,7 @@ html, body {
   text-align: center;
   width: 100vw; /* Full viewport width */
   height: 100vh; /* Full viewport height */
-  margin: 0;
+  margin: 0 auto;
 }
 
 .story-hero-container {
@@ -231,6 +271,7 @@ html, body {
   display: flex;
   flex-direction: column; /* Stack content vertically */
   align-items: center; /* Center-align text */
+  box-sizing: border-box;
 }
 
 .story-hero-text {
@@ -309,6 +350,12 @@ html, body {
 .card h2 {
   margin-top: 0;
   color: var(--color-charcoal);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 /* Buttons */
