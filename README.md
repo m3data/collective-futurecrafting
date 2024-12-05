@@ -28,13 +28,13 @@ At its core, a Futurecrafting Circle is a gathering space where people come toge
 Through storytelling, co-creation, and iterative action, these Circles help reconnect us with ancient ways of coming together—face-to-face, heart-to-heart, and mind-to-mind.
 
 ## 🌀 Scaling through CLANs
-Futurecrafting Circles form the foundation of a broader network of **Community Learning and Action Nodes (CLANs)**. These nodes act as hubs for:
-- Sharing knowledge across communities,
-- Pooling resources,
+Futurecrafting Circles form the foundation of a broader network of **Community Learning and Action Nodes (CLANs)**. These nodes act as multidirectional relationship amplifiers for:
+- Sharing stories and knowledge across communities,
+- Pooling resources and expertise,
 - Coordinating collective projects, and
-- Scaling local solutions to address global challenges.
+- Scaling local solutions to address regional and even global challenges.
 
-This interconnected framework fosters **collaboration at scale** while preserving local autonomy and cultural diversity.
+This interconnected system fosters **collaboration at scale** while preserving local autonomy, enhancing capabilities and affording for cultural diversity.
 
 ## 🌍 Our Mission
 Create the conditions for a thriving, equitable, and regenerative future for all life on Earth.
