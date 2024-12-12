@@ -67,7 +67,7 @@ This site is built using **Jekyll**, a static site generator. To contribute, fol
 3. **Install Jekyll**: Follow the [official installation guide](https://jekyllrb.com/docs/installation/).
 4. **Run the Site Locally**:
 ```bash
-   exec jekyll serve
+   bundle exec jekyll serve
 ```
 5. Open http://localhost:4000 in your browser to view the site.
 6. Make your changes and create a pull request.
