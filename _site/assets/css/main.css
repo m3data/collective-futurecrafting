@@ -768,9 +768,9 @@ html, body {
 .page-hero--nature .page-hero__overlay {
   background: linear-gradient(
     to bottom,
-    rgba(6, 78, 59, 0.8) 0%,
-    rgba(6, 78, 59, 0.6) 50%,
-    rgba(6, 78, 59, 0.8) 100%
+    rgba(227, 182, 70, 0.8) 0%,
+    rgba(167, 216, 240, 0.8) 50%,
+    rgba(214, 138, 89, 0.8) 100%
   );
 }
 
@@ -843,7 +843,7 @@ html, body {
 
 .page-hero--nature {
   background-color: var(--color-bg-nature, #ecfdf5);
-  color: var(--color-text-nature, #064e3b);
+  color: var(--color-text-nature, #423D33);
 }
 
 /* Alignment variants */

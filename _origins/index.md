@@ -4,22 +4,24 @@ title: "Origins"
 description: "The emergence and evolution of Collective Futurecrafting"
 nav_order: 1
 ---
+
 {% include page-hero.html 
   title="Origins of Collective Futurecrafting"
-  subtitle="A whisper of ancient wisdom, a spark of modern innovation"
+  subtitle="A whisper of ancient wisdom, a spark of social innovation"
   description="Discover the roots of our approach and the patterns that guide us"
   image="/assets/images/hero_tree.jpg"
   image_alt="Ancient tree in a forest"
-  theme="dark"
+  theme="nature"
   align="center"
   size="large"
-  gradient="right"
+  gradient="bottom"
 %}
+
 <div class="organic-section">
-  <div class="organic-blob organic-blob--sky-blue"></div>
+  <div class="organic-blob organic-blob--terracotta"></div>
   
   {% include content-pod.html 
-    content="<p>Before treaties and territories, before parliaments and protocols, humans gathered in circles. These ancient patterns of relating and governing hold profound wisdom for addressing our modern challenges. The origins of Collective Futurecrafting lie in rediscovering and reimagining these timeless practices for our contemporary world.</p>"
+    content="<p>Some say there was a whisper in the wind. Of ancient patterns and ritual we've long lost. A soft song carried on night breezes, reminding us of times when we knew how to sit in circles, to listen deeply, to weave futures with the threads of shared stories and collective dreams.</p>"
   %}
 </div>
 
