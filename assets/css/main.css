@@ -48,6 +48,17 @@ html, body {
   color: #000000; /* Text color */
 }
 
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+  min-height: auto;
+}
+
 /* Layout Components */
 .container {
   width: 100%;
@@ -55,6 +66,7 @@ html, body {
   margin: 0 auto;
   padding: 0 var(--spacing-base);
   box-sizing: border-box;
+  margin-top: 4rem;
 }
 
 /* Header Styles */
@@ -665,4 +677,192 @@ html, body {
   .organic-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Page Hero Component */
+.page-hero {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove any inherited max-width constraints */
+.page-hero > * {
+  max-width: none;
+}
+
+/* Size variants */
+.page-hero--small { 
+  min-height: 30vh;
+  padding: 2rem 0; 
+}
+.page-hero--medium { 
+  min-height: 40vh;
+  padding: 4rem 0; 
+}
+.page-hero--large { 
+  min-height: 60vh;
+  padding: 6rem 0; 
+}
+
+/* Background handling */
+/* Page Hero Component - Previous styles remain the same until overlay */
+
+/* Updated Background and Overlay handling */
+.page-hero__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.page-hero__background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.page-hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Default gradient - can be overridden by theme variants */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+
+/* Theme variant overlays */
+.page-hero--light .page-hero__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+}
+
+.page-hero--dark .page-hero__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.page-hero--nature .page-hero__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(6, 78, 59, 0.8) 0%,
+    rgba(6, 78, 59, 0.6) 50%,
+    rgba(6, 78, 59, 0.8) 100%
+  );
+}
+
+/* Optional: Add gradient direction variants */
+.page-hero--gradient-left .page-hero__overlay {
+  background: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.page-hero--gradient-right .page-hero__overlay {
+  background: linear-gradient(
+    to right,
+    rgba(255, 138, 138, 0.8) 0%,
+    rgba(84, 253, 177, 0.6) 50%,
+    rgba(77, 92, 255, 0.8) 100%
+  );
+}
+
+/* Content container */
+.page-hero__content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding-left: max(2rem, calc((100vw - 80rem) / 2));
+  padding-right: max(2rem, calc((100vw - 80rem) / 2));
+}
+
+.page-hero__inner {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+/* Text elements remain the same */
+.page-hero__subtitle {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.page-hero__title {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.page-hero__description {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  line-height: 1.6;
+  opacity: 0.9;
+  max-width: 65ch;
+}
+
+/* Theme variants */
+.page-hero--light {
+  background-color: var(--color-bg-light, #ffffff);
+  color: var(--color-text-dark, #111827);
+}
+
+.page-hero--dark {
+  background-color: var(--color-bg-dark, #111827);
+  color: var(--color-text-light, #ffffff);
+}
+
+.page-hero--nature {
+  background-color: var(--color-bg-nature, #ecfdf5);
+  color: var(--color-text-nature, #064e3b);
+}
+
+/* Alignment variants */
+.page-hero--left { text-align: left; }
+.page-hero--center { 
+  text-align: center; 
+}
+.page-hero--center .page-hero__description {
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-hero--right { 
+  text-align: right; 
+}
+.page-hero--right .page-hero__description {
+  margin-left: auto;
+}
+
+/* Fix for potential overflow issues */
+html, body {
+  overflow-x: hidden;
 }

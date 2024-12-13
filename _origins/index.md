@@ -4,7 +4,17 @@ title: "Origins"
 description: "The emergence and evolution of Collective Futurecrafting"
 nav_order: 1
 ---
-
+{% include page-hero.html 
+  title="Origins of Collective Futurecrafting"
+  subtitle="A whisper of ancient wisdom, a spark of modern innovation"
+  description="Discover the roots of our approach and the patterns that guide us"
+  image="/assets/images/hero_tree.jpg"
+  image_alt="Ancient tree in a forest"
+  theme="dark"
+  align="center"
+  size="large"
+  gradient="right"
+%}
 <div class="organic-section">
   <div class="organic-blob organic-blob--sky-blue"></div>
   

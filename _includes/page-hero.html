@@ -1,0 +1,37 @@
+{% comment %}
+  Page Hero include accepts the following parameters:
+  - title: The main heading
+  - subtitle: Optional subtitle displayed above the title
+  - description: Optional longer description text
+  - image: Optional background image path
+  - image_alt: Alt text for the background image
+  - align: text alignment (left/center/right, defaults to left)
+  - theme: color theme (light/dark/nature, defaults to light)
+  - size: hero size (small/medium/large, defaults to medium)
+  - gradient: gradient direction (bottom/left/right, defaults to bottom)
+{% endcomment %}
+
+<section class="page-hero {% if include.theme %}page-hero--{{ include.theme }}{% endif %} {% if include.size %}page-hero--{{ include.size }}{% endif %} {% if include.align %}page-hero--{{ include.align }}{% endif %} {% if include.gradient %}page-hero--gradient-{{ include.gradient }}{% endif %}">
+  {% if include.image %}
+    <div class="page-hero__background">
+      <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" />
+      <div class="page-hero__overlay"></div>
+    </div>
+  {% endif %}
+  
+  <div class="page-hero__content">
+    <div class="page-hero__inner">
+      {% if include.subtitle %}
+        <p class="page-hero__subtitle">{{ include.subtitle }}</p>
+      {% endif %}
+      
+      {% if include.title %}
+        <h1 class="page-hero__title">{{ include.title }}</h1>
+      {% endif %}
+      
+      {% if include.description %}
+        <div class="page-hero__description">{{ include.description }}</div>
+      {% endif %}
+    </div>
+  </div>
+</section>
