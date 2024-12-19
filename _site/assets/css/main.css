@@ -565,15 +565,70 @@ html, body {
   margin: 2rem 0;
 }
 
+/* Content Pod Background Variants */
 .content-pod__background {
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: var(--color-sky-blue); /* Fallback solid color */
+}
+
+/* Terra Sky theme */
+.content-pod__background--terra-sky {
+  background: var(--color-terracotta); /* Fallback */
   background: linear-gradient(
     to bottom,
-    rgba(167, 216, 240, 0.8),
-    rgba(214, 138, 89, 0.8)
+    rgba(214, 138, 89, 0.8), /* Terracotta */
+    rgba(167, 216, 240, 0.8)  /* Sky Blue */
+  );
+}
+
+/* Sky Terra theme */
+.content-pod__background--sky-terra {
+  background: var(--color-sky-blue); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(167, 216, 240, 0.8), /* Sky Blue */
+    rgba(214, 138, 89, 0.8)  /* Terracotta */
+  );
+}
+
+/* Olive Gold theme */
+.content-pod__background--olive-gold {
+  background: var(--color-olive-green); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(123, 147, 97, 0.8),  /* Olive Green */
+    rgba(227, 182, 70, 0.8)   /* Sun Gold */
+  );
+}
+
+/* Gold Olive theme */
+.content-pod__background--gold-olive {
+  background: var(--color-sun-gold); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(227, 182, 70, 0.8),  /* Sun Gold */
+    rgba(123, 147, 97, 0.8)   /* Olive Green */
+  );
+}
+
+/* Charcoal Pink theme */
+.content-pod__background--charcoal-pink {
+  background: var(--color-charcoal); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 61, 51, 0.8),    /* Deep Charcoal */
+    rgba(255, 142, 142, 0.8)  /* Sky Pink */
+  );
+}
+
+/* Pink Charcoal theme */
+.content-pod__background--pink-charcoal {
+  background: var(--color-sky-pink); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 142, 142, 0.8),  /* Sky Pink */
+    rgba(66, 61, 51, 0.8)     /* Deep Charcoal */
   );
 }
 
@@ -865,4 +920,164 @@ html, body {
 /* Fix for potential overflow issues */
 html, body {
   overflow-x: hidden;
+}
+
+/* Parallax Section Component */
+.parallax-section {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--color-charcoal);
+  overflow: hidden;
+  --background-image: none;
+}
+
+/* Theme gradients for parallax sections */
+.parallax-section--theme-terra-sky {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(214, 138, 89, 0.8), /* Terracotta */
+    rgba(167, 216, 240, 0.8)  /* Sky Blue */
+  ), var(--background-image);
+}
+
+.parallax-section--theme-sky-terra {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(167, 216, 240, 0.8), /* Sky Blue */
+    rgba(214, 138, 89, 0.8)  /* Terracotta */
+  ), var(--background-image);
+}
+
+.parallax-section--theme-olive-gold {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(123, 147, 97, 0.8),  /* Olive Green */
+    rgba(227, 182, 70, 0.8)   /* Sun Gold */
+  ), var(--background-image);
+}
+
+.parallax-section--theme-gold-olive {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(227, 182, 70, 0.8),  /* Sun Gold */
+    rgba(123, 147, 97, 0.8)   /* Olive Green */
+  ), var(--background-image);
+}
+
+.parallax-section--theme-charcoal-pink {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 51, 0.8),    /* Deep Charcoal */
+    rgba(255, 142, 142, 0.8)  /* Sky Pink */
+  ), var(--background-image);
+}
+
+.parallax-section--theme-pink-charcoal {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 142, 142, 0.8),  /* Sky Pink */
+    rgba(66, 61, 51, 0.8)     /* Deep Charcoal */
+  ), var(--background-image);
+}
+
+/* Height variants */
+.parallax-section--full {
+  height: 100vh;
+}
+
+.parallax-section--medium {
+  height: 70vh;
+}
+
+.parallax-section--auto {
+  min-height: 50vh;
+}
+
+/* Padding variants */
+.parallax-section--padding-small {
+  padding: 2rem 0;
+}
+
+.parallax-section--padding-medium {
+  padding: 5rem 0;
+}
+
+.parallax-section--padding-large {
+  padding: 8rem 0;
+}
+
+/* Container */
+.parallax-section__container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Content alignment */
+.parallax-section--left .parallax-section__container {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.parallax-section--center .parallax-section__container {
+  align-items: center;
+  text-align: center;
+}
+
+.parallax-section--right .parallax-section__container {
+  align-items: flex-end;
+  text-align: right;
+}
+
+/* Content styling */
+.parallax-section__content {
+  max-width: 100%;
+}
+
+.parallax-section__content h2 {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.parallax-section__content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  line-height: 1.8;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .parallax-section {
+    background-attachment: scroll; /* Disable parallax on mobile */
+    background-position: center;
+  }
+
+  .parallax-section--auto {
+    height: auto;
+  }
+
+  .parallax-section__container {
+    padding: 0 15px;
+  }
+}
+
+/* Fix iOS background-attachment: fixed issue */
+@supports (-webkit-touch-callout: none) {
+  .parallax-section {
+    background-attachment: scroll;
+  }
 }

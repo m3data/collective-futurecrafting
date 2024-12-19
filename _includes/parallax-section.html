@@ -1,0 +1,22 @@
+{% comment %}
+  Parallax section accepts the following parameters:
+  - background: Background image URL
+  - theme: Color theme for gradient (terra-sky/sky-terra/olive-gold/gold-olive/charcoal-pink/pink-charcoal)
+  - align: Content alignment (left/center/right, defaults to center)
+  - height: Section height (full/medium/auto, defaults to full)
+  - padding: Section padding (small/medium/large, defaults to medium)
+{% endcomment %}
+
+<section class="parallax-section
+  {% if include.theme %}parallax-section--theme-{{ include.theme }}{% endif %}
+  {% if include.align %}parallax-section--{{ include.align }}{% endif %}
+  {% if include.height %}parallax-section--{{ include.height }}{% endif %}
+  {% if include.padding %}parallax-section--padding-{{ include.padding }}{% endif %}"
+  style="--background-image: url('{{ include.background; | relative_url }}')"
+>
+  <div class="parallax-section__container">
+    <div class="parallax-section__content">
+      {{ include.content }}
+    </div>
+  </div>
+</section>

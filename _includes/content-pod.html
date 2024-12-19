@@ -1,9 +1,11 @@
-<!-- content-pod.html -->
+{% comment %}
+  Content pod accepts the following parameters:
+  - theme: Color theme for gradient (terra-sky/sky-terra/olive-gold/gold-olive/charcoal-pink/pink-charcoal)
+{% endcomment %}
+
 <div class="content-pod">
-    <div class="content-pod__background">
-      <div class="content-pod__blob"></div>
-    </div>
-    <div class="content-pod__content">
-      {{ include.content }}
-    </div>
+  <div class="content-pod__background content-pod__background--{{ include.theme | default: 'sky-terra' }}"></div>
+  <div class="content-pod__content">
+    {{ include.content }}
   </div>
+</div>
