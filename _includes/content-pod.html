@@ -1,9 +1,11 @@
 {% comment %}
   Content pod accepts the following parameters:
   - theme: Color theme for gradient (terra-sky/sky-terra/olive-gold/gold-olive/charcoal-pink/pink-charcoal)
+  - width: Pod width variant (full/half, defaults to full)
+  - align: Alignment for half-width pods (left/right, defaults to left)
 {% endcomment %}
 
-<div class="content-pod">
+<div class="content-pod {% if include.width == 'half' %}content-pod--half content-pod--{{ include.align | default: 'left' }}{% endif %}">
   <div class="content-pod__background content-pod__background--{{ include.theme | default: 'sky-terra' }}"></div>
   <div class="content-pod__content">
     {{ include.content }}

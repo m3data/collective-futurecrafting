@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Origins"
+title: "Proem"
 description: "The emergence and evolution of Collective Futurecrafting"
 nav_order: 1
 ---
 
 {% include page-hero.html 
-  title="Origins of Collective Futurecrafting"
-  subtitle="A whisper of ancient wisdom, a spark of social innovation"
-  description="Discover the roots of our approach and the patterns that guide us"
+  title="Proem of Collective Futurecrafting"
+  subtitle=""
+  description=""
   image="/assets/images/hero_tree.jpg"
   image_alt="Ancient tree in a forest"
   theme="nature"
@@ -32,7 +32,7 @@ nav_order: 1
 %}
 
 {% capture next_section_content %}
-<p>In October 2023, four Earthians sat around a virtual tea garden table in the <a href="https://app.gather.town/invite?token=F_z-hVdZR-upu-QQHjYJ">Tethix Archipelago</a>. The government wanted input on Australia's science and research priorities. Big stuff. But instead of getting tangled in BAU, we found ourselves dreaming bigger as the whispering circles wove magic in our minds.</p>
+<p>In October 2023, four Earthians sat around a virtual tea garden table in the <a href="#">Tethix Archipelago</a>. The government wanted input on Australia's science and research priorities. Big stuff. But instead of getting tangled in BAU, we found ourselves dreaming bigger.</p>
 
 <p>In these gatherings we sketched out something different. Not another top-down framework, but a way to bring together the old and the new. To bring back the circles where humans have always done their best thinking - around fires, in gardens, at community gatherings and even around virtual tea garden tables like ours.</p>
 {% endcapture %}
@@ -70,7 +70,7 @@ nav_order: 1
   
   <p>This became the seed of Collective Futurecrafting.</p>
   
-  <a href='#' class='button button--primary'>Read the original submission →</a>"
+  <a href='#' class='button button--primary'>Read the full submission →</a>"
 %}
 
 {% include content-pod.html 
@@ -83,12 +83,34 @@ nav_order: 1
   <p>And so here we are. Not with all the answers, but with an invitation to remember what we've forgotten and imagine what we might become. To sit in circles again. To listen to the whispers. To craft futures worthy of our children's great great grandchildren.</p>"
 %}
 
+{% include content-pod.html 
+  theme="olive-gold"
+  content="<h2>Key Elements</h2>
+  <div class='organic-grid'>
+    <div>
+      <h3>Complex Systems Thinking</h3>
+      <p>Understanding interconnected patterns and emergence</p>
+    </div>
+    <div>
+      <h3>Social Innovation</h3>
+      <p>Creating new ways of relating and organizing</p>
+    </div>
+    <div>
+      <h3>Digital Collaboration</h3>
+      <p>Leveraging technology for collective intelligence</p>
+    </div>
+    <div>
+      <h3>Regenerative Design</h3>
+      <p>Building systems that restore and renew</p>
+    </div>
+  </div>"
+%}
+
 {% capture parallax_content %}
 <h2>A Living Practice</h2>
 <p>
   Collective Futurecrafting emerges from the intersection of <span class="bold-highlight">ancient wisdom</span> and <span class="bold-highlight">modern innovation</span>, creating new possibilities for how we might live, learn, and thrive together.
 </p>
-<a href="{{ '/craft/' | relative_url }}" class='button button--primary'>Learn about the practice →</a>
 {% endcapture %}
 
 {% include parallax-section.html
@@ -98,4 +120,14 @@ nav_order: 1
   height="full"
   padding="medium"
   content=parallax_content
+%}
+
+{% include content-pod.html 
+  theme="terra-sky"
+  content="<h2>Explore Further</h2>
+  <div class='organic-grid'>
+    <a href='/origins/indigenous-wisdom' class='button button--primary'>Indigenous Wisdom</a>
+    <a href='/origins/modern-innovation' class='button button--primary'>Modern Innovation</a>
+    <a href='/origins/birth-of-circles' class='button button--primary'>Birth of Circles</a>
+  </div>"
 %}

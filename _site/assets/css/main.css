@@ -43,6 +43,123 @@ html, body {
   font-style: italic;
 }
 
+/* Base Link Styles */
+:root {
+  --link-color: var(--color-charcoal);
+  --link-hover-color: var(--color-terracotta);
+  --link-visited-color: var(--color-olive-green);
+  --link-active-color: var(--color-sun-gold);
+  --link-underline-thickness: 2px;
+  --link-transition: all 0.3s ease;
+}
+
+/* Default Links */
+a {
+  color: var(--link-color);
+  text-decoration: underline;
+  position: relative;
+  transition: var(--link-transition);
+}
+
+/* Underline Effect */
+a:not(.button, .header-logo, .card a)::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: var(--link-underline-thickness);
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+/* Hover States */
+a:hover {
+  color: var(--link-hover-color);
+}
+
+a:not(.button, .header-logo, .card a):hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Visited State */
+a:visited {
+  color: var(--link-visited-color);
+}
+
+/* Active/Focus States */
+a:active {
+  color: var(--link-active-color);
+}
+
+a:focus {
+  outline: 2px solid var(--link-hover-color);
+  outline-offset: 2px;
+}
+
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Navigation Links */
+.main-nav a {
+  color: var(--color-charcoal);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.main-nav a:hover {
+  background-color: rgba(214, 138, 89, 0.1);
+  color: var(--color-terracotta);
+}
+
+/* Footer Links */
+.footer-container a {
+  color: white;
+  opacity: 0.9;
+}
+
+.footer-container a:hover {
+  opacity: 1;
+  color: var(--color-sun-gold);
+}
+
+/* Card Links */
+.card a {
+  color: white;
+  font-weight: 500;
+}
+
+.card a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: more) {
+  a {
+    text-decoration: underline;
+  }
+  
+  a:not(.button, .header-logo)::after {
+    display: none;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  a {
+    transition: none;
+  }
+  
+  a::after {
+    transition: none;
+  }
+}
+
 ::selection {
   background-color: var(--color-sun-gold); /* Highlight color */
   color: #000000; /* Text color */
@@ -554,7 +671,7 @@ html, body {
 .organic-blob--olive-green { color: var(--color-olive-green); opacity: 0.2; }
 .organic-blob--sun-gold { color: var(--color-sun-gold); opacity: 0.2; }
 
-/* Content Pod */
+/* Content Pod Base Styles */
 .content-pod {
   position: relative;
   padding: 2rem;
@@ -562,7 +679,57 @@ html, body {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
-  margin: 2rem 0;
+  margin: 2rem auto; /* Changed from margin: 2rem 0 to center */
+  font-size: medium;
+  width: 100%;
+  box-sizing: border-box; /* Add this to include padding in width calculation */
+  max-width: calc(100vw - 4rem); /* Prevent overflow on mobile */
+}
+
+/* Content wrapper to handle text overflow */
+.content-pod__content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  word-wrap: break-word; /* Ensure long words don't overflow */
+  overflow-wrap: break-word;
+}
+
+/* Half-width variant */
+.content-pod--half {
+  width: calc(50% - 1rem);
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Content pod container */
+.content-pod-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 2rem; /* Add consistent padding */
+  max-width: var(--max-width, 1200px); /* Use site's max width variable */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-pod {
+    margin: 1rem auto;
+    padding: 1.5rem;
+    max-width: calc(100vw - 2rem);
+  }
+
+  .content-pod--half {
+    width: 100%;
+  }
+  
+  .content-pod-container {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
 }
 
 /* Content Pod Background Variants */
@@ -1131,7 +1298,7 @@ html, body {
 }
 
 .two-column-text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.8;
 }
 
