@@ -31,4 +31,38 @@ description: "Explore the principles, patterns and practices that make Collectiv
     ### Emergence
     The future emerges through small seeds planted and nurtured in the present.
     " %}
+    {% include content-pod.html
+    theme="terra-sky"
+    width="half"
+    align="left"
+    content="
+    ### Interconnection
+    We are all circles within circles, woven into the greater circle of life.
+    " %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    width="half"
+    align="right"
+    content="
+    <h2>Reciprocity</h2>
+    <p>Give to the circle and you will receive, knowing all contributions nourish the whole.</p>
+    " %}
+    {% include content-pod.html
+    theme="terra-sky"
+    width="half"
+    align="left"
+    content="
+    ### Interconnection
+    We are all circles within circles, woven into the greater circle of life.
+    " %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    width="half"
+    align="right"
+    content="
+    ### Emergence
+    The future emerges through small seeds planted and nurtured in the present.
+    " %}
 </div>

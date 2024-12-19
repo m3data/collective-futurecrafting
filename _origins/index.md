@@ -4,7 +4,7 @@ title: "Origins"
 description: "The emergence and evolution of Collective Futurecrafting"
 nav_order: 1
 ---
-
+<!-- Hero Section Start -->
 {% include page-hero.html 
   title="Origins of Collective Futurecrafting"
   subtitle="A whisper of ancient wisdom, a spark of social innovation"
@@ -16,7 +16,9 @@ nav_order: 1
   size="large"
   gradient="bottom"
 %}
+<!-- Hero Section End -->
 
+<!-- Content Section Start -->
 {% capture section_content %}
 <p>Whispers of ancient patterns and rituals we've long lost. A soft song carried on night breezes, reminding us of times when we knew how to sit in circles, to listen deeply, to weave futures with the threads of shared stories and collective dreams. </p>
 <p>But really, it started with questions: <span class="bold-highlight">What if what we need isn't locked is already here? Scattered like seeds in the wisdom of Indigenous peoples, in our social bodies and in the quiet knowledge of local communities, and in the dreams we dare to share when we gather together?</span></p>
@@ -45,34 +47,38 @@ nav_order: 1
   image_position="left"
   padding="medium"
 %}
+<!-- Content Section End -->
 
-{% include content-pod.html 
-  theme="terra-white"
-  content=""
+<!-- Submission Section Start -->
+{% include quote-callout.html 
+  quote="Collective Futurecrafting is a cooperative, multi-sectoral, and multi-scale approach for resolving the complex and interconnected challenges facing our nation. Our proposed model for Collective Futurecrafting incorporates applied First Nations knowledge systems, principles of collective intelligence, open innovation, and participatory governance in a decentralised, yet highly coordinated, sociotechnical architecture."
+  attribution="Origin Consultation Submission"
+  theme="terra-sky"
+  size="large"
+  align="center"
 %}
+
+{% capture submission_content %}
+<h2>The Original Submission</h2>
+<p>Our submission to the <a href="https://consult.industry.gov.au/sciencepriorities2">Draft National Science and Research Priorities</a> argued that Australia needs to move beyond traditional research models. We proposed three key ideas:</p>
+
+<h3>1. Place-Based Learning Networks</h3>
+<p>Communities know their local challenges best. We proposed creating networks of 'Living Labs' where local knowledge, Indigenous wisdom, and scientific research could work together to tackle real-world problems.</p>
+
+<h3>2. Challenge-Based Innovation</h3>
+<p>Instead of research for research's sake, we suggested focusing on specific challenges that matter to communities - from climate adaptation to social wellbeing. These challenges would drive collaboration between researchers, communities, and traditional knowledge holders.</p>
+
+<h3>3. Indigenous Knowledge Systems</h3>
+<p>We emphasised the critical importance of Indigenous knowledge and governance systems. Not as historical artifacts, but as living wisdom that could help reshape how we approach complex challenges.</p>
+
+<a href="#" class="button button--primary">Read the original submission →</a>
+{% endcapture %}
 
 {% include content-pod.html 
   theme="gold-olive"
-  content="<h2>The Original Submission</h2>
-  <p>Our submission to the Draft National Science and Research Priorities argued that Australia needs to move beyond traditional research models. We proposed three key ideas:</p>
-  
-  <h3>1. Place-Based Learning Networks</h3>
-  <p>Communities know their local challenges best. We proposed creating networks of 'Living Labs' where local knowledge, Indigenous wisdom, and scientific research could work together to tackle real-world problems.</p>
-  
-  <h3>2. Challenge-Based Innovation</h3>
-  <p>Instead of research for research's sake, we suggested focusing on specific challenges that matter to communities - from climate adaptation to social wellbeing. These challenges would drive collaboration between researchers, communities, and traditional knowledge holders.</p>
-  
-  <h3>3. Indigenous Knowledge Systems</h3>
-  <p>We emphasised the critical importance of Indigenous knowledge and governance systems. Not as historical artifacts, but as living wisdom that could help reshape how we approach complex challenges.</p>
-  
-  <h2>Beyond the Submission</h2>
-  <p>But something interesting happened as we wrote. We realized we weren't just describing a research framework - we were sketching out a new way of working together. A way that honored both ancient wisdom and modern innovation. That connected local action to global change.</p>
-  
-  <p>This became the seed of Collective Futurecrafting.</p>
-  
-  <a href='#' class='button button--primary'>Read the original submission →</a>"
+  content=submission_content
 %}
-
+<!-- Submission Section Start -->
 {% include content-pod.html 
   theme="olive-sky"
   content="<h2>From Seed to Radicle</h2>

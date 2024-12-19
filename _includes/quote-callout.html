@@ -1,0 +1,23 @@
+{% comment %}
+  Quote Callout include accepts:
+  - quote: The main quote text
+  - attribution: Optional author/source of the quote
+  - theme: Color theme for gradient (terra-sky/sky-terra/olive-gold/gold-olive/charcoal-pink/pink-charcoal)
+  - size: Quote size (small/medium/large, defaults to medium)
+  - align: Text alignment (left/center/right, defaults to left)
+{% endcomment %}
+
+<div class="quote-callout 
+  {% if include.theme %}quote-callout--theme-{{ include.theme }}{% endif %}
+  {% if include.size %}quote-callout--{{ include.size }}{% endif %}
+  {% if include.align %}quote-callout--{{ include.align }}{% endif %}"
+>
+  <div class="quote-callout__content">
+    <blockquote class="quote-callout__quote">
+      {{ include.quote }}
+    </blockquote>
+    {% if include.attribution %}
+      <cite class="quote-callout__attribution">{{ include.attribution }}</cite>
+    {% endif %}
+  </div>
+</div>

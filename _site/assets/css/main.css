@@ -130,7 +130,7 @@ a:focus:not(:focus-visible) {
 
 /* Card Links */
 .card a {
-  color: white;
+  color: var(--color-charcoal);
   font-weight: 500;
 }
 
@@ -1348,5 +1348,137 @@ html, body {
   
   .two-column-container--image-left .two-column-text {
     order: 1;
+  }
+}
+
+/* Quote Callout Component */
+.quote-callout {
+  position: relative;
+  margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+/* Theme variants using existing color scheme */
+.quote-callout--theme-terra-sky {
+  background: linear-gradient(
+    to bottom,
+    rgba(214, 138, 89, 0.1),
+    rgba(167, 216, 240, 0.1)
+  );
+  border-left: 4px solid var(--color-terracotta);
+}
+
+.quote-callout--theme-sky-terra {
+  background: linear-gradient(
+    to bottom,
+    rgba(167, 216, 240, 0.1),
+    rgba(214, 138, 89, 0.1)
+  );
+  border-left: 4px solid var(--color-sky-blue);
+}
+
+.quote-callout--theme-olive-gold {
+  background: linear-gradient(
+    to bottom,
+    rgba(123, 147, 97, 0.1),
+    rgba(227, 182, 70, 0.1)
+  );
+  border-left: 4px solid var(--color-olive-green);
+}
+
+.quote-callout--theme-gold-olive {
+  background: linear-gradient(
+    to bottom,
+    rgba(227, 182, 70, 0.1),
+    rgba(123, 147, 97, 0.1)
+  );
+  border-left: 4px solid var(--color-sun-gold);
+}
+
+.quote-callout--theme-charcoal-pink {
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 61, 51, 0.1),
+    rgba(255, 142, 142, 0.1)
+  );
+  border-left: 4px solid var(--color-charcoal);
+}
+
+.quote-callout--theme-pink-charcoal {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 142, 142, 0.1),
+    rgba(66, 61, 51, 0.1)
+  );
+  border-left: 4px solid #FF8E8E;
+}
+
+/* Content styling */
+.quote-callout__content {
+  position: relative;
+  z-index: 1;
+}
+
+.quote-callout__quote {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.quote-callout__quote::before {
+  content: '"';
+  font-size: 4em;
+  line-height: 0;
+  position: absolute;
+  top: 0.5em;
+  left: -0.5em;
+  opacity: 0.2;
+}
+
+.quote-callout__attribution {
+  display: block;
+  margin-top: 1rem;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  opacity: 0.8;
+}
+
+/* Size variants */
+.quote-callout--small .quote-callout__quote {
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+}
+
+.quote-callout--large .quote-callout__quote {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+/* Alignment variants */
+.quote-callout--center {
+  text-align: center;
+}
+
+.quote-callout--right {
+  text-align: right;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .quote-callout {
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .quote-callout__quote::before {
+    font-size: 3em;
+    top: 0.3em;
+    left: -0.3em;
   }
 }
