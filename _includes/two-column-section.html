@@ -1,0 +1,23 @@
+{% comment %}
+  Two Column Section include accepts:
+  - title: Section title
+  - content: Main text content
+  - image: Path to image
+  - image_alt: Alt text for image
+  - image_position: left or right (defaults to right)
+  - padding: small, medium, large (defaults to medium)
+{% endcomment %}
+
+<section class="two-column-section {% if include.padding %}two-column-section--{{ include.padding }}{% endif %}">
+  <div class="two-column-container {% if include.image_position == 'left' %}two-column-container--image-left{% endif %}">
+    <div class="two-column-text">
+      {% if include.title %}
+        <h2>{{ include.title }}</h2>
+      {% endif %}
+      {{ include.content }}
+    </div>
+    <div class="two-column-image">
+      <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" />
+    </div>
+  </div>
+</section>
