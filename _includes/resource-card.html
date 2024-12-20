@@ -1,0 +1,33 @@
+<div class="resource-card {% if include.resource.featured %}resource-card--featured{% endif %}">
+    {% if include.resource.cover_image %}
+      <div class="resource-card__image">
+        <img 
+          src="{{ include.resource.cover_image | relative_url }}" 
+          alt="{{ include.resource.title }}"
+        >
+      </div>
+    {% endif %}
+    
+    <div class="resource-card__content">
+      <span class="resource-card__type">{{ include.resource.type | capitalize }}</span>
+      <h3 class="resource-card__title">
+        <a href="{{ include.resource.url | relative_url }}">{{ include.resource.title }}</a>
+      </h3>
+      
+      {% if include.resource.author %}
+        <p class="resource-card__author">By {{ include.resource.author }}</p>
+      {% endif %}
+      
+      <p class="resource-card__description">
+        {{ include.resource.description | truncate: 150 }}
+      </p>
+      
+      {% if include.resource.tags %}
+        <div class="resource-card__tags">
+          {% for tag in include.resource.tags limit:3 %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>

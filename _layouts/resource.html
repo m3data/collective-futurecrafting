@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<article class="resource-page">
+  <div class="resource-header">
+    {% if page.cover_image %}
+      <img 
+        src="{{ page.cover_image | relative_url }}" 
+        alt="{{ page.title }}"
+        class="resource-cover"
+      >
+    {% endif %}
+    
+    <div class="resource-meta">
+      <h1>{{ page.title }}</h1>
+      {% if page.author %}
+        <p class="resource-author">By {{ page.author }}</p>
+      {% endif %}
+      
+      {% if page.tags %}
+        <div class="resource-tags">
+          {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      
+      {% if page.rating %}
+        <div class="resource-rating">
+          {% for i in (1..page.rating) %}
+            ★
+          {% endfor %}
+          {% for i in (page.rating..4) %}
+            ☆
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="resource-content">
+    {{ content }}
+  </div>
+
+  {% if page.url %}
+    <a href="{{ page.url }}" class="button button--primary" target="_blank" rel="noopener">
+      View Resource
+    </a>
+  {% endif %}
+</article>

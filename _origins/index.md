@@ -8,7 +8,7 @@ nav_order: 1
 {% include page-hero.html 
   title="Origins of Collective Futurecrafting"
   subtitle="A whisper of ancient wisdom, a spark of social innovation"
-  description="Discover the roots of our approach and the patterns that guide us"
+  description="Discover the roots of our approach and the journey that led us here."
   image="/assets/images/hero_tree.jpg"
   image_alt="Ancient tree in a forest"
   theme="nature"
@@ -51,25 +51,17 @@ nav_order: 1
 
 <!-- Submission Section Start -->
 {% include quote-callout.html 
-  quote="Collective Futurecrafting is a cooperative, multi-sectoral, and multi-scale approach for resolving the complex and interconnected challenges facing our nation. Our proposed model for Collective Futurecrafting incorporates applied First Nations knowledge systems, principles of collective intelligence, open innovation, and participatory governance in a decentralised, yet highly coordinated, sociotechnical architecture."
-  attribution="Origin Consultation Submission"
+  quote="Australia faces unprecedented challenges, from existential ecological overshoot to social inequities. All of this, the story of where we’ve come from, where we are today and where we are headed, is situated within a rapidly changing environmental, sociopolitical and socioeconomic landscape. We are not, nor can we be, separated. We are part of an interconnected and interdependent whole across human and ecological systems."
+  attribution="Origin consultation submission"
   theme="terra-sky"
   size="large"
   align="center"
 %}
 
 {% capture submission_content %}
-<h2>The Original Submission</h2>
-<p>Our submission to the <a href="https://consult.industry.gov.au/sciencepriorities2">Draft National Science and Research Priorities</a> argued that Australia needs to move beyond traditional research models. We proposed three key ideas:</p>
+<p>The orginal submission to the <a href="https://consult.industry.gov.au/sciencepriorities2">Draft National Science and Research Priorities consultation</a> was stark and bold.</p>
 
-<h3>1. Place-Based Learning Networks</h3>
-<p>Communities know their local challenges best. We proposed creating networks of 'Living Labs' where local knowledge, Indigenous wisdom, and scientific research could work together to tackle real-world problems.</p>
-
-<h3>2. Challenge-Based Innovation</h3>
-<p>Instead of research for research's sake, we suggested focusing on specific challenges that matter to communities - from climate adaptation to social wellbeing. These challenges would drive collaboration between researchers, communities, and traditional knowledge holders.</p>
-
-<h3>3. Indigenous Knowledge Systems</h3>
-<p>We emphasised the critical importance of Indigenous knowledge and governance systems. Not as historical artifacts, but as living wisdom that could help reshape how we approach complex challenges.</p>
+<p>Welling from deep knowledge and lived experience in systemic change. And drawing on diverse work, from that of the Future Generations Commissioner for Wales, to polycentric self-governance and challenge based learning.</p>
 
 <a href="#" class="button button--primary">Read the original submission →</a>
 {% endcapture %}
@@ -80,11 +72,9 @@ nav_order: 1
 %}
 <!-- Submission Section Start -->
 {% include content-pod.html 
-  theme="olive-sky"
-  content="<h2>From Seed to Radicle</h2>
-  <p>After that submission, something shifted. The idea would arise every Futurecrafting Friday in the fertile ground of the Noosphere. Whispers were shared with other Earthians - community leaders, elders, young activists, everyday people who felt the same pull toward a different way of doing things.</p>
-
-  <p>They all said pretty much the same thing: 'This feels like something we've been missing. Something we used to know. How do I learn more and get involved?'</p>
+  theme="olive-gold"
+  content="<h2>From seed to radicle</h2>
+  <p>After that submission, it was crickets from our Government. Which is pretty standard for consultations that are usually nothing more than token gestures to civic engagement. But in the months that followed something deeper shifted. The idea would arise every Futurecrafting Friday in the fertile ground of the Noosphere. Whispers were shared with other Earthians - community leaders, elders, young activists, everyday people who felt the same pull toward a different way of doing things.</p>
   
   <p>And so here we are. Not with all the answers, but with an invitation to remember what we've forgotten and imagine what we might become. To sit in circles again. To listen to the whispers. To craft futures worthy of our children's great great grandchildren.</p>"
 %}
@@ -92,7 +82,7 @@ nav_order: 1
 {% capture parallax_content %}
 <h2>A Living Practice</h2>
 <p>
-  Collective Futurecrafting emerges from the intersection of <span class="bold-highlight">ancient wisdom</span> and <span class="bold-highlight">modern innovation</span>, creating new possibilities for how we might live, learn, and thrive together.
+  Collective Futurecrafting is a provocation emergent from the intersection of <span class="bold-highlight">ancient wisdom</span> and <span class="bold-highlight">social innovation</span>, creating new possibilities for how we might live, learn, and thrive together.
 </p>
 <a href="{{ '/craft/' | relative_url }}" class='button button--primary'>Learn about the practice →</a>
 {% endcapture %}

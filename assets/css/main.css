@@ -505,6 +505,7 @@ a:focus:not(:focus-visible) {
   text-decoration: none;
   font-weight: bold;
   transition: transform 0.2s;
+  margin-top: 1rem;
 }
 
 .button:hover {
@@ -679,11 +680,11 @@ a:focus:not(:focus-visible) {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(10px);
-  margin: 2rem auto; /* Changed from margin: 2rem 0 to center */
-  font-size: medium;
+  margin: 2rem auto; 
+  font-size: 1.1rem;
   width: 100%;
-  box-sizing: border-box; /* Add this to include padding in width calculation */
-  max-width: calc(100vw - 4rem); /* Prevent overflow on mobile */
+  box-sizing: border-box; 
+  max-width: calc(100vw - 4rem); 
 }
 
 /* Content wrapper to handle text overflow */
@@ -691,7 +692,7 @@ a:focus:not(:focus-visible) {
   position: relative;
   z-index: 1;
   width: 100%;
-  word-wrap: break-word; /* Ensure long words don't overflow */
+  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
@@ -707,8 +708,8 @@ a:focus:not(:focus-visible) {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  padding: 0 2rem; /* Add consistent padding */
-  max-width: var(--max-width, 1200px); /* Use site's max width variable */
+  padding: 0 2rem;
+  max-width: var(--max-width, 1200px);
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -737,6 +738,46 @@ a:focus:not(:focus-visible) {
   position: absolute;
   inset: 0;
   z-index: -1;
+}
+
+/* Terra White theme */
+.content-pod__background--terra-white {
+  background: var(--color-terracotta); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(214, 138, 89, 0.8), /* Terracotta */
+    rgba(255, 255, 255, 0.5)  /* White */
+  );
+}
+
+/* White Terra theme */
+.content-pod__background--white-terra {
+  background: var(--color-terracotta); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8)  /* White */
+    rgba(214, 138, 89, 0.8), /* Terracotta */
+  );
+}
+
+/* White Charcoal theme */
+.content-pod__background--white-charcoal {
+  background: var(--color-terracotta); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.8)  /* White */
+    rgba(66, 61, 51, 0.8),    /* Deep Charcoal */
+  );
+}
+
+/* Charcoal White theme */
+.content-pod__background--charcoal-white {
+  background: var(--color-terracotta); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 61, 51, 0.8),    /* Deep Charcoal */
+    rgba(255, 255, 255, 0.8)  /* White */
+  );
 }
 
 /* Terra Sky theme */
@@ -915,7 +956,6 @@ a:focus:not(:focus-visible) {
   align-items: center;
 }
 
-/* Remove any inherited max-width constraints */
 .page-hero > * {
   max-width: none;
 }
@@ -934,10 +974,6 @@ a:focus:not(:focus-visible) {
   padding: 6rem 0; 
 }
 
-/* Background handling */
-/* Page Hero Component - Previous styles remain the same until overlay */
-
-/* Updated Background and Overlay handling */
 .page-hero__background {
   position: absolute;
   top: 0;
@@ -1084,7 +1120,6 @@ a:focus:not(:focus-visible) {
   margin-left: auto;
 }
 
-/* Fix for potential overflow issues */
 html, body {
   overflow-x: hidden;
 }
@@ -1303,7 +1338,7 @@ html, body {
 }
 
 .two-column-text h2 {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(1.2rem, 4vw, 2rem);
   margin-bottom: 1.5rem;
   line-height: 1.2;
 }
@@ -1480,5 +1515,160 @@ html, body {
     font-size: 3em;
     top: 0.3em;
     left: -0.3em;
+  }
+}
+
+/* Resources Grid */
+.resources-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem var(--spacing-base);
+}
+
+.resources-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Resource Card */
+.resource-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+}
+
+.resource-card--featured {
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.resource-card__image {
+  aspect-ratio: 3/4;
+  overflow: hidden;
+}
+
+.resource-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.resource-card:hover .resource-card__image img {
+  transform: scale(1.05);
+}
+
+.resource-card__content {
+  padding: 1.5rem;
+}
+
+.resource-card__type {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  background: var(--color-terracotta);
+  color: white;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.resource-card__title {
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.resource-card__author {
+  font-size: 0.875rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.resource-card__description {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.resource-card__tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  background: rgba(66, 61, 51, 0.1);
+  font-size: 0.875rem;
+}
+
+/* Resource Page */
+.resource-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem var(--spacing-base);
+}
+
+.resource-header {
+  margin-bottom: 2rem;
+}
+
+.resource-cover {
+  max-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.resource-meta {
+  margin-bottom: 2rem;
+}
+
+.resource-rating {
+  color: var(--color-sun-gold);
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Filter Controls */
+.resources-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: rgba(66, 61, 51, 0.1);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-button.active,
+.filter-button:hover {
+  background: var(--color-terracotta);
+  color: white;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .resource-card--featured {
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+  }
+  
+  .resources-filters {
+    justify-content: center;
   }
 }

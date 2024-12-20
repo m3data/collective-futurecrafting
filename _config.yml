@@ -20,6 +20,9 @@ collections:
   craft:
     output: true
     permalink: /:collection/:name
+  resources:
+    output: true
+    permalink: /:collection/:title/
   get-involved:
     output: true
     permalink: /:collection/:name
@@ -40,6 +43,11 @@ defaults:
       type: "craft"
     values:
       layout: page
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "resource"
   - scope:
       path: ""
       type: "get-involved"
