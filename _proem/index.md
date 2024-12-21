@@ -6,16 +6,21 @@ nav_order: 1
 ---
 
 {% include page-hero.html 
-  title="Proem of Collective Futurecrafting"
+  title="From the heartcraft of a steward"
   subtitle=""
-  description=""
+  description="A proem/preface reflecting on the intergenerational empathy and active hope that underpins Collective Futurecrafting"
   image="/assets/images/proem_tree.jpg"
-  image_alt="Ancient tree in a forest"
-  theme="nature"
+  image_alt="Ancient tree in a cemetery with child playing on the sprawling roots"
+  theme="gold-olive-terra"
   align="center"
   size="large"
   gradient="bottom"
 %}
+<div class="container">
+  <div class="section-heading">
+    <h2>The Hum of Active Hope</h2>
+  </div>
+</div>
 
 {% include content-pod.html 
   theme="terra-white"

@@ -11,7 +11,7 @@ nav_order: 1
   description="Discover the roots of our approach and the journey that led us here."
   image="/assets/images/hero_tree.jpg"
   image_alt="Ancient tree in a forest"
-  theme="nature"
+  theme="sky-terra-gold"
   align="center"
   size="large"
   gradient="bottom"
@@ -70,7 +70,7 @@ nav_order: 1
   theme="gold-olive"
   content=submission_content
 %}
-<!-- Submission Section Start -->
+
 {% include content-pod.html 
   theme="olive-gold"
   content="<h2>From seed to radicle</h2>
@@ -79,6 +79,7 @@ nav_order: 1
   <p>And so here we are. Not with all the answers, but with an invitation to remember what we've forgotten and imagine what we might become. To sit in circles again. To listen to the whispers. To craft futures worthy of our children's great great grandchildren.</p>"
 %}
 
+<!-- Submission Section End -->
 {% capture parallax_content %}
 <h2>A Living Practice</h2>
 <p>

@@ -176,6 +176,34 @@ a:focus:not(:focus-visible) {
   min-height: auto;
 }
 
+.quote {
+  font-style: italic;
+  font-size: 1.2em;
+  color: var(--color-charcoal);
+  margin: 1.5rem 0;
+}
+
+.section-heading {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  color: var(--color-charcoal);
+  margin-bottom: 2rem;
+  line-height: 1.2;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-heading::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--color-terracotta);
+}
+
 /* Layout Components */
 .container {
   width: 100%;
@@ -542,7 +570,6 @@ a:focus:not(:focus-visible) {
   }
 }
 
-/* Rest of the styles remain the same */
 .footer-left {
   font-style: italic;
   line-height: 1.6;
@@ -998,56 +1025,71 @@ a:focus:not(:focus-visible) {
   /* Default gradient - can be overridden by theme variants */
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0.5) 50%,
-    rgba(0, 0, 0, 0.7) 100%
+    rgba(214, 138, 89, 0.8) 0%,
+    rgba(214, 138, 89, 0.4) 50%,
+    rgba(214, 138, 89, 0.1) 100%
   );
 }
 
 /* Theme variant overlays */
-.page-hero--light .page-hero__overlay {
+
+/* Terra-Sky theme */
+.page-hero--terra-sky-olive .page-hero__overlay {
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.8) 0%,
-    rgba(255, 255, 255, 0.6) 50%,
-    rgba(255, 255, 255, 0.8) 100%
+    rgba(214, 138, 89, 0.8), /* Terracotta */
+    rgba(167, 216, 240, 0.8) 50%, /* Sky Blue */
+    rgba(123, 147, 97, 0.8)  /* Olive Green */
   );
 }
 
-.page-hero--dark .page-hero__overlay {
+/* Sky-Terra theme */
+.page-hero--sky-terra-gold .page-hero__overlay {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.6) 50%,
-    rgba(0, 0, 0, 0.8) 100%
+    rgba(167, 216, 240, 0.8), /* Sky Blue */
+    rgba(214, 138, 89, 0.8) 50%, /* Terracotta */
+    rgba(227, 182, 70, 0.8)  /* Sun Gold */
   );
 }
 
-.page-hero--nature .page-hero__overlay {
+/* Olive-Gold theme */
+.page-hero--olive-gold-sky .page-hero__overlay {
   background: linear-gradient(
     to bottom,
-    rgba(227, 182, 70, 0.8) 0%,
-    rgba(167, 216, 240, 0.8) 50%,
-    rgba(214, 138, 89, 0.8) 100%
+    rgba(123, 147, 97, 0.8),  /* Olive Green */
+    rgba(227, 182, 70, 0.8) 50%,  /* Sun Gold */
+    rgba(167, 216, 240, 0.8)  /* Sky Blue */
   );
 }
 
-/* Optional: Add gradient direction variants */
-.page-hero--gradient-left .page-hero__overlay {
+/* Gold-Olive theme */
+.page-hero--gold-olive-terra .page-hero__overlay {
   background: linear-gradient(
-    to left,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.6) 50%,
-    rgba(0, 0, 0, 0.8) 100%
+    to bottom,
+    rgba(227, 182, 70, 0.6),  /* Sun Gold */
+    rgba(123, 147, 97, 0.8) 50%,  /* Olive Green */
+    rgba(214, 138, 89, 0.8)  /* Terracotta */
   );
 }
 
-.page-hero--gradient-right .page-hero__overlay {
+/* Charcoal-Pink theme */
+.page-hero--charcoal-pink-sky .page-hero__overlay {
   background: linear-gradient(
-    to right,
-    rgba(255, 138, 138, 0.8) 0%,
-    rgba(84, 253, 177, 0.6) 50%,
-    rgba(77, 92, 255, 0.8) 100%
+    to bottom,
+    rgba(66, 61, 51, 0.8),    /* Deep Charcoal */
+    rgba(255, 142, 142, 0.8) 60%, /* Sky Pink */
+    rgba(167, 216, 240, 0.8)  /* Sky Blue */
+  );
+}
+
+/* Pink-Charcoal theme */
+.page-hero--pink-charcoal-olive .page-hero__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 142, 142, 0.8),  /* Sky Pink */
+    rgba(66, 61, 51, 0.8) 50%,  /* Deep Charcoal */
+    rgba(123, 147, 97, 0.8)  /* Olive Green */
   );
 }
 
@@ -1088,15 +1130,35 @@ a:focus:not(:focus-visible) {
   max-width: 65ch;
 }
 
-/* Theme variants */
-.page-hero--light {
-  background-color: var(--color-bg-light, #ffffff);
-  color: var(--color-text-dark, #111827);
+/* Theme variants for background and text colors */
+.page-hero--terra-sky-olive {
+  background-color: var(--color-terracotta, #D68A59);
+  color: var(--color-charcoal, #423D33);
 }
 
-.page-hero--dark {
-  background-color: var(--color-bg-dark, #111827);
-  color: var(--color-text-light, #ffffff);
+.page-hero--sky-terra-gold {
+  background-color: var(--color-sky-blue, #A7D8F0);
+  color: var(--color-charcoal, #423D33);
+}
+
+.page-hero--olive-gold-sky {
+  background-color: var(--color-olive-green, #7B9361);
+  color: var(--color-charcoal, #423D33);
+}
+
+.page-hero--gold-olive-terra {
+  background-color: var(--color-sun-gold, #E3B646);
+  color: var(--color-charcoal, #423D33);
+}
+
+.page-hero--charcoal-pink-sky {
+  background-color: var(--color-charcoal, #423D33);
+  color: var(--color-charcoal, #423D33);
+}
+
+.page-hero--pink-charcoal-olive {
+  background-color: var(--color-sky-pink, #FF8E8E);
+  color: var(--color-charcoal, #423D33);
 }
 
 .page-hero--nature {
