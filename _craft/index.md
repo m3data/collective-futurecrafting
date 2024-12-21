@@ -139,9 +139,9 @@ description: "Explore the principles, patterns and practices that make Collectiv
 <div class="container">
   <div class="section-heading">
     <h2>Patterns at different scales</h2>
-    <p>The patterns of circles are ancient and grounded in all our ancenstral ways of knowing, being, learning and imagining.</p>
+    <p>The patterns of circles are ancient and grounded in all our ancestral ways of knowing, being, learning and imagining.</p>
   </div>
-  <p>In nature, the most resilient systems are not rigid hierarchies but interconnected networks—adaptive, decentralised, and deeply relational. As Merlin Sheldrake demonstrates in Entangled Life, mycelial networks exemplify how interconnected systems can sustain entire ecosystems through nutrient-sharing and mutual support, even in challenging environments. These principles are echoed in Donella Meadows’ Thinking in Systems, where feedback loops, self-organising structures, and distributed decision-making are expressed as central to resilience and adaptability.</p>
+  <p>In nature, the most resilient systems are not rigid hierarchies but interconnected networks—adaptive, decentralised, and deeply relational. As Merlin Sheldrake demonstrates in Entangled Life, mycelial networks exemplify how interconnected systems can sustain entire ecosystems through nutrient-sharing and mutual support, even in challenging environments. These principles are echoed in Donella Meadows’ <a href="https://www.goodreads.com/book/show/3828902-thinking-in-systems" target="_blank">Thinking in Systems</a>, where feedback loops, self-organising structures, and distributed decision-making are expressed as central to resilience and adaptability.</p>
 
   <p>Mycelial networks in forests connect trees across vast distances, sharing nutrients and information to sustain the entire ecosystem. Rivers, too, flow through watersheds, linking landscapes in dynamic patterns of movement, rhythm and regeneration. These natural systems thrive not through command and control but through a distributed natural intelligence that responds to both local and systemic needs. They are patterns of coordinated collaboration, aligning diversity into harmony and complexity into coherence.</p>
 
