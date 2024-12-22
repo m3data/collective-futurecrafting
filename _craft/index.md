@@ -194,10 +194,24 @@ description: "Explore the principles, patterns and practices that make Collectiv
 
 </div>
 <div class="container">
+  <div class="section-heading">
+    <h2>Patterning of Circles</h2>
+    <p>At the foundation of Collective Futurecrafting are circles—small, decentralised, and purpose-driven groups that form the building blocks of a scalable governance framework. These circles embody the principles of relational trust, self-determination, and reciprocity, offering spaces where moral imagination and action converge. Their strength lies in their diversity, adaptability, and shared purpose, allowing them to address challenges at both local and systemic scales.</p>
+  </div>
+  {% include content-pod.html
+    theme="terra-sky"
+    width="full"
+    align="center"
+    content="<h2>Types of Circles</h2>
+              <p>To foster self-organising governance and collective action without the imposition of countervailing hierarchy, Collective Futurecrafting introduces three primary types of circles, each fulfilling distinct roles while remaining interdependent; Hyper-Local Circles (Relational Circles), Guardian Circles and Steward Circles.</p>"
+  %}
+  
 {% capture slide1 %}
   {% include content-pod.html
     theme="terra-sky"
-    content="<h2>First Slide</h2><p>Content here...</p>"
+    content="<h2>Hyper-local Circles</h2>
+              <p>Purpose: rooted in communing and local communities, these circles address immediate, lived and tangible challenges, and foster relational trust.</p>
+              <p>Participants: small groups of 3-7 individuals—neighbours, colleagues, or friends—who share place-based proximity or a shared interest.</p>"
   %}
 {% endcapture %}
 
@@ -208,13 +222,34 @@ description: "Explore the principles, patterns and practices that make Collectiv
   %}
 {% endcapture %}
 
-{% assign slides = "" | split: "" | push: slide1 | push: slide2 %}
+{% capture slide3 %}
+  {% include content-pod.html
+    theme="sky-terra"
+    content="<h2>Third Slide</h2><p>More content...</p>"
+  %}
+{% endcapture %}
+
+{% capture slide4 %}
+  {% include content-pod.html
+    theme="sky-terra"
+    content="<h2>Fourth Slide</h2><p>More content...</p>"
+  %}
+{% endcapture %}
+
+{% capture slide5 %}
+  {% include content-pod.html
+    theme="sky-terra"
+    content="<h2>Fifth Slide</h2><p>More content...</p>"
+  %}
+{% endcapture %}
+
+{% assign slides = "" | split: "" | push: slide1 | push: slide2 | push: slide3 | push: slide4 | push: slide5 %}
 
 {% include carousel.html
-  id="principle-carousel"
+  id="patterns-carousel"
   slides=slides
   theme="terra-sky"
-  auto_play=true
+  auto_play=false
   interval=7000
 %}
 </div>

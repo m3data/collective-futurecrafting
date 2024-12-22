@@ -36,73 +36,134 @@
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const carousel = document.getElementById('{{ include.id }}');
-  const track = carousel.querySelector('.carousel__track');
-  const slides = carousel.querySelectorAll('.carousel__slide');
-  const dots = carousel.querySelectorAll('.carousel__dot');
-  const prevButton = carousel.querySelector('.carousel__button--prev');
-  const nextButton = carousel.querySelector('.carousel__button--next');
-  let currentSlide = 0;
-  let autoPlayInterval;
-
-  function updateSlide(index) {
-    currentSlide = index;
-    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+    document.addEventListener('DOMContentLoaded', function() {
+      const carousel = document.getElementById('{{ include.id }}');
+      const track = carousel.querySelector('.carousel__track');
+      const slides = carousel.querySelectorAll('.carousel__slide');
+      const dots = carousel.querySelectorAll('.carousel__dot');
+      const prevButton = carousel.querySelector('.carousel__button--prev');
+      const nextButton = carousel.querySelector('.carousel__button--next');
+      let currentSlide = 0;
+      let autoPlayInterval;
     
-    // Update dots
-    dots.forEach((dot, i) => {
-      dot.classList.toggle('carousel__dot--active', i === currentSlide);
-    });
-
-    // Update button states
-    prevButton.disabled = currentSlide === 0;
-    nextButton.disabled = currentSlide === slides.length - 1;
-  }
-
-  function nextSlide() {
-    if (currentSlide < slides.length - 1) {
-      updateSlide(currentSlide + 1);
-    }
-  }
-
-  function prevSlide() {
-    if (currentSlide > 0) {
-      updateSlide(currentSlide - 1);
-    }
-  }
-
-  // Event listeners
-  prevButton.addEventListener('click', prevSlide);
-  nextButton.addEventListener('click', nextSlide);
-  
-  dots.forEach((dot, index) => {
-    dot.addEventListener('click', () => updateSlide(index));
-  });
-
-  // Initialize
-  updateSlide(0);
-
-  {% if include.auto_play %}
-    // Auto-play functionality
-    function startAutoPlay() {
-      autoPlayInterval = setInterval(() => {
+      function updateSlide(index) {
+        currentSlide = index;
+        
+        // Update all slides positions
+        slides.forEach((slide, i) => {
+          slide.classList.remove('active');
+          if (i < currentSlide) {
+            slide.style.transform = 'translateX(-100%)';
+            slide.style.opacity = '0';
+          } else if (i > currentSlide) {
+            slide.style.transform = 'translateX(100%)';
+            slide.style.opacity = '0';
+          }
+        });
+        
+        // Activate current slide
+        slides[currentSlide].classList.add('active');
+        slides[currentSlide].style.transform = 'translateX(0)';
+        slides[currentSlide].style.opacity = '1';
+        
+        // Update dots
+        dots.forEach((dot, i) => {
+          dot.classList.toggle('carousel__dot--active', i === currentSlide);
+        });
+    
+        // Update button states
+        prevButton.disabled = currentSlide === 0;
+        nextButton.disabled = currentSlide === slides.length - 1;
+      }
+    
+      function nextSlide() {
         if (currentSlide < slides.length - 1) {
-          nextSlide();
-        } else {
-          updateSlide(0);
+          updateSlide(currentSlide + 1);
         }
-      }, {{ include.interval | default: 5000 }});
-    }
-
-    function stopAutoPlay() {
-      clearInterval(autoPlayInterval);
-    }
-
-    carousel.addEventListener('mouseenter', stopAutoPlay);
-    carousel.addEventListener('mouseleave', startAutoPlay);
+      }
     
-    startAutoPlay();
-  {% endif %}
-});
-</script>
+      function prevSlide() {
+        if (currentSlide > 0) {
+          updateSlide(currentSlide - 1);
+        }
+      }
+    
+      // Touch and swipe support
+      let touchStartX = 0;
+      let touchEndX = 0;
+      
+      carousel.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+      }, false);
+      
+      carousel.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+      }, false);
+      
+      function handleSwipe() {
+        const swipeThreshold = 50; // minimum distance for swipe
+        const swipeDistance = touchEndX - touchStartX;
+        
+        if (Math.abs(swipeDistance) > swipeThreshold) {
+          if (swipeDistance > 0 && currentSlide > 0) {
+            prevSlide();
+          } else if (swipeDistance < 0 && currentSlide < slides.length - 1) {
+            nextSlide();
+          }
+        }
+      }
+    
+      // Event listeners
+      prevButton.addEventListener('click', prevSlide);
+      nextButton.addEventListener('click', nextSlide);
+      
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => updateSlide(index));
+      });
+    
+      // Keyboard navigation
+      document.addEventListener('keydown', e => {
+        if (e.key === 'ArrowLeft') {
+          prevSlide();
+        } else if (e.key === 'ArrowRight') {
+          nextSlide();
+        }
+      });
+    
+      // Initialize
+      slides.forEach((slide, i) => {
+        if (i === 0) {
+          slide.classList.add('active');
+          slide.style.transform = 'translateX(0)';
+          slide.style.opacity = '1';
+        } else {
+          slide.style.transform = 'translateX(100%)';
+          slide.style.opacity = '0';
+        }
+      });
+      updateSlide(0);
+    
+      {% if include.auto_play %}
+        // Auto-play functionality
+        function startAutoPlay() {
+          autoPlayInterval = setInterval(() => {
+            if (currentSlide < slides.length - 1) {
+              nextSlide();
+            } else {
+              updateSlide(0);
+            }
+          }, {{ include.interval | default: 5000 }});
+        }
+    
+        function stopAutoPlay() {
+          clearInterval(autoPlayInterval);
+        }
+    
+        carousel.addEventListener('mouseenter', stopAutoPlay);
+        carousel.addEventListener('mouseleave', startAutoPlay);
+        
+        startAutoPlay();
+      {% endif %}
+    });
+    </script>
