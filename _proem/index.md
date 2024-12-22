@@ -6,9 +6,9 @@ nav_order: 1
 ---
 
 {% include page-hero.html 
-  title="From the heartcraft of a steward"
+  title="Preface/Proem"
   subtitle=""
-  description="A proem/preface reflecting on the intergenerational empathy and active hope that underpins Collective Futurecrafting"
+  description=""
   image="/assets/images/proem_tree.jpg"
   image_alt="Ancient tree in a cemetery with child playing on the sprawling roots"
   theme="gold-olive-terra"
@@ -16,9 +16,39 @@ nav_order: 1
   size="large"
   gradient="bottom"
 %}
+
 <div class="container">
   <div class="section-heading">
-    <h2>The Hum of Active Hope</h2>
+    <h2>Humans have a superpower</h2>
+    <p><em>Imagination.</em></p>
+  </div>
+</div>
+
+{% include content-pod.html 
+  theme="terra-white"
+  content="<p>It is this gift that allows us to take into the mind's eye scenes and stories that have not yet come to pass. This ability has shaped the course of our history, enabling us to dream, to plan, to create, and to adapt. It is the spark that has fueled everything from the strategies of early hunts to the poetry of space exploration. Imagination is how we transcend the present and step into the possible.</p>
+
+<p>Yet, this power is not without consequence. The same force that propelled us to the moon has also scarred the earth. From the agricultural revolution to the industrial age, from the birth of cities to the creation of the atomic bomb, our capacity to imagine has brought both flourishing and devastation. In wielding this power, we have shifted ecosystems, cultures, and histories, often without understanding the full cost.</p>
+
+<p>But amidst these shifts, one practice has endured: <strong>sitting in circles</strong>.</p>
+
+<p>To listen. To share. To dream. To learn through conversation with each other.</p>
+
+<p>Circles are ancient, as old as firelit gatherings and as universal as the cycles of the moon. In circles, we connect—to one another, to the land, and to the stories that guide us. It is here, in this shared space of humility and openness, that imagination finds its highest calling: not as a force for domination, but as a tool for collaboration.</p>
+
+<p>This is what we are still best equipped to do: <strong>to imagine together</strong>.</p>
+
+<p>The practice of Collective Futurecrafting begins here, in the circle. It is a return to something timeless, and yet, it is also something new. We are not simply dreaming of the future; we are crafting it. Together. Through stories, shared visions, and bold actions. Weaving the threads of possibility into the fabric of reality.</p>
+
+<p>This paper is an invitation—a seed. It is a call to step into the circle, to reclaim our collective <em>moral imagination</em>>. To plant the seeds of our highest calling and nurture them to flourishing futures.</p>
+
+<p>Because the future is not written, it is crafted.</p>"
+%}
+
+<div class="container">
+  <div class="section-heading">
+    <h2>The hum of active hope</h2>
+    <p><em>A proem from the heartcraft of a steward</em></p>
   </div>
 </div>
 
@@ -99,10 +129,8 @@ It waits for our hands and hearts to craft it.</p>
 %}
 
 {% capture parallax_content %}
-<h2>Begin with us</h2>
-<p>
-  We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
-</p>
+<h2>Craft with us</h2>
+<p>We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.</p> <p>Your moral imagination.</p>
 <a href="#" class='button button--primary'>Become a futurecrafter →</a>
 {% endcapture %}
 
