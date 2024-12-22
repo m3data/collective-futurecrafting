@@ -63,7 +63,7 @@ nav_order: 1
 
 <p>Welling from deep knowledge and lived experience in systemic change. And drawing on diverse work, from that of the Future Generations Commissioner for Wales, to polycentric self-governance and challenge based learning.</p>
 
-<a href="#" class="button button--primary">Read the original submission →</a>
+<a href="https://drive.google.com/file/d/1NcjPlxTO5xRw1aAHo2wu_rjFirrJSjVK/view?usp=sharing" target="_blank" class="button button--primary">Read the original submission →</a>
 {% endcapture %}
 
 {% include content-pod.html 
