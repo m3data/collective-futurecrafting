@@ -714,10 +714,26 @@ a:focus:not(:focus-visible) {
   max-width: calc(100vw - 4rem); 
 }
 
+.content-pod__background-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.content-pod__background {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
 /* Content wrapper to handle text overflow */
 .content-pod__content {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -1733,4 +1749,44 @@ html, body {
   .resources-filters {
     justify-content: center;
   }
+}
+/* Accordion Component */
+.accordion {
+  width: 100%;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.accordion__trigger {
+  cursor: pointer;
+  padding: 1rem;
+  background: rgba(66, 61, 51, 0.1);
+  transition: background 0.3s ease;
+  font-weight: 500;
+  list-style: none;
+}
+
+.accordion__trigger::-webkit-details-marker {
+  display: none;
+}
+
+.accordion__trigger::after {
+  content: '+';
+  float: right;
+  transform: rotate(0);
+  transition: transform 0.3s ease;
+}
+
+.accordion[open] .accordion__trigger::after {
+  transform: rotate(45deg);
+}
+
+.accordion__trigger:hover {
+  background: rgba(66, 61, 51, 0.2);
+}
+
+.accordion__content {
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
 }
