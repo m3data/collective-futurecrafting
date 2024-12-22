@@ -59,7 +59,7 @@ nav_order: 1
 %}
 
 {% capture submission_content %}
-<p>The orginal submission to the <a href="https://consult.industry.gov.au/sciencepriorities2">Draft National Science and Research Priorities consultation</a> was stark and bold.</p>
+<p>The original submission to the <a href="https://consult.industry.gov.au/sciencepriorities2">Draft National Science and Research Priorities consultation</a> was stark and bold.</p>
 
 <p>Welling from deep knowledge and lived experience in systemic change. And drawing on diverse work, from that of the Future Generations Commissioner for Wales, to polycentric self-governance and challenge based learning.</p>
 
