@@ -1754,7 +1754,7 @@ html, body {
 .accordion {
   width: 100%;
   margin: 1rem 0;
-  border-radius: 0.5rem;
+  border-radius: 1.2rem;
   overflow: hidden;
 }
 
@@ -1763,7 +1763,7 @@ html, body {
   padding: 1rem;
   background: rgba(66, 61, 51, 0.1);
   transition: background 0.3s ease;
-  font-weight: 500;
+  font-weight: 600;
   list-style: none;
 }
 
