@@ -1,0 +1,108 @@
+{% comment %}
+  Carousel include accepts:
+  - id: Unique identifier for the carousel (required)
+  - slides: Array of slide content in Liquid array format
+  - theme: Color theme for nav buttons (optional)
+  - auto_play: Boolean for auto-advance (optional, default false)
+  - interval: Time in ms between auto-advance (optional, default 5000)
+{% endcomment %}
+
+<div class="carousel" id="{{ include.id }}">
+  <div class="carousel__track">
+    {% for slide in include.slides %}
+      <div class="carousel__slide" data-index="{{ forloop.index0 }}">
+        {{ slide }}
+      </div>
+    {% endfor %}
+  </div>
+  
+  <button class="carousel__button carousel__button--prev" aria-label="Previous slide">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="15 18 9 12 15 6"></polyline>
+    </svg>
+  </button>
+  
+  <button class="carousel__button carousel__button--next" aria-label="Next slide">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </button>
+
+  <div class="carousel__dots">
+    {% for slide in include.slides %}
+      <button class="carousel__dot" data-index="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const carousel = document.getElementById('{{ include.id }}');
+  const track = carousel.querySelector('.carousel__track');
+  const slides = carousel.querySelectorAll('.carousel__slide');
+  const dots = carousel.querySelectorAll('.carousel__dot');
+  const prevButton = carousel.querySelector('.carousel__button--prev');
+  const nextButton = carousel.querySelector('.carousel__button--next');
+  let currentSlide = 0;
+  let autoPlayInterval;
+
+  function updateSlide(index) {
+    currentSlide = index;
+    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+    
+    // Update dots
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('carousel__dot--active', i === currentSlide);
+    });
+
+    // Update button states
+    prevButton.disabled = currentSlide === 0;
+    nextButton.disabled = currentSlide === slides.length - 1;
+  }
+
+  function nextSlide() {
+    if (currentSlide < slides.length - 1) {
+      updateSlide(currentSlide + 1);
+    }
+  }
+
+  function prevSlide() {
+    if (currentSlide > 0) {
+      updateSlide(currentSlide - 1);
+    }
+  }
+
+  // Event listeners
+  prevButton.addEventListener('click', prevSlide);
+  nextButton.addEventListener('click', nextSlide);
+  
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => updateSlide(index));
+  });
+
+  // Initialize
+  updateSlide(0);
+
+  {% if include.auto_play %}
+    // Auto-play functionality
+    function startAutoPlay() {
+      autoPlayInterval = setInterval(() => {
+        if (currentSlide < slides.length - 1) {
+          nextSlide();
+        } else {
+          updateSlide(0);
+        }
+      }, {{ include.interval | default: 5000 }});
+    }
+
+    function stopAutoPlay() {
+      clearInterval(autoPlayInterval);
+    }
+
+    carousel.addEventListener('mouseenter', stopAutoPlay);
+    carousel.addEventListener('mouseleave', startAutoPlay);
+    
+    startAutoPlay();
+  {% endif %}
+});
+</script>

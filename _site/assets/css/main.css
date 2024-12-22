@@ -1790,3 +1790,92 @@ html, body {
   padding: 1rem;
   background: rgba(255, 255, 255, 0.1);
 }
+
+/* Carousel Component */
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.carousel__track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel__slide {
+  flex: 0 0 100%;
+  padding: 1rem;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.carousel__button:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.carousel__button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.carousel__button--prev {
+  left: 1rem;
+}
+
+.carousel__button--next {
+  right: 1rem;
+}
+
+.carousel__dots {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carousel__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.carousel__dot--active {
+  background: white;
+  transform: scale(1.2);
+}
+
+/* Theme variants */
+.carousel--terra-sky .carousel__button {
+  color: var(--color-terracotta);
+}
+
+.carousel--sky-terra .carousel__button {
+  color: var(--color-sky-blue);
+}
+
+/* Add more theme variants as needed */

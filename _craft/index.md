@@ -16,7 +16,7 @@ description: "Explore the principles, patterns and practices that make Collectiv
 <div class="container">
   <div class="section-heading">
     <h2>Principles to guide living practice</h2>
-    <p>While many bawk at yet another set of principles we know from our experience that they are an important grounding force. When applied in ongoing design and embodied through living practice they are essential guides for meaningful action.</p>
+    <p>While many bawk at yet another set of principles we know from our experience that they are an important orientating force. When applied in ongoing design and embodied through living practice they become essential guides for moral imagination and meaningful action.</p>
   </div>
 </div>
 
@@ -35,7 +35,7 @@ description: "Explore the principles, patterns and practices that make Collectiv
     accordion_content="<ul>
       <li>Recognise that all actions, relationships, and systems are interconnected.</li>
       <li>Cultivate collaboration and mutual learning at all scales—individual, community, and planetary.</li>
-      <li>Celebrate diversity as a strength, knowing that difference fuels creative tension, novel innovation and resilience.</li>
+      <li>Celebrate diversity as a strength, knowing that difference helps with creative tension, novel innovation and resilience.</li>
     </ul>
     " %}
 
@@ -166,7 +166,7 @@ description: "Explore the principles, patterns and practices that make Collectiv
 <div class="container">
   <div class="section-heading">
     <h2>Patterns at different scales</h2>
-    <p>The patterns of circles are ancient and grounded in all our ancestral ways of knowing, being, learning and imagining as Earthians indigenous to this planet.</p>
+    <p>Grounded in all our ancestral ways of knowing, being, learning and imagining as Earthians indigenous to this planet.</p>
   </div>
   <p>In nature, the most resilient systems are not rigid hierarchies but interconnected networks—adaptive, decentralised, and deeply relational. As Merlin Sheldrake demonstrates in <a href="https://www.goodreads.com/book/show/52668915-entangled-life" target="_blank">Entangled Life</a>, mycelial networks exemplify how interconnected systems can sustain entire ecosystems through nutrient-sharing and mutual support, even in challenging environments. These principles are echoed in Donella Meadows’ <a href="https://www.goodreads.com/book/show/3828902-thinking-in-systems" target="_blank">Thinking in Systems</a>, where feedback loops, self-organising structures, and distributed decision-making are expressed as central to resilience and adaptability.</p>
 
@@ -192,4 +192,29 @@ description: "Explore the principles, patterns and practices that make Collectiv
 
   <p>In the sections that follow, we will explore the types of Circles, their roles in the overall system, and how their interactions form a living, scalable governance and collective action framework. Together, they demonstrate the enduring power of ancient patterns and their relevance to crafting a new social architecture for the challenges and opportunities of our time.</p>
 
+</div>
+<div class="container">
+{% capture slide1 %}
+  {% include content-pod.html
+    theme="terra-sky"
+    content="<h2>First Slide</h2><p>Content here...</p>"
+  %}
+{% endcapture %}
+
+{% capture slide2 %}
+  {% include content-pod.html
+    theme="sky-terra"
+    content="<h2>Second Slide</h2><p>More content...</p>"
+  %}
+{% endcapture %}
+
+{% assign slides = "" | split: "" | push: slide1 | push: slide2 %}
+
+{% include carousel.html
+  id="principle-carousel"
+  slides=slides
+  theme="terra-sky"
+  auto_play=true
+  interval=7000
+%}
 </div>
