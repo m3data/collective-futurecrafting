@@ -31,8 +31,8 @@ description: "Explore the principles, patterns and practices that make Collectiv
     background_position="top right"
     content="
     <h2>Interconnection</h2>
-    <p class='quote'>We are all circles within circles, woven into the greater circle of life.</p>
-    <ul>
+    <p class='quote'>We are all circles within circles, woven into the greater circle of life.</p>"
+    accordion_content="<ul>
       <li>Recognise that all actions, relationships, and systems are interconnected.</li>
       <li>Cultivate collaboration and mutual learning at all scales—individual, community, and planetary.</li>
       <li>Celebrate diversity as a strength, knowing that difference fuels creative tension, novel innovation and resilience.</li>
@@ -49,8 +49,8 @@ description: "Explore the principles, patterns and practices that make Collectiv
     background_position="top right"
     content="
     <h2>Emergence</h2>
-    <p class='quote'>The future emerges through small seeds planted and nurtured in the present.</p>
-    <ul>
+    <p class='quote'>The future emerges through small seeds planted and nurtured in the present.</p>"
+    accordion_content="<ul>
       <li>Embrace iterative growth and allow solutions to emerge through collective action and experimentation.</li>
       <li>Honour the unknown and the unexpected as opportunities for creativity and adaptation.</li>
       <li>Trust in the process of co-creation and give space for new ideas to grow organically.</li>
@@ -67,8 +67,8 @@ description: "Explore the principles, patterns and practices that make Collectiv
     background_position="top right"
     content="
     <h2>Reciprocity</h2>
-    <p class='quote'>Give to the circle and you will receive, knowing all contributions nourish the whole.</p>
-    <ul>
+    <p class='quote'>Give to the circle and you will receive, knowing all contributions nourish the whole.</p>"
+    accordion_content="<ul>
       <li>Ensure balance in resource use, decision-making, and relationships by prioritising fairness and mutual benefit.</li>
       <li>Incorporate practices of care, gratitude, and respect for the land, communities, and future generations.</li>
       <li>Design systems that regenerate rather than deplete—socially, environmentally, and emotionally.</li>
@@ -85,8 +85,8 @@ description: "Explore the principles, patterns and practices that make Collectiv
     background_position="top right"
     content="
     <h2>Self-Determination</h2>
-    <p class='quote'>Each voice matters; each person and circle is empowered to act with autonomy and agency.</p>
-    <ul>
+    <p class='quote'>Each voice matters; each person and circle is empowered to act with autonomy and agency.</p>"
+    accordion_content="<ul>
       <li>Support individuals and groups in expressing their unique contributions while aligning with shared values.</li>
       <li>Promote autonomy and competence by providing tools, knowledge, and opportunities for growth.</li>
       <li>Ensure decision-making is inclusive, participatory, and distributed, honouring local wisdom and lived experience.</li>
