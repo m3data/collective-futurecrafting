@@ -7,11 +7,18 @@
   - accordion_content: Optional content to show in accordion
   - background_image: Optional background image path
   - background_opacity: Optional opacity for background image (default: 0.1)
+  - background_size: cover, contain, auto (default: cover)
+  - background_position: center, top, bottom, left, right, or any combination (default: center)
 {% endcomment %}
 
 <div class="content-pod">
   {% if include.background_image %}
-    <div class="content-pod__background-image" style="background-image: url('{{ include.background_image | relative_url }}'); opacity: {{ include.background_opacity | default: 0.1 }};"></div>
+    <div class="content-pod__background-image" 
+         style="background-image: url('{{ include.background_image | relative_url }}'); 
+                opacity: {{ include.background_opacity | default: 0.1 }};
+                background-size: {{ include.background_size | default: 'cover' }};
+                background-position: {{ include.background_position | default: 'center' }};">
+    </div>
   {% endif %}
   <div class="content-pod__background content-pod__background--{{ include.theme | default: 'sky-terra' }}"></div>
   <div class="content-pod__content">

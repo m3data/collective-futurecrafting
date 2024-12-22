@@ -23,8 +23,12 @@ description: "Explore the principles, patterns and practices that make Collectiv
 <div class="content-pod-container">
   {% include content-pod.html
     theme="terra-sky"
-    width="half"
-    align="left"
+    width="full"
+    align="center"
+    background_image="/assets/images/principles/interconnection.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="
     <h2>Interconnection</h2>
     <p class='quote'>We are all circles within circles, woven into the greater circle of life.</p>
@@ -37,8 +41,12 @@ description: "Explore the principles, patterns and practices that make Collectiv
 
   {% include content-pod.html
     theme="sky-terra"
-    width="half"
-    align="right"
+    width="full"
+    align="center"
+    background_image="/assets/images/principles/emergence.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="
     <h2>Emergence</h2>
     <p class='quote'>The future emerges through small seeds planted and nurtured in the present.</p>
@@ -51,8 +59,12 @@ description: "Explore the principles, patterns and practices that make Collectiv
 
   {% include content-pod.html
     theme="olive-gold"
-    width="half"
-    align="left"
+    width="full"
+    align="center"
+    background_image="/assets/images/principles/reciprocity.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="
     <h2>Reciprocity</h2>
     <p class='quote'>Give to the circle and you will receive, knowing all contributions nourish the whole.</p>
@@ -65,8 +77,12 @@ description: "Explore the principles, patterns and practices that make Collectiv
 
   {% include content-pod.html
     theme="gold-olive"
-    width="half"
-    align="right"
+    width="full"
+    align="center"
+    background_image="/assets/images/principles/self-determination.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="
     <h2>Self-Determination</h2>
     <p class='quote'>Each voice matters; each person and circle is empowered to act with autonomy and agency.</p>
@@ -79,8 +95,12 @@ description: "Explore the principles, patterns and practices that make Collectiv
 
   {% include content-pod.html
     theme="charcoal-pink"
-    width="half"
-    align="left"
+    width="full"
+    align="center"
+    background_image="/assets/images/principles/relational-trust.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="
     <h2>Relational Trust</h2>
     <p class='quote'>Strong relationships to the land and people where we live is the foundation for collective action.</p>"
@@ -95,8 +115,10 @@ description: "Explore the principles, patterns and practices that make Collectiv
     theme="pink-charcoal"
     width="half"
     align="right"
-    background_image="/assets/images/logo.svg"
-    background_opacity="0.10"
+    background_image="/assets/images/principles/cyclical-reflection.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="
     <h2>Cyclical Reflection</h2>
     <p class='quote'>Pause, reflect, and adapt—each cycle informs the next.</p>"
@@ -111,8 +133,10 @@ description: "Explore the principles, patterns and practices that make Collectiv
     theme="terra-sky"
     width="full"
     align="center"
-    background_image="/assets/images/seed-of-life-hero-rough.svg"
-    background_opacity="0.15"
+    background_image="/assets/images/principles/mutual-flourishing.png"
+    background_opacity="0.1"
+    background_size="20%"
+    background_position="top right"
     content="<h2>Mutual Flourishing</h2>
 <p class='quote'>Craft futures where all life can thrive.</p>"
     accordion_content="<ul>
