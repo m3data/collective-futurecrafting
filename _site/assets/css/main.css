@@ -1818,6 +1818,7 @@ html, body {
   opacity: 0;
   transform: translateX(100%);
   transition: opacity 0.5s ease, transform 0.5s ease;
+  box-sizing: border-box;
 }
 
 .carousel__slide.active {
@@ -1835,7 +1836,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start; /* Ensure left alignment */
+  align-items: flex-start;
 }
 
 .carousel__slide h2 {
@@ -1843,13 +1844,13 @@ html, body {
   font-family: 'Cormorant', serif;
   font-size: 2.5rem;
   color: var(--color-charcoal);
-  text-align: left; /* Force left alignment */
+  text-align: left;
 }
 
 .carousel__slide p {
   font-size: 1.2rem;
   line-height: 1.6;
-  text-align: left; /* Force left alignment */
+  text-align: left;
 }
 
 /* Navigation buttons */
