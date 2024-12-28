@@ -38,9 +38,9 @@ nav_order: 1
 
 <p>This is what we are still best equipped to do: <strong>to imagine together</strong>.</p>
 
-<p>The practice of Collective Futurecrafting begins here, in the circle. It is a return to something timeless, and yet, it is also something new. We are not simply dreaming of the future; we are crafting it. Together. Through stories, shared visions, and bold actions. Weaving the threads of possibility into the fabric of reality.</p>
+<p>The practice of Collective Futurecrafting begins here, in the circle. It is a return to something timeless, and yet, it is also something new. We are not simply dreaming of the future; we are crafting it. Together. Through stories, shared visions, and bold, collective actions. Weaving the threads of possibility into the fabric of reality.</p>
 
-<p>This paper is an invitation—a seed. It is a call to step into the circle, to reclaim our collective <em>moral imagination</em>>. To plant the seeds of our highest calling and nurture them to flourishing futures.</p>
+<p>This is an invitation—a seed. It is a call to step into the circle, to reclaim our collective <em>moral imagination</em>. To plant the seeds of our highest calling and nurture them to flourishing futures.</p>
 
 <p>Because the future is not written, it is crafted.</p>"
 %}
