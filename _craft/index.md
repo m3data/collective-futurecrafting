@@ -10,7 +10,7 @@ description: "Explore the principles, patterns and practices that make Collectiv
   theme="charcoal-pink-sky"
   size="large"
   align="center"
-  image="/assets/images/seed-of-life-hero-rough.svg"
+  image="/assets/images/hero_gumbark.jpg"
 %}
 
 <div class="container">

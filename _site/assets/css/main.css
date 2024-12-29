@@ -1798,7 +1798,8 @@ html, body {
   overflow: hidden;
   border-radius: 1.5rem;
   margin: 2rem 0;
-  min-height: 400px;
+  min-height: 500px;
+  box-sizing: border-box;
 }
 
 .carousel__track {
@@ -1813,12 +1814,14 @@ html, body {
 .carousel__slide {
   position: absolute;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   flex: 0 0 100%;
   opacity: 0;
   transform: translateX(100%);
   transition: opacity 0.5s ease, transform 0.5s ease;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
 }
 
 .carousel__slide.active {
@@ -1836,7 +1839,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  flex: 1;
 }
 
 .carousel__slide h2 {
@@ -1910,7 +1913,7 @@ html, body {
 /* Dot navigation */
 .carousel__dots {
   position: absolute;
-  bottom: 1.5rem;
+  top: 1rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -1919,6 +1922,7 @@ html, body {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(8px);
   border-radius: 2rem;
+  z-index: 20;
 }
 
 .carousel__dot {
@@ -1939,29 +1943,57 @@ html, body {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .carousel {
+    border-radius: 1rem;
+    margin: 1rem 0;
+    min-height: 600px;
+  }
+
+  .carousel__content {
+    padding: 4rem 1.5rem 2rem; /* Increased top padding for dots */
+  }
+
   .carousel__slide {
-    padding: 2rem;
+    padding: 1rem;
   }
   
   .carousel__button {
-    width: 40px;
-    height: 40px;
+    width: 36px;
+    height: 36px;
+    top: auto;
+    bottom: 1rem; /* Move to bottom */
   }
   
   .carousel__button--prev {
-    left: 0.5rem;
+    left: 1rem;
   }
   
   .carousel__button--next {
-    right: 0.5rem;
+    right: 1rem;
   }
   
   .carousel__slide h2 {
-    font-size: 2rem;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
   }
   
   .carousel__slide p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+
+  .carousel .content-pod {
+    margin: 0;
+    height: 100%;
+    border-radius: 1rem;
+  }
+}
+
+/* Additional height adjustments for very small screens */
+@media (max-width: 480px) {
+  .carousel {
+    min-height: 650px;
   }
 }
 

@@ -21,7 +21,8 @@ nav_order: 1
 <!-- Content Section Start -->
 {% capture section_content %}
 <p>Whispers of ancient patterns and rituals we've long lost. A soft song carried on night breezes, reminding us of times when we knew how to sit in circles, to listen deeply, to weave futures with the threads of shared stories and collective dreams. </p>
-<p>But really, it started with questions: <span class="bold-highlight">What if what we need isn't locked is already here? Scattered like seeds in the wisdom of Indigenous peoples, in our social bodies and in the quiet knowledge of local communities, and in the dreams we dare to share when we gather together?</span></p>
+<p>But really, it started with questions:</p> 
+<p><span class="bold-highlight">What if what we need is already here? Scattered like seeds in the wisdom of the land, in our social bodies, in the quiet knowledge of local communities, and in the dreams we dare to share when we gather together?</span></p>
 {% endcapture %}
 
 {% include two-column-section.html
@@ -36,7 +37,8 @@ nav_order: 1
 {% capture next_section_content %}
 <p>In October 2023, four Earthians sat around a virtual tea garden table in the <a href="https://app.gather.town/invite?token=F_z-hVdZR-upu-QQHjYJ">Tethix Archipelago</a>. The government wanted input on Australia's science and research priorities. Big stuff. But instead of getting tangled in BAU, we found ourselves dreaming bigger as the whispering circles wove magic in our minds.</p>
 
-<p>In these gatherings we sketched out something different. Not another top-down framework, but a way to bring together the old and the new. To bring back the circles where humans have always done their best thinking - around fires, in gardens, at community gatherings and even around virtual tea garden tables like ours.</p>
+<p>In these gatherings we sketched out something different. Not another top-down framework, but a way to bring together the old and the new.</p> 
+<p>To bring back the circles where humans have always done their best thinking - around fires, in gardens, at community gatherings and even around virtual tea garden tables like ours.</p>
 {% endcapture %}
 
 {% include two-column-section.html
