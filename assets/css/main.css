@@ -272,10 +272,14 @@ a:focus:not(:focus-visible) {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  cursor: pointer;
+  padding-right: 1.2rem;
 }
 
 .dropdown-arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   transition: transform 0.3s ease;
 }
 
@@ -291,10 +295,11 @@ a:focus:not(:focus-visible) {
   left: 0;
   min-width: 200px;
   background: var(--color-charcoal);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   padding: 0.5rem 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  margin-top: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-menu.active {
@@ -302,12 +307,12 @@ a:focus:not(:focus-visible) {
 }
 
 .dropdown-item a {
-  color: var(--color-sun-gold);
-  text-decoration: none;
+  padding: 0.75rem 1.5rem;
   display: block;
-  padding: 0.5rem 1rem;
-  transition: all 0.3s ease;
+  white-space: nowrap;
+  color: var(--color-sun-gold);
   font-size: 1.1rem;
+  transition: all 0.2s ease;
 }
 
 .dropdown-item a:hover {
@@ -351,10 +356,11 @@ a:focus:not(:focus-visible) {
 
   .dropdown-menu {
     position: static;
-    box-shadow: none;
     background: transparent;
-    padding: 0;
-    margin-left: 1rem;
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+    padding-left: 1.5rem;
   }
 
   .dropdown-menu.active {
@@ -367,6 +373,17 @@ a:focus:not(:focus-visible) {
 
   .dropdown-item a {
     padding: 0.5rem 1rem;
+  }
+  
+  .has-dropdown .dropdown-trigger {
+    width: 85%;
+    justify-content: space-between;
+  }
+
+  .dropdown-arrow {
+    position: relative;
+    top: 0;
+    transform: none;
   }
 }
 
@@ -393,6 +410,14 @@ a:focus:not(:focus-visible) {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
+  }
+
+  .has-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .has-dropdown:hover .dropdown-arrow {
+    transform: translateY(-50%) rotate(180deg);
   }
 }
 

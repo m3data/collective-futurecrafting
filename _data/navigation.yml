@@ -5,7 +5,8 @@ main:
     url: /proem/
   - title: Craft
     url: /craft/
-    children:
+    dropdown: true
+    subitems:
       - title: Principles
         url: /craft/principles/
       - title: Patterns
