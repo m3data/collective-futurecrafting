@@ -1,15 +1,15 @@
 ---
-id: circleOrigins
-title: The Path of First Light
-description: Discover the ancient wisdom of circles
+id: "circle_origins"
+title: "The Path of First Light"
+description: "Discover the ancient wisdom of circles"
 theme: terra-sky
 background_image: path_of_light.jpg
 next_nodes:
   - text: "Listen to the Story of Circles"
-    next: circleStory
+    next: circle_story
     icon: circle
   - text: "Join a Circle Forming Now"
-    next: circleFormation
+    next: circle_formation
     icon: users
   - text: "Return to the Crossroads"
     next: start

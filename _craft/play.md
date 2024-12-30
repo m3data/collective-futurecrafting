@@ -11,23 +11,21 @@ permalink: /craft/play/
 </div>
 
 <script>
-// Create story nodes object 
-const storyNodes = {
+// Create story nodes object and attach to window
+window.storyNodes = {
   {% for node in site.story_nodes %}
-    "{{ node.id | split: '/' | last }}": {
+    {% assign node_id = node.path | split: '/' | last | split: '.' | first %}
+    "{{ node_id }}": {
+      id: "{{ node_id }}",
+      title: "{{ node.title }}",
       text: {{ node.content | jsonify }},
-      choices: [
-        {% for choice in node.next_nodes %}
-        {
-          text: "{{ choice.text }}",
-          next: "{{ choice.next }}"
-        }{% unless forloop.last %},{% endunless %}
-        {% endfor %}
-      ]
+      choices: {{ node.next_nodes | jsonify }},
+      theme: "{{ node.theme }}",
+      background_image: "{{ node.background_image }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 };
 
 // Debug output
-console.log("Processed story nodes:", storyNodes);
+console.log("Processed story nodes:", window.storyNodes);
 </script>

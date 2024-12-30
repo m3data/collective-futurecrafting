@@ -27,7 +27,7 @@ collections:
     output: true
     permalink: /:collection/:name
   story_nodes:
-    output: false
+    output: true
 
 defaults:
   - scope:
