@@ -19,7 +19,7 @@ description: "Explore the principles, patterns and practices that make Collectiv
     <p>All of what we share is merely a guiding reference for the emergence of crafting in the circles you are part of.</p>
   </div>
   {% include quote-callout.html 
-    quote="Collective Futurecrafting is designed to be a living practice, a way of being, a way of seeing, a way of doing that is always in flux, always in dialogue with the world around us. So play with these references as you wish and share with the community as you learn together along the way."
+    quote="Collective Futurecrafting is designed to be a living practice, a way of being, a way of seeing, a way of doing that is always in flux, always in dialogue with the world around us. So play with these principles, patterns and practices as you wish and share with the community as you learn together along the way."
     attribution="Origin Steward"
     theme="terra-sky"
     size="large"
@@ -51,8 +51,8 @@ description: "Explore the principles, patterns and practices that make Collectiv
         <!-- Play -->
         <div class="card card--sky-blue">
           <h2>Play</h2>
-          <p>Explore serious play and the game of with Collective Futurecrafting.</p>
-          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">Play</a>
+          <p>Are you ready to play a game and learn in the process?</p>
+          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">If you dare</a>
         </div>
       </div>
     </div>

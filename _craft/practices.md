@@ -16,8 +16,9 @@ permalink: /craft/practices/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Core practices</h2>
-    <p>Practices are how we bring principles and patterns to life. These practices have emerged from both ancient wisdom traditions and modern understanding of how change happens in complex systems.</p>
+    <h2>The patterns that guide</h2>
+    <p>Ever notice how nature loves certain patterns? The way tree branches mirror root systems, or how tiny cells work together to create entire ecosystems. We've drawn inspiration from the beauty and brilliance of the natural world and deep ancestral wisdom to create twelve patterns to guide our work.</p>
+    <p>These aren't rigid rules—think of them more like dance steps that help us move together while leaving plenty of room for improvisation.</p>
   </div>
 </div>
 
@@ -25,7 +26,7 @@ permalink: /craft/practices/
   {% include content-pod.html
     theme="terra-sky"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/interconnection.png"
     background_opacity="0.03"
     background_size="50%"
@@ -175,8 +176,8 @@ permalink: /craft/practices/
         <!-- Play -->
         <div class="card card--sky-blue">
           <h2>Play</h2>
-          <p>Explore serious play and the game of with Collective Futurecrafting.</p>
-          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">Play</a>
+          <p>Are you ready to play a game and learn in the process?</p>
+          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">If you dare</a>
         </div>
       </div>
     </div>

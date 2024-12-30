@@ -166,8 +166,8 @@ permalink: /craft/principles/
         <!-- Play -->
         <div class="card card--sky-blue">
           <h2>Play</h2>
-          <p>Explore serious play and the game of with Collective Futurecrafting.</p>
-          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">Play</a>
+          <p>Are you ready to play a game and learn in the process?</p>
+          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">If you dare</a>
         </div>
       </div>
     </div>

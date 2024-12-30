@@ -47,7 +47,7 @@ html, body {
 :root {
   --link-color: var(--color-charcoal);
   --link-hover-color: var(--color-terracotta);
-  --link-visited-color: var(--color-olive-green);
+  --link-visited-color: var(--color-charcoal);
   --link-active-color: var(--color-sun-gold);
   --link-underline-thickness: 2px;
   --link-transition: all 0.3s ease;
@@ -185,7 +185,7 @@ a:focus:not(:focus-visible) {
 
 .section-heading {
   font-family: 'Cormorant', serif;
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
   font-weight: 600;
   color: var(--color-charcoal);
   margin-bottom: 2rem;
@@ -295,11 +295,9 @@ a:focus:not(:focus-visible) {
   left: 0;
   min-width: 200px;
   background: var(--color-charcoal);
-  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   padding: 0.5rem 0;
   margin-top: 0.1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-menu.active {
@@ -932,7 +930,7 @@ a:focus:not(:focus-visible) {
   background: rgba(66, 61, 51, 0.1);
   border-radius: 0.5rem;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .content-pod .accordion__content {
@@ -1953,7 +1951,7 @@ html, body {
   padding: 1rem;
   background: rgba(66, 61, 51, 0.1);
   transition: background 0.3s ease;
-  font-weight: 600;
+  font-weight: 700;
   list-style: none;
 }
 

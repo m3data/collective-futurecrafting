@@ -16,93 +16,110 @@ permalink: /craft/patterns/
 
 <div class="container">
   <div class="section-heading">
+    <h2>Inspiration for the patterns</h2>
+    <p>We've drawn inspiration from diverse fields, thinkers, practices and ways of being to harness the patterns that work in coordinating collaboration. From biology and philosophy to complex systems and social movements.</p>
+  </div>
+  {% include content-pod.html
+    theme="sky-terra"
+    width="full"
+    align="left"
+    background_image="assets/images/seed-of-life-hero-rough.svg"
+    background_opacity="0.1"
+    background_size="50%"
+    background_position="right"
+    content="
+    <p class='quote'>Expand each section to learn more...</p>
+    <details class='accordion'>
+        <summary class='accordion__trigger'>Nature's networks</summary>
+        <div class='accordion__content'>
+            <p>In nature, the most resilient systems are not rigid hierarchies but interconnected networks—adaptive, decentralised, and deeply relational. As Merlin Sheldrake demonstrates in <a href='https://www.goodreads.com/book/show/52668915-entangled-life' target='_blank'>Entangled Life</a>, mycelial networks exemplify how interconnected systems can sustain entire ecosystems through nutrient-sharing and mutual support, even in challenging environments.</p>
+            <p>Mycelial networks in forests connect trees across vast distances, sharing nutrients and information to sustain the entire ecosystem. Rivers, too, flow through watersheds, linking landscapes in dynamic patterns of movement, rhythm and regeneration. These natural systems thrive not through command and control but through a distributed natural intelligence that responds to both local and systemic needs.</p>
+        </div>
+    </details>
+    <details class='accordion'>
+        <summary class='accordion__trigger'>Indigenous wisdom</summary>
+        <div class='accordion__content'>
+            <p>Indigenous cultures offer profound examples of relational and cyclical forms of governance. <a href='https://www.booktopia.com.au/the-songlines-bruce-chatwin/book/9780099769910.html' target='_blank'>The Songlines</a> of Indigenous Australians, as described by Bruce Chatwin and expanded on by Tyson Yunkaporta in <a href='https://www.booktopia.com.au/sand-talk-tyson-yunkaporta/book/9780062975621.html' target='_blank'>Sand Talk</a>, are not merely maps of place but social systems for living in balance with the land, community, and the sacred.</p>
+            <p>Decision-making in these traditions often occurs in circles, where voices are honoured equally, and consensus emerges through dialogue and shared understanding. These governance patterns—built on relational trust, reciprocity, and deep knowledge of place—have sustained resilience over many millennia.</p>
+            <p>Indigenous wisdom also offers insights into the importance of intergenerational stewardship, where decisions are made with the seventh generation in mind. This long-term perspective ensures that actions today honour the past and protect the future.</p>
+        </div>
+    </details>
+    <details class='accordion'>
+        <summary class='accordion__trigger'>Modern movements</summary>
+        <div class='accordion__content'>
+            <p>In more recent contexts, patterns of close-knit collaboration have proven similarly effective. Mark Engler and Paul Engler, in <a href='https://www.booktopia.com.au/this-is-an-uprising-mark-engler/book/9781568585703.html' target='_blank'>This Is an Uprising</a>, show how decentralised organizing circles have powered social movements. General Stanley McChrystal's <a href='https://www.booktopia.com.au/team-of-teams-general-stanley-mcchrystal/book/9780241250839.html' target='_blank'>Team of Teams</a> reveals how autonomous, connected units excel in complex environments.</p>
+            <p>Whether in revolutions, social movements, or military contexts, small, purpose-driven groups consistently drive systemic change. These patterns show that relational trust and decentralisation aren't just nice-to-haves—they're essential for resilience in turbulent times.</p>
+        </div>
+    </details>
+    <details class='accordion'>
+        <summary class='accordion__trigger'>Emergence of scale</summary>
+        <div class='accordion__content'>
+            <p>The real magic happens when these patterns scale without losing their soul. Nicholas Christakis and James Fowler's <a href='https://www.booktopia.com.au/connected-nicholas-a-christakis/book/9780316036146.html' target='_blank'>Connected</a> shows how social networks amplify collective outcomes through strong relationships. Brian Walker and David Salt's <a href='https://www.booktopia.com.au/resilience-thinking-brian-walker/book/9781597260930.html' target='_blank'>Resilience Thinking</a> confirms that decentralised systems with good feedback loops handle shocks better.</p>
+            <p>This mirrors Elinor Ostrom's insights in <a href='https://www.booktopia.com.au/governing-the-commons-the-evolution-of-institutions-for-collective-action-elinor-ostrom/book/9781107569782.html' target='_blank'>Governing the Commons</a> about how multiple decision-making centers can effectively manage shared resources. Then we can also look to the work of <a href='https://www.researchgate.net/publication/376087466_Polycentric_self-governance_and_Indigenous_knowledge' target='_blank'>Anne Poelina, Shann Turnbull and Natalie Stoinboff</a> which shows how diverse voices and local networks can create adaptive governance.</p>
+        </div>
+    </details>
+    <details class='accordion'>
+        <summary class='accordion__trigger'>Bringing it all together</summary>
+        <div class='accordion__content'>
+            <p>Collective Futurecrafting weaves these insights into a living framework. At its heart is the circle—an ancient, universal pattern of collaboration where trust flourishes and decisions emerge naturally. These circles form the foundation of fractal collaboration, scaling from intimate Futurecrafting Circles to bioregional CLANs to global Rhiozomes.</p>
+            <p>We're not building rigid hierarchies here. Instead, we're growing self-organizing systems rooted in trust and autonomy, resilient to shocks and ready to adapt. It's about creating a framework that helps us coordinate action, share resources, and craft flourishing futures together—all while staying true to these time-tested patterns of collaboration.</p>
+            <p>As we experiment with these patterns, we invite you to join us in exploring how they can guide our collective futurecrafting. Together, we can weave a tapestry of collaboration that honours the wisdom of the past, the needs of the present, and the possibilities of the future.</p>
+        </div>
+    </details>"
+%}
+</div>
+<div class="container">
+  <div class="section-heading">
     <h2>Patterns at different scales</h2>
     <p>Grounded in all our ancestral ways of knowing, being, learning and imagining as Earthians indigenous to this planet.</p>
   </div>
-  <p>In nature, the most resilient systems are not rigid hierarchies but interconnected networks—adaptive, decentralised, and deeply relational. As Merlin Sheldrake demonstrates in <a href="https://www.goodreads.com/book/show/52668915-entangled-life" target="_blank">Entangled Life</a>, mycelial networks exemplify how interconnected systems can sustain entire ecosystems through nutrient-sharing and mutual support, even in challenging environments. These principles are echoed in Donella Meadows’ <a href="https://www.goodreads.com/book/show/3828902-thinking-in-systems" target="_blank">Thinking in Systems</a>, where feedback loops, self-organising structures, and distributed decision-making are expressed as central to resilience and adaptability.</p>
+  {% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
+  <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Why it works</summary>
+    <div class='accordion__content'>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>In a circle, there is no head of the table. Everyone can see each other. This simple geometry creates equality and encourages full participation in ways that hierarchical structures cannot match.</p>
+    </div>
+  </details>
 
-  <p>Mycelial networks in forests connect trees across vast distances, sharing nutrients and information to sustain the entire ecosystem. Rivers, too, flow through watersheds, linking landscapes in dynamic patterns of movement, rhythm and regeneration. These natural systems thrive not through command and control but through a distributed natural intelligence that responds to both local and systemic needs. They are patterns of coordinated collaboration, aligning diversity into harmony and complexity into coherence.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Starting Your Circle</summary>
+    <div class='accordion__content'>
+      <p>Begin with 3-7 people who share a common interest or concern. This size is large enough for diversity of perspective but small enough for everyone to be heard.</p>
+      <p>Meet regularly to build trust and momentum. Use storytelling to deepen connections. Make decisions through consensus rather than hierarchy. Remember, the goal is to create a space where everyone feels safe to share, dream, and act together.</p>
+    </div>
+  </details>
 
-  <p>This same wisdom is mirrored in human governance systems. Indigenous cultures, for example, offer profound examples of relational and cyclical forms of governance. <a href="https://www.booktopia.com.au/the-songlines-bruce-chatwin/book/9780099769910.html" target="_blank">The Songlines</a> of Indigenous Australians, as Bruce Chatwin describes and Tyson Yunkaporta expands on in <a href="https://www.booktopia.com.au/sand-talk-tyson-yunkaporta/book/9780062975621.html" target="_blank">Sand Talk</a>, are not merely maps of place but social systems for living in balance with the land, community, and the sacred. Robin Wall Kimmerer, in <a href="https://www.booktopia.com.au/braiding-sweetgrass-robin-wall-kimmerer/book/9780141991955.html" target="_blank">Braiding Sweetgrass</a>, highlights how practices of reciprocity and gratitude sustain ecological and social harmony over generations—principles essential for crafting flourishing futures.</p>
-
-  <p>Decision-making in these traditions often occurs in circles, where voices are honored equally, and consensus emerges through dialogue and shared understanding. These governance patterns—built on trust, reciprocity, and deep knowledge of place—have sustained resilience over millennia, even in the face of profound challenges.</p>
-
-  <p>In more recent contexts, patterns of close-knit collaboration have proven similarly effective during moments of upheaval. Mark Engler and Paul Engler, in <a href="https://www.booktopia.com.au/this-is-an-uprising-mark-engler/book/9781568585703.html" target="_blank">This Is an Uprising</a>, emphasise how decentralised organising circles underpinned many social movements over the past century, demonstrating that small, connected groups are the seeds of systemic change. Similarly, General Stanley McChrystal’s <a href="https://www.booktopia.com.au/team-of-teams-general-stanley-mcchrystal/book/9780241250839.html" target="_blank">Team of Teams</a> highlights the adaptability of autonomous, close-knit military units in navigating complex, unpredictable environments, underscoring the power of distributed coordination.</p>
-
-  <p>Whether in revolutions, social movements, or military contexts, small, purpose-driven groups have consistently acted as the building blocks of systemic transformation. These patterns of organisation demonstrate that relational trust and decentralisation are not only adaptive but essential for resilience—qualities that will be crucial as humanity faces increasingly turbulent times.</p>
-
-  <p>The power of these patterns lies in their ability to scale without losing coherence. Nicholas Christakis and James Fowler, in <a href="https://www.booktopia.com.au/connected-nicholas-a-christakis/book/9780316036146.html" target="_blank">Connected</a>, explore how social networks operate as systems of influence and resilience, where the strength of individual relationships amplifies collective outcomes. Brian Walker and David Salt, in <a href="https://www.booktopia.com.au/resilience-thinking-brian-walker/book/9781597260930.html" target="_blank">Resilience Thinking</a>, further reinforce that systems with decentralised structures and feedback loops are better equipped to withstand and adapt to shocks.</p>
-
-  <p>In nature, as in human systems, the strength of the whole depends on the integrity of its smallest parts. When these parts—whether they are cells in a body, trees in a forest, or people in a community—are connected through strong relational bonds and shared principles, the system becomes more than the sum of its parts. It becomes symbiotic, with parts helping each other to sustain the whole.</p>
-
-  <p>In designing Collective Futurecrafting, we draw from these natural and human precedents to create a governance and collective action system that is adaptive, inclusive, and capable of scaling from the hyper-local to the planetary. This approach mirrors the polycentric governance models described by Elinor Ostrom in <a href="https://www.booktopia.com.au/governing-the-commons-the-evolution-of-institutions-for-collective-action-elinor-ostrom/book/9781107569782.html" target="_blank">Governing the Commons</a>, where multiple, autonomous decision-making centers collaborate to manage shared resources effectively. Similarly, the work of <a href="https://www.researchgate.net/publication/376087466_Polycentric_self-governance_and_Indigenous_knowledge" target="_blank">Anne Poelina, Shann Turnbull and Natalie Stoinboff</a> shows how incorporating diverse voices through locally networked structures fosters adaptive governance.</p>
-
-  <p>Collective Futurecrafting also draws inspiration from regenerative movements like those outlined in Anna Tsing’s <a href="https://www.booktopia.com.au/the-mushroom-at-the-end-of-the-world-anna-lowenhaupt-tsing/book/9780691220550.html" target="_blank">The Mushroom at the End of the World</a>, which illustrates how fragmented, self-organising systems can create collective thriving in uncertain conditions. At its heart is the circle: an ancient, universal pattern of collaboration. Circles provide space for relational trust to flourish, for stories to be shared, and for decisions to emerge organically. They are the foundation of fractal collaboration—patterns that repeat across scales, from small, close-knit Futurecrafting Circles to bioregional Community Learning & Action Nests (CLANs) to global networks of Rhiozomes.</p>
-
-  <p>Collective Futurecrafting does not impose hierarchies or centralised controls. Instead, it builds on self-organising systems, grounded in trust and autonomy, that are resilient to shocks and adaptive to change. By weaving these patterns into a coherent fabric of governance, Collective Futurecrafting offers a pathway to coordinate action, share resources, and create flourishing futures across interconnected communities.</p>
-
-  <p>In the sections that follow, we will explore the types of Circles, their roles in the overall system, and how their interactions form a living, scalable governance and collective action framework. Together, they demonstrate the enduring power of ancient patterns and their relevance to crafting a new social architecture for the challenges and opportunities of our time.</p>
-
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Circle Practices</summary>
+    <div class='accordion__content'>
+      <p>Successful circles often incorporate practices like:</p>
+      <ul>
+        <li>Opening and closing rituals that mark the space as special</li>
+        <li>Check-ins that allow everyone to arrive fully</li>
+        <li>Shared agreements about how to be together</li>
+        <li>Regular reflection on what's working and what needs adjustment</li>
+      </ul>
+    </div>
+  </details>"
+%}
 </div>
 <div class="container">
   <div class="section-heading">
     <h2>Patterning of Circles</h2>
     <p>At the foundation of Collective Futurecrafting are circles—small, decentralised, and purpose-driven groups that form the building blocks of a scalable governance framework. These circles embody the principles of relational trust, self-determination, and reciprocity, offering spaces where moral imagination and action converge. Their strength lies in their diversity, adaptability, and shared purpose, allowing them to address challenges at both local and systemic scales.</p>
   </div>
-  {% include content-pod.html
-    theme="terra-sky"
-    width="full"
-    align="center"
-    content="<h2>Types of Circles</h2>
-              <p>To foster self-organising governance and collective action without the imposition of countervailing hierarchy, Collective Futurecrafting introduces three primary types of circles, each fulfilling distinct roles while remaining interdependent; Hyper-Local Circles (Relational Circles), Guardian Circles and Steward Circles.</p>"
-  %}
-  
-{% capture slide1 %}
-  {% include content-pod.html
-    theme="terra-sky"
-    content="<h2>Hyper-local Circles</h2>
-              <p>Purpose: rooted in communing and local communities, these circles address immediate, lived and tangible challenges, and foster relational trust.</p>
-              <p>Participants: small groups of 3-7 individuals—neighbours, colleagues, or friends—who share place-based proximity or a shared interest.</p>"
-  %}
-{% endcapture %}
-
-{% capture slide2 %}
-  {% include content-pod.html
-    theme="sky-terra"
-    content="<h2>Second Slide</h2><p>More content...</p>"
-  %}
-{% endcapture %}
-
-{% capture slide3 %}
-  {% include content-pod.html
-    theme="sky-terra"
-    content="<h2>Third Slide</h2><p>More content...</p>"
-  %}
-{% endcapture %}
-
-{% capture slide4 %}
-  {% include content-pod.html
-    theme="sky-terra"
-    content="<h2>Fourth Slide</h2><p>More content...</p>"
-  %}
-{% endcapture %}
-
-{% capture slide5 %}
-  {% include content-pod.html
-    theme="sky-terra"
-    content="<h2>Fifth Slide</h2><p>More content...</p>"
-  %}
-{% endcapture %}
-
-{% assign slides = "" | split: "" | push: slide1 | push: slide2 | push: slide3 | push: slide4 | push: slide5 %}
-
-{% include carousel.html
-  id="patterns-carousel"
-  slides=slides
-  theme="terra-sky"
-  auto_play=false
-  interval=7000
-%}
 </div>
 <!-- Card Content Grid -->
   <section class="content-grid">
@@ -123,8 +140,8 @@ permalink: /craft/patterns/
         <!-- Play -->
         <div class="card card--sky-blue">
           <h2>Play</h2>
-          <p>Explore serious play and the game of with Collective Futurecrafting.</p>
-          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">Play</a>
+          <p>Are you ready to play a game and learn in the process?</p>
+          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">If you dare</a>
         </div>
       </div>
     </div>
