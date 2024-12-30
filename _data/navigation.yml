@@ -1,46 +1,20 @@
 main:
   - title: Origins
     url: /origins/
-    children:
-      - title: The Story
-        url: /origins/story/
-      - title: Principles
-        url: /origins/principles/
-      - title: Indigenous Wisdom
-        url: /origins/indigenous-wisdom/
-      - title: Thrutopian Vision
-        url: /origins/thrutopian-vision/
-  
   - title: Proem
     url: /proem/
-    children:
-      - title: Self-Determination Framework
-        url: /proem/self-determination/
-      - title: WISDOM Protocol
-        url: /proem/wisdom-protocol/
-      - title: Circles, CLANs & Rhizomes
-        url: /proem/circles-clans-rhizomes/
-      - title: Living Labs & Learning
-        url: /proem/living-labs/
-  
   - title: Craft
     url: /craft/
     children:
-      - title: Starting a Circle
-        url: /craft/starting-circle/
-      - title: Challenge-Based Learning
-        url: /craft/challenge-learning/
-      - title: Practices & Rituals
+      - title: Principles
+        url: /craft/principles/
+      - title: Patterns
+        url: /craft/patterns/
+      - title: Practices
         url: /craft/practices/
-      - title: Tools & Resources
-        url: /craft/tools/
-  
+      - title: Play
+        url: /craft/play/
+  - title: Resources
+    url: /resources/
   - title: Get Involved
     url: /get-involved/
-    children:
-      - title: Find a Circle
-        url: /get-involved/find-circle/
-      - title: Training & Events
-        url: /get-involved/training/
-      - title: Contribute
-        url: /get-involved/contribute/

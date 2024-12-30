@@ -57,14 +57,108 @@
     
     <button class="menu-toggle" aria-label="Toggle menu">☰</button>
     
-    <ul>
-      <li><a href="/collective-futurecrafting/origins/">Origins</a></li>
-      <li><a href="/collective-futurecrafting/proem/">Proem</a></li>
-      <li><a href="/collective-futurecrafting/craft/">Craft</a></li>
-      <li><a href="/collective-futurecrafting/resources/">Resources</a></li>
-      <li><a href="/collective-futurecrafting/get-involved/">Get involved</a></li>
+    <ul class="nav-list">
+      
+        <li class="nav-item ">
+          <a href="/collective-futurecrafting/origins/" >
+            Origins
+            
+          </a>
+          
+        </li>
+      
+        <li class="nav-item ">
+          <a href="/collective-futurecrafting/proem/" >
+            Proem
+            
+          </a>
+          
+        </li>
+      
+        <li class="nav-item has-dropdown">
+          <a href="/collective-futurecrafting/craft/" class="dropdown-trigger">
+            Craft
+            
+              <svg class="dropdown-arrow" width="10" height="6" viewBox="0 0 10 6">
+                <path d="M1 1L5 5L9 1" stroke="currentColor" fill="none" stroke-width="2"/>
+              </svg>
+            
+          </a>
+          
+            <ul class="dropdown-menu">
+              
+                <li class="dropdown-item">
+                  <a href="/collective-futurecrafting/craft/principles/">Principles</a>
+                </li>
+              
+                <li class="dropdown-item">
+                  <a href="/collective-futurecrafting/craft/patterns/">Patterns</a>
+                </li>
+              
+                <li class="dropdown-item">
+                  <a href="/collective-futurecrafting/craft/practices/">Practices</a>
+                </li>
+              
+                <li class="dropdown-item">
+                  <a href="/collective-futurecrafting/craft/play/">Play</a>
+                </li>
+              
+            </ul>
+          
+        </li>
+      
+        <li class="nav-item ">
+          <a href="/collective-futurecrafting/resources/" >
+            Resources
+            
+          </a>
+          
+        </li>
+      
+        <li class="nav-item ">
+          <a href="/collective-futurecrafting/get-involved/" >
+            Get Involved
+            
+          </a>
+          
+        </li>
+      
     </ul>
   </nav>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navList = document.querySelector('.nav-list');
+      
+      menuToggle.addEventListener('click', function() {
+        navList.classList.toggle('active');
+      });
+
+      // Dropdown functionality for desktop
+      const dropdownTriggers = document.querySelectorAll('.dropdown-trigger');
+      
+      dropdownTriggers.forEach(trigger => {
+        trigger.addEventListener('click', function(e) {
+          if (window.innerWidth > 768) { // Only prevent default on desktop
+            e.preventDefault();
+          }
+          const dropdownMenu = this.nextElementSibling;
+          dropdownMenu.classList.toggle('active');
+        });
+      });
+
+      // Close dropdowns when clicking outside
+      document.addEventListener('click', function(e) {
+        if (!e.target.closest('.has-dropdown')) {
+          document.querySelectorAll('.dropdown-menu').forEach(menu => {
+            menu.classList.remove('active');
+          });
+        }
+      });
+    });
+  </script>
 </header>
     <main>
         <main>
