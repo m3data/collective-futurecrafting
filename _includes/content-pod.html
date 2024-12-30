@@ -1,17 +1,26 @@
 {% comment %}
   Content pod accepts the following parameters:
-  - theme: Color theme for gradient
-  - width: full or half
-  - align: left/center/right
+  - theme: Color theme for gradient (terra-sky/sky-terra/olive-gold/gold-olive/charcoal-pink/pink-charcoal)
+  - width: full or half (default: full)
+  - align: left/center/right (default: left)
   - content: Main content
   - accordion_content: Optional content to show in accordion
   - background_image: Optional background image path
   - background_opacity: Optional opacity for background image (default: 0.1)
   - background_size: cover, contain, auto (default: cover)
   - background_position: center, top, bottom, left, right, or any combination (default: center)
+  - padding: small, medium, large (default: medium)
+  - shadow: true/false (default: false)
+  - blur: true/false (default: true)
 {% endcomment %}
 
-<div class="content-pod">
+<div class="content-pod
+  {% if include.width == 'half' %}content-pod--half{% endif %}
+  {% if include.align %}content-pod--{{ include.align }}{% endif %}
+  {% if include.padding %}content-pod--padding-{{ include.padding }}{% endif %}
+  {% if include.shadow %}content-pod--shadow{% endif %}
+  {% unless include.blur %}content-pod--no-blur{% endunless %}">
+  
   {% if include.background_image %}
     <div class="content-pod__background-image" 
          style="background-image: url('{{ include.background_image | relative_url }}'); 
@@ -20,9 +29,12 @@
                 background-position: {{ include.background_position | default: 'center' }};">
     </div>
   {% endif %}
+  
   <div class="content-pod__background content-pod__background--{{ include.theme | default: 'sky-terra' }}"></div>
+  
   <div class="content-pod__content">
     {{ include.content }}
+    
     {% if include.accordion_content %}
       <details class="accordion">
         <summary class="accordion__trigger">What this means</summary>

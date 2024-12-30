@@ -25,9 +25,9 @@ permalink: /craft/principles/
   {% include content-pod.html
     theme="terra-sky"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/interconnection.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="
@@ -43,9 +43,9 @@ permalink: /craft/principles/
   {% include content-pod.html
     theme="sky-terra"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/emergence.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="
@@ -61,9 +61,9 @@ permalink: /craft/principles/
   {% include content-pod.html
     theme="olive-gold"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/reciprocity.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="
@@ -79,9 +79,9 @@ permalink: /craft/principles/
   {% include content-pod.html
     theme="gold-olive"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/self-determination.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="
@@ -97,9 +97,9 @@ permalink: /craft/principles/
   {% include content-pod.html
     theme="charcoal-pink"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/relational-trust.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="
@@ -114,10 +114,10 @@ permalink: /craft/principles/
 
   {% include content-pod.html
     theme="pink-charcoal"
-    width="half"
-    align="right"
+    width="full"
+    align="left"
     background_image="/assets/images/principles/cyclical-reflection.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="
@@ -133,9 +133,9 @@ permalink: /craft/principles/
   {% include content-pod.html
     theme="terra-sky"
     width="full"
-    align="center"
+    align="left"
     background_image="/assets/images/principles/mutual-flourishing.png"
-    background_opacity="0.03"
+    background_opacity="0.1"
     background_size="50%"
     background_position="right"
     content="<h2>Mutual Flourishing</h2>
@@ -147,3 +147,44 @@ permalink: /craft/principles/
     </ul>"
   %}
 </div>
+<!-- Card Content Grid -->
+  <section class="content-grid">
+    <div class="container">
+      <div class="grid">
+        <!-- Patterns -->
+        <div class="card card--olive-green">
+          <h2>Patterns</h2>
+          <p>Understand the foundational patterns of Collective Futurecrafting.</p>
+          <a href="{{ '/craft/patterns' | relative_url }}" class="button button--primary">Understand</a>
+        </div>
+        <!-- Practices -->
+        <div class="card card--sun-gold">
+          <h2>Practices</h2>
+          <p>Explore the practices that bring Collective Futurecfating to life. </p>
+          <a href="{{ '/craft/practices' | relative_url }}" class="button button--primary">Explore</a>
+        </div>
+        <!-- Play -->
+        <div class="card card--sky-blue">
+          <h2>Play</h2>
+          <p>Explore serious play and the game of with Collective Futurecrafting.</p>
+          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">Play</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% capture parallax_content %}
+<h2>Begin with us</h2>
+<p>
+  We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
+</p>
+<a href="#" class='button button--primary'>Become a futurecrafter →</a>
+{% endcapture %}
+
+{% include parallax-section.html
+  background="/assets/images/seed-of-life-hero-rough.svg"
+  theme="sky-terra"
+  align="center"
+  height="full"
+  padding="medium"
+  content=parallax_content
+%}

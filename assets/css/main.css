@@ -298,7 +298,7 @@ a:focus:not(:focus-visible) {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   padding: 0.5rem 0;
-  margin-top: 0.5rem;
+  margin-top: 0.1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -605,23 +605,29 @@ a:focus:not(:focus-visible) {
 /* Content Grid */
 .content-grid {
   padding: var(--spacing-xl) 0;
+  flex: auto;
 }
 
 .grid {
   display: grid;
   gap: var(--spacing-lg);
   padding: 0 var(--spacing-base);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: var(--max-width);
+  margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+/* For larger screens, limit maximum columns to 4 */
+@media (min-width: 1200px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(calc((100% - 3 * var(--spacing-lg)) / 4), 1fr));
   }
 }
 
-@media (min-width: 1024px) {
+/* Ensure minimum width on mobile */
+@media (max-width: 767px) {
   .grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
@@ -829,12 +835,22 @@ a:focus:not(:focus-visible) {
   border-radius: 2rem;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  margin: 2rem auto; 
+  margin: 2rem auto;
   font-size: 1.1rem;
   width: 100%;
-  box-sizing: border-box; 
-  max-width: calc(100vw - 4rem); 
+  box-sizing: border-box;
+  max-width: calc(100vw - 4rem);
+}
+
+/* Blur variant */
+.content-pod:not(.content-pod--no-blur) {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Shadow variant */
+.content-pod--shadow {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 }
 
 .content-pod__background-image {
@@ -869,7 +885,33 @@ a:focus:not(:focus-visible) {
   vertical-align: top;
 }
 
-/* Content pod container */
+/* Alignment variants */
+.content-pod--left {
+  text-align: left;
+}
+
+.content-pod--center {
+  text-align: center;
+}
+
+.content-pod--right {
+  text-align: right;
+}
+
+/* Padding variants */
+.content-pod--padding-small {
+  padding: 1rem;
+}
+
+.content-pod--padding-medium {
+  padding: 2rem;
+}
+
+.content-pod--padding-large {
+  padding: 3rem;
+}
+
+/* Container for multiple pods */
 .content-pod-container {
   display: flex;
   gap: 2rem;
@@ -878,6 +920,26 @@ a:focus:not(:focus-visible) {
   max-width: var(--max-width, 1200px);
   margin: 0 auto;
   box-sizing: border-box;
+}
+
+/* Accordion styling */
+.content-pod .accordion {
+  margin-top: 1.5rem;
+}
+
+.content-pod .accordion__trigger {
+  padding: 0.75rem 1rem;
+  background: rgba(66, 61, 51, 0.1);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.content-pod .accordion__content {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
 }
 
 /* Responsive adjustments */
@@ -897,13 +959,18 @@ a:focus:not(:focus-visible) {
     gap: 1rem;
     padding: 0 1rem;
   }
+
+  .content-pod--padding-large {
+    padding: 2rem;
+  }
 }
 
 /* Content Pod Background Variants */
 .content-pod__background {
   position: absolute;
   inset: 0;
-  z-index: -1;
+  z-index: 1;
+  transition: opacity 0.3s ease;
 }
 
 /* Terra White theme */
