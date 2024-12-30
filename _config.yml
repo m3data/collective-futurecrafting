@@ -26,6 +26,8 @@ collections:
   get-involved:
     output: true
     permalink: /:collection/:name
+  story_nodes:
+    output: false
 
 defaults:
   - scope:

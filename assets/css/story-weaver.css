@@ -1,0 +1,113 @@
+.story-weaver {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, var(--color-charcoal), #1a1a1a);
+    color: #fff;
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .story-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .story-text {
+    font-family: 'Cormorant', serif;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .story-text.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .story-choices {
+    display: grid;
+    gap: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease 0.5s, transform 1s ease 0.5s;
+  }
+  
+  .story-choices.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .choice-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .choice-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, var(--color-terracotta), var(--color-sky-blue));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 0;
+  }
+  
+  .choice-button:hover::before {
+    opacity: 0.2;
+  }
+  
+  .choice-button span {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .organic-blob {
+    position: fixed;
+    width: 50vw;
+    height: 50vw;
+    background: radial-gradient(circle, var(--color-terracotta) 0%, transparent 70%);
+    opacity: 0.1;
+    filter: blur(100px);
+    animation: float 20s ease-in-out infinite;
+  }
+  
+  .organic-blob:nth-child(2) {
+    background: radial-gradient(circle, var(--color-sky-blue) 0%, transparent 70%);
+    animation-delay: -10s;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    33% { transform: translate(5%, 5%) rotate(5deg); }
+    66% { transform: translate(-5%, 2%) rotate(-2deg); }
+  }
+  
+  .history-button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .history-button:hover {
+    color: #fff;
+  }

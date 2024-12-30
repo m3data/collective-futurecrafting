@@ -1,57 +1,33 @@
 ---
 layout: default
-title: "Collective Futurecrafting Playground"
-description: "Play with art and craft of collective futurecrafting."
+title: "Play - A Mythic Journey into Collective Futurecrafting"
 permalink: /craft/play/
 ---
 
-{% include page-hero.html
-  title="Coming soon: Playground"
-  description="Play with art and craft of collective futurecrafting."
-  theme="charcoal-pink-sky"
-  size="large"
-  align="center"
-  image="/assets/images/hero_gumbark.jpg"
-%}
+<div class="story-weaver">
+  <div class="story-container" id="storyContainer">
+    <!-- Story content will be dynamically inserted here -->
+  </div>
+</div>
 
-<!-- Card Content Grid -->
-  <section class="content-grid">
-    <div class="container">
-      <div class="grid">
-        <!-- Principles -->
-        <div class="card card--terracotta">
-          <h2>Principles</h2>
-          <p>Learn about the seven principles that guide Collective Futurecrafting.</p>
-          <a href="{{ '/craft/principles' | relative_url }}" class="button button--primary">Learn</a>
-        </div>
-        <!-- Patterns -->
-        <div class="card card--olive-green">
-          <h2>Patterns</h2>
-          <p>Understand the foundational patterns of Collective Futurecrafting.</p>
-          <a href="{{ '/craft/patterns' | relative_url }}" class="button button--primary">Understand</a>
-        </div>
-        <!-- Practices -->
-        <div class="card card--sun-gold">
-          <h2>Practices</h2>
-          <p>Explore the practices that bring Collective Futurecfating to life. </p>
-          <a href="{{ '/craft/practices' | relative_url }}" class="button button--primary">Explore</a>
-        </div>
-      </div>
-    </div>
-  </section>
-{% capture parallax_content %}
-<h2>Begin with us</h2>
-<p>
-  We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
-</p>
-<a href="#" class='button button--primary'>Become a futurecrafter →</a>
-{% endcapture %}
+<script>
+// Create story nodes object 
+const storyNodes = {
+  {% for node in site.story_nodes %}
+    "{{ node.id | split: '/' | last }}": {
+      text: {{ node.content | jsonify }},
+      choices: [
+        {% for choice in node.next_nodes %}
+        {
+          text: "{{ choice.text }}",
+          next: "{{ choice.next }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+};
 
-{% include parallax-section.html
-  background="/assets/images/seed-of-life-hero-rough.svg"
-  theme="sky-terra"
-  align="center"
-  height="full"
-  padding="medium"
-  content=parallax_content
-%}
+// Debug output
+console.log("Processed story nodes:", storyNodes);
+</script>

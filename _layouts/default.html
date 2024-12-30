@@ -45,8 +45,9 @@
         
         <!-- CSS -->
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-        <!-- JavaScript -->
-        <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+        {% if page.url contains '/play' %}
+            <link rel="stylesheet" href="{{ '/assets/css/story-weaver.css' | relative_url }}">
+        {% endif %}
     </head>
 <body>
     {% include header.html %}
@@ -54,5 +55,11 @@
         {{ content }}
     </main>
     {% include footer.html %}
+    
+    <!-- JavaScript -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+    {% if page.url contains '/play' %}
+        <script src="{{ '/assets/js/story-weaver.js' | relative_url }}" defer></script>
+    {% endif %}
 </body>
 </html>
