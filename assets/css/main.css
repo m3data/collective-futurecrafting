@@ -2217,6 +2217,112 @@ html, body {
   color: var(--color-sky-blue);
 }
 
+/* Gradient Dividers */
+
+/* Base divider styles */
+[class*="__divider"] {
+  width: 50%;
+  height: 2px;
+  margin: 0 auto;
+}
+
+/* Terracotta divider */
+.terra__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-terracotta),
+    transparent
+  );
+}
+
+/* Sky blue divider */
+.sky__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-sky-blue),
+    transparent
+  );
+}
+
+/* Olive green divider */
+.olive__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-olive-green),
+    transparent
+  );
+}
+
+/* Sun gold divider */
+.gold__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-sun-gold),
+    transparent
+  );
+}
+
+/* Charcoal divider */
+.charcoal__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-charcoal),
+    transparent
+  );
+}
+
+/* Two-color transitions */
+.terra-sky__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-terracotta),
+    var(--color-sky-blue),
+    transparent
+  );
+}
+
+.olive-gold__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-olive-green),
+    var(--color-sun-gold),
+    transparent
+  );
+}
+
+.sky-terra__divider {
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-sky-blue),
+    var(--color-terracotta),
+    transparent
+  );
+}
+
+/* Width variants */
+[class*="__divider"].w-25 { width: 25%; }
+[class*="__divider"].w-75 { width: 75%; }
+[class*="__divider"].w-100 { width: 100%; }
+
+/* Thickness variants */
+[class*="__divider"].thick { height: 3px; }
+[class*="__divider"].thin { height: 1px; }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  [class*="__divider"] {
+    width: 75%; /* Slightly wider on mobile by default */
+  }
+}
+
 /* Welcome Modal */
 .welcome-modal {
   position: fixed;
@@ -2269,35 +2375,27 @@ html, body {
   color: var(--color-charcoal);
 }
 
-.welcome-modal__divider {
-  width: 50%;
-  height: 2px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--color-terracotta),
-    transparent
-  );
-  margin: 0 auto;
-}
-
 .welcome-modal__button {
   margin-top: 1rem;
-  padding: 1rem 2rem;
   background: var(--color-terracotta);
   color: white;
   border: none;
-  border-radius: 2rem;
   font-size: 1.1rem;
-  font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ease;
   align-self: center;
+  display: inline-block;
+  padding: 0.8em 1.6em;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: transform 0.2s;
+  margin-top: 1rem;
 }
 
 .welcome-modal__button:hover {
   background: var(--color-charcoal);
   transform: translateY(-2px);
+  font-weight: 500;
 }
 
 /* Mobile adjustments */
