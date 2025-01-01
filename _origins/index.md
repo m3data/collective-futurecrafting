@@ -61,9 +61,9 @@ nav_order: 1
 %}
 
 {% capture submission_content %}
-<p>The original submission to the <a href="https://consult.industry.gov.au/sciencepriorities2">Draft National Science and Research Priorities consultation</a> was stark and bold.</p>
+<p>The original submission to the <a href="https://consult.industry.gov.au/sciencepriorities2" target="_blank">Draft National Science and Research Priorities consultation</a> was stark and bold.</p>
 
-<p>Welling from deep knowledge and lived experience in systemic change. And drawing on diverse work, from that of the Future Generations Commissioner for Wales, to polycentric self-governance and challenge based learning.</p>
+<p>Welling from deep knowledge across disciplines and lived experience in systemic change. And drawing on diverse work, from that of the <a href="https://www.futuregenerations.wales/" target="_blank">Future Generations Commissioner</a> for Wales, to <a href="https://www.researchgate.net/publication/376087466_Polycentric_self-governance_and_Indigenous_knowledge" target="_blank">polycentric self-governance and indigenous knowledge</a> and <a href="https://www.challengebasedlearning.org/" target="_blank">Challenge Based Learning</a> and much more.</p>
 
 <a href="https://drive.google.com/file/d/1NcjPlxTO5xRw1aAHo2wu_rjFirrJSjVK/view?usp=sharing" target="_blank" class="button button--primary">Read the original submission →</a>
 {% endcapture %}
