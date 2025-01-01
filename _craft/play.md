@@ -5,7 +5,7 @@ permalink: /craft/play/
 ---
 
 <div class="story-weaver">
-  <div class="story-container" id="storyContainer">
+  <div class="story-ui" id="storyContainer">
     <!-- Story content will be dynamically inserted here -->
   </div>
 </div>
