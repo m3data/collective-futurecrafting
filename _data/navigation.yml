@@ -7,12 +7,16 @@ main:
     url: /craft/
     dropdown: true
     subitems:
+      - title: Provocation
+        url: /craft/provocation/
       - title: Principles
         url: /craft/principles/
       - title: Patterns
         url: /craft/patterns/
       - title: Practices
         url: /craft/practices/
+      - title: Protocol
+        url: /craft/protocol/
       - title: Play
         url: /craft/play/
   - title: Resources

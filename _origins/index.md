@@ -83,7 +83,7 @@ nav_order: 1
 
 <!-- Submission Section End -->
 {% capture parallax_content %}
-<h2>A Living Practice</h2>
+<h2>A living system</h2>
 <p>
   Collective Futurecrafting is a provocation emergent from the intersection of <span class="bold-highlight">ancient wisdom</span> and <span class="bold-highlight">social innovation</span>, creating new possibilities for how we might live, learn, and thrive together.
 </p>

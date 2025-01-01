@@ -1071,6 +1071,29 @@ a:focus:not(:focus-visible) {
   );
 }
 
+/* Charcoal Pink Sky theme */
+.content-pod__background--pink-charcoal {
+  background: var(--color-sky-pink); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(66, 61, 51, 0.8)     /* Deep Charcoal */
+    rgba(255, 142, 142, 0.8),  /* Sky Pink */
+    rgba(167, 216, 240, 0.8)   /* Sky Blue */
+    
+  );
+}
+
+/* Sky Pink Charcoal theme */
+.content-pod__background--sky-pink-charcoal {
+  background: var(--color-sky-blue); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(167, 216, 240, 0.8),  /* Sky Blue */
+    rgba(255, 142, 142, 0.8),  /* Sky Pink */
+    rgba(66, 61, 51, 0.5)     /* Deep Charcoal */
+  );
+}
+
 .content-pod__blob {
   position: absolute;
   width: 200px;
@@ -2194,4 +2217,101 @@ html, body {
   color: var(--color-sky-blue);
 }
 
-/* Add more theme variants as needed */
+/* Welcome Modal */
+.welcome-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(167, 216, 240, 0.98), rgba(214, 138, 89, 0.98));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s;
+}
+
+.welcome-modal.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.welcome-modal__content {
+  max-width: 800px;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 3rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.welcome-modal__section {
+  text-align: center;
+}
+
+.welcome-modal__section h2 {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--color-charcoal);
+  margin-bottom: 1rem;
+}
+
+.welcome-modal__section p {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  line-height: 1.8;
+  color: var(--color-charcoal);
+}
+
+.welcome-modal__divider {
+  width: 50%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-terracotta),
+    transparent
+  );
+  margin: 0 auto;
+}
+
+.welcome-modal__button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background: var(--color-terracotta);
+  color: white;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: center;
+}
+
+.welcome-modal__button:hover {
+  background: var(--color-charcoal);
+  transform: translateY(-2px);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .welcome-modal__content {
+    padding: 2rem;
+    width: 85%;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .welcome-modal,
+  .welcome-modal__button {
+    transition: none;
+  }
+}

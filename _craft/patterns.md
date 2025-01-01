@@ -17,10 +17,10 @@ permalink: /craft/patterns/
 <div class="container">
   <div class="section-heading">
     <h2>Inspiration for the patterns</h2>
-    <p>We've drawn inspiration from diverse fields, thinkers, practices and ways of being to harness the patterns that work in coordinating collaboration. From biology and philosophy to complex systems and social movements.</p>
+    <p>We've drawn inspiration from diverse disciplines, thinkers, practices and ways of being to harness the patterns that work in coordinating collaboration. From biology and philosophy to complex systems and social movements.</p>
   </div>
   {% include content-pod.html
-    theme="sky-terra"
+    theme="sky-pink-charcoal"
     width="full"
     align="left"
     background_image="assets/images/seed-of-life-hero-rough.svg"
@@ -28,7 +28,6 @@ permalink: /craft/patterns/
     background_size="50%"
     background_position="right"
     content="
-    <p class='quote'>Expand each section to learn more...</p>
     <details class='accordion'>
         <summary class='accordion__trigger'>Nature's networks</summary>
         <div class='accordion__content'>
@@ -84,33 +83,124 @@ permalink: /craft/patterns/
   content="
   <h2>Start with circles</h2>
   <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
   <details class='accordion'>
     <summary class='accordion__trigger'>Why it works</summary>
     <div class='accordion__content'>
       <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>In a circle, there is no head of the table. Everyone can see each other. This simple geometry creates equality and encourages full participation in ways that hierarchical structures cannot match.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
     </div>
-  </details>
-
+  </details>"
+%}
+{% include content-pod.html
+  theme="sky-terra"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Do as nature does</h2>
+  <p>Picture a river system—small streams join to form larger rivers, but each stream keeps its unique character. That's how we grow: circles connect into CLANs (Community Learning and Action Nests), CLANs flow into Rhiozomes (bioregional networks), all while keeping their local flavor and context.</p>
   <details class='accordion'>
-    <summary class='accordion__trigger'>Starting Your Circle</summary>
+    <summary class='accordion__trigger'>Why it works</summary>
     <div class='accordion__content'>
-      <p>Begin with 3-7 people who share a common interest or concern. This size is large enough for diversity of perspective but small enough for everyone to be heard.</p>
-      <p>Meet regularly to build trust and momentum. Use storytelling to deepen connections. Make decisions through consensus rather than hierarchy. Remember, the goal is to create a space where everyone feels safe to share, dream, and act together.</p>
+      <p>This natural scaling lets us tackle big challenges without losing the local touch that makes solutions work.</p>
     </div>
-  </details>
-
+  </details>"
+%}
+{% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
   <details class='accordion'>
-    <summary class='accordion__trigger'>Circle Practices</summary>
+    <summary class='accordion__trigger'>Why it works</summary>
     <div class='accordion__content'>
-      <p>Successful circles often incorporate practices like:</p>
-      <ul>
-        <li>Opening and closing rituals that mark the space as special</li>
-        <li>Check-ins that allow everyone to arrive fully</li>
-        <li>Shared agreements about how to be together</li>
-        <li>Regular reflection on what's working and what needs adjustment</li>
-      </ul>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
+    </div>
+  </details>"
+%}
+{% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Why it works</summary>
+    <div class='accordion__content'>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
+    </div>
+  </details>"
+%}
+{% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Why it works</summary>
+    <div class='accordion__content'>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
+    </div>
+  </details>"
+%}
+{% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Why it works</summary>
+    <div class='accordion__content'>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
+    </div>
+  </details>"
+%}
+{% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Why it works</summary>
+    <div class='accordion__content'>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
     </div>
   </details>"
 %}
@@ -120,6 +210,25 @@ permalink: /craft/patterns/
     <h2>Patterning of Circles</h2>
     <p>At the foundation of Collective Futurecrafting are circles—small, decentralised, and purpose-driven groups that form the building blocks of a scalable governance framework. These circles embody the principles of relational trust, self-determination, and reciprocity, offering spaces where moral imagination and action converge. Their strength lies in their diversity, adaptability, and shared purpose, allowing them to address challenges at both local and systemic scales.</p>
   </div>
+  {% include content-pod.html
+  theme="terra-sky"
+  width="full"
+  align="left"
+  background_image="assets/images/patterns/circles.svg"
+  background_opacity="0.1"
+  background_size="50%"
+  background_position="right"
+  content="
+  <h2>Start with circles</h2>
+  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
+  <details class='accordion'>
+    <summary class='accordion__trigger'>Why it works</summary>
+    <div class='accordion__content'>
+      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
+      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
+    </div>
+  </details>"
+%}
 </div>
 <!-- Card Content Grid -->
   <section class="content-grid">
