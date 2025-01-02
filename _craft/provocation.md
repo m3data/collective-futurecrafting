@@ -16,11 +16,11 @@ description: "Why we need to craft flourishing futures together"
 <div class="container">
   <div class="section-heading">
     <h2>Let's be real</h2>
-    <p>The world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, technological upheaval—it's enough to make anyone want to pull the covers over their head and wait it out.</p>
-    <p>But here's the thing: within this mess lies an invitation. Not just to survive what's coming, but to reimagine what's possible. To craft something beautiful from the pieces of what's breaking.</p>
-    <p>This is your invitation to dream bigger. To act bolder. To craft futures worthy of our children's great great grandchildren.</p>
+    <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, technological surviellance—it's enough to make anyone want to pull the covers over their head beacuase it's all too big, complex, and well, damn right overwhelming.</p>
+    <p>But here's the thing: within this mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p>
+    <p>Collective Futurecrafting has emerged from this opportunity, as an invitation to craft something beautiful from the pieces of what's breaking. Futures worthy of our children's great great grandchildren.</p>
   </div>
-  {% include content-pod.html
+  {% include content-pod.html 
     theme="terra-sky"
     width="full"
     align="left"
@@ -28,16 +28,22 @@ description: "Why we need to craft flourishing futures together"
     background_opacity="0.1"
     background_size="50%"
     background_position="right"
-    content="
-    <h2>The stories we're stuck in</h2>
-    <p>Right now, we're caught between two stories about the future, and neither one is serving us:</p>
+    content="<h2>A crisis of imagination</h2>
+    <p>Humanity is trapped in a crisis of imagination, oscillating between two extremes reflecting the dominant narratives of our times.</p>
     <ul>
-      <li><strong>The story of dystopia:</strong> everything's doomed. The planet's dying, society's collapsing, and the best we can do is hunker down and hope for the best. It's Mad Max meets The Hunger Games, minus the cool costumes.</li>
-      <li><strong>The story of utopia:</strong> technology will save us! We'll all live in perfect harmony in our sustainable houses, with the help of our AI and robot assitants, eating lab-grown everything with nanobots healing the planet with our AGI overlords. Just trust the billionaires and the WEFerati—they've got this handled.</li>
+      <li><strong>Dystopian:</strong> We're doomed, the world's ending, and there's nothing we can do about it.</li>
+      <li><strong>Utopian:</strong> Technology will save us, and we'll all live in perfect harmony with the help of our AI overlords.</li>
     </ul>
-    <p>Neither of these stories helps us navigate the real world we're living in. They keep us stuck in a cycle of fear and inaction, waiting for someone else to fix things for us.</p>
-    "
-  %}
+    <p>Neither of these stories helps us navigate the real world we're living in. They keep us stuck in a cycle of fear and inaction, waiting for someone else to fix things for us.</p>"
+    accordion_content="<p>Apocalyptic narratives abound as we find it easy to imagine that we're all doomed! The planet's dying, society's collapsing, and the best we can do is hunker down and hope for the best. It's Mad Max meets The Hunger Games with a dash of Orwellian sauce, minus the cool costumes.</p>
+    <p>On the flip side, we have the techno-utopians who believe that technology will save us. We'll all live in perfect harmony with the help of our AI overlords, and we'll never have to worry about anything ever again. It's Star Trek meets The Matrix with a side of Silicon Valley hubris.</p>
+    <p>And there are many complex and nuanced stories in between. But the dominant narratives of our time tend to fall into these two camps, leaving us feeling powerless and disconnected from the world we're living in.</p>
+    <p>If you'd like to learn more about this, check out:</p>
+    <ul>
+      <li>The book <a href='https://www.geoffmulgan.com/another-world-is-possible' target='_blank'>Another World is Possible</a> or the paper <a href='https://demoshelsinki.fi/publication/the-imaginary-crisis-and-how-we-might-quicken-social-and-public-imagination/' target='_blank'>The Imaginary Crisis (and how we might quicken social and public imagination)</a> by Geoff Mulgan.</li>
+      <li>The paper <a href='https://ieeexplore.ieee.org/document/10568172' target='_blank'>Rainbow Mirrors: Technology and Our Collective Moral Imagination</a> by Alja Isakovic and Mathew Mytka.</li>
+    </ul>"
+%}
   {% include content-pod.html
     theme="sky-terra"
     width="full"
@@ -47,36 +53,93 @@ description: "Why we need to craft flourishing futures together"
     background_size="50%"
     background_position="right"
     content="
-    <h2>Enter Thrutopia</h2>
-    <p>But what if there's a third story? Not over or under our challenges, but through them? A story where we're not victims or saviors, but <strong>crafters</strong> of our own future shared future on this beautiful planet we call home?</p>
-    <p>Thrutopia isn't about perfect solutions or total collapse. It's about:</p>
+    <h2>Enter thrutopia</h2>
+    <p>But what if there's a third story? Not over or under our challenges, but through them? A story where we're not victims or saviors, but <strong>crafters</strong> of our own shared future on this beautiful planet we call home?</p>
+    <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>Think of it like crafting a meal from what's in your garden. You work with what you have, learn from what works, and share the bounty with others. It's not about perfection—it's about presence, community, creativity and care.</p>"
+    accordion_content="<p>Thrutopia isn't about perfect solutions or total collapse. It's about:</p>
     <ul>
-      <li><strong>Thriving in complexity:</strong> embracing the messiness of life and learning to navigate it with grace and courage.</li>
-      <li><strong>Co-creating the future:</strong> working together to craft a world that's beautiful, just, and regenerative for all beings.</li>
-      <li><strong>Living into the unknown:</strong> letting go of the need for certainty and control, and stepping into the mystery of what's possible.</li>
+      <li>Embracing the messiness of life and learning to navigate it with grace and courage.</li>
+      <li>Working together to craft a world that's beautiful, just, and regenerative for all beings.</li>
+      <li>Living into the unknown and letting go of the need for certainty and control, and stepping into the mystery of what's possible.</li>
     </ul>
-    <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>Think of it like crafting a meal from what's in your garden. You work with what you have, learn from what works, and share the bounty with others. It's not about perfection—it's about presence, community, creativity and care.</p>
-    "
+    <p>If you want to learn more about Thrutopia, here are a few starting points:</p>
+    <ul>
+      <li>The orginal article from <a href='https://www.huffingtonpost.co.uk/rupert-read/thrutopia-why-neither-dys_b_18372090.html' target='_blank'>Rupert Read</a> who coined the term Thrutopia.</li>
+      <li>The work of <a href='https://mandascott.co.uk/why-we-need-thrutopias/' target='_blank'>Manda Scott</a>.</li>
+    </ul>"
   %}
 </div>
 {% include parallax-section.html
+background="/assets/images/horizons/all-horizons-blank.png"
 theme="terra-sky"
-height="medium"
+align="center"
+height="full"
 content="
-Three Horizons: A Map for Change
-Imagine looking at three different versions of our world, layered on top of each other:
+<h2>Thrutopia and Three Horizons</h2>
+" %}
+<div class="container">
+  <div class="section-heading">
+    <h2>Three Intersecting Horizons</h2>
+    <p>The past is compost for the future, and the present is where we shape what's emerging.</p>
+  </div>
+{% include content-pod.html
+theme="terra-sky"
+width="full"
+align="left"
+background_image="assets/images/horizons/all-horizons-blank.png"
+background_opacity="0.2"
+background_size="100%"
+background_position="center"
+content="
+<h2>The Territory of Three Horizons</h2>
+<p>Thrutopia offers a new lens, navigating the messy, imperfect pathways through the challenges we face. It acknowledges the need for aspiration while remaining grounded in the here and now.</p>
+<p>But how do we chart a course through uncertainty, grounded in hope and action?</p>
+<p>The Three Horizons Framework provides a way to navigate.</p>
+<details class='accordion'>
+        <summary class='accordion__trigger'>What are the Three Horizons?</summary>
+        <div class='accordion__content'>
+          <p>The Three Horizons Framework is a way of understanding the past, present, and future as interconnected and interdependent. It helps us see where we've come from, where we are, and where we're going.</p>
+          <p>Each horizon represents a different way of thinking, doing, and being in the world. By mapping these horizons, we can see how they interact and influence each other, and how we can shape the future we want to create.</p>
+          <p>You can <a href='https://www.h3uni.org/tutorial/three-horizons/' target='_blank'>learn more about this framework here</a>.</p>
+        </div>
+</details>" %}
+
+{% include content-pod.html
+theme="white-terra"
+width="full"
+align="left"
+background_image="assets/images/horizons/h1-blank.png"
+background_opacity="0.3"
+background_size="100%"
+background_position="center"
+content="
+<h2>Horizon 1: The World We're In</h2><p>This is the world of business as usual. Extractive economies, top-down control, endless growth on a finite planet. It's familiar, but it's failing us.</p>
+<p>This horizon represents the institutions, ways of thinking, doing and creating that currently dominate but are no longer fit for purpose. These systems—extractive economies, hierarchical governance, and consumer-driven cultures—are at odds with sustaining life on Earth.</p>
+<details class='accordion'>
+        <summary class='accordion__trigger'>The challenge</summary>
+        <div class='accordion__content'>
+          <p>These systems are entrenched, resisting change while accelerating planetary degradation.</p>
+        </div>
+</details>
+<details class='accordion'>
+        <summary class='accordion__trigger'>How Collective Futurecrafting fits</summary>
+        <div class='accordion__content'>
+          <p>Identify the dysfunctions of H1 and create spaces for communities to articulate their discontent, grief, and fears about these systems.</p>
+        </div>
+</details>
 " %}
 {% include content-pod.html
+theme="terra-sky"
+content="<h2>Horizon 2: The World That's Emerging</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. Some will flourish, others will fade, but all teach us something.</p>"
+accordion_content="<p>This horizon is where the seeds of change are taking root. It's a world of experimentation, innovation, and collaboration. People are coming together to create new ways of living, working, and being that honor the Earth and each other.</p>"
+%}
+{% include content-pod.html
 theme="sky-terra"
-content="
-Horizon 1: The World We're In
-This is the world of business as usual. Extractive economies, top-down control, endless growth on a finite planet. It's familiar, but it's failing us.
-Horizon 2: The World That's Emerging
-This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. Some will flourish, others will fade, but all teach us something.
-Horizon 3: The World That Could Be
-This is where we let ourselves dream big. A world where humans and nature thrive together. Where communities are strong and economies serve life rather than the other way around.
-The magic happens in how these horizons interact. Like composting old leaves to feed new growth, we can transform what's breaking down into nutrients for what's emerging.
-" %}
+content="<h2>Horizon 3: The World That Could Be</h2><p>This is where we let ourselves dream big. A world where humans and nature thrive together. Where communities are strong and our economies serve life rather than the other way around.</p>
+<p>The magic happens in how these horizons interact. Like composting old leaves to feed new growth, we can transform what's breaking down into nutrients for what's emerging.</p>"
+accordion_content="<p>This horizon is where we dare to dream. It's a world where humans and nature thrive together, where communities are strong, and our economies serve life rather than the other way around.</p>"
+%}
+
 {% include quote-callout.html 
   quote="The future is not written in stone. It's more like clay, waiting for many hands to shape it into an expression of our highest calling."
   attribution="Origin Steward - Mathew Mytka"
@@ -129,6 +192,7 @@ Trust the process
 
 The world needs your voice, your ideas, your energy. Now more than ever.
 " %}
+</div>
 {% include parallax-section.html
 theme="sky-terra"
 height="medium"

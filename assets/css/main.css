@@ -1072,7 +1072,7 @@ a:focus:not(:focus-visible) {
 }
 
 /* Charcoal Pink Sky theme */
-.content-pod__background--pink-charcoal {
+.content-pod__background--charcoal-pink-sky {
   background: var(--color-sky-pink); /* Fallback */
   background: linear-gradient(
     to bottom,
