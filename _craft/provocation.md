@@ -5,18 +5,19 @@ description: "Why we need to craft flourishing futures together"
 ---
 
 {% include page-hero.html
-  title="Why now?"
-  subtitle="A provocation"
+  title="A provocation"
+  subtitle="Why Now?"
   description="The future isn't something that happens to us. It's something we craft together."
-  theme="sky-terra-gold"
+  theme="charcoal-pink-sky"
   size="large"
   align="center"
+  image="/assets/images/hero_beach-dawn.jpg"
 %}
 
 <div class="container">
   <div class="section-heading">
     <h2>Let's be real</h2>
-    <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, technological surviellance—it's enough to make anyone want to pull the covers over their head beacuase it's all too big, complex, and well, damn right overwhelming.</p>
+    <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, techno-optimists, surviellance captialism, the enshittification of our information ecologies—it's enough to make anyone want to pull the covers over their head beacuase it's all too big, too complex, and well, damn right overwhelming.</p>
     <p>But here's the thing: within this mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p>
     <p>Collective Futurecrafting has emerged from this opportunity, as an invitation to craft something beautiful from the pieces of what's breaking. Futures worthy of our children's great great grandchildren.</p>
   </div>
@@ -53,7 +54,7 @@ description: "Why we need to craft flourishing futures together"
     background_size="50%"
     background_position="right"
     content="
-    <h2>Enter thrutopia</h2>
+    <h2>Enter Thrutopia</h2>
     <p>But what if there's a third story? Not over or under our challenges, but through them? A story where we're not victims or saviors, but <strong>crafters</strong> of our own shared future on this beautiful planet we call home?</p>
     <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>Think of it like crafting a meal from what's in your garden. You work with what you have, learn from what works, and share the bounty with others. It's not about perfection—it's about presence, community, creativity and care.</p>"
     accordion_content="<p>Thrutopia isn't about perfect solutions or total collapse. It's about:</p>
@@ -70,7 +71,7 @@ description: "Why we need to craft flourishing futures together"
   %}
 </div>
 {% include parallax-section.html
-background="/assets/images/horizons/all-horizons-blank.png"
+background="/assets/images/horizons/3-deep-horizons.png"
 theme="terra-sky"
 align="center"
 height="full"
@@ -91,7 +92,6 @@ background_opacity="0.2"
 background_size="100%"
 background_position="center"
 content="
-<h2>The Territory of Three Horizons</h2>
 <p>Thrutopia offers a new lens, navigating the messy, imperfect pathways through the challenges we face. It acknowledges the need for aspiration while remaining grounded in the here and now.</p>
 <p>But how do we chart a course through uncertainty, grounded in hope and action?</p>
 <p>The Three Horizons Framework provides a way to navigate.</p>
@@ -100,12 +100,12 @@ content="
         <div class='accordion__content'>
           <p>The Three Horizons Framework is a way of understanding the past, present, and future as interconnected and interdependent. It helps us see where we've come from, where we are, and where we're going.</p>
           <p>Each horizon represents a different way of thinking, doing, and being in the world. By mapping these horizons, we can see how they interact and influence each other, and how we can shape the future we want to create.</p>
-          <p>You can <a href='https://www.h3uni.org/tutorial/three-horizons/' target='_blank'>learn more about this framework here</a>.</p>
+          <p>Learn more about the <a href='https://www.h3uni.org/tutorial/three-horizons/' target='_blank'>Three Horizons framework</a>.</p>
         </div>
 </details>" %}
 
 {% include content-pod.html
-theme="white-terra"
+theme="sky-terra"
 width="full"
 align="left"
 background_image="assets/images/horizons/h1-blank.png"
@@ -113,8 +113,8 @@ background_opacity="0.3"
 background_size="100%"
 background_position="center"
 content="
-<h2>Horizon 1: The World We're In</h2><p>This is the world of business as usual. Extractive economies, top-down control, endless growth on a finite planet. It's familiar, but it's failing us.</p>
-<p>This horizon represents the institutions, ways of thinking, doing and creating that currently dominate but are no longer fit for purpose. These systems—extractive economies, hierarchical governance, and consumer-driven cultures—are at odds with sustaining life on Earth.</p>
+<h2>Horizon One (H1): The Dominant System in Decline</h2><p>This is the world of business as usual. Extractive economies, top-down control, endless growth on a finite planet.
+It represents the institutions, ways of thinking, doing and creating that currently dominate but are no longer fit for purpose. These systems—extractive economies, hierarchical governance, and consumer-driven cultures—are at odds with sustaining life on Earth.</p>
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
         <div class='accordion__content'>
@@ -130,14 +130,48 @@ content="
 " %}
 {% include content-pod.html
 theme="terra-sky"
-content="<h2>Horizon 2: The World That's Emerging</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. Some will flourish, others will fade, but all teach us something.</p>"
-accordion_content="<p>This horizon is where the seeds of change are taking root. It's a world of experimentation, innovation, and collaboration. People are coming together to create new ways of living, working, and being that honor the Earth and each other.</p>"
+width="full"
+align="left"
+background_image="assets/images/horizons/h2-blank.png"
+background_opacity="0.3"
+background_size="100%"
+background_position="center"
+content="<h2>Horizon Two (H2): Emergence of the Adjacent Possible</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. It is messy, contested, and full of friction as elements of both H1 and H3 collide. Some ideas will flourish, others will fade, but all teach us something. Horizon 2 is where the seeds of change become radicles. But people are coming together to create new ways of living, working, and being that honour the Earth and each other.</p>
+<details class='accordion'>
+        <summary class='accordion__trigger'>The challenge</summary>
+        <div class='accordion__content'>
+          <p>Many H2 innovations, movements and initiatives remain fragmented, are easily co-opted by H1 institutions attempting to maintain power, or just lack the coherence to scale.</p>
+        </div>
+</details>
+<details class='accordion'>
+        <summary class='accordion__trigger'>How Collective Futurecrafting fits</summary>
+        <div class='accordion__content'>
+          <p>Acts as a bridge-builder in H2, fostering Futurecrafting Circles, CLANs, and Rhiozomes that prototype regenerative systems while learning from both the failures and successes of existing efforts of the adjacent possible.</p>
+        </div>
+</details>"
 %}
 {% include content-pod.html
 theme="sky-terra"
-content="<h2>Horizon 3: The World That Could Be</h2><p>This is where we let ourselves dream big. A world where humans and nature thrive together. Where communities are strong and our economies serve life rather than the other way around.</p>
-<p>The magic happens in how these horizons interact. Like composting old leaves to feed new growth, we can transform what's breaking down into nutrients for what's emerging.</p>"
-accordion_content="<p>This horizon is where we dare to dream. It's a world where humans and nature thrive together, where communities are strong, and our economies serve life rather than the other way around.</p>"
+width="full"
+align="left"
+background_image="assets/images/horizons/h3-blank.png"
+background_opacity="0.3"
+background_size="100%"
+background_position="center"
+content="<h2>Horizon Three (H3): The World That Could Be</h2><p>This represents the systems and cultures of a flourishing future, or what Glenn Albrecht calls the <a href='https://symbioscene.com/invitation-to-the-symbiocene/' target='_blank'>Symbiocene</a>. These systems are regenerative, reciprocal, and attuned to the rhythms of life on Earth.</p>
+<p>This horizon is where we dare to dream. It's a world where humans and nature thrive together, where communities are strong, and our economies serve life rather than the other way around.</p>
+<details class='accordion'>
+        <summary class='accordion__trigger'>The challenge</summary>
+        <div class='accordion__content'>
+          <p>H3 cannot emerge without a deliberate effort to imagine and build it in the present together. One circle, action, relationship and story at a time.</p>
+        </div>
+</details>
+<details class='accordion'>
+        <summary class='accordion__trigger'>How Collective Futurecrafting fits</summary>
+        <div class='accordion__content'>
+          <p>Cultivate moral imagination and systemic action to bring H3 into being. CF encourages individuals and communities to hold H3 as a North Star, nurturing the seeds of this horizon through grounded, place-based action.</p>
+        </div>
+</details>"
 %}
 
 {% include quote-callout.html 
