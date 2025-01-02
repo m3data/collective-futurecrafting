@@ -2413,3 +2413,57 @@ html, body {
     transition: none;
   }
 }
+
+/* Flexgrid section */
+.flex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.flex-grid__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.flex-grid__icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--color-charcoal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: var(--color-charcoal);
+  transition: transform 0.2s ease;
+}
+
+.flex-grid__title {
+  font-family: "Cormorant", serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-charcoal);
+}
+
+.flex-grid__text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-charcoal);
+}
+
+@media (min-width: 1024px) {
+  .flex-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .flex-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

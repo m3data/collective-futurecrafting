@@ -136,7 +136,7 @@ background_image="assets/images/horizons/h2-blank.png"
 background_opacity="0.3"
 background_size="100%"
 background_position="center"
-content="<h2>Horizon Two (H2): Emergence of the Adjacent Possible</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. It is messy, contested, and full of friction as elements of both H1 and H3 collide. Some ideas will flourish, others will fade, but all teach us something. Horizon 2 is where the seeds of change become radicles. But people are coming together to create new ways of living, working, and being that honour the Earth and each other.</p>
+content="<h2>Horizon Two (H2): Emergence of the Adjacent Possible</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. It is messy, contested, and full of friction as elements of both H1 and H3 collide. Some ideas will flourish, others will fade, but all teach us something. Horizon 2 is where the seeds of change become radicles. People are coming together to create new ways of living, working, and being that honour the Earth and each other.</p>
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
         <div class='accordion__content'>
@@ -173,6 +173,38 @@ content="<h2>Horizon Three (H3): The World That Could Be</h2><p>This represents 
         </div>
 </details>"
 %}
+{% include content-pod.html
+theme="sky-terra"
+width="full"
+align="left"
+background_image="assets/images/horizons/h3-blank.png"
+background_opacity="0.3"
+background_size="100%"
+background_position="center"
+content='
+<h2 class="section-heading">The Intersections</h2>
+<p class="mb-8">The tension between the horizons is not a problem to solve but an energy and creative force to harness. Collective Futurecrafting works within this dynamic space:</p>
+
+<div class="flex-grid">
+  <!-- Section 1 -->
+  <div class="flex-grid__item">
+    <h3 class="flex-grid__title">Critiquing and Composting in H1</h3>
+    <p class="flex-grid__text">Challenging extractive practices while composting old systems into resources for H2 and H3.</p>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="flex-grid__item">
+    <h3 class="flex-grid__title">Prototyping and Scaling in H2</h3>
+    <p class="flex-grid__text">Experimenting with adjacent possibilities and building networks to scale successful solutions.</p>
+  </div>
+  <!-- Section 3 -->
+  <div class="flex-grid__item">
+    <h3 class="flex-grid__title">Visioning and Anchoring H3</h3>
+    <p class="flex-grid__text">Using storytelling, rituals, and collective moral imagination to make H3 feel tangible and actionable in the present.</p>
+  </div>
+</div>
+'
+%}
 
 {% include quote-callout.html 
   quote="The future is not written in stone. It's more like clay, waiting for many hands to shape it into an expression of our highest calling."
@@ -181,56 +213,3 @@ content="<h2>Horizon Three (H3): The World That Could Be</h2><p>This represents 
   size="large"
   align="center"
 %}
-{% include content-pod.html
-theme="olive-gold"
-content="
-What Makes This Different?
-Collective Futurecrafting isn't just another framework or methodology. It's a living system of:
-Principles
-Like having a good recipe—guidelines that help us create something nourishing.
-Patterns
-Nature's blueprints for what works, tried and tested over billions of years.
-Practices
-Hands-on tools for turning ideas into reality.
-Protocols
-Ways of working together that bring out the best in everyone.
-Play
-Because if we're not having fun, we're doing it wrong.
-" %}
-{% include parallax-section.html
-theme="gold-olive"
-height="medium"
-content="
-Your Invitation
-This isn't about being perfect. It's about being brave enough to try something new. To experiment. To learn. To craft futures worth living into.
-Here's what we're inviting you to do:
-
-Join circles of people who want to make good things happen
-Start small but think big
-Learn by doing
-Share what works
-Celebrate every step forward
-
-The future is calling. Will you help craft it?
-" %}
-{% include content-pod.html
-theme="terra-sky"
-content="
-Ready to Start?
-You don't need special qualifications. You don't need to have it all figured out. You just need to be willing to:
-
-Show up with an open heart
-Work with others
-Learn as you go
-Trust the process
-
-The world needs your voice, your ideas, your energy. Now more than ever.
-" %}
-</div>
-{% include parallax-section.html
-theme="sky-terra"
-height="medium"
-content="
-<h2>A provocation</h2>
-Everything you read here on this site is an invitation. A challenge. A call to relation inter-action. We're not here to tell you what to do. We're here to ask you to step up, to take a risk, to be part of something bigger than yourself.
-" %}
