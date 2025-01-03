@@ -183,7 +183,7 @@ background_size="100%"
 background_position="center"
 content='
 <h2 class="section-heading">The Intersections</h2>
-<p class="mb-8">The tension between the horizons is not a problem to solve but an energy and creative force to harness. Collective Futurecrafting works within this dynamic space:</p>
+<p class="mb-8">The tension between the horizons is not a problem to solve but a creative force to harness. Collective Futurecrafting works within this dynamic space.</p>
 
 <div class="flex-grid">
   <!-- Section 1 -->
