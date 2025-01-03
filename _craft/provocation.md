@@ -2,6 +2,7 @@
 layout: default
 title: "Provocation - Collective Futurecrafting"
 description: "Why we need to craft flourishing futures together"
+permalink: /craft/provocation/
 ---
 
 {% include page-hero.html
