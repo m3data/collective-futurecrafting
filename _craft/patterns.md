@@ -101,7 +101,7 @@ permalink: /craft/patterns/
   background_position="right"
   content="
   <h2>Do as nature does</h2>
-  <p>Picture a river system—small streams join to form larger rivers, but each stream keeps its unique character. That's how we grow: circles connect into CLANs (Community Learning and Action Nests), CLANs flow into Rhiozomes (bioregional networks), all while keeping their local flavor and context.</p>
+  <p>Picture a river system—small streams join to form larger rivers, but each stream keeps its unique character. That's how we grow: circles connect into CLANs (Community Learning and Action Nests), CLANs flow into Rhiozomes (bioregional networks), all while keeping their local flavor and context. This is manifests in the <a href='#'>protocol</a> of Collective Futurecrafting.</p>
   <details class='accordion'>
     <summary class='accordion__trigger'>Why it works</summary>
     <div class='accordion__content'>
@@ -137,7 +137,7 @@ permalink: /craft/patterns/
   background_size="50%"
   background_position="right"
   content="
-  <h2>Start with circles</h2>
+  <h2>Nested Scales</h2>
   <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
   <details class='accordion'>
     <summary class='accordion__trigger'>Why it works</summary>
@@ -156,7 +156,7 @@ permalink: /craft/patterns/
   background_size="50%"
   background_position="right"
   content="
-  <h2>Start with circles</h2>
+  <h2>Living Labs</h2>
   <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
   <details class='accordion'>
     <summary class='accordion__trigger'>Why it works</summary>
@@ -175,7 +175,7 @@ permalink: /craft/patterns/
   background_size="50%"
   background_position="right"
   content="
-  <h2>Start with circles</h2>
+  <h2>Somatic Circles</h2>
   <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
   <details class='accordion'>
     <summary class='accordion__trigger'>Why it works</summary>
@@ -194,7 +194,7 @@ permalink: /craft/patterns/
   background_size="50%"
   background_position="right"
   content="
-  <h2>Start with circles</h2>
+  <h2>Imagination Circles</h2>
   <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
   <details class='accordion'>
     <summary class='accordion__trigger'>Why it works</summary>
