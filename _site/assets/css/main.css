@@ -2467,3 +2467,107 @@ html, body {
     gap: 2rem;
   }
 }
+/* Protocol Sections */
+.protocol-section {
+  margin-bottom: 2rem;
+}
+
+.protocol-section h2 {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  margin-bottom: 1.5rem;
+  color: var(--color-charcoal);
+}
+
+.protocol-section h3 {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin: 1.5rem 0 1rem;
+  color: var(--color-charcoal);
+}
+
+.protocol-section h4 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  color: var(--color-charcoal);
+}
+
+.protocol-subsection {
+  margin: 2rem 0;
+}
+
+/* Protocol Lists */
+.protocol-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.protocol-list li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.protocol-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-terracotta);
+}
+
+.protocol-list--highlighted li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Protocol Grid */
+.protocol-grid {
+  display: grid;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .protocol-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.protocol-grid-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* Protocol Notes */
+.protocol-note {
+  font-style: italic;
+  font-size: 1.1rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+}
+
+/* Protocol Emphasis */
+.protocol-emphasis {
+  font-weight: 600;
+  color: var(--color-terracotta);
+}
+
+/* Protocol Links */
+.protocol-link {
+  color: var(--color-terracotta);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.protocol-link:hover {
+  border-color: var(--color-terracotta);
+}

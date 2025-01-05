@@ -208,7 +208,7 @@ content='
 %}
 
 {% include quote-callout.html 
-  quote="The future is not written in stone. It's more like clay, waiting for many hands to shape it into an expression of our highest calling."
+  quote="The future is not written in stone. It's more like clay, waiting for many hands to craft it into an expression of our highest calling."
   attribution="Origin Steward - Mathew Mytka"
   theme="terra-sky"
   size="large"

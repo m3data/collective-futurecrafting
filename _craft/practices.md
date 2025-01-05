@@ -7,7 +7,7 @@ permalink: /craft/practices/
 
 {% include page-hero.html
   title="Collective Futurecrafting Practices"
-  description="Learn about the practices that support the art and craft of collective futurecrafting."
+  description="Discover the living practices that bring our patterns to life and embody our principles in action."
   theme="charcoal-pink-sky"
   size="large"
   align="center"
@@ -16,8 +16,8 @@ permalink: /craft/practices/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Practices to embody Collective Futurecrafting</h2>
-    <p>These practices are designed to support the embodiment of the <a href="#">Principles</a> and <a href="#">Patterns</a> of Collective Futurecrafting.</p>
+    <h2>Living Practices for Living Systems</h2>
+    <p>These practices are not rigid techniques but living ways of working that help us embody the <a href="/craft/principles">Principles</a> and express the <a href="/craft/patterns">Patterns</a> of Collective Futurecrafting. Each practice weaves together multiple patterns while staying grounded in our core principles.</p>
   </div>
 </div>
 
@@ -32,7 +32,26 @@ permalink: /craft/practices/
     <details class='accordion'>
             <summary class='accordion__trigger'>How it works</summary>
             <div class='accordion__content'>
-              <p></p>
+              <ol>
+                <li>Gather 3-7 people who share a common interest or concern.</li>
+                <li>Create a safe, welcoming space for gathering (physical or virtual).</li>
+                <li>Begin with a centering practice to ground the group.</li>
+                <li>Use check-in rounds to build connection and presence.</li>
+                <li>Establish shared agreements for how you'll work together.</li>
+                <li>Close with reflection and gratitude.</li>
+              </ol>
+              <p>Remember: Circles are living entities that grow and evolve. Start simple and let the practice deepen over time.</p>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Patterns</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li><strong>Circles as Relational Foundations:</strong> This practice directly embodies our core pattern of using circles to build trust and foster collaboration.</li>
+                <li><strong>Self-Organization and Emergence:</strong> Circles form organically around shared interests and needs.</li>
+                <li><strong>Healing as Collective Journey:</strong> Circles provide space for processing emotions and building resilience together.</li>
+                <li><strong>Storytelling as Connector:</strong> Circle practice creates space for sharing stories and building shared narrative.</li>
+              </ul>
             </div>
     </details>
     <details class='accordion'>
@@ -40,61 +59,56 @@ permalink: /craft/practices/
             <div class='accordion__content'>
               <ul>
                 <li>Interconnection</li>
-                <li>Self-Deterination</li>
+                <li>Self-Determination</li>
                 <li>Relational Trust</li>
               </ul>
+            </div>
+    </details>
+    <p>Practice Guide - Emerging Soon.</p>" %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    width="full"
+    align="left"
+    content="
+    <h2>Somatic Crafting</h2>
+    <p>A set of embodied practices that help us move from intellectual understanding to lived experience of our principles and patterns. Through movement, breath, and collective ritual, we integrate these ways of being into our bodies and relationships.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
+            <div class='accordion__content'>
+              <ol>
+                <li>Choose a pattern or principle to explore somatically.</li>
+                <li>Create a safe container for embodied exploration.</li>
+                <li>Guide participants through:
+                  <ul>
+                    <li>Centering practices to ground in the body</li>
+                    <li>Movement explorations that embody the chosen theme</li>
+                    <li>Partner or group exercises to build relational awareness</li>
+                    <li>Reflection and integration</li>
+                  </ul>
+                </li>
+                <li>Close with collective grounding and gratitude.</li>
+              </ol>
             </div>
     </details>
     <details class='accordion'>
             <summary class='accordion__trigger'>Related Patterns</summary>
             <div class='accordion__content'>
               <ul>
-                <li>Circling</li>
-                <li>Deep Listening</li>
-                <li>Collective Wisdom</li>
+                <li><strong>Healing as Collective Journey:</strong> Somatic practices support individual and collective healing through embodied awareness.</li>
+                <li><strong>Cyclical Processes:</strong> Regular somatic practice creates rhythms of embodied learning and integration.</li>
+                <li><strong>Reciprocity and Mutual Benefit:</strong> Partner and group practices build embodied understanding of reciprocity.</li>
+                <li><strong>Intergenerational Engagement:</strong> Movement and ritual can bridge across ages and cultures.</li>
               </ul>
-            </div>
-    </details>
-    <p>Practice Guide - Emerging Soon.</p>" %}
-    {% include content-pod.html
-    theme="sky-pink-charcoal"
-    width="full"
-    align="left"
-    content="
-    <h2>Somatic Crafting</h2>
-    <p>A set of kriyas (ritualised movements and breathwork) designed for each CF <a href='#'>principle</a>. These practices support embodiment, reflection, and individual and collective healing by connecting participants to the principle somatically, emotionally, and collectively.</p>
-    <details class='accordion'>
-            <summary class='accordion__trigger'>How to</summary>
-            <div class='accordion__content'>
-              <ol>
-                <li>Select a CF principle to explore (e.g., “Reciprocity”).</li>
-                <li>Guide participants through a kriya sequence that embodies the principle. For example:</li>
-                  <ul>
-                    <li>Movement: Use gestures that mimic giving and receiving.</li>
-                    <li>Breathwork: Introduce breathing patterns that emphasize flow and balance.</li>
-                    <li>Reflection: Pause for journaling or sharing about how the kriya resonated emotionally and physically.</li>
-                  </ul>
-                <li>Close with a collective practice, such as a shared chant or grounding exercise.</li>
-                <li>Encourage participants to integrate insights into their actions and relationships.</li>
-              </ol>
             </div>
     </details>
     <details class='accordion'>
             <summary class='accordion__trigger'>Related Principles</summary>
             <div class='accordion__content'>
               <ul>
-                <li>Self-Determination: Empower participants to connect with their bodies and emotions.</li>
-                <li>Relational Trust: Build trust through shared somatic experiences.</li>
-                <li>Cyclical Reflection: Use the kriyas as a regular practice for embodiment and learning.</li>
-              </ul>
-            </div>
-    </details>
-    <details class='accordion'>
-            <summary class='accordion__trigger'>Related Patterns</summary>
-            <div class='accordion__content'>
-              <ul>
-                <li>Somatic Circles: Group practices centered on movement and healing.</li>
-                <li>Nested Scales: Align individual somatic experiences with collective and planetary themes.</li>
+                <li>Self-Determination</li>
+                <li>Relational Trust</li>
+                <li>Cyclical Reflection</li>
               </ul>
             </div>
     </details>
@@ -106,113 +120,349 @@ permalink: /craft/practices/
     align="left"
     content="
     <h2>Perpetual Piloting</h2>
-    <p>A practice of piloting a solution as an ongoing, iterative collective learning journey. These pilots are not fixed; they evolve over time as participants reflect, adapt, and incorporate new insights.</p><details class='accordion'>
-            <summary class='accordion__trigger'>How to</summary>
+    <p>Rather than seeking perfect solutions, we embrace continuous experimentation and learning. Perpetual pilots are living experiments that evolve through feedback, reflection, and iteration.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
             <div class='accordion__content'>
               <ol>
-                <li>Identify a shared challenge or opportunity in the community.</li>
-                <li>Co-design an initial prototype with input from diverse voices.</li>
-                <li>Implement the prototype on a small, manageable scale.</li>
-                <li>Establish feedback loops to learn from participants and outcomes.</li>
-                <li>Iterate, refine, and scale the solution, ensuring ongoing alignment with CF principles.</li>
+                <li>Identify a challenge or opportunity that matters to your community.</li>
+                <li>Design a small-scale experiment:
+                  <ul>
+                    <li>Define what you want to learn</li>
+                    <li>Identify key stakeholders to involve</li>
+                    <li>Create clear feedback mechanisms</li>
+                    <li>Set timeline for first iteration</li>
+                  </ul>
+                </li>
+                <li>Implement the pilot with regular check-ins and documentation.</li>
+                <li>Reflect collectively on what's emerging:
+                  <ul>
+                    <li>What's working? What isn't?</li>
+                    <li>What are we learning?</li>
+                    <li>What wants to emerge next?</li>
+                  </ul>
+                </li>
+                <li>Iterate based on learnings, keeping what works and adjusting what doesn't.</li>
               </ol>
-            </div>
-    </details>
-    <details class='accordion'>
-            <summary class='accordion__trigger'>Related Principles</summary>
-            <div class='accordion__content'>
-              <ul>
-                <li>Emergence: Allow the solution to evolve through iteration and learning.</li>
-                <li>Cyclical Reflection: Embed feedback loops to ensure continuous adaptation.</li>
-                <li>Mutual Flourishing: Center the wellbeing of people and ecosystems in every iteration.</li>
-              </ul>
             </div>
     </details>
     <details class='accordion'>
             <summary class='accordion__trigger'>Related Patterns</summary>
             <div class='accordion__content'>
               <ul>
-                <li>Living Labs: Spaces for ongoing experimentation and prototyping.</li>
-                <li>Nested Scales: Pilots begin locally but are designed to connect with regional and planetary scales.</li>
+                <li><strong>Prototyping and Perpetual Pilots:</strong> Directly embodies this pattern through continuous experimentation.</li>
+                <li><strong>Cyclical Processes:</strong> Creates rhythms of action, reflection, and adaptation.</li>
+                <li><strong>Self-Organization and Emergence:</strong> Allows solutions to emerge naturally from local context.</li>
+                <li><strong>Shared Knowledge Commons:</strong> Documentation and learnings contribute to collective wisdom.</li>
+              </ul>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Principles</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li>Emergence</li>
+                <li>Cyclical Reflection</li>
+                <li>Mutual Flourishing</li>
               </ul>
             </div>
     </details>
     <p>Practice Guide - Emerging Soon.</p>
     " %}
-    {% include content-pod.html
-    theme="terra-sky"
+
+  {% include content-pod.html
+    theme="sky-terra"
     width="full"
     align="left"
     content="
     <h2>Somatic Storytelling</h2>
-    <p>A practice of performance and embodied play that helps stories to be deeply felt, both individually and collectively. By engaging the body, emotions, and imagination, somatic storying makes abstract futures tangible and accessible.</p><details class='accordion'>
-            <summary class='accordion__trigger'>How to</summary>
+    <p>Stories live not just in our minds but in our bodies. Through movement, gesture, and embodied expression, we bring our stories to life and feel them in our bones.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
             <div class='accordion__content'>
               <ol>
-                <li>Begin with a grounding exercise (e.g., breathwork, movement) to center participants.</li>
-                <li>Introduce a story prompt related to a CF principle or challenge (e.g., “Imagine the future after the land is healed”).</li>
-                <li>Use movement, gestures, and vocalizations to embody the story’s themes, emotions, or characters.</li>
-                <li>Reflect collectively on how the embodied experience shifted understanding or insights.</li>
-                <li>Close with a gratitude ritual to honour the shared experience.</li>
+                <li>Create a safe container for embodied exploration:
+                  <ul>
+                    <li>Ground the group through breath or movement</li>
+                    <li>Set agreements about participation and witnessing</li>
+                    <li>Acknowledge different physical abilities and comfort levels</li>
+                  </ul>
+                </li>
+                <li>Introduce a story theme or prompt:
+                  <ul>
+                    <li>Personal or collective memories</li>
+                    <li>Visions of the future</li>
+                    <li>Relationship with place or nature</li>
+                  </ul>
+                </li>
+                <li>Guide embodied exploration:
+                  <ul>
+                    <li>Start with simple movements or gestures</li>
+                    <li>Layer in sound, rhythm, or voice</li>
+                    <li>Invite partner or group interaction</li>
+                  </ul>
+                </li>
+                <li>Reflect and integrate:
+                  <ul>
+                    <li>Share experiences in pairs or circle</li>
+                    <li>Note insights and discoveries</li>
+                    <li>Connect personal stories to collective themes</li>
+                  </ul>
+                </li>
               </ol>
-              <p>Remember to create a safe space for everyone to explore and express their emotions. Afford for diverse physical ability, and most of all, be playful and have fun together!</p>
-            </div>
-    </details>
-    <details class='accordion'>
-            <summary class='accordion__trigger'>Related Principles</summary>
-            <div class='accordion__content'>
-              <ul>
-                <li>Relational Trust: Deepen trust through shared embodied experiences.</li>
-                <li>Self-Determination: Allow participants to express their own narratives.</li>
-                <li>Interconnection: Connect the individual body with collective and planetary themes.</li>
-              </ul>
             </div>
     </details>
     <details class='accordion'>
             <summary class='accordion__trigger'>Related Patterns</summary>
             <div class='accordion__content'>
               <ul>
-                <li>Somatic Circles: Group practices that integrate movement and reflection.</li>
-                <li>Story Circles: Spaces for sharing and co-creating narratives.</li>
+                <li><strong>Storytelling as Connector:</strong> Uses embodied narrative to weave connection.</li>
+                <li><strong>Healing as Collective Journey:</strong> Creates space for somatic processing and integration.</li>
+                <li><strong>Intergenerational Engagement:</strong> Movement and story bridge across generations.</li>
+                <li><strong>Circles as Relational Foundations:</strong> Uses circle container for shared exploration.</li>
+              </ul>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Principles</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li>Self-Determination</li>
+                <li>Relational Trust</li>
+                <li>Interconnection</li>
+              </ul>
+            </div>
+    </details>
+    <p>Practice Guide - Emerging Soon.</p>
+    " %}
+
+  {% include content-pod.html
+    theme="terra-sky"
+    width="full"
+    align="left"
+    content="
+    <h2>Collaborative Storycrafting</h2>
+    <p>Together we weave new narratives of possibility, building shared visions of the futures we wish to craft. Through collaborative storytelling, we exercise our moral imagination and strengthen our capacity to act together.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
+            <div class='accordion__content'>
+              <ol>
+                <li>Prepare the storytelling space:
+                  <ul>
+                    <li>Gather in circle</li>
+                    <li>Set intention for the story journey</li>
+                    <li>Review guidelines for collaborative creation</li>
+                  </ul>
+                </li>
+                <li>Choose a story focus:
+                  <ul>
+                    <li>Future scenarios</li>
+                    <li>Community challenges</li>
+                    <li>Ancestral or ecological connections</li>
+                  </ul>
+                </li>
+                <li>Begin the collaborative weaving:
+                  <ul>
+                    <li>Each person adds one element</li>
+                    <li>Build on previous contributions</li>
+                    <li>Embrace unexpected directions</li>
+                  </ul>
+                </li>
+                <li>Harvest the story's gifts:
+                  <ul>
+                    <li>Notice emerging themes</li>
+                    <li>Identify actionable insights</li>
+                    <li>Consider next steps</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Patterns</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li><strong>Storytelling as Connector:</strong> Uses narrative to build shared understanding and possibility.</li>
+                <li><strong>Self-Organization and Emergence:</strong> Allows stories to emerge through collective creation.</li>
+                <li><strong>Shared Knowledge Commons:</strong> Stories become part of collective wisdom.</li>
+                <li><strong>Intergenerational Engagement:</strong> Stories bridge past, present, and future.</li>
+              </ul>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Principles</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li>Emergence</li>
+                <li>Reciprocity</li>
+                <li>Mutual Flourishing</li>
               </ul>
             </div>
     </details>
     <p>Practice Guide - Emerging Soon.</p>
     " %}
     {% include content-pod.html
-    theme="terra-sky"
+    theme="sky-terra"
     width="full"
     align="left"
     content="
-    <h2>Collaborative Storytelling</h2>
-    <p>A playful practice of collaboratively creating a story of the future. Each participant in the Circle shares one sentence, and the next person builds on it, creating a collective narrative. This practice fosters creativity, shared ownership, and moral imagination.</p><details class='accordion'>
-            <summary class='accordion__trigger'>How to</summary>
+    <h2>CLAN Weaving</h2>
+    <p>A practice for connecting circles into broader networks of collaboration and mutual support, creating Community Learning and Action Nodes (CLANs) that amplify local impact.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
             <div class='accordion__content'>
               <ol>
-                <li>Form a Circle and establish a storytelling prompt (e.g., “Imagine the world in 50 years where reciprocity is a way of life”).</li>
-                <li>One participant starts the story with a single sentence.</li>
-                <li>Each subsequent participant adds to the story, one sentence or scene at a time.</li>
-                <li>Continue until the story reaches a natural conclusion or a designated time limit.</li>
-                <li>Reflect on the process: What patterns or values emerged? How did participants’ contributions build on one another?</li>
+                <li>Identify potential connections:
+                  <ul>
+                    <li>Map existing circles in your bioregion</li>
+                    <li>Note shared interests or challenges</li>
+                    <li>Identify potential synergies</li>
+                  </ul>
+                </li>
+                <li>Host a weaving gathering:
+                  <ul>
+                    <li>Invite representatives from each circle</li>
+                    <li>Share stories and aspirations</li>
+                    <li>Map collective assets and needs</li>
+                  </ul>
+                </li>
+                <li>Create shared infrastructure:
+                  <ul>
+                    <li>Establish communication channels</li>
+                    <li>Define resource sharing agreements</li>
+                    <li>Set up regular check-ins</li>
+                  </ul>
+                </li>
+                <li>Start small and grow:
+                  <ul>
+                    <li>Begin with simple collaborations</li>
+                    <li>Document and share learnings</li>
+                    <li>Expand as trust builds</li>
+                  </ul>
+                </li>
               </ol>
-            </div>
-    </details>
-    <details class='accordion'>
-            <summary class='accordion__trigger'>Related Principles</summary>
-            <div class='accordion__content'>
-              <ul>
-                <li>Emergence: Let the story unfold organically.</li>
-                <li>Reciprocity: Value each participant’s contribution to the collective narrative.</li>
-                <li>Mutual Flourishing: Use the story to imagine futures where all life can flourish.</li>
-              </ul>
             </div>
     </details>
     <details class='accordion'>
             <summary class='accordion__trigger'>Related Patterns</summary>
             <div class='accordion__content'>
               <ul>
-                <li>Imagination Circles: Spaces for collaborative envisioning.</li>
-                <li>Fractal Collaboration: The story mirrors the interconnected nature of collaboration.</li>
+                <li><strong>Nested Collaboration:</strong> Creates connections across scales while preserving local autonomy</li>
+                <li><strong>Self-Organization and Emergence:</strong> Allows natural formation of larger networks</li>
+                <li><strong>Shared Knowledge Commons:</strong> Facilitates resource and wisdom sharing</li>
+                <li><strong>Reciprocity and Mutual Benefit:</strong> Builds networks of mutual support</li>
+              </ul>
+            </div>
+    </details>
+    <p>Practice Guide - Emerging Soon.</p>
+    " %}
+
+  {% include content-pod.html
+    theme="terra-sky"
+    width="full"
+    align="left"
+    content="
+    <h2>Living Lab Creation</h2>
+    <p>A practice for establishing spaces of ongoing experimentation and learning, where prototypes can be tested and refined in real-world conditions.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
+            <div class='accordion__content'>
+              <ol>
+                <li>Set up the lab:
+                  <ul>
+                    <li>Identify physical or virtual space</li>
+                    <li>Gather necessary tools and resources</li>
+                    <li>Create documentation systems</li>
+                  </ul>
+                </li>
+                <li>Design learning rhythms:
+                  <ul>
+                    <li>Regular reflection sessions</li>
+                    <li>Data collection protocols</li>
+                    <li>Sharing mechanisms</li>
+                  </ul>
+                </li>
+                <li>Run experiments:
+                  <ul>
+                    <li>Test prototypes in real conditions</li>
+                    <li>Gather feedback from stakeholders</li>
+                    <li>Document unexpected outcomes</li>
+                  </ul>
+                </li>
+                <li>Share learnings:
+                  <ul>
+                    <li>Create accessible documentation</li>
+                    <li>Host open learning sessions</li>
+                    <li>Connect with other labs</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Patterns</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li><strong>Prototyping and Perpetual Pilots:</strong> Creates dedicated space for experimentation</li>
+                <li><strong>Cyclical Processes:</strong> Embeds regular learning and iteration</li>
+                <li><strong>Shared Knowledge Commons:</strong> Generates and shares practical wisdom</li>
+                <li><strong>Self-Organization and Emergence:</strong> Allows natural evolution of solutions</li>
+              </ul>
+            </div>
+    </details>
+    <p>Practice Guide - Emerging Soon.</p>
+    " %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    width="full"
+    align="left"
+    content="
+    <h2>Knowledge Weaving</h2>
+    <p>A practice for gathering, documenting, and sharing wisdom across the network in ways that honor both traditional and emerging knowledge.</p>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>How it works</summary>
+            <div class='accordion__content'>
+              <ol>
+                <li>Create knowledge containers:
+                  <ul>
+                    <li>Set up documentation systems</li>
+                    <li>Define sharing protocols</li>
+                    <li>Establish access guidelines</li>
+                  </ul>
+                </li>
+                <li>Gather wisdom:
+                  <ul>
+                    <li>Record stories and experiences</li>
+                    <li>Document prototype learnings</li>
+                    <li>Capture traditional knowledge (with permission)</li>
+                  </ul>
+                </li>
+                <li>Make knowledge accessible:
+                  <ul>
+                    <li>Create multiple formats (text, audio, visual)</li>
+                    <li>Translate across languages</li>
+                    <li>Design for different learning styles</li>
+                  </ul>
+                </li>
+                <li>Foster knowledge exchange:
+                  <ul>
+                    <li>Host learning circles</li>
+                    <li>Create mentorship connections</li>
+                    <li>Facilitate cross-pollination</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+    </details>
+    <details class='accordion'>
+            <summary class='accordion__trigger'>Related Patterns</summary>
+            <div class='accordion__content'>
+              <ul>
+                <li><strong>Shared Knowledge Commons:</strong> Creates infrastructure for collective wisdom</li>
+                <li><strong>Intergenerational Engagement:</strong> Bridges traditional and new knowledge</li>
+                <li><strong>Storytelling as Connector:</strong> Uses narrative to share learning</li>
+                <li><strong>Reciprocity and Mutual Benefit:</strong> Ensures fair exchange of wisdom</li>
               </ul>
             </div>
     </details>

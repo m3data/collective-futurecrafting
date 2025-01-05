@@ -69,166 +69,217 @@ permalink: /craft/patterns/
 </div>
 <div class="container">
   <div class="section-heading">
-    <h2>Patterns at different scales</h2>
-    <p>Grounded in all our ancestral ways of knowing, being, learning and imagining as Earthians indigenous to this planet.</p>
+    <h2>Understanding Patterns</h2>
+    <p>Patterns in Collective Futurecrafting are more than just templates—they are living, dynamic ways of being and doing that emerge from deep relationship with each other and the Earth. Each pattern weaves together behaviors, relationships, and structures that support flourishing at every scale.</p>
   </div>
+
   {% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Start with circles</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
-{% include content-pod.html
-  theme="sky-terra"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Do as nature does</h2>
-  <p>Picture a river system—small streams join to form larger rivers, but each stream keeps its unique character. That's how we grow: circles connect into CLANs (Community Learning and Action Nests), CLANs flow into Rhiozomes (bioregional networks), all while keeping their local flavor and context. This is manifests in the <a href='#'>protocol</a> of Collective Futurecrafting.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>This natural scaling lets us tackle big challenges without losing the local touch that makes solutions work.</p>
-    </div>
-  </details>"
-%}
-{% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Start with circles</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
-{% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Nested Scales</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
-{% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Living Labs</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
-{% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Somatic Circles</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
-{% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Imagination Circles</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
+    theme="sky-terra"
+    content="
+    <h2>Key Features of CF Patterns</h2>
+    <ul>
+      <li><strong>Relational at the Core:</strong> Every pattern centers on fostering relationships that are reciprocal, trust-based, and adaptive.</li>
+      <li><strong>Dynamic and Adaptive:</strong> Patterns evolve as participants interact and contexts shift, ensuring relevance and resilience.</li>
+      <li><strong>Experientially Rich:</strong> Patterns are designed to create meaningful, tangible experiences that resonate deeply with participants.</li>
+    </ul>
+    "
+  %}
 </div>
+
 <div class="container">
   <div class="section-heading">
-    <h2>Patterning of Circles</h2>
-    <p>At the foundation of Collective Futurecrafting are circles—small, decentralised, and purpose-driven groups that form the building blocks of a scalable governance framework. These circles embody the principles of relational trust, self-determination, and reciprocity, offering spaces where moral imagination and action converge. Their strength lies in their diversity, adaptability, and shared purpose, allowing them to address challenges at both local and systemic scales.</p>
+    <h2>Core Patterns</h2>
+    <p>These interconnected patterns form the foundation of how we work together to craft flourishing futures.</p>
   </div>
+
   {% include content-pod.html
-  theme="terra-sky"
-  width="full"
-  align="left"
-  background_image="assets/images/patterns/circles.svg"
-  background_opacity="0.1"
-  background_size="50%"
-  background_position="right"
-  content="
-  <h2>Start with circles</h2>
-  <p>Like trees growing from seeds, everything starts small. We gather in circles of 3-7 people—small enough to build real trust, big enough to spark magic. These circles are where we share stories, help each other heal, dream up ideas, and take our first steps toward systemic change.</p>
-  <details class='accordion'>
-    <summary class='accordion__trigger'>Why it works</summary>
-    <div class='accordion__content'>
-      <p>Circles create natural containers for trust and authentic sharing. Throughout history, from Indigenous councils to modern peer groups, circles have proven their effectiveness at fostering deep connection and collective wisdom.</p>
-      <p>Just like a campfire conversation feels different from a boardroom meeting, circles create the perfect space for genuine connection and creativity.</p>
-    </div>
-  </details>"
-%}
+    theme="terra-sky"
+    content="
+    <h2>1. Circles as Relational Foundations</h2>
+    <p>At the heart of Collective Futurecrafting are circles—intimate groups where trust flourishes and transformation begins.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> People gather in small, intimate groups to share stories, reflect, and co-create solutions.</li>
+          <li><strong>Relationships:</strong> Trust is built through consistent, iterative interactions. Relationships emphasize reciprocity, mutual care, and deep listening.</li>
+          <li><strong>Structures:</strong> Circles operate with shared power, ensuring each voice is valued and heard.</li>
+          <li><strong>Experience:</strong> Participants feel seen, heard, and valued, creating a sense of belonging and co-ownership of solutions.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    content="
+    <h2>2. Nested Collaboration</h2>
+    <p>Like watersheds connecting streams to rivers to oceans, our work flows through nested scales of collaboration.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Local groups (Circles) connect to form larger networks (CLANs), which align within bioregional and planetary frameworks.</li>
+          <li><strong>Relationships:</strong> Collaboration emphasizes autonomy and interdependence, balancing local specificity with global coherence.</li>
+          <li><strong>Structures:</strong> Networks are designed fractally, ensuring scalability and coherence across different scales.</li>
+          <li><strong>Experience:</strong> People feel empowered at a local level while contributing to larger systems of change.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+{% include content-pod.html
+    theme="terra-sky"
+    content="
+    <h2>3. Cyclical Processes</h2>
+    <p>Like the seasons, our work moves in cycles of reflection and action, allowing us to learn and adapt continuously.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Groups engage in regular cycles of planning, acting, reflecting, and adapting.</li>
+          <li><strong>Relationships:</strong> Reflection builds deeper relational trust by acknowledging successes and failures collectively.</li>
+          <li><strong>Structures:</strong> Feedback loops are embedded within projects, allowing continuous learning and evolution.</li>
+          <li><strong>Experience:</strong> Participants feel the system is dynamic and responsive, fostering trust in the process and its outcomes.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    content="
+    <h2>4. Reciprocity and Mutual Benefit</h2>
+    <p>Just as ecosystems thrive through mutual exchange, our work is grounded in giving and receiving in balance.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Resources, knowledge, and support are exchanged in ways that balance giving and receiving.</li>
+          <li><strong>Relationships:</strong> Emphasis on mutual benefit fosters respect, care, and accountability between participants.</li>
+          <li><strong>Structures:</strong> Rituals and agreements formalize reciprocity, ensuring it remains a core practice.</li>
+          <li><strong>Experience:</strong> People feel valued for their contributions and connected to others through shared care and responsibility.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="terra-sky"
+    content="
+    <h2>5. Self-Organization and Emergence</h2>
+    <p>Like mycelial networks adapting to local conditions, our work emerges through organic self-organization.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Groups and projects emerge organically based on shared interests, needs, and capacities.</li>
+          <li><strong>Relationships:</strong> Relationships evolve dynamically, adapting to shifting contexts and opportunities.</li>
+          <li><strong>Structures:</strong> Loose but intentional frameworks allow self-organization while maintaining alignment with CF principles.</li>
+          <li><strong>Experience:</strong> Participants feel agency and freedom to innovate while remaining part of a larger shared purpose.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    content="
+    <h2>6. Storytelling as Connector</h2>
+    <p>Stories are the threads that weave our communities together, connecting past, present, and future.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> People share stories that explore challenges, envision futures, and reflect on experiences.</li>
+          <li><strong>Relationships:</strong> Storytelling builds empathy and understanding, connecting diverse perspectives across generations and cultures.</li>
+          <li><strong>Structures:</strong> Dedicated spaces (e.g., Story Circles) and prompts guide storytelling processes.</li>
+          <li><strong>Experience:</strong> Stories resonate emotionally, fostering a sense of shared identity and purpose.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="terra-sky"
+    content="
+    <h2>7. Healing as Collective Journey</h2>
+    <p>Like a forest regenerating after fire, we journey together through healing and transformation.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Practices focus on processing grief, acknowledging trauma, and cultivating resilience.</li>
+          <li><strong>Relationships:</strong> Healing strengthens relationships by fostering vulnerability, trust, and mutual support.</li>
+          <li><strong>Structures:</strong> Rituals, somatic practices, and relational frameworks provide spaces for healing.</li>
+          <li><strong>Experience:</strong> Participants feel a sense of renewal, connection, and readiness to engage with the world.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    content="
+    <h2>8. Prototyping and Perpetual Pilots</h2>
+    <p>Like nature's constant experimentation, we learn through doing, testing, and adapting.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Groups experiment with solutions, learning through iterative action.</li>
+          <li><strong>Relationships:</strong> Collaboration deepens as participants co-design, test, and refine ideas.</li>
+          <li><strong>Structures:</strong> Prototypes are lightweight, adaptable, and designed to evolve over time.</li>
+          <li><strong>Experience:</strong> People feel empowered to experiment and innovate without fear of failure.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="terra-sky"
+    content="
+    <h2>9. Shared Knowledge Commons</h2>
+    <p>Like traditional seed libraries, we cultivate and share wisdom for the benefit of all.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> Groups contribute to and draw from a shared pool of tools, insights, and resources.</li>
+          <li><strong>Relationships:</strong> Knowledge-sharing fosters mutual learning and collective growth.</li>
+          <li><strong>Structures:</strong> Platforms and protocols ensure accessibility and equity in knowledge distribution.</li>
+          <li><strong>Experience:</strong> Participants feel connected to a broader network of wisdom and innovation.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
+
+  {% include content-pod.html
+    theme="sky-terra"
+    content="
+    <h2>10. Intergenerational Engagement</h2>
+    <p>Like ancient trees nurturing saplings, we weave wisdom across generations.</p>
+    <details class='accordion'>
+      <summary class='accordion__trigger'>How It Works</summary>
+      <div class='accordion__content'>
+        <ul>
+          <li><strong>Behavior:</strong> People of different ages collaborate, sharing wisdom and perspectives.</li>
+          <li><strong>Relationships:</strong> Interactions emphasize respect, mentorship, and curiosity across generations.</li>
+          <li><strong>Structures:</strong> Activities and roles are designed to include children, elders, and everyone in between.</li>
+          <li><strong>Experience:</strong> Participants feel a sense of continuity, honoring past wisdom while shaping future possibilities.</li>
+        </ul>
+      </div>
+    </details>
+    "
+  %}
 </div>
 <!-- Card Content Grid -->
   <section class="content-grid">
@@ -256,11 +307,9 @@ permalink: /craft/patterns/
     </div>
   </section>
 {% capture parallax_content %}
-<h2>Begin with us</h2>
-<p>
-  We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
-</p>
-<a href="#" class='button button--primary'>Become a futurecrafter →</a>
+<h2>Living Patterns</h2>
+<p>These patterns are not rigid templates but living practices that evolve through our collective experience. As you engage with them, you'll discover how they weave together to create resilient, regenerative systems for change.</p>
+    <a href='/get-involved' class='button button--primary'>Craft with us →</a>
 {% endcapture %}
 
 {% include parallax-section.html
