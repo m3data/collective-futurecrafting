@@ -3,7 +3,7 @@
   padding: 2rem;
   position: relative;
   overflow: visible;
-  background: linear-gradient(to bottom, var(--color-charcoal), #1a1a1a);
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,7 +27,7 @@
   opacity: 0;
   transform: translateY(0);
   transition: opacity 0.5s ease;
-  color: #fff;
+  color: var(--charcoal);
   display: block;
   width: 100%;
   padding-bottom: 2rem;
@@ -62,9 +62,10 @@
   padding: 1.5rem;
   margin: 0.5rem 0;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 0.5rem;
-  color: #fff;
+  border: 1px solid var(--color-terracotta);
+  border-radius: 7rem;
+  color: var(--color-charcoal);
+  font-family: 'Nunito', sans-serif;
   text-align: left;
   font-size: 1.1rem;
   cursor: pointer;
@@ -81,9 +82,11 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(to right, var(--color-terracotta), var(--color-sky-blue));
+    border-radius: 7rem;
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 0;
+    font-weight: 600;
   }
   
   .choice-button:hover::before {
