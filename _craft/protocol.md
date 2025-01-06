@@ -2,7 +2,7 @@
 layout: default
 title: "The Protocol - Collective Futurecrafting"
 description: "A living network of circles, CLANs, and Rhiozomes working together through the WISDOM Protocol"
-permalink: /craft/protocol
+permalink: /craft/protocol/
 ---
 
 {% include page-hero.html
