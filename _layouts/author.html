@@ -1,0 +1,278 @@
+---
+layout: default
+---
+<div class="container">
+<article class="author-profile">
+  <div class="author-profile__header">
+    <div class="author-profile__meta">
+      {% if page.image %}
+        <div class="author-profile__image">
+          <img src="{{ '/assets/images/authors/' | append: page.image | relative_url }}" alt="{{ page.name }}" />
+        </div>
+      {% endif %}
+      
+      <div class="author-profile__info">
+        <h1 class="author-profile__name">{{ page.name }}</h1>
+        {% if page.short_bio %}
+          <p class="author-profile__short-bio">{{ page.short_bio }}</p>
+        {% endif %}
+        
+        {% if page.twitter or page.linkedin or page.website %}
+          <div class="author-profile__social">
+            {% if page.twitter %}
+              <a href="https://twitter.com/{{ page.twitter }}" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                </svg>
+                Twitter
+              </a>
+            {% endif %}
+            {% if page.linkedin %}
+              <a href="https://linkedin.com/in/{{ page.linkedin }}" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                LinkedIn
+              </a>
+            {% endif %}
+            {% if page.website %}
+              <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                Website
+              </a>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  {% if page.long_bio %}
+    <div class="author-profile__bio">
+      {{ page.long_bio | markdownify }}
+    </div>
+  {% endif %}
+
+  {% assign author_posts = site.posts | where: "author", page.name %}
+  {% if author_posts.size > 0 %}
+    <div class="author-profile__posts">
+      <h2>Posts by {{ page.name }}</h2>
+      <div class="post-grid">
+        {% for post in author_posts %}
+          <article class="post-card">
+            {% if post.featured_image %}
+              <div class="post-card__image">
+                <a href="{{ post.url | relative_url }}">
+                  <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" />
+                </a>
+              </div>
+            {% endif %}
+            <div class="post-card__content">
+              <h3 class="post-card__title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h3>
+              <time class="post-card__date" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%B %d, %Y" }}
+              </time>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</article>
+</div>
+<style>
+.author-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem var(--spacing-base);
+}
+
+.author-profile__header {
+  margin-bottom: 3rem;
+}
+
+.author-profile__meta {
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+}
+
+.author-profile__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.author-profile__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.author-profile__info {
+  flex-grow: 1;
+}
+
+.author-profile__name {
+  font-family: 'Cormorant', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-charcoal);
+}
+
+.author-profile__short-bio {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: var(--color-charcoal);
+}
+
+.author-profile__social {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.author-profile__social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background: rgba(66, 61, 51, 0.1);
+  color: var(--color-charcoal);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.author-profile__social a:hover {
+  background: var(--color-terracotta);
+  color: white;
+}
+
+.author-profile__social svg {
+  transition: all 0.3s ease;
+}
+
+.author-profile__social a:hover svg {
+  stroke: white;
+}
+
+.author-profile__bio {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.author-profile__posts {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(66, 61, 51, 0.1);
+}
+
+.author-profile__posts h2 {
+  font-family: 'Cormorant', serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--color-charcoal);
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.post-card__image {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.post-card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.post-card:hover .post-card__image img {
+  transform: scale(1.05);
+}
+
+.post-card__content {
+  padding: 1.5rem;
+}
+
+.post-card__title {
+  font-family: 'Cormorant', serif;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-card__title a {
+  color: var(--color-charcoal);
+  text-decoration: none;
+}
+
+.post-card__date {
+  font-size: 0.875rem;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .author-profile {
+    padding: 1rem;
+  }
+
+  .author-profile__meta {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .author-profile__social {
+    justify-content: center;
+  }
+
+  .post-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-card {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .post-card__title a {
+    color: white;
+  }
+}
+</style>

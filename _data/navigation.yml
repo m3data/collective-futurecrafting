@@ -19,6 +19,8 @@ main:
         url: /craft/protocol/
       - title: Play
         url: /craft/play/
+  - title: Blog
+    url: /blog/
   - title: Resources
     url: /resources/
   - title: Get Involved

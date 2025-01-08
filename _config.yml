@@ -28,6 +28,12 @@ collections:
     permalink: /:collection/:name
   story_nodes:
     output: true
+  blog:
+    output: true
+    permalink: /blog/:title/
+  authors:
+    output: true
+    permalink: /authors/:name/
 
 defaults:
   - scope:
@@ -55,6 +61,16 @@ defaults:
       type: "get-involved"
     values:
       layout: page
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "blog"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 
 include:
   - assets

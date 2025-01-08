@@ -1,0 +1,130 @@
+---
+layout: default
+---
+<div class="container">
+<article class="blog-post">
+  <div class="blog-hero">
+    {% if page.featured_image %}
+      <div class="blog-hero__image">
+        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.image_alt }}" />
+      </div>
+    {% endif %}
+    
+    <div class="blog-hero__content">
+      <div class="blog-hero__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="blog-hero__date">
+          {{ page.date | date: "%B %d, %Y" }}
+        </time>
+        {% assign words = content | number_of_words %}
+        {% assign read_time = words | divided_by: 180 | plus: 1 %}
+        <span class="blog-hero__read-time">{{ read_time }} min read</span>
+      </div>
+      
+      <h1 class="blog-hero__title">{{ page.title }}</h1>
+      
+      {% assign author = site.authors | where: "name", page.author | first %}
+      {% if author %}
+        <div class="blog-hero__author">
+          {% if author.image %}
+            <img src="{{ '/assets/images/authors/' | append: author.image | relative_url }}" alt="{{ author.name }}" class="blog-hero__author-image" />
+          {% endif %}
+          <span>{{ author.name }}</span>
+        </div>
+      {% endif %}
+
+      {% if page.categories or page.tags %}
+        <div class="blog-hero__tags">
+          {% for category in page.categories %}
+            <span class="tag tag--category">{{ category }}</span>
+          {% endfor %}
+          {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="blog-content">
+    {{ content }}
+    
+    {% if page.footnotes %}
+      <footer class="blog-footnotes">
+        <h3>Notes</h3>
+        {{ page.footnotes | markdownify }}
+      </footer>
+    {% endif %}
+  </div>
+
+  {% if author %}
+    <footer class="blog-author">
+      <div class="blog-author__content">
+        {% if author.image %}
+          <img src="{{ '/assets/images/authors/' | append: author.image | relative_url }}" alt="{{ author.name }}" class="blog-author__image" />
+        {% endif %}
+        <div class="blog-author__info">
+          <h3 class="blog-author__name">{{ author.name }}</h3>
+          <p class="blog-author__bio">{{ author.long_bio }}</p>
+          {% if author.twitter or author.linkedin or author.website %}
+            <div class="blog-author__social">
+              {% if author.twitter %}
+                <a href="https://twitter.com/{{ author.twitter }}" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                  </svg>
+                  Twitter
+                </a>
+              {% endif %}
+              {% if author.linkedin %}
+                <a href="https://linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  LinkedIn
+                </a>
+              {% endif %}
+              {% if author.website %}
+                <a href="{{ author.website }}" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  Website
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </footer>
+  {% endif %}
+
+  {% if site.related_posts.size > 0 %}
+    <section class="related-posts">
+      <h2>Related Posts</h2>
+      <div class="related-posts__grid">
+        {% for post in site.related_posts limit:3 %}
+          <article class="related-post">
+            {% if post.featured_image %}
+              <div class="related-post__image">
+                <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
+              </div>
+            {% endif %}
+            <div class="related-post__content">
+              <h3>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h3>
+              <time datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%B %d, %Y" }}
+              </time>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+</article>
+</div>
