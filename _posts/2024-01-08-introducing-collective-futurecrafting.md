@@ -8,81 +8,20 @@ image_alt: "A majestic tree with sunlight filtering through its leaves, symboliz
 categories: [Introduction, Theory]
 tags: [collective action, social innovation, indigenous wisdom, systems thinking]
 footnotes: |
-  1. The concept of circles as foundational social structures appears across cultures and throughout history.
-  2. Research shows that groups of 3-7 people provide optimal conditions for trust-building and collaborative action.
-  3. The term "perpetual pilots" was inspired by the work of Donella Meadows on systems intervention.
+  1. This is a footnote ready to be written.
 ---
 
-In a world facing unprecedented challenges, from climate change to social fragmentation, we need new ways of coming together to craft better futures. But perhaps "new" isn't quite the right word. What we need is a remembering—a return to ancient wisdom combined with modern innovations in social coordination.
+We're in a phase transition as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?
 
-## The Power of Circles
+I spent a fair amount of time marinating on what to write for this first post. How to write it, the stories to tell, the empirical research and wide boundary thinking and thinkers to draw on, those that have inspired this work, this craft that has been whispering to me, well, for much of my life. For what I feel is many lifetimes. Feeling through depths of patterns, nibbling on some magic chocolate, reflecting on the yarns with friends, local Elders, my dogs and the plants in the garden as I water them. Reflections on the quests I have been on. From the jungles of Mexico and Costa Rica, to Papua New Guinea and Australia. 
 
-Before treaties and territories, before parliaments and protocols, humans gathered in circles. Around fires that held back the dark, beneath stars that mapped our stories, we sat together—listening, relating, sharing, dreaming of what was and what might be.
-
-These circles were our first:
-- Universities of collective learning
-- Governments of mutual care
-- Theaters of shared imagination
-
-Today, as our world strains under the weight of interwoven crises, these ancient patterns of relating call to us again.
-
-## Why Collective Futurecrafting?
-
-Collective Futurecrafting (CF) emerged from a simple question: How might we create conditions for communities to dream and build flourishing futures together?
-
-The answer led us to develop a framework that:
-
-1. **Starts Small**: Working with groups of 3-7 people in local contexts
-2. **Builds Trust**: Creating space for authentic relationship-building
-3. **Enables Action**: Supporting concrete steps toward better futures
-4. **Scales Organically**: Connecting circles into larger networks of change
-
-> "The future is not something we enter. The future is something we create." 
-> — Leonard I. Sweet
-
-## The Three Pillars
-
-### 1. Relational Trust
-
-At the heart of CF lies the understanding that all lasting change grows from trust. Through regular gatherings and shared practices, circles build the relational foundation needed for meaningful collaboration.
-
-### 2. Practical Action
-
-Ideas without action remain dreams. Each circle engages in "perpetual pilots"—small experiments that test possibilities and generate learning. These might include:
-
-- Community gardens
-- Local energy initiatives
-- Cultural revival projects
-- Educational innovations
-
-### 3. Systemic Impact
-
-While each circle operates locally, they connect through Community Learning and Action Networks (CLANs) to share:
-
-- Stories of success and failure
-- Resources and knowledge
-- Support and inspiration
-- Collaborative opportunities
-
-## Getting Started
-
-Ready to begin your Collective Futurecrafting journey? Here are three ways to engage:
-
-1. **Join a Circle**: Find an existing circle in your area
-2. **Start a Circle**: Gather a small group and begin your own
-3. **Learn More**: Explore our resources and principles
-
-## The Road Ahead
-
-This is just the beginning. As more circles form and connect, we're creating a living network of people working together to craft futures worthy of our children's children.
+I sat, with the the enormity of feelings every Futurecrafting Friggsday, of what wants to be born. Knowing what is spoken, can become. What is felt, can be done. And what is imagined can be crafted.
 
 In the words of Adrienne Maree Brown:
 > "What we practice at the small scale sets the patterns for the whole system."
 
-Let's practice together.
+So, what is it we must practice in the process of becoming and crafting our futures? What is the craft that is calling us to be in service to the Earth and all her beings?
 
-## Join the Movement
-
-Ready to be part of this journey? Visit our [Get Involved](/get-involved) page to learn how you can start or join a Futurecrafting Circle in your community.
+To be continued in the next commit...
 
 ---

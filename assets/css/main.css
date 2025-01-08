@@ -211,7 +211,7 @@ a:focus:not(:focus-visible) {
   margin: 0 auto;
   padding: 0 var(--spacing-base);
   box-sizing: border-box;
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 /* Header Styles */
