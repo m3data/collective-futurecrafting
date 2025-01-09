@@ -11,7 +11,7 @@ footnotes: |
   1. This is a footnote ready to be written.
 ---
 
-We're in a phase transition as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?
+We're in a phase transition as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?[^1]
 
 I spent a fair amount of time marinating on what to write for this first post. How to write it, the stories to tell, the empirical research and wide boundary thinking and thinkers to draw on, those that have inspired this work, this craft that has been whispering to me, well, for much of my life. For what I feel is many lifetimes. Feeling through depths of patterns, nibbling on some magic chocolate, reflecting on the yarns with friends, local Elders, my dogs and the plants in the garden as I water them. Reflections on the quests I have been on. From the jungles of Mexico and Costa Rica, to Papua New Guinea and Australia. 
 

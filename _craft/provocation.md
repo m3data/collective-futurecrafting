@@ -38,7 +38,7 @@ permalink: /craft/provocation/
     </ul>
     <p>Neither of these stories helps us navigate the real world we're living in. They keep us stuck in a cycle of fear and inaction, waiting for someone else to fix things for us.</p>"
     accordion_content="<p>Apocalyptic narratives abound as we find it easy to imagine that we're all doomed! The planet's dying, society's collapsing, and the best we can do is hunker down and hope for the best. It's Mad Max meets The Hunger Games with a dash of Orwellian sauce, minus the cool costumes.</p>
-    <p>On the flip side, we have the techno-utopians who believe that technology will save us. We'll all live in perfect harmony with the help of our AI overlords, and we'll never have to worry about anything ever again. It's Star Trek meets The Matrix with a side of Silicon Valley hubris.</p>
+    <p>On the flip side, we have the techno-utopians who believe that technology will save us. We'll all live in perfect harmony as happy consumers with the help of our AI overlords, and we'll never have to worry about anything ever again. It's Star Trek meets The Matrix with a side of Silicon Valley hubris.</p>
     <p>And there are many complex and nuanced stories in between. But the dominant narratives of our time tend to fall into these two camps, leaving us feeling powerless and disconnected from the world we're living in.</p>
     <p>If you'd like to learn more about this, check out:</p>
     <ul>
