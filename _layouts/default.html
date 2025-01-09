@@ -63,5 +63,8 @@
     {% if page.url contains '/play' %}
         <script src="{{ '/assets/js/story-weaver.js' | relative_url }}" defer></script>
     {% endif %}
+    {% if page.layout == 'blog' %}
+  <script src="{{ '/assets/js/footnotes.js' | relative_url }}" defer></script>
+{% endif %}
 </body>
 </html>

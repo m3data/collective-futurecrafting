@@ -2987,3 +2987,89 @@ html, body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Blog Images */
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin: 2rem 0;
+}
+
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+figcaption a {
+  color: var(--color-terracotta);
+  text-decoration: none;
+}
+
+figcaption a:hover {
+  text-decoration: underline;
+}
+/* Footnote Tooltips */
+.footnote-ref {
+  position: relative;
+  cursor: help;
+  text-decoration: none;
+  color: var(--color-terracotta);
+}
+
+.footnote-tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.75rem 1rem;
+  background: white;
+  color: var(--color-charcoal);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: max-content;
+  max-width: 300px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  z-index: 100;
+  margin-bottom: 0.5rem;
+}
+
+.footnote-tooltip::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.footnote-ref:hover .footnote-tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .footnote-tooltip {
+    background: var(--color-charcoal);
+    color: white;
+  }
+  
+  .footnote-tooltip::after {
+    border-color: var(--color-charcoal) transparent transparent transparent;
+  }
+}
