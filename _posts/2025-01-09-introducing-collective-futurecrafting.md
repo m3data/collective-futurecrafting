@@ -4,7 +4,7 @@ title: "Walking The Thrutopian Path and Germinating Seeds of the Symbiocene"
 date: 2025-01-08 16:20:11 +1000
 author: Mathew Mytka
 featured_image: /assets/images/hero_tree.jpg
-image_alt: Sunlight filtering through ancient branches, illuminating the dance between shadow and light
+image_alt: Sunlight filtering through tree branches, illuminating the dance between shadow and light
 categories:
   - Introduction
 tags:
@@ -25,21 +25,29 @@ We're in a phase transition as a species. A liminal space between worlds, beginn
 
 Like mycelia sensing changes in the soil, there's a deep knowing stirring in our collective body—a recognition that we stand at a threshold of profound transformation. This knowing has been whispering to me, and I sense to many others, through dreams and garden conversations, through data points and pattern re-cognition, through the quiet persistence of life finding new ways to flourish.
 
-I spent a fair amount of time marinating on what to write for this first post. How to write it, the stories to tell, the empirical research and wide boundary thinking and thinkers to draw on, those that have inspired this work, this craft that has been whispering to me, well, for much of my life. For what I sense is many lifetimes. Feeling through depths of ancient patterns, journeys with some magic chocolate, reflecting on the yarns with friends, local Elders, my dogs and the plants in the garden as I water them. Reflections on the quests I have been on. From the jungles of Mexico and Costa Rica, to Papua New Guinea and Australia. 
+I spent a fair amount of time marinating on what to write for this first post. How to write it, the stories to tell, the empirical research and wide boundary thinking and thinkers to draw on, those that have inspired this work, this craft that has been whispering to me, well, for much of my life. For what I sense is many lifetimes. Feeling through depths of ancestral patterns, journeys with some magic chocolate, reflecting on the yarns with friends, local Elders, my dogs and the plants in the garden as I water them. Reflections on the quests I have been on. From the jungles of Mexico and Costa Rica, to Papua New Guinea and Australia.
 
 We are always becoming and all that has been are fruits for the present moment.
 
-## Seeds in the Garden of Time
+{% include parallax-section.html
+  background="/assets/images/posts/garden-image.jpg"
+  theme="sky-terra"
+  align="center"
+  height="medium"
+  content="
+  <h2>Seeds in the Garden of Time</h2>
+  <p>For the past year, I sat in my backyard garden every Futurecrafting Friggsday. Playing with the enormity of stimuli, sitting with the sense of something that wants to be born. Knowing what is spoken, can become. What is felt, can be done.</p> <p>And what is imagined can be crafted.</p>
+  "
+%}
 
-For the past year, I sat in my backyard garden every Futurecrafting Friggsday. Holding the enormity of stimuli, sitting with the sense of something that wants to be born. Knowing what is spoken, can become. What is felt, can be done. And what is imagined can be crafted.
-
+<br>
 And there is a wonderful reimagining happening all around us. Like the fruiting bodies of the mycelium underneath the soil, popping up after the rains. Initiatives all around the world to reimagine what it means to be citizens, to rewild, to repattern, to reconnect with ourselves. Whispers in peoples dreams, in conversations in passing, in the quiet hum that is our yearning for deep belonging.
 
 At the same time there is so much upheaval, turmoil, and continuation of trauma. Wars across the world, wars on our psyches, ongoing exploitation of people, of forests, of our Earth. This cannot be ignored as it is in this trauma that lies the <span class="footnote-ref">radicle<sup>1</sup><span class="footnote-tooltip">A radicle is the first part of a seedling (a growing plant embryo) to emerge from the seed during the process of germination. See footnote for futher context.</span></span> seeds of healing if we are willing to work through it together.
 
 ## The Edge of Transformation
 
-A more objective lens as a skeptical optimist looking at all the data points is that, yes, there is so much beauty emerging from what one might call a "raising of consciousness". Then the rising of more life aligned policies, regenerative practices etc. The question is really can it rise <a href="https://www.theguardian.com/environment/2024/dec/28/we-need-dramatic-social-and-technological-changes-is-societal-collapse-inevitable" target="_blank">fast enough</a> to bring about the radical transformation required for our deeply global civilisation to come into right relation with the web of life?
+A more objective lens as a skeptical optimist looking at all the data points is that, yes, there is so much beauty emerging from what one might call a "raising of consciousness". Then the rising of more wellbeing aligned policies, regenerative practices, circular design, Doughnut Economics, Inner Develoment Goals, cooperatives, web3 tech, etc etc. The question is really can it rise <a href="https://www.theguardian.com/environment/2024/dec/28/we-need-dramatic-social-and-technological-changes-is-societal-collapse-inevitable" target="_blank">fast enough</a> to bring about the radical transformation required for our deeply global civilisation to come into right relation with the web of life?
 
 > Whether it is to be utopia or oblivion will be a touch-and-go relay race right up to the final moment.
 - Buckminster Fuller
@@ -54,37 +62,39 @@ My more woo-er senses bring me to the belief that this is a cosmic story playing
   <figcaption>Image credit: <a href="https://www.alexgrey.com/art/nature-field/metamorphosis" target="_blank">Alex Grey</a></figcaption>
 </figure>
 
-The path to walk through all this is the one of preparing for the end times as we know it. For it is not utopia or dystopia we are on the path towards, it is Thrutopia [^3].
+The path to walk through all this is the one of preparing for the end times as we know it. For it is not a utopian or dystopian path we are on, it is <a href="https://www.huffingtonpost.co.uk/rupert-read/thrutopia-why-neither-dys_b_18372090.html" target="_blank">Thrutopian</a>.
+
 
 ## Walking Thrutopian Paths
 
-In 2010 while a mature age student at uni I did a subject pivotal subject called Utopias & Dystopias. It brought with it a wide immersion in the literature and a hint at the thinking that was to shape the trajectory of my work in the coming decade. My professor was Dr Jeremy Walker, someone I had admired and who had inspired me. His more <a href="https://epress.lib.uts.edu.au/journals/index.php/mcs/article/view/8813" target="_blank">recent research work</a> on the Atlas Network, a shady web of people and "think-tanks" that colluded to support the No vote in Australia's recent referendum is noteworthy. It symbolises the current power structures, patterns and institutions that must be composted as we find and walk the Thrutopian paths.
+In 2010 while I was a mature age student at uni I did a pivotal subject called Utopias & Dystopias. It brought with it a wide immersion in the utopian and dystopian literature and a hint at the thinking that was to shape the trajectory of my work in the coming decade. My professor was Dr Jeremy Walker, someone I had admired and who had inspired me. His more <a href="https://epress.lib.uts.edu.au/journals/index.php/mcs/article/view/8813" target="_blank">recent research work</a> on the Atlas Network, a shady web of people and "think-tanks" that colluded to support the No vote in Australia's recent referendum is noteworthy. It symbolises the current power structures, patterns and institutions that must be composted as we find and craft Thrutopian paths.
 
-Like composting itself, transformation requires both breaking down and building up. Over the past few years, I have noticed a deeper shift emerging—a dispersed yet coherent movement focused on futures. Not just the theoretical futures of academic discourse, but lived futures being crafted in community gardens, around kitchen tables, in the spaces where people dare to dream differently.
+Like composting itself, transformation requires both breaking down and building up. Over the past few years, I have noticed a deeper shift emerging—a dispersed yet coherent movement focused on futures. Not just the theoretical futures of an academic nature, these have increased in recent years as a result of the acknowledgement we have some serious adaption to do. But the lived futures being crafted in community gardens, citizen assemblies, community coops, around kitchen tables, in many spaces where people dare to dream differently.
 
 Even in the political realms the Overton windows are seemingly shifting to more preferable policy. Of course there is variance based on where on this wonderful planet you are. And in my view none of what I see here where I am in Australia is radicle enough.
 
-Yet we need not wait for politicians, for the WEFerati, for the current institutions to make the changes we most need for the transformation. It happens at the edges, in our communities, conversations and yarns. In the quiet transformations. This is what creates the conditions and paths to what Glen Albrecht called the Symbiocene.
+Yet we need not wait for politicians, for the WEFerati, for the current institutions to make the changes we most need for the transformation. It happens at the edges, in our communities, conversations and yarns. In the quiet transformations. This is what creates the conditions and paths to what Glen Albrecht calls the <a href="https://symbioscene.com/invitation-to-the-symbiocene/" target="_blank">Symbiocene</a>.
+<br>
 
 ## A Pattern Wanting to Be Born
-[garden image](image path)
-Sitting in my garden these past months, watching the interplay of sunlight through leaves and the dance of rainbow lorikeets in the bottlebrush, something has been crystallising. A pattern wanting to be born. Not just another framework or methodology—we have plenty of those. But a living practice that weaves together the threads of ancestral wisdom and emerging possibility.
+<img src="{{ site.baseurl }}/assets/images/posts/garden-image.jpg" alt="picture of green banana trees and tomato plants" class="blog-image">
+Sitting in my garden these past months, watching the interplay of sunlight through leaves and the dance of ecology, something has been crystallising. A pattern wanting to be born. A living practice that weaves together the threads of ancestral wisdom and emerging possibility.
 
 This practice began whispering to me in the quiet moments between thoughts, in the spaces where past and future dance together. It spoke in the language of living systems—in fractal relationships and feedback loops, in the way mycelial networks thread through soil and stories thread through communities. Coming through me in my ritual practice. It spoke through me in both the mystical and the magical.
 
 Every morning when I enter my office and every Futurecrafting Friggsday in my garden, I close my eyes and take a deep breath, feeling into the Taurus of energy flowing around and through my body, picturing the energy of our Mother Earth pulsating through the mycorrhizal networks beneath me. The energy connecting through the soles of my feet, flowing up through my legs, into my torso, flowing through my arms and into the tips of my fingers, working its way up through the crown of my head, where a golden light shoots out and connects with a golden light coming from the sky.
 
-This ritual isn't mere metaphor—it's what a Shamanic teacher of mine [Marti Spiegelman](https://www.martispiegelman.org/) would call a technology of consciousness, an ancient tool for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
+This ritual isn't mere metaphor—it's what a Shamanic teacher of mine <a href="https://www.martispiegelman.org/" target="_blank">Marti Spiegelman</a> calls a technology of consciousness, an ancient tool for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
 
-As Marti teaches, consciousness is always evolving toward higher expressions of abundant life. Our role, as both carriers and stewards of this evolution, is to become skilled practitioners of its organising principles. Through these embodied practices, we're not just observing the emergence of new possibilities—we're actively participating in their birth, becoming living bridges between ancient wisdom and future flourishing.
+As Marti teaches, consciousness is always evolving toward higher expressions of abundant life. Our role, as both vessels and stewards of this evolution, is to become competent practitioners of its organising principles. Through these embodied practices, we're not just observing the emergence of new possibilities—we're actively participating in their birth, becoming living bridges between ancestral wisdom and future flourishing.
 
-These somatic technologies of consciousness form the foundation of Collective Futurecrafting, complementing and often preceding our use of digital tools. They are the deep scaffolding through which we sense, integrate, midwife the patterns wanting to emerge and hospice those that no longer serve. Like mycorrhizal networks that precede and support the visible forest, these practices create the subtle conditions through which new futures can take root. Where the radicle of these seeds of change truly emerge.
+These somatic technologies of consciousness form the foundation of Collective Futurecrafting, complementing circles and often preceding our use of digital tools. They are the deep scaffolding through which we sense, integrate, midwife the patterns wanting to be reborn and hospice those that no longer serve. Like mycorrhizal networks that precede and support the visible forest, these practices create the subtle conditions through which new futures can take root. Where the radicle of these seeds of change truly emerge.
 
-## Symbiotic Intelligence and Sacred Play
+## Symbiotic Intelligence and Serious Play
 
-The patterns of Collective Futurecrafting emerged not just through human contemplation, but through a dance with the more-than-human world—including our technological extensions. Like mycelial networks that connect trees in forests, our neural networks now extend through silicon and light, creating new possibilities for perception and pattern-re-cognition.
+While Collective Futurecrafting's origins planted seeds, it been evolving. Not just through human contemplation, yarns and yearns but through a dance with the more-than-human world—including our technological extensions. Like mycelial networks that connect trees in forests, our neural networks now extend through silicon and light, creating new possibilities for expanding perception and pattern re-cognition.
 
-Play weaves through all of this as a fundamental force of evolution and learning for me. Through my work with [Tethix](https://tethix.co) and personal explorations with tools like ChatGPT, Claude, and Midjourney, I've experienced how these technological symbionts can amplify our capacity for pattern recognition and moral imagination. Not as oracles or answer machines, but more so as conversational partners in our ongoing learning process of becoming.
+Play weaves through all of this as a fundamental force of evolution and learning for me. Through my work with <a href="https://tethix.co" target="_blank">Tethix</a> and personal explorations with tools like ChatGPT, Claude, and Midjourney, I've experienced how these technological symbionts can amplify our capacity for pattern recognition and moral imagination. Not as oracles or answer machines, but more so as conversational partners in our ongoing learning process of becoming.
 
 Now they have not replaced reading books, podcasts, reading articles online, surfing the web with the eventual 42 tabs open in my browser. Nor my handwritten journalling, notetaking, whiteboarding and visual sketching. These tools have extended existing learning, sense-making, learning and making.
 
@@ -92,13 +102,13 @@ Most powerfully, these tools haven't just augmented my cognition—they've becom
 
 This technological entanglement isn't separate from our work of crafting futures—it's integral to it. Like the way Indigenous peoples used songlines to navigate and maintain their relationships with Country, we're learning to use these new tools to map and navigate the possibility spaces of emergence. They're part of our expanded sensory system for perceiving and participating in the birth of the Symbiocene.
 
-Using the tools of the old world that is dying to craft the new.
+Using the tools of the old ways that are dying to craft the new.
 
 ## The Architecture of Small Moves
 
-What has emerged through this dance of human and machine intelligence, of ancient wisdom, of yarns with Elders, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 3 and 7) gathering regularly to listen deeply to their place, to prototype small interventions that might ripple outward, to share stories, process trauma and learnings through networks that mirror nature's own information highways.
+What has emerged through this dance of human and machine intelligence, of ancestral wisdom, of yarns with First Nations Elders, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 3 and 7) gathering regularly to listen deeply to their place, to prototype small interventions that might ripple outward, to share stories, process trauma and learnings through networks that mirror nature's own information highways.
 
-Now none of this is new. You can see this patterns in Sociocracy and Holocracy. In Indigenous governance, in high trust teams and well performing organisations.
+Now none of this is new. You can see this patterns in Sociocracy and Holocracy. In Indigenous governance, in high trust teams and more.
 
 But within the expression of these patterns in Collective Futurecrafting are many layers of practices. From the micro to the macro.
 
@@ -180,7 +190,7 @@ The principles that have crystallised are like the principles that guide any liv
 
 ## An Invocation to Practice
 
-And so this is both declaration and invitation. A marking of what has emerged through these garden contemplations, these chocolate journeys, these yarns with elders and friends, these dances with artificial minds. But also an opening, a calling to those who feel drawn to this work of threshold-walking and future-crafting.
+And so this is both declaration and invitation. A marking of what has emerged through these garden contemplations, these chocolate journeys, these yarns with elders and friends, these dances with artificial minds. But also an opening, a calling to those who feel drawn to this work of Thrutopian pathfinding and collective futurecrafting.
 
 Because we don't craft flourishing futures alone. We do it in circles, in relationship, in the spaces between individual and collective where new possibilities can take root.
 
@@ -210,16 +220,7 @@ Will you walk with me?
 
 _Ready to begin? [Learn more about joining a circle](/get-involved) or [explore the practice](/craft)._
 
-{% include parallax-section.html
-  background="/assets/images/garden-contemplation.jpg"
-  theme="sky-terra"
-  align="center"
-  height="medium"
-  content="
-  <h2>Seeds in the Garden of Time</h2>
-  <p>For the past year, I sat in my backyard garden every Futurecrafting Friggsday. Holding the enormity of stimuli, sitting with the sense of something that wants to be born. Knowing what is spoken, can become. What is felt, can be done. And what is imagined can be crafted.</p>
-  "
-%}
+---
 
 {% include content-pod.html 
   theme="olive-gold"
@@ -259,7 +260,7 @@ _Ready to begin? [Learn more about joining a circle](/get-involved) or [explore 
   theme="terra-sky"
   content="
   <h2>The Architecture of Small Moves</h2>
-  <p>What has emerged through this dance of human and machine intelligence, of ancient wisdom, of yarns with Elders, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 3 and 7) gathering regularly to listen deeply to their place, to prototype small interventions that might ripple outward, to share stories, process trauma and learnings through networks that mirror nature's own information highways.</p>
+  <p>What has emerged through this dance of human and machine intelligence, of ancestral wisdom, of yarns with Elders, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 3 and 7) gathering regularly to listen deeply to their place, to prototype small interventions that might ripple outward, to share stories, process trauma and learnings through networks that mirror nature's own information highways.</p>
   "
   accordion_content="
   <h3>Daily/Personal:</h3>
