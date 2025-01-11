@@ -3,8 +3,8 @@ layout: blog
 title: "Walking The Thrutopian Path and Germinating Seeds of the Symbiocene"
 date: 2025-01-08 16:20:11 +1000
 author: Mathew Mytka
-featured_image: /assets/images/hero_tree.jpg
-image_alt: Sunlight filtering through tree branches, illuminating the dance between shadow and light
+featured_image: /assets/images/posts/intro.jpg
+image_alt: Image of a forest with tree branch and a vine living in symbiosis
 categories:
   - Introduction
 tags:
@@ -78,13 +78,13 @@ Yet we need not wait for politicians, for the WEFerati, for the current institut
 
 ## A Pattern Wanting to Be Born
 <img src="{{ site.baseurl }}/assets/images/posts/garden-image.jpg" alt="picture of green banana trees and tomato plants" class="blog-image">
-Sitting in my garden these past months, watching the interplay of sunlight through leaves and the dance of ecology, something has been crystallising. A pattern wanting to be born. A living practice that weaves together the threads of ancestral wisdom and emerging possibility.
+Sitting in my garden these past months, watching the interplay of sunlight through leaves and the dance of ecology, something has been crystallising. Patterns wanting to be born.
 
 This practice began whispering to me in the quiet moments between thoughts, in the spaces where past and future dance together. It spoke in the language of living systems—in fractal relationships and feedback loops, in the way mycelial networks thread through soil and stories thread through communities. Coming through me in my ritual practice. It spoke through me in both the mystical and the magical.
 
 Every morning when I enter my office and every Futurecrafting Friggsday in my garden, I close my eyes and take a deep breath, feeling into the Taurus of energy flowing around and through my body, picturing the energy of our Mother Earth pulsating through the mycorrhizal networks beneath me. The energy connecting through the soles of my feet, flowing up through my legs, into my torso, flowing through my arms and into the tips of my fingers, working its way up through the crown of my head, where a golden light shoots out and connects with a golden light coming from the sky.
 
-This ritual isn't mere metaphor—it's what a Shamanic teacher of mine <a href="https://www.martispiegelman.org/" target="_blank">Marti Spiegelman</a> calls a technology of consciousness, an ancient tool for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
+This ritual isn't mere metaphor—it's what one of my Shamanic teachers <a href="https://www.martispiegelman.org/" target="_blank">Marti Spiegelman</a> calls a technology of consciousness, an ancient tool for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
 
 As Marti teaches, consciousness is always evolving toward higher expressions of abundant life. Our role, as both vessels and stewards of this evolution, is to become competent practitioners of its organising principles. Through these embodied practices, we're not just observing the emergence of new possibilities—we're actively participating in their birth, becoming living bridges between ancestral wisdom and future flourishing.
 
@@ -172,6 +172,11 @@ I call it Collective Futurecrafting because it's not about predicting or control
 
 It is an ongoing process of becoming that will evolve. That I will share learnings from in the open as I sit and commune with my fellow crafters. As I pilot the practices through my local school P&C and in the communities I am part of. As I play it out as I live it out.
 
+In the words of <a href="https://adriennemareebrown.net/" target="_blank">Adrienne Maree Brown</a>:
+> "What we practice at the small scale sets the patterns for the whole system."
+
+So, what is it we must practice in the process of becoming and crafting our futures? What is the craft that is calling us to be in service to the Earth and all her beings?
+
 ## The Practice of Perpetual Beginning
 
 The practice works through what we call "perpetual pilots"—small experiments that generate learning and build capacity for larger shifts. This isn't about scaling up in the industrial sense, but about scaling through—allowing successful patterns to propagate naturally, like seeds carried on the wind.
@@ -190,7 +195,7 @@ The principles that have crystallised are like the principles that guide any liv
 
 ## An Invocation to Practice
 
-And so this is both declaration and invitation. A marking of what has emerged through these garden contemplations, these chocolate journeys, these yarns with elders and friends, these dances with artificial minds. But also an opening, a calling to those who feel drawn to this work of Thrutopian pathfinding and collective futurecrafting.
+And so this is both declaration and invitation. A marking of what has emerged through these garden contemplations, these fungus journeys, these yarns with Elders, ancestors and friends, these dances with artificial minds. But also an opening, a calling to those who feel drawn to this work of Thrutopian pathfinding and collective futurecrafting.
 
 Because we don't craft flourishing futures alone. We do it in circles, in relationship, in the spaces between individual and collective where new possibilities can take root.
 
@@ -198,7 +203,7 @@ Because we don't craft flourishing futures alone. We do it in circles, in relati
 
 This is how transformation happens—not through grand declarations or master plans, but through small acts of courage and connection multiplied across networks of relationship. Through circles of people brave enough to sit with uncertainty, to listen deeply to place and possibility, to take small actions with great love.
 
-The path to the Symbiocene isn't a straight line. It's more like mycorrhizal networks spreading underground, connecting trees in ways invisible to the surface eye but vital to the forest's flourishing. Each ritual practice, each circle, each conversation, each small experiment becomes another node in this living network of transformation.
+The path to the Symbiocene isn't a straight line. It's more like mycorrhizal networks spreading underground, connecting trees in ways invisible to the surface eye but vital to the forest's flourishing. Each ritual, each somatic practice, each circle, each conversation, each small experiment becomes another node and vector in this living network of transformation.
 
 ## Walking Together
 
@@ -222,58 +227,6 @@ _Ready to begin? [Learn more about joining a circle](/get-involved) or [explore 
 
 ---
 
-{% include content-pod.html 
-  theme="olive-gold"
-  content="
-  <p>And there is a wonderful reimagining happening all around us. Like the fruiting bodies of the mycelium underneath the soil, popping up after the rains. Initiatives all around the world to reimagine what it means to be citizens, to rewild, to repattern, to reconnect with ourselves. Whispers in peoples dreams, in conversations in passing, in the quiet hum that is our yearning for deep belonging.</p>
-  "
-%}
-
-## The Edge of Transformation
-
-{% include quote-callout.html 
-  quote="Whether it is to be utopia or oblivion will be a touch-and-go relay race right up to the final moment."
-  attribution="Buckminster Fuller"
-  theme="terra-sky"
-  size="large"
-  align="center"
-%}
-
-{% include content-pod.html 
-  theme="sky-terra"
-  content="
-  <p>A more objective lens as a skeptical optimist looking at all the data points is that, yes, there is so much beauty emerging from what one might call a 'raising of consciousness'. But can it rise fast enough to bring about the radical transformation required for our deeply global civilisation to come into right relation with the web of life?</p>
-  "
-%}
-
-{% include quote-callout.html 
-  quote="We are shifting the discussion of what is acceptable and what is not, and a lot of good, positive things are happening. But the question is, will it happen fast enough?"
-  attribution="Danilo Brozović"
-  theme="gold-olive"
-  size="medium"
-  align="center"
-%}
-
-[Continue with more sections...]
-
-{% include content-pod.html 
-  theme="terra-sky"
-  content="
-  <h2>The Architecture of Small Moves</h2>
-  <p>What has emerged through this dance of human and machine intelligence, of ancestral wisdom, of yarns with Elders, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 3 and 7) gathering regularly to listen deeply to their place, to prototype small interventions that might ripple outward, to share stories, process trauma and learnings through networks that mirror nature's own information highways.</p>
-  "
-  accordion_content="
-  <h3>Daily/Personal:</h3>
-  <ul>
-    <li>Take 5 minutes each morning to feel the earth beneath your feet and set an intention to be present to possibility</li>
-    <li>Give gratitude to one living being (plant, animal, person) each day in a tangible way</li>
-    <li>Notice and celebrate when tiny acts of kindness or care happen around you</li>
-    <li>Write one sentence at the end of each day about a moment of flourishing you witnessed</li>
-  </ul>
-  [Continue with other sections of the practice list...]
-  "
-%}
-
 {% include parallax-section.html
   background="/assets/images/seed-of-life-hero-rough.svg"
   theme="olive-gold"
@@ -285,12 +238,3 @@ _Ready to begin? [Learn more about joining a circle](/get-involved) or [explore 
   <p>And so we begin—not with certainty about where this leads, but with trust in the wisdom of living systems and the power of collective intelligence. With practices that help us navigate complexity, tools that support emergence, and most importantly, relationships that sustain us through the journey.</p>
   "
 %}
-
-In the words of Adrienne Maree Brown:
-> "What we practice at the small scale sets the patterns for the whole system."
-
-So, what is it we must practice in the process of becoming and crafting our futures? What is the craft that is calling us to be in service to the Earth and all her beings?
-
-To be continued in the next commit...
-
----

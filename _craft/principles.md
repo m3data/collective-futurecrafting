@@ -17,7 +17,7 @@ permalink: /craft/principles/
 <div class="container">
   <div class="section-heading">
     <h2>Principles to guide living practice</h2>
-    <p>While many bawk at yet another set of principles we know from our experience that they are an important orientating force. When applied in ongoing design and embodied through living practice they become essential guides for moral imagination and meaningful action.</p>
+    <p>Principles are an important orientating force. When applied in ongoing design and embodied through living practice they become essential guides for moral imagination and meaningful collective action.</p>
   </div>
 </div>
 
