@@ -109,9 +109,9 @@ layout: default
         {% for post in site.related_posts limit:3 %}
           <article class="related-post">
             {% if post.featured_image %}
-              <div class="related-post__image">
-                <img src="{{ post.featured_image }}" alt="{{ post.title }}" />
-              </div>
+            <div class="related-post__image">
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" />
+            </div>
             {% endif %}
             <div class="related-post__content">
               <h3>
