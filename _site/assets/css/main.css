@@ -3152,3 +3152,18 @@ figcaption a:hover {
   margin-bottom: 1.5rem;
   color: var(--color-charcoal);
 }
+
+/* Tally Form Container */
+.form-container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 0 6rem;
+  background: transparent;
+}
+
+.form-container iframe {
+  width: 100%;
+  border: none;
+  background: transparent;
+}
