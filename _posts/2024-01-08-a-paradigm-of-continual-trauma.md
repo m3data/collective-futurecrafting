@@ -10,7 +10,7 @@ categories: ["Systems Thinking", "Collective Healing"]
 tags: ["trauma", "systems change", "healing", "regeneration"]
 ---
 
-Between heartbeats, between the electric pulse of notifications and the mechanical rhythm of commerce, there lies a wound. Not a clean cut, but a complex web of interconnected injuries—to our bodies, our communities, our planet. This wound speaks in the language of anxiety that keeps us awake at night, in the grief that catches in our throat when we read of another species lost, in the bone-deep exhaustion of trying to stay afloat in systems designed for extraction rather than flourishing.
+In between heartbeats, between the digital pulse of notifications and the mechanical rhythm of commerce, there lies a wound. Not a clean cut, but a complex web of interconnected injuries—to our bodies, our communities, our planet. This wound speaks in the language of anxiety that keeps us awake at night, in the grief that catches in our throat when we read of another species lost, in the bone-deep exhaustion of trying to stay afloat in systems designed for extraction rather than flourishing.
 
 ## The Anatomy of Collective Wounding
 

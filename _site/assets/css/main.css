@@ -3138,3 +3138,17 @@ figcaption a:hover {
     color: white;
   }
 }
+
+/* Blog Footnotes */
+.blog-footnotes {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(66, 61, 51, 0.1);
+}
+
+.blog-footnotes h3 {
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-charcoal);
+}
