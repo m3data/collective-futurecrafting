@@ -11,10 +11,7 @@ plugins:
   - jekyll-assets
 
 collections:
-  origins:
-    output: true
-    permalink: /:collection/:name
-  proem:
+  about:
     output: true
     permalink: /:collection/:name
   craft:
@@ -38,12 +35,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "origins"
-    values:
-      layout: page
-  - scope:
-      path: ""
-      type: "proem"
+      type: "about"
     values:
       layout: page
   - scope:

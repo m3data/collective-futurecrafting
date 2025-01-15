@@ -1,14 +1,22 @@
 main:
-  - title: Origins
-    url: /origins/
-  - title: Proem
-    url: /proem/
+  - title: About
+    url: /about/
+    dropdown: true
+    subitems:
+      - title: Proem
+        url: /about/proem/
+      - title: Origins
+        url: /about/origins/
+      - title: Stewards
+        url: /about/stewards/
   - title: Craft
     url: /craft/
     dropdown: true
     subitems:
       - title: Provocation
         url: /craft/provocation/
+      - title: Philosophy
+        url: /craft/philosophy/
       - title: Principles
         url: /craft/principles/
       - title: Patterns
@@ -17,11 +25,9 @@ main:
         url: /craft/practices/
       - title: Protocol
         url: /craft/protocol/
-      - title: Play
-        url: /craft/play/
+      - title: Playground
+        url: /craft/playground/
   - title: Blog
     url: /blog/
-  - title: Resources
-    url: /resources/
   - title: Get Involved
     url: /get-involved/

@@ -20,7 +20,7 @@ description: "Explore the principles, patterns and practices that make Collectiv
   </div>
   {% include quote-callout.html 
     quote="Collective Futurecrafting is designed to be a living practice, a way of being, a way of seeing, a way of doing that is always in flux, always in dialogue with the world around us. So play with these principles, patterns and practices as you wish and share with the community as you learn together along the way."
-    attribution="Origin Steward"
+    attribution="Origin Steward - Mathew Mytka"
     theme="terra-sky"
     size="large"
     align="left"
