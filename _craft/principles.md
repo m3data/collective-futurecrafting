@@ -16,7 +16,7 @@ permalink: /craft/principles/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Principles to guide living practice</h2>
+    <h2>Principles to guide the craft of living practice</h2>
     <p>Principles are an important orientating force. When applied in ongoing design and embodied through living practice they become essential guides for moral imagination and meaningful collective action.</p>
   </div>
 </div>

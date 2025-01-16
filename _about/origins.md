@@ -85,9 +85,9 @@ nav_order: 2
 {% capture parallax_content %}
 <h2>A living system</h2>
 <p>
-  Collective Futurecrafting is a provocation emergent from the intersection of <span class="bold-highlight">ancient wisdom</span> and <span class="bold-highlight">social innovation</span>, creating new possibilities for how we might live, learn, and thrive together.
+  Collective Futurecrafting is a provocation emergent from the intersection of <span class="bold-highlight">ancestral wisdom</span> and <span class="bold-highlight">social innovation</span>, creating new possibilities for how we might live, learn, and flourish together.
 </p>
-<a href="{{ '/craft/' | relative_url }}" class='button button--primary'>Learn about the practice →</a>
+<a href="{{ '/craft/' | relative_url }}" class='button button--primary'>Learn more about the emergent craft →</a>
 {% endcapture %}
 
 {% include parallax-section.html

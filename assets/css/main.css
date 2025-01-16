@@ -1031,6 +1031,16 @@ a:focus:not(:focus-visible) {
   );
 }
 
+/* Sky Terra theme */
+.content-pod__background--sky-white {
+  background: var(--color-sky-blue); /* Fallback */
+  background: linear-gradient(
+    to bottom,
+    rgba(167, 216, 240, 0.8), /* Sky Blue */
+    rgba(255, 255, 255, 0.8)  /* White */
+  );
+}
+
 /* Olive Gold theme */
 .content-pod__background--olive-gold {
   background: var(--color-olive-green); /* Fallback */
@@ -3166,4 +3176,133 @@ figcaption a:hover {
   width: 100%;
   border: none;
   background: transparent;
+}
+
+/* Steward Components */
+.steward-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.steward-bio {
+  height: auto;
+  padding: 2rem;
+  background: rgba(66, 61, 51, 0.05);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.steward-bio__content {
+  display: flex;
+  gap: 2rem;
+  align-items: start;
+}
+
+.steward-bio__image {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.steward-bio__info {
+  flex: 1;
+}
+
+.steward-bio__name {
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-charcoal);
+}
+
+.steward-bio__bio {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-charcoal);
+  opacity: 0.9;
+}
+
+.steward-bio__social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.steward-bio__social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  background: rgba(66, 61, 51, 0.1);
+  color: var(--color-charcoal);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.steward-bio__social a:hover {
+  background: var(--color-terracotta);
+  color: white;
+}
+
+.steward-bio__social svg {
+  transition: all 0.3s ease;
+}
+
+.steward-bio__social a:hover svg {
+  stroke: white;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .steward-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .steward-bio {
+    padding: 1.5rem;
+  }
+
+  .steward-bio__content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .steward-bio__social {
+    justify-content: center;
+  }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  .steward-bio {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .steward-bio__name,
+  .steward-bio__bio {
+    color: white;
+  }
+
+  .steward-bio__social a {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
 }

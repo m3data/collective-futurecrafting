@@ -16,10 +16,10 @@ description: "Explore the principles, patterns and practices that make Collectiv
 <div class="container">
   <div class="section-heading">
     <h2>Emergence of the craft</h2>
-    <p>All of what we share is merely a guiding reference for the emergence of crafting in the circles you are part of.</p>
+    <p>All of what we share in this moment is merely a guiding reference for the emergence and evolution of the craft itself.</p>
   </div>
   {% include quote-callout.html 
-    quote="Collective Futurecrafting is designed to be a living practice, a way of being, a way of seeing, a way of doing that is always in flux, always in dialogue with the world around us. So play with these principles, patterns and practices as you wish and share with the community as you learn together along the way."
+    quote="Collective Futurecrafting is designed to be a living practice, a way of being, a way of seeing, a way of doing that is always in flux, always in dialogue with the world around us. So play with these principles, patterns and practices as you wish. Embody them, adapt them and share learnings with the communities you are part of along the way."
     attribution="Origin Steward - Mathew Mytka"
     theme="terra-sky"
     size="large"
@@ -48,21 +48,15 @@ description: "Explore the principles, patterns and practices that make Collectiv
           <p>Explore the practices that bring Collective Futurecfating to life. </p>
           <a href="{{ '/craft/practices' | relative_url }}" class="button button--primary">Explore</a>
         </div>
-        <!-- Play -->
-        <div class="card card--sky-blue">
-          <h2>Play</h2>
-          <p>Are you ready to play a game and learn in the process?</p>
-          <a href="{{ '/craft/play' | relative_url }}" class="button button--primary">If you dare</a>
-        </div>
       </div>
     </div>
   </section>
 {% capture parallax_content %}
-<h2>Begin with us</h2>
+<h2>Craft with us</h2>
 <p>
   We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
 </p>
-<a href="#" class='button button--primary'>Become a futurecrafter →</a>
+<a href="{{ '/get-involved' | relative_url }}" class='button button--primary'>Get involved →</a>
 {% endcapture %}
 
 {% include parallax-section.html

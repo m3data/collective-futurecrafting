@@ -13,10 +13,10 @@ main:
     url: /craft/
     dropdown: true
     subitems:
-      - title: Provocation
-        url: /craft/provocation/
       - title: Philosophy
         url: /craft/philosophy/
+      - title: Provocation
+        url: /craft/provocation/  
       - title: Principles
         url: /craft/principles/
       - title: Patterns

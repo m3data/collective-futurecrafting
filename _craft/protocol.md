@@ -4,7 +4,7 @@ title: "The Protocol - Collective Futurecrafting"
 description: "A living network of circles, CLANs, and Rhiozomes working together through the WISDOM Protocol"
 permalink: /craft/protocol/
 ---
-
+<!-- TODO: Review and refine content on this page -->
 {% include page-hero.html
   title="The Protocol"
   subtitle="A Living Network for Planetary Change"
