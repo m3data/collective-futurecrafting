@@ -18,7 +18,7 @@ permalink: /craft/provocation/
 <div class="container">
   <div class="section-heading">
     <h2>Let's be real</h2>
-    <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, techno-optimists, surviellance captialism, the enshittification of our information ecologies—it's enough to make anyone want to pull the covers over their head beacuase it's all too big, too complex, and well, damn right overwhelming.</p>
+    <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, techno-optimists, surviellance captialism, the enshittification of our information ecologies—it's enough to make anyone want to pull the covers over their head beacause it's all too big, too complex, and well, damn right overwhelming.</p>
     <p>But within this beautiful mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p>
     <p>Collective Futurecrafting has emerged from this opportunity, as an invocation to all of us Earthians to help transform how we relate - to ourselves, each other, and the living world we are part of. And from within and through this transformation to craft something beautiful from the pieces of what's breaking. Futures worthy of our children's great great grandchildren and the plurality of pathways to get us there.</p>
   </div>
