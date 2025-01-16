@@ -17,6 +17,6 @@ permalink: /craft/playground/
 <div class="container">
   <div class="section-heading">
     <h2>Playing and Learning Together</h2>
-    <p>TODO</p>
+    <p>TODO</p> <!-- TODO: add coming soon content -->
   </div>
 </div>
