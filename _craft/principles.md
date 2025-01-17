@@ -151,6 +151,12 @@ permalink: /craft/principles/
           <p>Explore the practices that bring Collective Futurecfating to life. </p>
           <a href="{{ '/craft/practices' | relative_url }}" class="button button--primary">Explore</a>
         </div>
+        <!-- Playground -->
+        <div class="card card--sky-blue">
+          <h2>Playground</h2>
+          <p>Are you ready to play a game and learn in the process?</p>
+          <a href="{{ '/craft/playground' | relative_url }}" class="button button--primary">If you dare</a>
+        </div>
       </div>
     </div>
   </section>
