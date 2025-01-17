@@ -499,7 +499,7 @@ permalink: /craft/practices/
 <p>
   We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
 </p>
-<a href="#" class='button button--primary'>Become a futurecrafter →</a>
+<a href="{{ '/get-involved' | relative_url }}" class='button button--primary'>Get involved →</a>
 {% endcapture %}
 
 {% include parallax-section.html

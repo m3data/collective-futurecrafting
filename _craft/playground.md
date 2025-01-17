@@ -68,11 +68,11 @@ Our playground is stil, but the first games are almost ready for playtesting. Su
 %}
 </div>
 {% capture parallax_content %}
-<h2>Ready to Play?</h2>
+<h2>Wanna help craft the playground?</h2>
 <p>
-  Subscribe first to know when new games and activities are ready to try.
+  We're organising some co-creation sessions to explore the possibility space.
 </p>
-<a href="#" class='button button--primary'>Subscribe for early access →</a>
+<a href="{{ '/get-involved' | relative_url }}" class='button button--primary'>Get involved →</a>
 {% endcapture %}
 {% include parallax-section.html
 background="/assets/images/seed-of-life-hero-rough.svg"

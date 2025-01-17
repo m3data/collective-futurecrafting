@@ -66,6 +66,7 @@ nav_order: 4
       <div class='protocol-subsection'>
         <h3>In Germination</h3>
         <ul class='protocol-list'>
+          <li>Futurecrafting Playground</li>
           <li>Place-based Playbook</li>
           <li>WISDOM Protocol</li>
           <li>Local Perpetual Pilots</li>
