@@ -24,6 +24,9 @@ footnotes: |
   5. Futurecrafting Friggsday refers to Friday, named after Frigg, or Freya, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. I have ritualised this day for the past year and similar to Fridays for Future, it is a day to contemplate and craft the futures we want to see.
   6. Donna Haraway's concept of the cyborg, introduced in her 1985 "Cyborg Manifesto," suggests that humans have always been hybrid beings, constantly integrating tools and technology into our ways of being. This challenges the idea of 'pure' nature and suggests that our technological extensions are part of our evolution as a species.
 ---
+FINAL DRAFT - Needs review and editing.
+
+---
 
 We're in a phase transition<sup>1</sup> as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?
 
@@ -119,7 +122,7 @@ But within and amidst the expression of these ancestral patterns of communing ar
 
 It's called Collective Futurecrafting because it's not about predicting or controlling the future, but about participating artfully in its emergence. Like gardening, it requires both intention and surrender, both careful tending and trust in life's inherent creativity.
 
-It is an ongoing process of becoming that will evolve. That I will share learnings from in the open as I sit and commune with my fellow crafters. As I pilot the principles, patterns and practices through my local school P&C and in the various communities I am part of. As I play it out as I live it out.
+It is an ongoing process of becoming that will evolve. And learnings from this evolution will be shared in the open as I sit and commune with my fellow crafters. As we pilot the principles, patterns and practices through my local kids school P&C and in the various communities I am part of. Playing it out as we live it out.
 
 In the words of <a href="https://adriennemareebrown.net/" target="_blank">Adrienne Maree Brown</a>
 
