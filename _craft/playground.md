@@ -11,7 +11,7 @@ permalink: /craft/playground/
   theme="charcoal-pink-sky"
   size="large"
   align="center"
-  image="/assets/images/hero_gumbark.jpg"
+  image="/assets/images/hero_playground.jpg"
 %}
 
 <div class="container">
@@ -63,9 +63,9 @@ Our playground is still, and the first games are soon to emerge ready for playte
   <li>Join a community of playful futurecrafters</li>
   <li>Receive updates on new additions and improvements</li>
 </ul>
-
 "
 %}
+<iframe src="https://collectivefuturecrafting.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; border-radius: 24px; background:white;" frameborder="0" scrolling="no"></iframe>
 </div>
 {% capture parallax_content %}
 <h2>Wanna help craft the playground?</h2>
