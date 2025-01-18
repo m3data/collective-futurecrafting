@@ -55,7 +55,7 @@ content="
 <p>The best kind of learning together happens when we forget we're learning at all.</p>
 
 <h3>Want First Access?</h3>
-Our playground is still, and the first games are soon to emerge ready for playtesting. Subscribe now to:
+Our playground is still, and the first games are soon to emerge ready for playtesting. Subscribe to our substack to:
 
 <ul>
   <li>Be first to playtest new games and activities</li>
