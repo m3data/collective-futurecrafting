@@ -43,7 +43,7 @@ content="
 theme="sky-terra"
 content="
 <h2>What's Coming to Our Playground?</h2>
-<p>We want to collectively craft a collection of serious games that help circles:</p>
+<p>We want to collectively craft a collection of <a href='https://www.preventionweb.net/news/serious-games-helping-tackle-serious-problems' target='_blank'>serious games</a> that help circles:</p>
 <ul>
   <li>Map their shared dreams and challenges</li>
   <li>Navigate conflict with grace and creativity</li>
@@ -55,7 +55,7 @@ content="
 <p>The best kind of learning together happens when we forget we're learning at all.</p>
 
 <h3>Want First Access?</h3>
-Our playground is stil, but the first games are almost ready for playtesting. Subscribe now to:
+Our playground is still, and the first games are soon to emerge ready for playtesting. Subscribe now to:
 
 <ul>
   <li>Be first to playtest new games and activities</li>
@@ -70,7 +70,7 @@ Our playground is stil, but the first games are almost ready for playtesting. Su
 {% capture parallax_content %}
 <h2>Wanna help craft the playground?</h2>
 <p>
-  We're organising some co-creation sessions to explore the possibility space.
+  We're designing some co-creation sessions to explore the possibility space.
 </p>
 <a href="{{ '/get-involved' | relative_url }}" class='button button--primary'>Get involved →</a>
 {% endcapture %}
