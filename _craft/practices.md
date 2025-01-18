@@ -254,25 +254,29 @@ permalink: /craft/practices/
                     <li>Review guidelines for collaborative creation</li>
                   </ul>
                 </li>
-                <li>Choose a story focus:
+                <li>Choose a story focus, for example:
                   <ul>
-                    <li>Future scenarios</li>
-                    <li>Community challenges</li>
+                    <li>Future visions of the community and locality</li>
+                    <li>Community challenges being faced</li>
                     <li>Ancestral or ecological connections</li>
                   </ul>
                 </li>
-                <li>Begin the collaborative weaving:
+                <li>Begin the collaborative storying:
                   <ul>
-                    <li>Each person adds one element</li>
+                    <li>Each person adds one element (a word or sentence)</li>
                     <li>Build on previous contributions</li>
                     <li>Embrace unexpected directions</li>
+                    <li>Use metaphor and symbolism</li>
+                    <li>Allow for silence and reflection</li>
+                    <li>Record using audio or GenAI tools like ChatGPT</li>
                   </ul>
                 </li>
                 <li>Harvest the story's gifts:
                   <ul>
                     <li>Notice emerging themes</li>
-                    <li>Identify actionable insights</li>
-                    <li>Consider next steps</li>
+                    <li>Reflect on personal and collective resonance</li>
+                    <li>Use Generative AI tools to illustrate visions and pathways to get there</li>
+                    <li>Consider next steps and where this connects to the greater whole</li>
                   </ul>
                 </li>
               </ol>
@@ -283,7 +287,7 @@ permalink: /craft/practices/
             <div class='accordion__content'>
               <ul>
                 <li><strong>Storytelling as Connector:</strong> Uses narrative to build shared understanding and possibility.</li>
-                <li><strong>Self-Organization and Emergence:</strong> Allows stories to emerge through collective creation.</li>
+                <li><strong>Self-Organisation and Emergence:</strong> Allows stories to emerge through collective creation.</li>
                 <li><strong>Shared Knowledge Commons:</strong> Stories become part of collective wisdom.</li>
                 <li><strong>Intergenerational Engagement:</strong> Stories bridge past, present, and future.</li>
               </ul>
@@ -406,7 +410,7 @@ permalink: /craft/practices/
                 <li><strong>Prototyping and Perpetual Pilots:</strong> Creates dedicated space for experimentation</li>
                 <li><strong>Cyclical Processes:</strong> Embeds regular learning and iteration</li>
                 <li><strong>Shared Knowledge Commons:</strong> Generates and shares practical wisdom</li>
-                <li><strong>Self-Organization and Emergence:</strong> Allows natural evolution of solutions</li>
+                <li><strong>Self-Organisation and Emergence:</strong> Allows natural evolution of solutions</li>
               </ul>
             </div>
     </details>
