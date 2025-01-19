@@ -51,7 +51,7 @@ permalink: /about/stewards/
         name="David Berigny"
         image="david-berigny.webp"
         location="Gadigal Country, Sydney, Australia"
-        bio="David is a human-centred designer, educator, and community builder. He is passionate about creating spaces for people to connect, grow and learn to be good ancestors. With an extensive portfolio of work that spans across the arts, agriculture, digital identity, AI, and social innovation, he is dedicated to crafting experiences that foster learger circumfrences of care for this beautiful planet we all call home."
+        bio="David is a human-centred designer, educator, and community builder passionate about creating conditions for people to connect, grow and learn to be good ancestors. With an extensive portfolio of work that spans across the arts, agriculture, digital identity, AI, and social innovation, he is dedicated to crafting experiences that foster larger circumferences of care for this beautiful planet we all call home."
         linkedin="davidberigny"
         website="https://www.berigny.org/"
     %}
