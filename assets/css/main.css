@@ -3179,40 +3179,43 @@ figcaption a:hover {
 }
 
 /* Steward Components */
-.steward-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-  gap: 2rem;
-  width: 100%;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 2rem 0;
-}
-
 .steward-bio {
-  height: auto;
-  padding: 2rem;
-  background: rgba(66, 61, 51, 0.05);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(66, 61, 51, 0.05);
 }
 
 .steward-bio__content {
   display: flex;
-  gap: 2rem;
-  align-items: start;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.steward-bio__image-container {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: var(--color-terracotta) 8px solid;
+  overflow: hidden;
+  margin-bottom: 1rem;
 }
 
 .steward-bio__image {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.steward-bio:hover .steward-bio__image {
+  transform: scale(1.05);
 }
 
 .steward-bio__info {
@@ -3221,22 +3224,33 @@ figcaption a:hover {
 
 .steward-bio__name {
   font-family: 'Cormorant', serif;
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
   color: var(--color-charcoal);
 }
 
-.steward-bio__bio {
+.steward-bio__location {
   font-size: 1rem;
+  text-align: center;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+  margin-bottom: 1rem;
+}
+
+.steward-bio__bio {
+  font-size: 1.1rem;
   line-height: 1.6;
   color: var(--color-charcoal);
-  opacity: 0.9;
+  margin-bottom: 1.5rem;
+  text-align: left;
 }
 
 .steward-bio__social {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  padding-top: 1rem;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -3266,43 +3280,88 @@ figcaption a:hover {
   stroke: white;
 }
 
-/* Mobile Adjustments */
-@media (max-width: 768px) {
+/* Steward Grid */
+.steward-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem var(--spacing-base);
+}
+
+@media (min-width: 1024px) {
   .steward-grid {
-    grid-template-columns: 1fr;
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .steward-bio {
-    padding: 1.5rem;
-  }
-
-  .steward-bio__content {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .steward-bio__social {
-    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Dark Mode Support */
-@media (prefers-color-scheme: dark) {
+/* Mobile adjustments */
+@media (max-width: 768px) {
   .steward-bio {
-    background: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
   }
-
-  .steward-bio__name,
+  
+  .steward-bio__image-container {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .steward-bio__name {
+    font-size: 1.75rem;
+  }
+  
   .steward-bio__bio {
-    color: white;
+    font-size: 1rem;
   }
+}
+.steward-cta {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
 
-  .steward-bio__social a {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
+.steward-cta h2 {
+  font-family: 'Cormorant', serif;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  margin-bottom: 1.5rem;
+  color: var(--color-charcoal);
+}
+
+.steward-cta ul {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.steward-cta li {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.steward-cta li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-terracotta);
+}
+
+.steward-cta__note {
+  font-style: italic;
+  margin: 2rem 0;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .steward-cta {
+    padding: 1rem 0;
+  }
+  
+  .steward-cta ul {
+    margin: 1.5rem 0;
   }
 }

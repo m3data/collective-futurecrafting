@@ -78,7 +78,7 @@ nav_order: 4
 </div>
 <!-- Content Section End -->
 <!-- Contact Form Start -->
-<div class="container">
+<div class="container" id="contact">
   <div class="section-heading">
     <h2>Get in touch</h2>
     <p>Have a question, suggestion, or just want to say hello? Drop us a line and we'll get back to you as soon as we can.</p>

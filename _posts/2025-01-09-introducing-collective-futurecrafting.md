@@ -102,15 +102,28 @@ These somatic technologies of consciousness form the foundation of Collective Fu
 
 ## Symbiotic Intelligence and Serious Play
 
-While Collective Futurecrafting's <a href="{{ '/about/origins/' | relative_url }}" target="_blank">origins</a> planted seeds, it's ever evolving and the radile has emerged. Not just through human contemplation, rituals, community projects, yarns and yearns but through a dance with the more-than-human world—including our digital tech extensions. Like mycelial networks that connect trees in forests, our neural networks now extend through silicon as photons of light, creating new possibilities for expanding perception and pattern re-cognition.
+While Collective Futurecrafting's <a href="{{ '/about/origins/' | relative_url }}" target="_blank">origins</a> planted seeds, it's ever evolving and the radile has emerged. Not just through human contemplation, rituals, community projects, yarns and yearns but through a dance with the more-than-human world—including our digital tech extensions. Like mycelial networks that connect trees in forests, our neural networks now extend through to our digital networks through photons of light, creating new possibilities for expanding perception and pattern re-cognition.
 
 Playfulness weaves through all of this as a fundamental force of evolution and learning for me. Through my work at <a href="https://tethix.co" target="_blank">Tethix</a> with <a href="https://ialja.com/" target="_blank">Alja Isaković</a>, and through both professional and personal explorations with tools like ChatGPT, Claude, and Midjourney, and the APIs, I've experienced how these technological symbionts can amplify our capacity for pattern re-cognition and moral imagination. Not as oracles or answer machines, but more so as conversational partners in our ongoing learning process of becoming.
 
-They have not replaced the existing tech relationships, reading books or articles online, listening to podcasts, or surfing the web with the eventual 42 tabs open in my browser. Nor my handwritten journalling, notetaking, whiteboarding and visual sketching. These generative tools have extended existing patterns of sense-making, learning, making, doing and being.
+While misguided use of these tools can lead to a lack of critical thinking, echo chambers, and the spread of misinformation, I've found that when used with intention and care, they can be powerful allies in our individual collective sense-making and futurecrafting.
+
+They have not replaced the existing relationships with preexisting lo/hi-tech; reading books or articles online, listening to podcasts, or surfing the web with the eventual 42 tabs open in my browser. Nor my handwritten journalling, notetaking, whiteboarding and visual sketching. These generative tools have extended existing patterns of sense-making, learning, making, doing and being.
 
 Most powerfully, these tools haven't just augmented my cognition—they've become part of my sensory apparatus for perceiving possibility. As Donna Haraway reminds us, we've always been cyborgs<sup>6</sup>. From fire and the first stone tools to written language to Large Language Models, technology is entangled in our evolution. What's different now is our growing capacity and speed through which we can consciously participate in this current phase of becoming.
 
-This technological entanglement isn't separate from our work of crafting futures—it's integral to it. We're learning to use these new tools to map and navigate the possibility spaces of emergence. And I believe they're part of our expanded sensory system for perceiving and participating in the birthing of the Symbiocene.
+This technological entanglement isn't separate from our work of crafting futures—it's integral to it. We're learning to use these new tools to map and navigate the possibility spaces of emergence. And I truly believe they're part of our expanded sensory system for perceiving and participating in the birthing of the Symbiocene.
+
+{% include content-pod.html
+  theme="sky-pink"
+  content="
+  <details class='accordion'>
+        <summary class='accordion__trigger'>A note on ethical considerations</summary>
+        <div class='accordion__content'>
+          <p>Now there are many ethical considerations we could delve into when it comes to these technologies. From the extractive nature of the business models themselves, the ecological footprint of the current architechtures, to the implications of misguided use on our critical thinking faculties as humans, not to mention questions of intimacy and emotional attachment.</p><p>Much of the work of I have over the last several years has been action research in these areas and more.</p><p>I don't want to get bogged down on these considerations in this post and will write more on this topic as it specifically relates to Collective Futurecrafting in the near term. But the ethical considerations are always present in my mind and heart as I navigate this process of becoming and are a core part of my everyday work in the field of tech ethics.</p>
+        </div>
+      </details>"
+%}
 
 ## The Architecture of Small Moves
 
@@ -118,11 +131,11 @@ What has been re-cognised through this dance of human intelligence, of ancestral
 
 Now none of this is new. You can see these patterns in <a href="https://www.sociocracyforall.org/" target="_blank">Sociocracy</a> and <a href="https://www.holacracy.org/" target="_blank">Holocracy</a>. In Indigenous governance, in high trust teams and more.
 
-But within and amidst the expression of these ancestral patterns of communing are many layers of practices. From the micro to the macro.
+But within and amidst the expression of these ancestral patterns of communing are many layers of practices. From the micro to the macro. From somatic technologies of consciousness to the use of digital tools. From the small ritual practices to embed and embody in daily life to the larger rituals of community gatherings. From the deep listening to the land to the deep listening to the stories of our ancestors. From the playful experimentation with new technologies to the serious play of crafting new narratives and making them real and positively impactful. Many will change and evolve as we learn and unlearn.
 
-It's called Collective Futurecrafting because it's not about predicting or controlling the future, but about participating artfully in its emergence. Like gardening, it requires both intention and surrender, both careful tending and trust in life's inherent creativity.
+And really it's called Collective Futurecrafting because it's not about predicting or controlling the future, but about participating artfully in its emergence. Like gardening, it requires both intention and surrender, both careful tending and trust in life's inherent creativity and wisdom.
 
-It is an ongoing process of becoming that will evolve. And learnings from this evolution will be shared in the open as I sit and commune with my fellow crafters. As we pilot the principles, patterns and practices through my local kids school P&C and in the various communities I am part of. Playing it out as we live it out.
+An ongoing process of becoming that will evolve. And learnings from this evolution will be shared in the open as I sit and commune with my fellow mission stewards and crafters. As we pilot the principles, patterns and practices through my local kids school P&C and in the various communities we are all part of. Playing it out as we live it out.
 
 In the words of <a href="https://adriennemareebrown.net/" target="_blank">Adrienne Maree Brown</a>
 
