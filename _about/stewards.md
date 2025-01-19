@@ -27,7 +27,7 @@ permalink: /about/stewards/
         name="Mathew Mytka"
         image="mathew-mytka.jpg"
         location="Dharawal Country, Sydney, Australia"
-        bio="Mathew is creative technologist, moral imagineer, and systemic thinker and doer working at the intersection of science, art, technology, serious play and our shared humanity. Over the past 20+ years, he's navigated complexity across startups, federal governments initiatives, Fortune 50 companies, and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
+        bio="Moral imagineer and systemic thinker and doer playing at the intersection of science, art, technology, and our shared humanity. Over the past 15+ years, Mat has navigated complexity across startups, federal governments initiatives, Fortune 50 companies, social movements and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
         linkedin="mathewmytka"
         website="https://m3data.me"
     %}
@@ -35,7 +35,7 @@ permalink: /about/stewards/
         name="Gemma Masami Palmer"
         image="gemma-masami-palmer.jpg"
         location="Dharawal Country, Sydney, Australia"
-        bio="Gemma is a healer and regenerative practitioner. With deep roots in health science, yoga, and permaculture, she focuses on connecting people with their inner healing power through the wisdom of nature. Drawing inspiration from pioneers in natural farming and guided by her own Japanese ancestral knowledge, she weaves together holistic practices to support individual, community and ecological wellbeing."
+        bio="Healer and regenerative practitioner with deep roots in health science, yoga, and permaculture, Gemma focuses on connecting people with their inner healing power through the wisdom of nature. Drawing inspiration from pioneers in natural farming and guided by her own Japanese ancestral knowledge, she brings together holistic practices to nourish individual, community and ecological wellbeing."
         linkedin="gemma-p-576323224"
         website="https://www.gemmapalmer.au/about"
     %}
@@ -43,7 +43,7 @@ permalink: /about/stewards/
         name="Alja Isakovic"
         image="alja-isakovic.jpg"
         location="Ljubljana, Slovenia"
-        bio="Alja is an experienced full-stack product designer, manager, community builder, creator, and educator. Passionate about crafting delightful learning experiences, she has worked with startups, agencies, and enterprises across the world and co-founded EU Code Week, CodeCatz and Tethix. She is a strong advocate for climate action, radical systemic change and diversity, equity and inclusion in tech."
+        bio="Experienced full-stack product designer, manager, community builder, creator, and educator. Passionate about crafting delightful learning experiences, Alja has worked with startups, agencies, and enterprises across the world and co-founded EU Code Week, CodeCatz and Tethix. She is a strong advocate for climate action, radical systemic change and diversity, equity and inclusion in tech."
         linkedin="ialja"
         website="https://ialja.com/"
     %}
@@ -51,7 +51,7 @@ permalink: /about/stewards/
         name="David Berigny"
         image="david-berigny.webp"
         location="Gadigal Country, Sydney, Australia"
-        bio="David is a human-centred designer, educator, and community builder passionate about creating conditions for people to connect, grow and learn to be good ancestors. With an extensive portfolio of work that spans across the arts, agriculture, digital identity, AI, and social innovation, he is dedicated to crafting experiences that foster larger circumferences of care for this beautiful planet we all call home."
+        bio="Human-centred designer, educator, and community builder passionate about creating conditions for people to connect, grow and learn to be good ancestors. With an extensive portfolio of work that spans across the arts, agriculture, digital identity, AI, and social innovation, David is dedicated to crafting experiences that foster larger circumferences of care for this beautiful planet we all call home."
         linkedin="davidberigny"
         website="https://www.berigny.org/"
     %}
