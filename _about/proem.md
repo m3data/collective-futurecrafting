@@ -2,7 +2,7 @@
 layout: page
 title: "Proem"
 description: "The emergence and evolution of Collective Futurecrafting"
-nav_order: 1
+permalink: /about/proem/
 ---
 
 {% include page-hero.html 

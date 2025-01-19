@@ -2,7 +2,7 @@
 layout: page
 title: "Stewards - Earthian stewards of Collective Futurecrafting"
 description: "Learn about the Earthian stewards of Collective Futurecrafting"
-nav_order: 1
+permalink: /about/stewards/
 ---
 
 {% include page-hero.html 
