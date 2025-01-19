@@ -24,7 +24,7 @@ footnotes: |
   5. Futurecrafting Friggsday refers to Friday, named after Frigg, or Freya, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. I have ritualised this day for the past year and similar to Fridays for Future, it is a day to contemplate and craft the futures we want to see.
   6. Donna Haraway's concept of the cyborg, introduced in her 1985 "Cyborg Manifesto," suggests that humans have always been hybrid beings, constantly integrating tools and technology into our ways of being. This challenges the idea of 'pure' nature and suggests that our technological extensions are part of our evolution as a species.
 ---
-FINAL DRAFT - Needs review and editing.
+FINAL DRAFT - <!--TODO: --> Needs review and editing.
 
 ---
 
@@ -102,7 +102,7 @@ These somatic technologies of consciousness form the foundation of Collective Fu
 
 ## Symbiotic Intelligence and Serious Play
 
-While Collective Futurecrafting's <a href="{{ '/origins' | relative_url }}" target="_blank">origins</a> planted seeds, it's ever evolving and the radile has emerged. Not just through human contemplation, rituals, community projects, yarns and yearns but through a dance with the more-than-human world—including our digital tech extensions. Like mycelial networks that connect trees in forests, our neural networks now extend through silicon as photons of light, creating new possibilities for expanding perception and pattern re-cognition.
+While Collective Futurecrafting's <a href="{{ '/about/origins/' | relative_url }}" target="_blank">origins</a> planted seeds, it's ever evolving and the radile has emerged. Not just through human contemplation, rituals, community projects, yarns and yearns but through a dance with the more-than-human world—including our digital tech extensions. Like mycelial networks that connect trees in forests, our neural networks now extend through silicon as photons of light, creating new possibilities for expanding perception and pattern re-cognition.
 
 Playfulness weaves through all of this as a fundamental force of evolution and learning for me. Through my work at <a href="https://tethix.co" target="_blank">Tethix</a> with <a href="https://ialja.com/" target="_blank">Alja Isaković</a>, and through both professional and personal explorations with tools like ChatGPT, Claude, and Midjourney, and the APIs, I've experienced how these technological symbionts can amplify our capacity for pattern re-cognition and moral imagination. Not as oracles or answer machines, but more so as conversational partners in our ongoing learning process of becoming.
 
