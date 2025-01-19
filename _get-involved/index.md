@@ -41,7 +41,7 @@ nav_order: 4
       <div class='protocol-subsection'>
         <h3>Stay Connected</h3>
         <ul class='protocol-list'>
-          <li>Sign up for updates on Substack</li> <!-- TODO: Add Substack link -->
+          <li>Sign up for updates on <a href='https://collectivefuturecrafting.substack.com/' target='_blank'>Substack</a></li>
           <li>Share your thoughts and feedback</li>
         </ul>
       </div>
