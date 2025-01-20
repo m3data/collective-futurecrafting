@@ -6,7 +6,7 @@ permalink: /craft/philosophy/
 ---
 
 {% include page-hero.html
-  title="Living Philosophy"
+  title="Living philosophy"
   description=""
   theme="charcoal-pink-sky"
   size="large"
@@ -16,8 +16,8 @@ permalink: /craft/philosophy/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Loving Wisdom</h2>
-    <p>At the heart of Collective Futurecrafting lies a philosophy not of distant contemplation, but of engaging with a love for wisdom—the kind that emerges when we find ways to collapse the dualities of heart and mind, ancestral and emerging knowledge, personal insight and planetary understanding. These axioms form the foundation of our approach, drawn from the deep patterns of life itself.</p>
+    <h2>Loving wisdom</h2>
+    <p>At the heart of Collective Futurecrafting lies a philosophy not of distant contemplation, but of a playful engaging with a love for wisdom—the kind that emerges when we find ways to collapse the dualities of heart and mind, ancestral and emerging knowledge, personal insight and planetary understanding. These axioms form the foundation of our approach, drawn from the deep patterns of life itself.</p>
   </div>
 
   {% include content-pod.html
@@ -83,7 +83,7 @@ permalink: /craft/philosophy/
     background_size="50%"
     background_position="right"
     content="
-    <h2>Self-Determination</h2>
+    <h2>Self-determination</h2>
     <p class='quote'>Each voice matters; each person and circle is empowered to act with autonomy and agency.</p>"
     accordion_content="<ul>
       <li>Freedom and responsibility are inseperable</li>
@@ -119,12 +119,12 @@ permalink: /craft/philosophy/
     background_size="50%"
     background_position="right"
     content="
-    <h2>Cyclical Reflection</h2>
+    <h2>Cyclical reflection</h2>
     <p class='quote'>Pause, reflect, and adapt—each cycle informs the next.</p>"
     accordion_content="<ul>
       <li>Learning spirals in repeating patterns over time and space</li>
       <li>Every ending seeds a beginning</li>
-      <li>Wisdom emerges through an embodied love for learning</li>
+      <li>Wisdom emerges through a playfully embodied love for learning</li>
     </ul>
     " %}
 
@@ -136,7 +136,7 @@ permalink: /craft/philosophy/
     background_opacity="0.2"
     background_size="50%"
     background_position="right"
-    content="<h2>Mutual Flourishing</h2>
+    content="<h2>Mutual flourishing</h2>
     <p class='quote'>Strive to craft futures where all life can flourish.</p>"
         accordion_content="<ul>
             <li>Well-being is inherently collective</li>
@@ -147,7 +147,7 @@ permalink: /craft/philosophy/
 </div>
 <div class="container">
     <div class="section-heading">
-        <h2>Honouring a Confluence of Inherited Wisdom</h2>
+        <h2>Honouring a confluence of ancestral wisdom</h2>
             <p>These axioms emerge from a great confluence of wisdom streams—ancient and emerging, Eastern and Western, scientific and sacred. They are not new inventions but fresh expressions of perennial truths, spawned from the imagination, introspection, contemplation and beingness of many Earthians, re/cognised in response to our times. They also remind us of such beautiful Earthian qand ancestral insight we can draw from that is worth celebrating. Each stream brings its essential gifts, creating a flow of understanding that can guide us in crafting flourishing futures together.</p>
             <p>This is by no means an exhaustive encompassing of the streams in which have nourshished the Philosphy of Collective Futurecrafting. Just an acknowledgement of the deep and rich love for wisdom in which we drink from.</p>
     </div>
@@ -159,21 +159,21 @@ permalink: /craft/philosophy/
     background_opacity="0.1"
     background_size="50%"
     background_position="right"
-    content="
+    content=" <!-- TODO: review and refine -->
     <details class='accordion'>
-        <summary class='accordion__trigger'>Eastern Wisdom</summary>
+        <summary class='accordion__trigger'>Eastern philosophy</summary>
         <div class='accordion__content'>
-            <p>From the ancient streams of Eastern wisdom flow insights as vital today as when they first emerged. Like water finding its way through stone, these traditions have carved deep channels of understanding in the human heart.</p>
+            <p>From the ancient streams of Eastern wisdom flow insights as vital today as when they first emerged. Like water finding its way through stone, these traditions have carved deep channels of understanding in the the collective human body over time and space.</p>
             <p>Taoism whispers to us of wu-wei—the art of effortless action—where power comes not from forcing but from flowing with life's currents. In the eternal dance of yin and yang, we glimpse how apparent opposites actually create wholeness, teaching us to move with rather than against the grain of existence. Here we learn that true strength often lies in yielding, and the deepest changes come when we align with rather than resist the natural way.</p>
             <p>From Shinto traditions comes the recognition of kami—the sacred aliveness that dwells in all things. Through careful ritual and deep attention, we remember how to maintain harmony between human and more-than-human worlds. Every stream, stone, and ancient tree becomes our teacher when we remember how to listen.</p>
-            <p>Buddhism illuminates the web of interconnection in which we live and breathe. Its insights into impermanence and mutual causation show us how everything arises together in an endless dance of becoming. Through practices of mindful attention, we learn to see clearly how change flows through all things, including ourselves.</p>
+            <p>Buddhism illuminates the web of interconnection in which we live and breathe. Its insights into impermanence and mutual causation show us how everything arises together in an endless dance of playful becoming. Through practices of mindful attention, we learn to see clearly how change flows through all things, including ourselves.</p>
             <p>The wisdom streams of India run particularly deep. From the Indus Valley flows yoga's embodied path of awakening, teaching us how body, breath, and consciousness weave together in the dance of life. The Vedas sing of the sacred in all things, while the Upanishads reveal how direct experience opens doorways to the deepest truths. Through dharma we learn of right relationship, through karma we understand the ripples of our actions, through ahimsa we practice reverence for all life, and through the interplay of samsara and moksha we glimpse the greater cycles of existence.</p>
             <p>Even human sexual intimacy becomes a gateway to the sacred, as the Kama Sutra and Taoist sexual practices remind us. Here we learn how the erotic contains its own wisdom—teaching us about the power of union, the importance of pleasure, and love's capacity to heal and transform.</p>
             <p>These traditions, each in their way, remind us that wisdom isn't something to grasp but a way of being to cultivate. Like a garden tended over generations, it requires patient attention, regular practice, and trust in the slow work of transformation. The path itself becomes the destination—a constant unfolding rather than a final arrival.</p>
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Western Philosophical Streams</summary>
+        <summary class='accordion__trigger'>Western philosophy</summary>
         <div class='accordion__content'>
             <p>From the sun-drenched hills of ancient Greece come voices that still echo in our quest for understanding. Here we meet Socrates in the marketplace, challenging us to examine our lives with unflinching honesty, reminding us that wisdom begins not in certainty but in the courage to question. Through Plato's luminous Forms, we glimpse how ideals can guide us like stars, even if we can never quite reach them with our hands.</p>
             <p>Heraclitus stands by his ever-flowing river, showing us how change itself is the only constant—each moment a new beginning, each ending a doorway to transformation. Pythagoras reveals the sacred mathematics dancing through all things, from the spiral of galaxies to the unfurling of ferns, teaching us how number and form speak nature's deepest truths.</p>
@@ -184,7 +184,7 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Indigenous Wisdom</summary>
+        <summary class='accordion__trigger'>Indigenous wisdom</summary>
         <div class='accordion__content'>
             <p>On the ancient continent of Australia, the First Nations peoples carry the world's oldest living cultural wisdom—over 65,000 years of continuous relationship with Country. In their Dreaming stories, we glimpse how past, present, and future coming together in a living and breathing of deep relationality and meaning. From them, we learn the profound art of deep listening—not just with our ears, but with our whole being. This way of knowing teaches us that Country itself is alive, conscious, and in constant conversation with those who know how to listen.</p>
             <p>Across the waters in Aotearoa, Māori wisdom speaks through whakapapa—a profound understanding of how all things connect through genealogy, from the stars above to the stones below. Here, the haka transcends its popular image to reveal itself as a powerful expression of life force, identity, and collective strength. Through tikanga Māori, we learn the interconnection of protocol and practice in weaving communities together in ways that honour with elegance and grace both tradition and adaptation.</p>
@@ -195,7 +195,7 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Modern Synthesisers</summary>
+        <summary class='accordion__trigger'>Modern synthesisers</summary>
         <div class='accordion__content'>
             <p>In our time of great unraveling and reimagining, certain voices emerge as weavers of worlds—bridging ancient wisdom with emerging understanding, helping us navigate the space between what was and what could be. These modern synthesizers offer us new languages for timeless truths, helping us make sense of our moment while pointing toward possible futures.</p>
             <p>Charles Eisenstein speaks to the heart of our transition, illuminating the <em>'more beautiful world our hearts know is possible.'</em> Through his work, we learn to trust the quiet knowing that lives in our bones—that something more beautiful awaits our courage to dream it into being. His exploration of Sacred Economics reveals how we might transform our relationships with exchange and value, moving from scarcity to gift, from transaction to circulation.</p>
@@ -208,9 +208,9 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Systems Thinkers</summary>
+        <summary class='accordion__trigger'>Systems thinkers and seers</summary>
         <div class='accordion__content'>
-            <p>Just as a forest whispers its wisdom through the interplay of countless relationships, systems thinkers help us hear and understand the subtle languages of interconnection, interdependence and deep nestedness. They show us how to read the book of life not just word by word, but through the flowing poetry of pattern and process.</p>
+            <p>Just as a forest whispers its wisdom through the interplay of countless relationships, systems thinkers and seers help us hear, see, feel and and better understand the subtle languages of interconnection, interdependence and deep nestedness. They show us how to read the book of life not just word by word, but through the flowing poetry of pattern and process.</p>
             <p>Complexity science and systems theory illuminate the intricate dance of change in living systems. Through Elinor Ostrom's visionary work on polycentric governance, we discover how communities can tend their commons with care and wisdom, weaving webs of relationship that transform the tragedy of exploitation into tapestries of flourishing. Fritjof Capra and Pier Luigi Luisi reveal the fundamental patterns that sing through all living systems, showing us how life's music plays through every scale—from cell to society, from heartbeat to forest rhythm.</p>
             <p>Buckminster Fuller's brilliant mind gives us synergetics—teaching us to design with nature's elegant efficiency. His metaphor of Spaceship Earth transforms our understanding of home, making us fellow crew members on this precious vessel flying through space. Through his concept of trimtabs—those small rudders that turn great ships—we learn how precisely placed actions can guide whole systems toward new directions, like a whispered word that changes the course of a story.</p>
             <p>Donella Meadows maps the subtle acupuncture points of systems—those places where small shifts can catalyze profound change. Her work on leverage points becomes a navigator's guide through complexity. Stuart Kauffman illuminates the adjacent possible, showing how novelty emerges not through force but through the gentle art of exploring what lies just beyond the known. Together, they reveal how transformation follows the contours of possibility, like water finding its way through stone.</p>
@@ -220,7 +220,7 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Regenerative Praxis</summary>
+        <summary class='accordion__trigger'>Regenerative praxis</summary>
         <div class='accordion__content'>
             <p>In the fertile soil where wisdom meets action, a new generation of earth-healers is showing us how ancient knowledge and emerging understanding can dance together. These practitioners don't just dream of regenerative futures—they grow them, build them, and tend them into being with patient, practiced hands.</p>
             <p>Through regenerative agriculture, permaculture, and biomimicry, we rediscover how to read and work with nature's own patterns. These approaches teach us that true sustainability isn't about minimizing harm but about maximising life's creative abundance. Vandana Shiva and Satish Kumar illuminate paths of sacred activism where every step on Earth becomes a prayer, every action an offering to life's renewal. Their work shows us how ecological healing and social justice grow from the same roots.</p>
@@ -233,7 +233,7 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Cosmic Wisdom Seekers</summary>
+        <summary class='accordion__trigger'>Cosmic wisdom seekers</summary>
         <div class='accordion__content'>
             <p>At the edges of human understanding, where mathematics becomes poetry and physics touches mysticism, we find those rare souls who peer into the cosmic depths and return with stories that change how we see ourselves. These cosmic wisdom seekers remind us that every atom in our bodies was forged in stellar fire, that we are quite literally made of stardust dreaming itself into consciousness.</p><p>Through Carl Sagan and Neil deGrasse Tyson, we remember our cosmic heritage. Their words carry us beyond our earthly concerns to touch the vast wonder of space and time, yet always bring us home with a deepened appreciation for our pale blue dot and its precious cargo of life. In their telling, science becomes not just information but a sacred story of belonging to something far greater than ourselves.</p><p>Stephen Hawking and Brian Greene guide us through reality's stranger territories, where time bends like a river and space itself breathes. Through their work, quantum mechanics becomes not just a theory but a whispered hint that the universe is far more mysterious and interconnected than our everyday experience suggests. They show us how the deepest truths often paradoxically unite apparently opposing ideas—particle and wave, space and time, being and becoming.</p><p>Rupert Sheldrake and David Bohm invite us to explore the living patterns that connect all things. Through Sheldrake's morphic resonance, we glimpse how form and memory might ripple across space and time like waves on a cosmic ocean. Bohm's implicate order suggests that what appears as separation might be merely surface patterns on a deeper unity, like different whirlpools in the same stream of being.</p><p>In the bold syntheses of Nassim Haramein and Ervin Laszlo, we encounter visions of a unified cosmos where every point contains the whole. Their explorations of unified field theory and the Akashic field suggest that information and energy, meaning and matter might be intrinsically woven together in the fabric of reality itself. Through their work, ancient intuitions about universal interconnection find potential homes in contemporary physics.</p><p>Deepak Chopra and Bruce Lipton bridge the sciences of matter and consciousness, suggesting that awareness itself might be a fundamental force in the universe. Their investigations of mind-body medicine and the placebo effect reveal how belief shapes biology, how consciousness might be not just an observer but an active participant in reality's unfolding dance. They remind us that the observer and the observed arise together, that subject and object are two faces of one mystery.</p><p>Through the pioneering cartography of consciousness developed by Stanislav Grof, we discover how the cosmic and the personal interweave in the depths of psyche. His research reveals how our individual journeys of healing and transformation connect to vast fields of experience—from the memory of our own birth to archetypal encounters with death and rebirth, from ancestral knowing to cosmic unity. Through careful documentation of thousands of therapeutic sessions, Grof shows how consciousness itself might be a frontier as vast as outer space, how our inner cosmos mirrors and participates in the greater cosmic dance.</p>
             <p>Yet we would be remiss not to honour the profound feminine voices who have illuminated our cosmic understanding through different ways of knowing. These wisdom keepers remind us that the universe is not just to be measured and mapped, but to be felt, intuited, and danced with in intimate relationship.</p>
@@ -248,7 +248,7 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Artistic Inspiration</summary>
+        <summary class='accordion__trigger'>Artistic inspiration</summary>
         <div class='accordion__content'>
             <p>Artists are the alchemists of human experience—translators of the unseen and ineffable, who transform the invisible threads of imagination into artefacts to both mirror and expand our sense of beauty, life and the human experience. In the hands of masters like Leonardo da Vinci and Michelangelo, beauty becomes more than an aesthetic—it is a universal language that speaks directly to the human spirit, inviting us to see beyond the surface of things and glimpse the profound potential hidden within ordinary moments.</p>
             <p>Through color, artists like Vincent van Gogh and Georgia O'Keeffe reveal how perception itself can be a radical act of healing. Their palettes do not merely represent the world, but reimagine it—each brushstroke a meditation on perception, each canvas a window into seeing with renewed wonder. Picasso and Dali take us further, shattering conventional forms to show how reality is a malleable conversation, not a fixed narrative. Their work becomes a profound invitation: to challenge the boundaries of what we believe is possible.</p>
@@ -258,7 +258,7 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <details class='accordion'>
-        <summary class='accordion__trigger'>Mother Earth As Teacher</summary>
+        <summary class='accordion__trigger'>Mother Earth as teacher</summary>
         <div class='accordion__content'>
             <p>At the living heart of all wisdom lies Earth herself—a vast, breathing pedagogy that speaks through the intricate languages of watershed and forest, mycorrhizal network and weather pattern. She is not a passive backdrop but an active mentor, her lessons etched in the geological memory of stone, whispered through the rustling conversations of leaves, resonant in the profound silence between heartbeats of ecosystems.</p>
             <p>Indigenous knowledge keepers across the world have long understood this profound dialogue. Their traditions reveal not just a relationship with place, but a sophisticated, nuanced conversation—a reciprocal exchange where human communities are not separate from the landscape, but integral threads in its living tapestry. Each river tells a story, each mountain range holds ancestral memory, each ecosystem a complex university of interconnected learning.</p>
@@ -271,29 +271,29 @@ permalink: /craft/philosophy/
         </div>
     </details>
     <br>
-    <h2>Living Synthesis</h2>
-        <p>Collective Futurecrafting is not a fixed destination, but a living breathing pathway—a dynamic cartography of becoming that refuses to calcify into doctrine. It is an invitation to dance with complexity, to embrace uncertainty as a fertile ground of possibility. Here, wisdom is not a treasure to be hoarded, but a living current that flows through us, shaping and being shaped by our collective moral imagination.</p>
-        <p>This synthesis emerges not from the sterile laboratories of pure abstraction, but from the rich, messy terrain of lived experience. It is a practice of radical attunement—learning to listen deeply to the wisdom that emerges at the intersections of different knowledge streams. Like a river gathering strength from countless tributaries, this approach draws power from the diversity of human understanding, creating something far more vibrant than any single tradition could generate alone.</p>
+    <h2>Living synthesis</h2>
+        <p>Collective Futurecrafting is not a fixed destination, but a living breathing pathway—a dynamic cartography of playful becoming that we believe can resist calcification. It is an invitation to dance with complexity, to embrace uncertainty as a fertile ground of possibility. Here, wisdom is not a treasure to be hoarded, but a living current that flows through us, shaping and being shaped by our collective moral imagination.</p>
+        <p>This synthesis emerges not from the sterile mind of pure abstraction, but from the rich, messy terrain of lived experience. It is a practice of radical attunement—learning to listen deeply to the wisdom that emerges at the intersections of different knowledge streams. Like a river gathering strength from countless tributaries, this approach draws power from the diversity of human understanding, creating something far more vibrant than any single tradition could generate alone.</p>
         <p>We are not seeking a final answer, but cultivating a more beautiful question. <span class='bold-highlight'>Each crafter, each circle, becomes a living research site, drawing from their own ancestral lineages, lived experiences, and local contexts while remaining radically open to new understanding</span>. It is a form of collective intelligence that breathes, adapts, and evolves—a continuous dialogue between what is known and what is yet to be imagined.</p>
-        <p>Imagine wisdom as a living ecosystem—not a monument to be preserved, but a dynamic landscape constantly reshaping itself. Some roots run deep, anchoring us to time-tested insights. Other tendrils reach outward, exploring the edges of possibility. Between tradition and emergence, between the remembered, re/cognised and the imagined, we craft our path. Each step is both an act of remembering and an experiment in becoming.</p>
-        <p>This is not a journey of individual heroics, but of collective creativity. We recognise that the most profound transformations happen in the spaces between—between disciplines, between cultures, between ways of knowing. Our strength lies not in uniformity, but in our capacity to hold and be with complexity, to create spaces and places where different wisdom streams can meet, mingle, and give birth to something entirely unexpected.</p>
-        <p>Practical wisdom emerges through practice. It is cultivated in moments of deep listening, in small experiments, in the patient tending of relationships—with ourselves, with each other, with the living systems that sustain us. With this orientation we are learning to move beyond the illusion of separation, to recognise that our individual flourishing is intimately connected to the flourishing of the whole.</p>
-        <p>In this light, Collective Futurecrafting is an ongoing act of love—a commitment to remain curious, to stay humble, to keep our hearts and minds open to the continuous unfolding of life. It is an acknowledgment that we are not separate from the story we are creating, but active participants in a great, unfolding mystery. Our task is not to control, but to listen. Not to colonise, but to collaborate. Not to know everything, but to remain forever students in symmathesy of life's infinite wisdom.</p>
+        <p>Imagine wisdom as a living ecosystem—not a monument to be preserved, but a dynamic landscape constantly reshaping itself. Some roots run deep, anchoring us to time-tested insights. Other tendrils reach outward, exploring the edges of possibility. Between tradition and emergence, between the remembered, re/cognised and the imagined, we craft our path. Each step is both an act of remembering and an experiment in playful becoming.</p>
+        <p>This is not a journey of individual heroics, but of collective creativity. We recognise that the most profound transformations happen in the spaces between—between disciplines, between cultures, between ways of knowing. Our strength lies not in uniformity, but in our capacity to hold and playfully be with complexity, to create spaces and places where different wisdom streams can meet, mingle, and give birth to something entirely unexpected. Positive deviants of living wisdom.</p>
+        <p>This emerges through praxis. It is cultivated in moments of deep listening, in small and playful experiments, in the patient tending of relationships—with ourselves, with each other, with the living systems that sustain us. With this orientation we are learning to move beyond the illusion of separation, to re/cognise that our individual flourishing is intimately connected to the flourishing of the whole.</p>
+        <p>In this light, Collective Futurecrafting is an ongoing act of love—a commitment to remain playfully curious, to stay humble, to keep our hearts and minds open to the continuous unfolding of life. It is an acknowledgment that we are not separate from the story we are creating, but active participants in a great, unfolding mystery. Our task is not to control, but to listen. Not to colonise, but to collaborate. Not to know everything, but to remain forever students in symmathesy of life's infinite wisdom.</p>
        "
     %}
 
     {% include quote-callout.html
-    quote="We are living in a time of great unraveling, re-cognition and reimagining. These axioms offer not answers, but orientations—ways of seeing, learning and being that can help us navigate our times with wisdom as we craft futures worthy of our highest calling."
-    attribution="Origin Steward"
+    quote="We are living in a time of great unraveling, re/cognition and reimagining. These axioms offer not answers, but orientations—ways of seeing, (un)learning and being that can help us navigate our times with wisdom as we craft futures worthy of our highest calling."
+    attribution="Origin Steward - Mathew Mytka"
     theme="terra-sky"
     size="large"
     align="center"
     %}
 </div>
 {% capture parallax_content %}
-<h2>An Invitation to Practice</h2>
+<h2>An invocation to praxis</h2>
 <p>
-  These axioms come alive through practice—through small acts of care, through bold experiments in possibility, through patient cultivation of relationship with self, other, and Earth.
+  These axioms come alive through practice—through small acts of care, through bold and playful experiments in possibility, through patient cultivation of relationship with self, other, and Earth.
 </p>
 <p>
   What wisdom might emerge as you engage with them in your own context?

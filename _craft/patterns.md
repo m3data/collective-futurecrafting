@@ -61,26 +61,27 @@ permalink: /craft/patterns/
         <summary class='accordion__trigger'>Bringing it all together</summary>
         <div class='accordion__content'>
             <p>Collective Futurecrafting weaves these insights into a living framework. At its heart is the circle—an ancient, universal pattern of collaboration where trust flourishes and decisions emerge naturally. These circles form the foundation of fractal collaboration, scaling from intimate Futurecrafting Circles to bioregional CLANs to global Rhiozomes.</p>
-            <p>We're not building rigid hierarchies here. Instead, we're growing self-organizing systems rooted in trust and autonomy, resilient to shocks and ready to adapt. It's about creating a framework that helps us coordinate action, share resources, and craft flourishing futures together—all while staying true to these time-tested patterns of collaboration.</p>
+            <p>We're not building rigid hierarchies here. Instead, we're growing self-organising systems rooted in trust and autonomy, resilient to shocks and ready to adapt. It's about creating a framework that helps us coordinate action, share resources, and craft flourishing futures together—all while staying true to these time-tested patterns of collaboration.</p>
             <p>As we experiment with these patterns, we invite you to join us in exploring how they can guide our collective futurecrafting. Together, we can weave a tapestry of collaboration that honours the wisdom of the past, the needs of the present, and the possibilities of the future.</p>
         </div>
-    </details>"
+    </details>
+    <p>This evolving work has also been deeply inspire by the work of <a href='https://www.thegoodshift.co/' target='_blank'>The Good Shift</a> (which spun out from the <a href='https://www.griffith.edu.au/griffith-business-school/centre-for-systems-innovation' target='_blank'>Griffith Centre for Systems Innovation</a>) who have been doing pioneering work in collectively crafting preferable futures.</p>"
 %}
 </div>
 <div class="container">
   <div class="section-heading">
-    <h2>Understanding Patterns</h2>
-    <p>Patterns in Collective Futurecrafting are more than just templates—they are living, dynamic ways of being and doing that emerge from deep relationship with each other and the Earth. Each pattern weaves together behaviors, relationships, and structures that support flourishing at every scale.</p>
+    <h2>Understanding patterns</h2>
+    <p>Patterns in Collective Futurecrafting are more than just templates—they are living, dynamic ways of being and doing that emerge from deep relationship with each other and the Earth.</p>
   </div>
 
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>Key Features of CF Patterns</h2>
+    <h2>Key features of patterns</h2>
     <ul>
-      <li><strong>Relational at the Core:</strong> Every pattern centers on fostering relationships that are reciprocal, trust-based, and adaptive.</li>
-      <li><strong>Dynamic and Adaptive:</strong> Patterns evolve as participants interact and contexts shift, ensuring relevance and resilience.</li>
-      <li><strong>Experientially Rich:</strong> Patterns are designed to create meaningful, tangible experiences that resonate deeply with participants.</li>
+      <li><strong>Relational at the core:</strong> every pattern centers on fostering relationships that are reciprocal, trust-based, and adaptive.</li>
+      <li><strong>Dynamic and adaptive:</strong> patterns evolve as participants interact and contexts shift, ensuring relevance and resilience.</li>
+      <li><strong>Experientially rich:</strong> patterns are designed to create meaningful, tangible experiences that resonate deeply with participants.</li>
     </ul>
     "
   %}
@@ -88,23 +89,23 @@ permalink: /craft/patterns/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Core Patterns</h2>
-    <p>These interconnected patterns form the foundation of how we work together to craft flourishing futures.</p>
+    <h2>Core patterns</h2>
+    <p>These interconnected patterns form the foundation of how we might work together to craft flourishing futures.</p>
   </div>
 
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>1. Circles as Relational Foundations</h2>
+    <h2>1. Circles as relational foundations</h2>
     <p>At the heart of Collective Futurecrafting are circles—intimate groups where trust flourishes and transformation begins.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> People gather in small, intimate groups to share stories, reflect, and co-create solutions.</li>
-          <li><strong>Relationships:</strong> Trust is built through consistent, iterative interactions. Relationships emphasize reciprocity, mutual care, and deep listening.</li>
-          <li><strong>Structures:</strong> Circles operate with shared power, ensuring each voice is valued and heard.</li>
-          <li><strong>Experience:</strong> Participants feel seen, heard, and valued, creating a sense of belonging and co-ownership of solutions.</li>
+          <li><strong>Behaviour:</strong> people gather in small, intimate groups to share stories, reflect, and co-create solutions.</li>
+          <li><strong>Relationships:</strong> trust is built through consistent, iterative interactions. Relationships emphasise reciprocity, mutual care, and deep listening.</li>
+          <li><strong>Structures:</strong> circles operate with shared power, ensuring each voice is valued and heard.</li>
+          <li><strong>Experience:</strong> participants feel seen, heard, and valued, creating a sense of belonging and co-ownership of solutions.</li>
         </ul>
       </div>
     </details>
@@ -114,16 +115,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>2. Nested Collaboration</h2>
+    <h2>2. Nested collaboration</h2>
     <p>Like watersheds connecting streams to rivers to oceans, our work flows through nested scales of collaboration.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Local groups (Circles) connect to form larger networks (CLANs), which align within bioregional and planetary frameworks.</li>
-          <li><strong>Relationships:</strong> Collaboration emphasizes autonomy and interdependence, balancing local specificity with global coherence.</li>
-          <li><strong>Structures:</strong> Networks are designed fractally, ensuring scalability and coherence across different scales.</li>
-          <li><strong>Experience:</strong> People feel empowered at a local level while contributing to larger systems of change.</li>
+          <li><strong>Behaviour:</strong> local groups (Circles) connect to form larger networks called CLANs (Community Learning and Action Networks), which align within bioregional and planetary frameworks.</li>
+          <li><strong>Relationships:</strong> collaboration emphasises autonomy and interdependence, balancing local specificity with global coherence.</li>
+          <li><strong>Structures:</strong> networks are designed fractally, ensuring scalability and coherence across different scales.</li>
+          <li><strong>Experience:</strong> people feel empowered at a local level while contributing to larger systems of change.</li>
         </ul>
       </div>
     </details>
@@ -132,16 +133,16 @@ permalink: /craft/patterns/
 {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>3. Cyclical Processes</h2>
+    <h2>3. Cyclical processes</h2>
     <p>Like the seasons, our work moves in cycles of reflection and action, allowing us to learn and adapt continuously.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Groups engage in regular cycles of planning, acting, reflecting, and adapting.</li>
-          <li><strong>Relationships:</strong> Reflection builds deeper relational trust by acknowledging successes and failures collectively.</li>
-          <li><strong>Structures:</strong> Feedback loops are embedded within projects, allowing continuous learning and evolution.</li>
-          <li><strong>Experience:</strong> Participants feel the system is dynamic and responsive, fostering trust in the process and its outcomes.</li>
+          <li><strong>Behaviour:</strong> groups engage in regular cycles of planning, acting, reflecting, and adapting.</li>
+          <li><strong>Relationships:</strong> reflection builds deeper relational trust by acknowledging successes and failures collectively.</li>
+          <li><strong>Structures:</strong> feedback loops are embedded within projects, allowing continuous learning and evolution.</li>
+          <li><strong>Experience:</strong> participants feel the system is dynamic and responsive, fostering trust in the process and its outcomes.</li>
         </ul>
       </div>
     </details>
@@ -151,16 +152,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>4. Reciprocity and Mutual Benefit</h2>
+    <h2>4. Reciprocity and mutual benefit</h2>
     <p>Just as ecosystems thrive through mutual exchange, our work is grounded in giving and receiving in balance.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Resources, knowledge, and support are exchanged in ways that balance giving and receiving.</li>
-          <li><strong>Relationships:</strong> Emphasis on mutual benefit fosters respect, care, and accountability between participants.</li>
-          <li><strong>Structures:</strong> Rituals and agreements formalize reciprocity, ensuring it remains a core practice.</li>
-          <li><strong>Experience:</strong> People feel valued for their contributions and connected to others through shared care and responsibility.</li>
+          <li><strong>Behaviour:</strong> resources, knowledge, and support are exchanged in ways that balance giving and receiving.</li>
+          <li><strong>Relationships:</strong> emphasis on mutual benefit fosters respect, care, and accountability between participants.</li>
+          <li><strong>Structures:</strong> rituals and agreements formalize reciprocity, ensuring it remains a core practice.</li>
+          <li><strong>Experience:</strong> people feel valued for their contributions and connected to others through shared care and responsibility.</li>
         </ul>
       </div>
     </details>
@@ -170,16 +171,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>5. Self-Organization and Emergence</h2>
-    <p>Like mycelial networks adapting to local conditions, our work emerges through organic self-organization.</p>
+    <h2>5. Self-organisation and emergence</h2>
+    <p>Like mycelial networks adapting to local conditions, our work emerges through organic self-organisation.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Groups and projects emerge organically based on shared interests, needs, and capacities.</li>
-          <li><strong>Relationships:</strong> Relationships evolve dynamically, adapting to shifting contexts and opportunities.</li>
-          <li><strong>Structures:</strong> Loose but intentional frameworks allow self-organization while maintaining alignment with CF principles.</li>
-          <li><strong>Experience:</strong> Participants feel agency and freedom to innovate while remaining part of a larger shared purpose.</li>
+          <li><strong>Behaviour:</strong> circles and projects emerge organically based on shared interests, needs, competencies and capacities.</li>
+          <li><strong>Relationships:</strong> relationships evolve dynamically, adapting to shifting contexts and opportunities.</li>
+          <li><strong>Structures:</strong> loose but intentional frameworks allow self-organisation while maintaining alignment with principles.</li>
+          <li><strong>Experience:</strong> participants feel agency and freedom to innovate while remaining part of a larger shared purpose.</li>
         </ul>
       </div>
     </details>
@@ -189,13 +190,13 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>6. Storytelling as Connector</h2>
+    <h2>6. Storytelling as connector</h2>
     <p>Stories are the threads that weave our communities together, connecting past, present, and future.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> People share stories that explore challenges, envision futures, and reflect on experiences.</li>
+          <li><strong>Behaviour:</strong> people share stories that explore challenges, envision futures, and reflect on experiences.</li>
           <li><strong>Relationships:</strong> Storytelling builds empathy and understanding, connecting diverse perspectives across generations and cultures.</li>
           <li><strong>Structures:</strong> Dedicated spaces (e.g., Story Circles) and prompts guide storytelling processes.</li>
           <li><strong>Experience:</strong> Stories resonate emotionally, fostering a sense of shared identity and purpose.</li>
@@ -208,16 +209,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>7. Healing as Collective Journey</h2>
+    <h2>7. Healing as collective journey</h2>
     <p>Like a forest regenerating after fire, we journey together through healing and transformation.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Practices focus on processing grief, acknowledging trauma, and cultivating resilience.</li>
-          <li><strong>Relationships:</strong> Healing strengthens relationships by fostering vulnerability, trust, and mutual support.</li>
-          <li><strong>Structures:</strong> Rituals, somatic practices, and relational frameworks provide spaces for healing.</li>
-          <li><strong>Experience:</strong> Participants feel a sense of renewal, connection, and readiness to engage with the world.</li>
+          <li><strong>Behaviour:</strong> practices focus on processing grief, acknowledging trauma, and cultivating resilience.</li>
+          <li><strong>Relationships:</strong> healing strengthens relationships by fostering vulnerability, trust, and mutual support.</li>
+          <li><strong>Structures:</strong> rituals, somatic practices, and relational frameworks provide spaces for healing.</li>
+          <li><strong>Experience:</strong> participants feel a sense of renewal, connection, and readiness to engage with the world.</li>
         </ul>
       </div>
     </details>
@@ -227,16 +228,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>8. Prototyping and Perpetual Pilots</h2>
-    <p>Like nature's constant experimentation, we learn through doing, testing, and adapting.</p>
+    <h2>8. Playful prototyping and perpetual pilots</h2>
+    <p>Like nature's constant experimentation, we learn best through playfully doing, testing, and adapting.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Groups experiment with solutions, learning through iterative action.</li>
-          <li><strong>Relationships:</strong> Collaboration deepens as participants co-design, test, and refine ideas.</li>
-          <li><strong>Structures:</strong> Prototypes are lightweight, adaptable, and designed to evolve over time.</li>
-          <li><strong>Experience:</strong> People feel empowered to experiment and innovate without fear of failure.</li>
+          <li><strong>Behaviour:</strong> groups experiment with solutions, learning through play and iterative action.</li>
+          <li><strong>Relationships:</strong> collaboration deepens as participants co-design, test, and refine ideas.</li>
+          <li><strong>Structures:</strong> prototypes are lightweight, adaptable, and designed to evolve over time.</li>
+          <li><strong>Experience:</strong> people feel empowered to experiment and innovate without fear of failure.</li>
         </ul>
       </div>
     </details>
@@ -246,16 +247,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>9. Shared Knowledge Commons</h2>
+    <h2>9. Shared knowledge commons</h2>
     <p>Like traditional seed libraries, we cultivate and share wisdom for the benefit of all.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> Groups contribute to and draw from a shared pool of tools, insights, and resources.</li>
-          <li><strong>Relationships:</strong> Knowledge-sharing fosters mutual learning and collective growth.</li>
-          <li><strong>Structures:</strong> Platforms and protocols ensure accessibility and equity in knowledge distribution.</li>
-          <li><strong>Experience:</strong> Participants feel connected to a broader network of wisdom and innovation.</li>
+          <li><strong>Behaviour:</strong> groups contribute to and draw from a shared pool of tools, insights, and resources.</li>
+          <li><strong>Relationships:</strong> knowledge-sharing fosters mutual learning and collective growth.</li>
+          <li><strong>Structures:</strong> platforms and protocols ensure accessibility and equity in knowledge distribution.</li>
+          <li><strong>Experience:</strong> participants feel connected to a broader network of wisdom, active hope and innovation.</li>
         </ul>
       </div>
     </details>
@@ -265,16 +266,16 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>10. Intergenerational Engagement</h2>
+    <h2>10. Intergenerational engagement</h2>
     <p>Like ancient trees nurturing saplings, we weave wisdom across generations.</p>
     <details class='accordion'>
-      <summary class='accordion__trigger'>How It Works</summary>
+      <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behavior:</strong> People of different ages collaborate, sharing wisdom and perspectives.</li>
-          <li><strong>Relationships:</strong> Interactions emphasize respect, mentorship, and curiosity across generations.</li>
-          <li><strong>Structures:</strong> Activities and roles are designed to include children, elders, and everyone in between.</li>
-          <li><strong>Experience:</strong> Participants feel a sense of continuity, honoring past wisdom while shaping future possibilities.</li>
+          <li><strong>Behaviour:</strong> people of different ages collaborate, sharing wisdom and perspectives.</li>
+          <li><strong>Relationships:</strong> interactions emphasise respect, mentorship, and curiosity across generations.</li>
+          <li><strong>Structures:</strong> activities and roles are designed to include children, elders, and everyone in between.</li>
+          <li><strong>Experience:</strong> participants feel a sense of continuity, honouring past wisdom while shaping future possibilities.</li>
         </ul>
       </div>
     </details>

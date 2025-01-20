@@ -8,7 +8,7 @@ nav_order: 4
 <!-- Content Section Start -->
 <div class="container">
   <div class="section-heading">
-    <h2>Join the Craft</h2>
+    <h2>Craft with us</h2>
     <p>Collective Futurecrafting is a seedling just beginning to emerge. This is an invitation to help nuruture and cultivate this living practice.</p>
   </div>
 
@@ -17,10 +17,10 @@ nav_order: 4
     width="full"
     align="left"
     content="
-    <h2>Current Opportunities</h2>
+    <h2>Current opportunities</h2>
     <div class='protocol-section'>
       <div class='protocol-subsection'>
-        <h3>Early Circle Crafters</h3>
+        <h3>Early circle crafters</h3>
         <p>We're looking for individuals and small groups interested in piloting the first Futurecrafting Circles. As an early crafter, you'll:</p>
         <ul class='protocol-list'>
           <li>Help shape and refine the circle practices</li>
@@ -36,17 +36,17 @@ nav_order: 4
     width="full"
     align="left"
     content="
-    <h2>Ways to Engage</h2>
+    <h2>Ways to engage</h2>
     <div class='protocol-section'>
       <div class='protocol-subsection'>
-        <h3>Stay Connected</h3>
+        <h3>Stay connected</h3>
         <ul class='protocol-list'>
           <li>Sign up for updates on <a href='https://collectivefuturecrafting.substack.com/' target='_blank'>Substack</a></li>
           <li>Share your thoughts and feedback</li>
         </ul>
       </div>
       <div class='protocol-subsection'>
-        <h3>Share Your Wisdom</h3>
+        <h3>Share your wisdom</h3>
         <ul class='protocol-list'>
           <li>Tell us about your lived experiences with collective action and community building</li>
           <li>Share stories of transformation and change from your context</li>
@@ -61,10 +61,10 @@ nav_order: 4
     width="full"
     align="left"
     content="
-    <h2>Emerging Soon</h2>
+    <h2>Emerging soon</h2>
     <div class='protocol-section'>
       <div class='protocol-subsection'>
-        <h3>In Germination</h3>
+        <h3>In germination</h3>
         <ul class='protocol-list'>
           <li>Futurecrafting Playground</li>
           <li>Place-based Playbook</li>

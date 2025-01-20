@@ -169,4 +169,4 @@ For the future isn't a destination we arrive at, but a garden we tend together. 
 
 The Thrutopian path to the Symbiocene begins here, in this eternal moment pregnant with possibility. The space between where what's dying feeds what's being born.
 
-Will you craft with me?
+Will you <a href="{{ '/get-involved' | relative_url }}">craft with us</a>?
