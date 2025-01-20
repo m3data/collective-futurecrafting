@@ -100,7 +100,7 @@ content="
         <summary class='accordion__trigger'>What are the Three Horizons?</summary>
         <div class='accordion__content'>
           <p>The Three Horizons Framework is a way of understanding the past, present, and future as interconnected and interdependent. It helps us see where we've come from, where we are, and where we're going.</p>
-          <p>Each horizon represents a different way of thinking, doing, and being in the world. By mapping these horizons, we can see how they interact and influence each other, and how we can shape the future we want to create.</p>
+          <p>Each horizon represents a different way of thinking, doing, and being in the world. By mapping and playing between these horizons, we can see how they interact and influence each other, and how we can craft the future we want to born.</p>
           <p>Learn more about the <a href='https://www.h3uni.org/tutorial/three-horizons/' target='_blank'>Three Horizons framework</a>.</p>
         </div>
 </details>" %}
@@ -119,16 +119,29 @@ It represents the institutions, ways of thinking, doing and creating that curren
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
         <div class='accordion__content'>
-          <p>These systems are entrenched, resisting change while accelerating planetary degradation.</p>
+            <p>These systems are entrenched, resisting change while accelerating planetary degradation. The existing power structures are invested in maintaining the status quo and reinforcing the narrative that there is no alternative to the current way of doing things and being in the world.</p>
+            <ul>
+            <li>How might we navigate the decline of H1 without getting stuck in the despair of dystopian narratives?</li>
+            <li>How might we compost the old systems into resources for the future?</li>
+            <li>How might we create spaces for new ways of being to emerge?</li>
+          </ul>
         </div>
 </details>
 <details class='accordion'>
         <summary class='accordion__trigger'>How Collective Futurecrafting fits</summary>
         <div class='accordion__content'>
-          <p>Identify the dysfunctions of H1 and create spaces for communities to articulate their discontent, grief, and fears about these systems.</p>
+          <p>Identify the dysfunctions of H1 and create the conditions for individuals and communities, online and in-place to:</p>
+          <ul>
+          <li>Articulate their discontent, grief, and fears about these systems and imagine and experiment with alternatives to the dominant systems.</li>
+          <li>Build relationships and networks that support their efforts so they can see themselves as agents of change, capable of transforming their lives and local communities.</li>
+          <li>Process the trauma dominant systems have caused and are causing, and find ways to heal and regenerate themselves, their communities and local ecologies.</li>
+          <li>Define metrics using toolkits like <a href='https://cornerstoneindicators.com/' target='_blank'>Cornerstone Indicators</a> helping them contribute to the outcomes that matter to them.</li>
+          <li>Create visions of the future of their communities that are grounded in the values and needs of the people who live there and the ecologies they are part of.</li>
+          </ul>
         </div>
 </details>
 " %}
+
 {% include content-pod.html
 theme="terra-sky"
 width="full"
@@ -141,13 +154,24 @@ content="<h2>Horizon Two (H2): Emergence of the Adjacent Possible</h2><p>This is
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
         <div class='accordion__content'>
-          <p>Many H2 innovations, movements and initiatives remain fragmented, are easily co-opted by H1 institutions attempting to maintain power, or just lack the coherence to scale.</p>
+          <p>Many H2 innovations, movements and initiatives remain fragmented, are easily co-opted by H1 institutions attempting to maintain the current patterns and structures of power, or just lack the coherence to scale.</p>
+          <ul>
+            <li>How might we support the emergence of H2 initiatives that are regenerative, just, and resilient?</li>
+            <li>How might we build networks that can scale successful solutions?</li>
+            <li>How might we learn from the failures and successes of existing efforts?</li>
+            <li>How might we foster the emergence of new ways of being and doing that are grounded in the adjacent possible?</li>
+          </ul>
         </div>
 </details>
 <details class='accordion'>
         <summary class='accordion__trigger'>How Collective Futurecrafting fits</summary>
         <div class='accordion__content'>
-          <p>Acts as a bridge-builder in H2, fostering Futurecrafting Circles, CLANs, and Rhiozomes that prototype regenerative systems while learning from both the failures and successes of existing efforts of the adjacent possible.</p>
+          <p>Acts as a bridge-builder in H2, fostering the conditions for:</p>
+          <ul>
+          <li>Futurecrafting Circles to share knowledge, resources, and support, and prototype of regenerative solutions.</li>
+          <li>Codesigning ethical socio-technical systems that support the emergence and reflect the needs and values of the communities these systems serve.</li>
+          <li>Creating digital and physical spaces for reflection, learning, and sensemaking to help individuals and communities navigate the complexity of the adjacent possible.</li>
+          </ul>
         </div>
 </details>"
 %}
@@ -165,12 +189,23 @@ content="<h2>Horizon Three (H3): The World That Could Be</h2><p>This represents 
         <summary class='accordion__trigger'>The challenge</summary>
         <div class='accordion__content'>
           <p>H3 cannot emerge without a deliberate effort to imagine and build it in the present together. One circle, action, relationship and story at a time.</p>
+          <ul>
+            <li>How might we cultivate moral imagination and systemic action to bring H3 into being?</li>
+            <li>How might we hold H3 as a North Star, nurturing the seeds of this horizon through grounded, place-based action?</li>
+            <li>How might we make H3 feel tangible and actionable in the present?</li>
+            <li>How might we create rituals and practices that help us embody the values and principles of H3 in the enternal now?</li>
+            </ul>
         </div>
 </details>
 <details class='accordion'>
         <summary class='accordion__trigger'>How Collective Futurecrafting fits</summary>
         <div class='accordion__content'>
-          <p>Cultivate moral imagination and systemic action to bring H3 into being. CF encourages individuals and communities to hold H3 as a North Star, nurturing the seeds of this horizon through grounded, place-based action.</p>
+          <p>This is a the playful space of possibility. The world to manifest and collectively craft into being. In this space Collective Futurecrafting helps to:</p>
+          <ul>
+          <li>Cultivate moral imagination, active hope, and memories of the future so that individuals and communities can see themselves as part of the story of H3.</li>
+          <li>Encourage individuals and communities to hold H3 as a North Star, nurturing the seeds of this horizon through grounded, place-based collective action.</li>
+          <li>Use somatic storytelling and collaborative storycrafting practices to help people embody the future and make H3 feel tangible and actionable in the present.</li>
+          </ul>
         </div>
 </details>"
 %}

@@ -15,7 +15,7 @@ permalink: /craft/patterns/
 %}
 
 <div class="container">
-  <div class="section-heading">
+  <div class="section-heading" id="pattern-inspiration">
     <h2>Inspiration for the patterns</h2>
     <p>We've drawn inspiration from diverse disciplines, thinkers, practices and ways of being to harness the patterns that work in coordinating collaboration. From biology and philosophy to complex systems and social movements.</p>
   </div>

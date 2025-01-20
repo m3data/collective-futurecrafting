@@ -24,7 +24,7 @@ permalink: /craft/playground/
 theme="terra-sky"
 content="
 <p>Remember those magical playground moments? When a simple game of make-believe could turn into an epic adventure? When learning felt like play and play felt like discovering whole new worlds?</p>
-<p>That spark hasn't gone anywhere. It's just waiting to be rekindled. To be re-cognised by all of us as a powerful force for change and transformation.</p>
+<p>That spark hasn't gone anywhere. It's just waiting to be rekindled. To be re/cognised by all of us as a powerful force for change and transformation.</p>
 <p>In this playground, we're aiming to bring back that spirit of joyful discovery—but with a twist. </p>
 <p>We want to cocraft spaces with you. Where play becomes a portal to deeper understanding, where games become bridges between hearts and minds, where having fun and facing our biggest challenges as Earthians go hand in hand.</p>
 <p>Think of it as recess for your soul, but also as a laboratory for collective moral imagination. A place where we can:</p>

@@ -43,7 +43,7 @@ permalink: /about/stewards/
         name="Alja Isakovic"
         image="alja-isakovic.jpg"
         location="Ljubljana, Slovenia"
-        bio="Experienced full-stack product designer, manager, community builder, creator, and educator. Passionate about crafting delightful learning experiences, Alja has worked with startups, agencies, and enterprises across the world and co-founded EU Code Week, CodeCatz and Tethix. She is a strong advocate for climate action, radical systemic change and diversity, equity and inclusion in tech."
+        bio="Full-stack product designer, community builder, creator, and educator, passionate about crafting playful learning experiences that foster systemic change. Deep experience across startups, agencies, and enterprises throughout the world and co-founder of <a href='https://codeweek.eu/' target='_blank'>EU Code Week</a>, <a href='https://responsibletech.work/' target='_blank'>ResponsibleTech.work</a> and <a href='https://tethix.co' target='_blank'>Tethix</a>. A dedicated advocate for climate action, radical systemic change and diversity, equity and inclusion."
         linkedin="ialja"
         website="https://ialja.com/"
     %}
@@ -51,7 +51,7 @@ permalink: /about/stewards/
         name="David Berigny"
         image="david-berigny.webp"
         location="Gadigal Country, Sydney, Australia"
-        bio="Human-centred designer, educator, and community builder passionate about creating conditions for people to connect, grow and learn to be good ancestors. With an extensive portfolio of work that spans across the arts, agriculture, digital identity, AI, and social innovation, David is dedicated to crafting experiences that foster larger circumferences of care for this beautiful planet we all call home."
+        bio="Systems designer committed to seeing the big picture, working at the intersection of design, research, strategy, and tech. He uses his experience in fields like farming, finance, and AI to help enable positive change. He developed the he <a href='http://www.mfoe.life' target='_blank'> Meta-Framework of Everything (MFoE)</a> to help simplify complex systems and explore how good design can improve lives and shape a better future."
         linkedin="davidberigny"
         website="https://www.berigny.org/"
     %}
