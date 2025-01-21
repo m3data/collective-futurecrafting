@@ -2,6 +2,7 @@
 layout: default
 title: "Craft - The Art of Collective Futurecrafting"
 description: "Explore the principles, patterns and practices that make Collective Futurecrafting work"
+permalink: /craft/
 ---
 
 {% include page-hero.html

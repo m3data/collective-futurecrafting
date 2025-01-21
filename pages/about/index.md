@@ -2,6 +2,7 @@
 layout: default
 title: "About - About Collective Futurecrafting"
 description: "Learn about the origins and Earthians stewards of Collective Futurecrafting"
+permalink: /about/
 ---
 {% include page-hero.html
   title="The Art of Collective Futurecrafting"
