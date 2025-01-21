@@ -5,7 +5,7 @@ baseurl: "/collective-futurecrafting"
 url: "https://m3data.github.io/collective-futurecrafting"
 
 author: Mathew Mytka
-# logo: /assets/images/logo.svg
+logo: /assets/images/logo.svg
 locale: en_AU 
 
 markdown: kramdown
