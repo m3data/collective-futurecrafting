@@ -45,7 +45,7 @@ defaults:
       path: "_posts"
       type: posts
     values:
-      layout: blog
+      layout: post
   - scope:
       path: "_authors"
       type: authors
