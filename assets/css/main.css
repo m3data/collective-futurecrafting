@@ -58,6 +58,8 @@ a {
   color: var(--link-color);
   text-decoration: underline;
   position: relative;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px;
   transition: var(--link-transition);
 }
 
@@ -3071,6 +3073,13 @@ figcaption a:hover {
   visibility: visible;
   opacity: 1;
 }
+
+/* Footnote link in text */
+sup a.footnote {
+  text-underline-offset: 2px;
+}
+
+/* List of footnotes */
 .footnotes {
   margin-block-start: 4rem;
   border-top: solid 1px rgba(66, 61, 51, 0.1);
