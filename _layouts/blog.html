@@ -47,13 +47,6 @@ layout: default
 
   <div class="blog-content">
     {{ content }}
-    
-    {% if page.footnotes %}
-      <footer class="blog-footnotes">
-        <h3>Notes</h3>
-        {{ page.footnotes | markdownify }}
-      </footer>
-    {% endif %}
   </div>
 
   {% if author %}

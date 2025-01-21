@@ -3071,6 +3071,17 @@ figcaption a:hover {
   visibility: visible;
   opacity: 1;
 }
+.footnotes {
+  margin-block-start: 4rem;
+  border-top: solid 1px rgba(66, 61, 51, 0.1);
+  padding-top: 2rem;
+}
+.footnotes::before {
+  content: "Footnotes";
+  font-family: 'Cormorant', serif;
+  font-size: 1.5rem;
+  color: var(--color-charcoal);
+}
 
 /* Dark mode support */
 @media (prefers-color-scheme: dark) {
@@ -3147,20 +3158,6 @@ figcaption a:hover {
   .blog-content h4 {
     color: white;
   }
-}
-
-/* Blog Footnotes */
-.blog-footnotes {
-  margin-top: 4rem;
-  padding-top: 2rem;
-  border-top: 1px solid rgba(66, 61, 51, 0.1);
-}
-
-.blog-footnotes h3 {
-  font-family: 'Cormorant', serif;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-  color: var(--color-charcoal);
 }
 
 /* Tally Form Container */
