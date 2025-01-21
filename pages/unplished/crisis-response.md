@@ -2,7 +2,7 @@
 layout: page
 title: "Crisis Response"
 description: "How Collective Futurecrafting addresses modern challenges"
-nav_order: 2
+published: false
 ---
 
 # A Response to Modern Crises

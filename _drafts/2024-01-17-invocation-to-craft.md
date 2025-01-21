@@ -1,6 +1,5 @@
 ---
-layout: blog
-published: false
+layout: post
 title: "An Invocation to Future Crafters"
 date: 2025-01-13 09:11:00 +1000
 author: Mathew Mytka

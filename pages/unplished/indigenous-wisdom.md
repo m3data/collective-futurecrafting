@@ -2,7 +2,7 @@
 layout: page
 title: "Indigenous Wisdom"
 description: "How Indigenous knowledge systems inform Collective Futurecrafting"
-nav_order: 3
+published: false
 ---
 
 # Indigenous Wisdom

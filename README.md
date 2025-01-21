@@ -92,6 +92,7 @@ Here’s a quick guide to set up your local environment for development:
 ### Key Files and Directories
 
 - `_data/`: YAML files for dynamic content (e.g., navigation).
+- `_data/`: Draft blog posts, can be previewed by running `serve` or `build` with the `--drafts` switch. When drafts are ready to be published, just move them to the `_posts` folder. ß
 - `_includes/`: Reusable components like headers and footers.
 - `_layouts/`: HTML templates for pages.
 - `_posts/`: Collection of blog posts in Markdown.

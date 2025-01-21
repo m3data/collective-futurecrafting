@@ -1,6 +1,5 @@
 ---
-layout: blog
-published: true
+layout: post
 title: "Thrutopian Paths and Germinating Radicle Seeds of the Symbiocene"
 date: 2025-01-19 16:20:11 +1000
 author: Mathew Mytka

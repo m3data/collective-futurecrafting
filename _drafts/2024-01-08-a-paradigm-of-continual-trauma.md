@@ -1,6 +1,5 @@
 ---
-layout: blog
-published: false
+layout: post
 title: "Collective Trauma and the Wounds that Want to Heal"
 description: "An exploration of collective trauma and systemic healing in modern society"
 author: "Mathew Mytka"
