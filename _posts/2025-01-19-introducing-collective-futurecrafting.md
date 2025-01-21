@@ -15,7 +15,6 @@ tags:
   - symbiotic-intelligence
   - regenerative-design
 
-
 ---
 FINAL DRAFT - <!--TODO: --> Needs review, links and copyediting.
 

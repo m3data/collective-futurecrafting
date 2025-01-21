@@ -4,7 +4,7 @@ type: "book"
 author: "Tyson Yunkaporta"
 published_date: "2020-05-12"
 publisher: "HarperOne"
-url: "https://www.harpercollins.com/products/sand-talk-tyson-yunkaporta"
+website: "https://www.harpercollins.com/products/sand-talk-tyson-yunkaporta"
 cover_image: "/assets/images/resources/sand-talk.jpg"
 tags:
   - indigenous knowledge

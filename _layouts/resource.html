@@ -17,7 +17,7 @@ layout: default
       {% if page.author %}
         <p class="resource-author">By {{ page.author }}</p>
       {% endif %}
-      
+
       {% if page.tags %}
         <div class="resource-tags">
           {% for tag in page.tags %}
@@ -43,9 +43,9 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.url %}
-    <a href="{{ page.url }}" class="button button--primary" target="_blank" rel="noopener">
-      View Resource
+  {% if page.website %}
+    <a href="{{ page.website }}" class="button button--primary" target="_blank" rel="noopener">
+      View Resource Website
     </a>
   {% endif %}
 </article>
