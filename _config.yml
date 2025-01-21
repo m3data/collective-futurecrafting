@@ -51,3 +51,11 @@ defaults:
       type: authors
     values:
       layout: "author"
+
+# Feed settings
+feed:
+  collections:
+    posts:
+      path: "/blog.xml"
+    resources:
+      path: "/resources.xml"

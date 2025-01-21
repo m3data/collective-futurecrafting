@@ -13,8 +13,12 @@
         <!-- CSS -->
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
         {% if page.url contains '/play' %}
-            <link rel="stylesheet" href="{{ '/assets/css/story-weaver.css' | relative_url }}">
+        <link rel="stylesheet" href="{{ '/assets/css/story-weaver.css' | relative_url }}">
         {% endif %}
+
+        <!-- RSS feeds for blog posts and resources -->
+        <link rel="alternate" type="application/rss+xml" title="Collective Futurecrafting blog posts" href="{{ site.feed.collections.posts.path | relative_url }}" />
+        <link rel="alternate" type="application/rss+xml" title="Collective Futurecrafting resources" href="{{ site.feed.collections.resources.path | relative_url }}" />
     </head>
 <body>
     {% include welcome-modal.html %}
