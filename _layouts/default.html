@@ -6,9 +6,7 @@
         
         {%- seo -%}
         
-        <!-- Favicon -->
-        <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
-        <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+        {%- include favicon.html -%}
         
         <!-- CSS -->
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -32,10 +30,10 @@
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
     <script src="{{ '/assets/js/welcome-modal.js' | relative_url }}"></script>
     {% if page.url contains '/play' %}
-        <script src="{{ '/assets/js/story-weaver.js' | relative_url }}" defer></script>
+    <script src="{{ '/assets/js/story-weaver.js' | relative_url }}" defer></script>
     {% endif %}
-    {% if page.layout == 'blog' %}
-  <script src="{{ '/assets/js/footnotes.js' | relative_url }}" defer></script>
-{% endif %}
+    {% if page.layout == 'post' %}
+    <script src="{{ '/assets/js/footnotes.js' | relative_url }}" defer></script>
+    {% endif %}
 </body>
 </html>
