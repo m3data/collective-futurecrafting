@@ -56,21 +56,45 @@ Visit [our website](https://collectivefuturecrafting.net) for more details, reso
 We welcome contributions of all kinds—whether you’re a developer, designer, writer, or just someone passionate about co-creating a better future.
 
 ### Contributing to the Website
-This site is built using **Jekyll**, a static site generator. To contribute, follow these steps:
+This site is built using **[Jekyll](https://jekyllrb.com/docs/)**, a Ruby static site generator. 
+
+To contribute, follow these steps:
 
 1. **Fork the Repository**: Click the "Fork" button on the GitHub repository.
+
 2. **Clone Your Fork**:
 ```bash
    git clone https://github.com/<your-username>/collective-futurecrafting.git
    cd collective-futurecrafting
 ```
-3. **Install Jekyll**: Follow the [official installation guide](https://jekyllrb.com/docs/installation/).
+
+3. **Install Jekyll and other Gems**: 
+
+Jeykyll requires Ruby 2.5 or above. You can install Ruby by running:
+
+```sh
+brew install ruby
+```  
+Install Jekyll and Bundler:
+
+```sh
+gem install jekyll bundler
+```
+
+Install all gems (plugins) from the `Gemfile` with Bundler:
+
+```sh
+bundle install
+```
+
 4. **Run the Site Locally**:
 ```bash
    bundle exec jekyll serve
 ```
+
 5. Open http://localhost:4000 in your browser to view the site.
-6. Make your changes and create a pull request.
+
+6. Commit your changes and create a pull request.
 
 ### Suggestions for Contributions
 
@@ -91,6 +115,7 @@ Here’s a quick guide to set up your local environment for development:
 
 ### Key Files and Directories
 
+- `_authors/`: Collection for authors, still to be developed.
 - `_data/`: YAML files for dynamic content (e.g., navigation).
 - `_data/`: Draft blog posts, can be previewed by running `serve` or `build` with the `--drafts` switch. When drafts are ready to be published, just move them to the `_posts` folder. ß
 - `_includes/`: Reusable components like headers and footers.
@@ -100,6 +125,7 @@ Here’s a quick guide to set up your local environment for development:
 - `assets/`: CSS, JavaScript, and images.
 - `pages/`: Static pages in Markdown or HTML. 
 - `_config.yml`: Site-wide configuration settings.
+- `Gemfile`: List of used Ruby gems. 
 
 ## 📜 License
 
