@@ -17,7 +17,7 @@ permalink: /craft/practices/
 <div class="container">
   <div class="section-heading">
     <h2>Living Practices for Living Systems</h2>
-    <p>These practices are not rigid techniques but living ways of working that help us embody the <a href="/craft/principles">Principles</a> and express the <a href="/craft/patterns">Patterns</a> of Collective Futurecrafting. Each practice weaves together multiple patterns while staying grounded in our core principles.</p>
+    <p>These practices are not rigid techniques but living ways of working that help us embody the <a href="{{ '/craft/principles' | relative_url }}">Principles</a> and express the <a href="{{ '/craft/patterns' | relative_url }}">Patterns</a> of Collective Futurecrafting. Each practice weaves together multiple patterns while staying grounded in our core principles.</p>
   </div>
 </div>
 
