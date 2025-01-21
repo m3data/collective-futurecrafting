@@ -2,7 +2,7 @@
 layout: page
 title: "Get Involved"
 description: "Join the Collective Futurecrafting community and help craft preferable futures together"
-nav_order: 4
+permalink: /get-involved/
 ---
 
 <!-- Content Section Start -->

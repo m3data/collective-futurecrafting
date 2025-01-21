@@ -2,6 +2,7 @@
 layout: default
 title: "Resources"
 description: "Explore our curated collection of resources for deepening your understanding of Collective Futurecrafting."
+permalink: /resources/
 ---
 
 {% include page-hero.html 

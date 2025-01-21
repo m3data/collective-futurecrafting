@@ -91,10 +91,13 @@ Here’s a quick guide to set up your local environment for development:
 
 ### Key Files and Directories
 
-- `_layouts/`: HTML templates for pages.
-- `_includes/`: Reusable components like headers and footers.
 - `_data/`: YAML files for dynamic content (e.g., navigation).
+- `_includes/`: Reusable components like headers and footers.
+- `_layouts/`: HTML templates for pages.
+- `_posts/`: Collection of blog posts in Markdown.
+- `_resources/`: Collection of resources in Markdown.
 - `assets/`: CSS, JavaScript, and images.
+- `pages/`: Static pages in Markdown or HTML. 
 - `_config.yml`: Site-wide configuration settings.
 
 ## 📜 License
