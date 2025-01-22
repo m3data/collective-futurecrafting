@@ -4,7 +4,7 @@ type: "book"
 author: "Tyson Yunkaporta"
 published_date: "2023-08-01"
 publisher: "University of Queensland Press"
-url: "https://www.amazon.com.au/Right-Story-Wrong-Adventures-Indigenous/dp/1922790435"
+website: "https://www.amazon.com.au/Right-Story-Wrong-Adventures-Indigenous/dp/1922790435"
 cover_image: "/assets/images/resources/right-story-wrong-story.jpg"
 tags:
   - indigenous knowledge

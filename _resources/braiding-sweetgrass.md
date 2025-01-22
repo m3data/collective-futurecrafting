@@ -4,7 +4,7 @@ type: "book"
 author: "Robin Wall Kimmerer"
 published_date: "2013-10-15"
 publisher: "Milkweed Editions"
-url: "https://milkweed.org/book/braiding-sweetgrass"
+website: "https://milkweed.org/book/braiding-sweetgrass"
 cover_image: "/assets/images/resources/braiding-sweetgrass.jpg"
 tags:
   - indigenous knowledge

@@ -1,6 +1,5 @@
 ---
-layout: blog
-published: true
+layout: post
 title: "Thrutopian Paths and Germinating Radicle Seeds of the Symbiocene"
 date: 2025-01-19 16:20:11 +1000
 author: Mathew Mytka
@@ -16,19 +15,14 @@ tags:
   - symbiotic-intelligence
   - regenerative-design
 
-footnotes: |
-  1. Phase transition refers to a fundamental change in a system's state, like water turning to steam. In social systems, it describes periods of profound transformation where old patterns break down and new ones emerge. See <a href='https://en.wikipedia.org/wiki/Phase_transition' target='_blank'>Wikipedia</a> for more.
-  2. A radicle is the part of a plant embryo that develops into the primary root. For deeper inspiration, see <a href='https://radiclecivics.cc/' target='_blank'>Radicle Civics</a>, an initiative from <a href='https://darkmatterlabs.org/' target='_blank'>Dark Matter Labs</a> that explores new forms of civic governance.
-  3. The Ministry of Futility is a fictional institution that represents the bureaucratic inertia and systemic failures that often prevent meaningful change. It's a nod to the challenges of navigating complex systems and the need for new approaches to governance and decision-making. I created a interactive fiction game called <a href='https://m3data.github.io/Ministry-of-Futility-Game/' target='_blank'>The Ministry of Futility</a> as a way to explore these themes.
-  4. WEFerati is a colloquial term referring to the elite attendees and proponents of the World Economic Forum's vision for the future. It's a playful nod to the power dynamics and techno-optimism often associated with the Davos crowd and their influence on global policy.
-  5. Futurecrafting Friggsday refers to Friday, named after Frigg, or Freya, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. I have ritualised this day for the past year and similar to Fridays for Future, it is a day to contemplate and craft the futures we want to see.
-  6. Donna Haraway's concept of the cyborg, introduced in her 1985 "Cyborg Manifesto," suggests that humans have always been hybrid beings, constantly integrating tools and technology into our ways of being. This challenges the idea of 'pure' nature and suggests that our technological extensions are part of our evolution as a species.
 ---
 FINAL DRAFT - <!--TODO: --> Needs review, links and copyediting.
 
 ---
 
-We're in a phase transition<sup>1</sup> as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?
+We're in a phase transition[^1] as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?
+
+[^1]: Phase transition refers to a fundamental change in a system's state, like water turning to steam. In social systems, it describes periods of profound transformation where old patterns break down and new ones emerge. See <a href='https://en.wikipedia.org/wiki/Phase_transition' target='_blank'>Wikipedia</a> for more.
 
 Like mycelia sensing changes in the soil, there's a deep knowing stirring in our collective body—a recognition that we stand at a threshold of profound transformation. This knowing has been whispering to me, and I sense to many others, through dreams and garden conversations, through data points and pattern re/cognition, through the quiet persistence of life finding new ways to flourish.
 
@@ -51,7 +45,9 @@ We are always becoming and all that has been is compost for radicles to emerge i
 <br>
 And there is a wonderful reimagining happening all around us. Like the fruiting bodies of the mycelium underneath the soil, popping up after the rains. Or how the undergrowth that begins thriving as an old tree dies and opens up the canopy. Initiatives all around the world to reimagine what it means to be citizens, to rewild, to repattern, to reconnect with ourselves, to re/cognise. Whispers in peoples dreams, in conversations in passing, in the quiet hum that is our yearning for deep belonging.
 
-At the same time there is so much upheaval, turmoil, and continuation of trauma while <a href="https://www.planetaryhealthcheck.org/" target="_blank">Spaceship Earth's vital signs</a> are flashing red. Wars across the world, wars on our psyches, ongoing exploitation of people, of forests, of our Earth. This cannot be ignored as it is in this trauma that lies the <span class="footnote-ref">radicle<sup>2</sup><span class="footnote-tooltip">A radicle is the first part of a seedling (a growing plant embryo) to emerge from the seed during the process of germination. See footnote for futher context.</span></span> seeds of healing if we are willing to work through it together.
+At the same time there is so much upheaval, turmoil, and continuation of trauma while <a href="https://www.planetaryhealthcheck.org/" target="_blank">Spaceship Earth's vital signs</a> are flashing red. Wars across the world, wars on our psyches, ongoing exploitation of people, of forests, of our Earth. This cannot be ignored as it is in this trauma that lies the <span class="footnote-ref">radicle[^2]<span class="footnote-tooltip">A radicle is the first part of a seedling (a growing plant embryo) to emerge from the seed during the process of germination. See footnote for futher context.</span></span> seeds of healing if we are willing to work through it together.
+
+[^2]: A radicle is the part of a plant embryo that develops into the primary root. For deeper inspiration, see <a href='https://radiclecivics.cc/' target='_blank'>Radicle Civics</a>, an initiative from <a href='https://darkmatterlabs.org/' target='_blank'>Dark Matter Labs</a> that explores new forms of civic governance.
 
 ## The edge of transformation
 
@@ -80,7 +76,10 @@ Like composting itself, transformation requires both breaking down and building 
 
 Even in the political realms the Overton windows are seemingly shifting to more preferable policy. Of course there is variance based on where on this wonderful planet you are. And in my view none of what I see here where I am in Australia is radicle enough.
 
-Yet we need not wait for politicians, bureacrats in the Ministry of Futility<sup>3</sup>, for the WEFerati<sup>4</sup>, for Elonia Musk, for the current institutions to make the changes we most need for the transformation. It happens at the edges, in our communities, conversations and yarns. In the small rituals we practice. In the processing of our trauma and the quieter transformations we embrace.
+Yet we need not wait for politicians, bureacrats in the Ministry of Futility[^3], for the WEFerati[^4], for Elonia Musk, for the current institutions to make the changes we most need for the transformation. It happens at the edges, in our communities, conversations and yarns. In the small rituals we practice. In the processing of our trauma and the quieter transformations we embrace.
+
+[^3]: The Ministry of Futility is a fictional institution that represents the bureaucratic inertia and systemic failures that often prevent meaningful change. It's a nod to the challenges of navigating complex systems and the need for new approaches to governance and decision-making. I created a interactive fiction game called <a href='https://m3data.github.io/Ministry-of-Futility-Game/' target='_blank'>The Ministry of Futility</a> as a way to explore these themes.
+[^4]: WEFerati is a colloquial term referring to the elite attendees and proponents of the World Economic Forum's vision for the future. It's a playful nod to the power dynamics and techno-optimism often associated with the Davos crowd and their influence on global policy.
 
 This is what creates the conditions and paths to the Symbiocene.
 
@@ -90,7 +89,9 @@ Sitting in my garden these past several months, watching the interplay of sunlig
 
 Whispering to me in the quiet moments between thoughts, in the spaces where past and future dance together. Teasing me in my dreams and drawings. It spoke in the language of living systems, in sacred geometries, in the language of both the mystical and the magical.
 
-Every morning when I enter my office and every <span class="footnote-ref">Futurecrafting Friggsday<sup>5</sup><span class="footnote-tooltip">Futurecrafting Friggsday refers to Friday, named after Frigg, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. See footnote for further context.</span></span> in my garden, I close my eyes and take a deep breath, feeling into the Taurus of energy flowing around and through my body, picturing the energy of our Mother Earth pulsating through the mycorrhizal networks beneath me. The energy connecting through the soles of my feet, flowing up through my legs, into my torso, flowing through my arms and into the tips of my fingers, working its way up through the crown of my head, where a golden light shoots out and connects with a golden light coming from the sky.
+Every morning when I enter my office and every <span class="footnote-ref">Futurecrafting Friggsday<span class="footnote-tooltip">Futurecrafting Friggsday refers to Friday, named after Frigg, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. See footnote for further context.</span></span>[^5] in my garden, I close my eyes and take a deep breath, feeling into the Taurus of energy flowing around and through my body, picturing the energy of our Mother Earth pulsating through the mycorrhizal networks beneath me. The energy connecting through the soles of my feet, flowing up through my legs, into my torso, flowing through my arms and into the tips of my fingers, working its way up through the crown of my head, where a golden light shoots out and connects with a golden light coming from the sky.
+
+[^5]: Futurecrafting Friggsday refers to Friday, named after Frigg, or Freya, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. I have ritualised this day for the past year and similar to Fridays for Future, it is a day to contemplate and craft the futures we want to see.
 
 This ritual isn't mere metaphor—it's what one of my Shamanic teachers <a href="https://www.martispiegelman.org/" target="_blank">Marti Spiegelman</a> calls a technology of consciousness, an ancient tool for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
 
@@ -112,7 +113,9 @@ They have not replaced the relationships I have with preexisting lo/hi-tech tool
 
 As I've played with these tools, I've noticed how they've helped me to see patterns in my thinking, to surface assumptions, to explore new possibilities, to deepen my understanding of complex systems, and to craft new narratives on this loop.
 
-Most powerfully, these tools haven't just extended my cognition—they've become part of my sensory apparatus for perceiving possibility. As Donna Haraway reminds us, we've always been cyborgs<sup>6</sup>. From fire and the first stone tools to written language to Large Language Models, technology is entangled in our evolution. What's different now is our growing capacity and speed through which we can consciously participate in this current phase of becoming.
+Most powerfully, these tools haven't just extended my cognition—they've become part of my sensory apparatus for perceiving possibility. As Donna Haraway reminds us, we've always been cyborgs[^6]. From fire and the first stone tools to written language to Large Language Models, technology is entangled in our evolution. What's different now is our growing capacity and speed through which we can consciously participate in this current phase of becoming.
+
+[^6]: Donna Haraway's concept of the cyborg, introduced in her 1985 "Cyborg Manifesto," suggests that humans have always been hybrid beings, constantly integrating tools and technology into our ways of being. This challenges the idea of 'pure' nature and suggests that our technological extensions are part of our evolution as a species.
 
 This technological entanglement isn't separate from our work of crafting futures—it's integral to it. We're learning to use these new tools to map and navigate the possibility spaces of emergence. And I truly believe they're part of our expanded sensory system for perceiving and participating in the birthing of the Symbiocene.
 

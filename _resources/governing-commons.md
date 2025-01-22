@@ -4,7 +4,7 @@ type: "book"
 author: "Elinor Ostrom"
 published_date: "1990-09-30"
 publisher: "Cambridge University Press"
-url: "https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5"
+website: "https://www.cambridge.org/core/books/governing-the-commons/A8BB63BC4A1433A50A3FB92EDBBB97D5"
 cover_image: "/assets/images/resources/governing-commons.jpg"
 tags:
   - governance

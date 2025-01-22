@@ -4,7 +4,7 @@ type: "book"
 author: "Brian Walker & David Salt"
 published_date: "2006-08-22"
 publisher: "Island Press"
-url: "https://islandpress.org/books/resilience-thinking"
+website: "https://islandpress.org/books/resilience-thinking"
 cover_image: "/assets/images/resources/resilience-thinking.jpg"
 tags:
   - resilience

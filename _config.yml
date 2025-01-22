@@ -1,68 +1,61 @@
 title: Collective Futurecrafting
-description: The future is not written. It is crafted.
+description: >- 
+  Collective Futurecrafting is a wholistic system for place based and community-led transformation, weaving ancient wisdom with modern innovation to create flourishing futures for all life.
 baseurl: "/collective-futurecrafting"
 url: "https://m3data.github.io/collective-futurecrafting"
+
+author: Mathew Mytka
+logo: /assets/images/logo.svg
+locale: en_AU 
 
 markdown: kramdown
 theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-assets
 
 collections:
-  about:
+  posts:
     output: true
-    permalink: /:collection/:name
-  craft:
-    output: true
-    permalink: /:collection/:name
+    permalink: /blog/:year/:month/:day/:title/
   resources:
     output: true
-    permalink: /:collection/:title/
-  get-involved:
-    output: true
-    permalink: /:collection/:name
-  story_nodes:
-    output: true
-  blog:
-    output: true
-    permalink: /blog/:title/
+    permalink: /resources/:title/
   authors:
     output: true
     permalink: /authors/:name/
+  story_nodes:
+    output: true
 
 defaults:
   - scope:
       path: ""
-      type: "about"
+    values:
+      image: /assets/images/collective-futurecrafting-social.jpg
+  - scope:
+      path: "pages"
     values:
       layout: page
   - scope:
-      path: ""
-      type: "craft"
+      path: "_resources"
+      type: resources
     values:
-      layout: page
+      layout: resource
   - scope:
-      path: ""
-      type: "resources"
+      path: "_posts"
+      type: posts
     values:
-      layout: "resource"
+      layout: post
   - scope:
-      path: ""
-      type: "get-involved"
-    values:
-      layout: page
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "blog"
-  - scope:
-      path: ""
-      type: "authors"
+      path: "_authors"
+      type: authors
     values:
       layout: "author"
 
-include:
-  - assets
+# Feed settings
+feed:
+  collections:
+    posts:
+      path: "/blog.xml"
+    resources:
+      path: "/resources.xml"
