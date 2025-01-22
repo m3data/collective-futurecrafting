@@ -17,7 +17,7 @@ permalink: /craft/principles/
 <div class="container">
   <div class="section-heading">
     <h2>Principles to guide the craft of living practice</h2>
-    <p>Principles are an important orientating force. While our <a href="{{ '/craft/philosophy' | relative_url }}" target="_blank"> philosophical axioms</a> ground us in a deeper ancestral wisdom, these principles guide our practical engagement with the intergenerational and interspecies work of crafting flourishing futures.</p>
+    <p>Principles are an important orientating force. While our <a href="{{ '/craft/philosophy' | relative_url }}" target="_blank"> philosophical axioms</a> ground us in a deeper cosmic and ancestral wisdom, these principles guide our practical engagement with the intergenerational and interspecies work of crafting flourishing futures.</p>
   </div>
 </div>
 
@@ -27,7 +27,7 @@ permalink: /craft/principles/
     width="full"
     align="left"
     content="
-    <h2>Deep Listening to Place and Community</h2>
+    <h2>Deep listening to place and community</h2>
     <p>This is about:</p>
     <ul>
       <li>Attuning to the whispers of the land in which you live</li>
@@ -46,7 +46,7 @@ permalink: /craft/principles/
     background_size="50%"
     background_position="right"
     content="
-    <h2>Honouring Indigenous and Ancestral Wisdom</h2>
+    <h2>Honouring indigenous and all ancestral wisdom</h2>
     <p>This is about:</p>
     <ul>
       <li>Recognising the deep knowledge and wisdom of the First Peoples of the land</li>
@@ -65,7 +65,7 @@ permalink: /craft/principles/
     background_size="50%"
     background_position="right"
     content="
-    <h2>Working with Nature's Patterns</h2>
+    <h2>Working with nature's patterns</h2>
     <p>This is about:</p>
     <ul>
       <li>Understanding the interconnectedness of all life</li>
@@ -79,14 +79,14 @@ permalink: /craft/principles/
     width="full"
     align="left"
     content="
-     <h2>Cultivating Authentic Relationships</h2>
+     <h2>Cultivating authentic relationships</h2>
       <p>This is about:</p>
       <ul>
-        <li>Weaving trust like mycelial networks, patient and persistent</li>
+        <li>Weaving trust like mycelial networks, with loving patience and persistence</li>
         <li>Creating containers where vulnerability can bloom like wildflowers</li>
-        <li>Seeing conflict as compost for deeper understanding</li>
+        <li>Seeing conflict as compost for deeper understanding and a force of creative tension</li>
         <li>Celebrating the sacred art of connection across our beautiful differences</li>
-        <li>Recognizing that true relationship is a living, breathing ecosystem</li>
+        <li>Recognising that right relationship is a living, breathing ecosystem we are all part of</li>
       </ul>
   " %}
   {% include content-pod.html
@@ -94,14 +94,14 @@ permalink: /craft/principles/
   width="full"
   align="left"
   content="
-    <h2>Learning Through Play</h2>
+    <h2>Learning through play</h2>
     <p>This is about:</p>
     <ul>
-      <li>Treating exploration as a sacred dance of curiosity</li>
-      <li>Transforming 'failure' into fertile ground for innovation</li>
+      <li>Treating exploration as a sacred dance of playful curiosity</li>
+      <li>Transforming 'failure' into fertile ground for radicle innovation</li>
       <li>Remembering that joy is a compass for meaningful discovery</li>
       <li>Approaching complexity with a child's wonder and an elder's patience</li>
-      <li>Understanding that play is how living systems learn and adapt</li>
+      <li>Understanding that play is how systems learn and adapt</li>
     </ul>
     " %}
   {% include content-pod.html
@@ -109,11 +109,11 @@ permalink: /craft/principles/
   width="full"
   align="left"
   content="
-    <h2>Sharing Openly as You Learn</h2>
+    <h2>Sharing openly as you learn</h2>
     <p>This is about:</p>
     <ul>
       <li>Tracking our collective journey like cartographers of possibility</li>
-      <li>Making vulnerability a form of radical generosity</li>
+      <li>Making vulnerability a form of radicle generosity</li>
       <li>Transforming personal learning into community wisdom</li>
       <li>Celebrating each small breakthrough as a seed of collective transformation</li>
       <li>Creating living documents that breathe and grow with our understanding</li>
@@ -124,7 +124,7 @@ permalink: /craft/principles/
   width="full"
   align="left"
   content="
-    <h2>Celebrating Emergence</h2>
+    <h2>Celebrating emergence</h2>
     <p>This is about:</p>
     <ul>
       <li>Listening for the whispers of potential waiting to be born</li>

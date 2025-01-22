@@ -19,7 +19,7 @@ permalink: /craft/provocation/
   <div class="section-heading">
     <h2>Let's be real</h2>
     <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, techno-optimists, surviellance captialism, the enshittification of our information ecologies—it's enough to make anyone want to pull the covers over their head beacause it's all too big, too complex, and well, damn right overwhelming.</p>
-    <p>But within this beautiful mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p><p>Like our coming of age rite of passage. We're being called to step into the unknown, to face the shadows of our past, and to craft a future that's worthy of many generations after us.</p>
+    <p>But within this beautiful mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p><p>This our collective coming of age rite of passage. Our call to step into the unknown, to face and integrate shadows of our past, and to craft a future that's worthy of seven generations after us.</p>
     <p>Collective Futurecrafting has emerged from this opportunity, as an invocation to all of us Earthians to help transform how we relate - to ourselves, each other, and the living world we are part of. And from within and through this transformation to craft something beautiful from the pieces of what's breaking.</p>
   </div>
   {% include content-pod.html 
@@ -37,9 +37,9 @@ permalink: /craft/provocation/
       <li><strong>Utopian:</strong> Technology will save us, and we'll all live in perfect harmony with the help of our AI overlords.</li>
     </ul>
     <p>Neither of these stories helps us navigate the real world we're living in. They keep us stuck in a cycle of fear and inaction, waiting for someone else to fix things for us.</p>"
-    accordion_content="<p>Apocalyptic narratives abound as we find it easy to imagine that we're all doomed! The planet's dying, society's collapsing, and the best we can do is hunker down and hope for the best. It's Mad Max meets The Hunger Games with a dash of Orwellian sauce, minus the cool costumes.</p>
-    <p>On the flip side, we have the techno-utopians who believe that technology will save us. We'll all live in perfect harmony as happy consumers with the help of our AI overlords, and we'll never have to worry about anything ever again. It's Star Trek meets The Matrix with a side of Silicon Valley hubris.</p>
-    <p>And there are many complex and nuanced stories in between. But the dominant narratives of our time tend to fall into these two camps, leaving us feeling powerless and disconnected from the world we're living in.</p>
+    accordion_content="<p>Apocalyptic narratives abound as we find it easy to imagine that we're all doomed! The planet's dying, society's collapsing, and the best we can do is hunker down and hope for the best. Think of it like Mad Max meets The Hunger Games with a dash of Orwellian hot sauce, minus the cool costumes.</p>
+    <p>On the flip side, we have the techno-optimists who believe that technology will save us. We'll transcend our biological limitations and the laws of thermodynamics and all live in perfect harmony as happy consumers, owning nothing, renting everything, all with the help of our AI overlords, and we'll never have to worry about anything ever again. Picture Star Trek meets The Matrix with a sly side of Silicon Valley hubris.</p>
+    <p>And there are many complex and nuanced stories in between. But the dominant narratives of our time tend to fall into these two camps, leaving us feeling powerless and disconnected from ourselves, each other and the world we're living in.</p>
     <p>If you'd like to learn more about this, check out:</p>
     <ul>
       <li>The book <a href='https://www.geoffmulgan.com/another-world-is-possible' target='_blank'>Another World is Possible</a> or the paper <a href='https://demoshelsinki.fi/publication/the-imaginary-crisis-and-how-we-might-quicken-social-and-public-imagination/' target='_blank'>The Imaginary Crisis (and how we might quicken social and public imagination)</a> by Geoff Mulgan.</li>
@@ -57,7 +57,7 @@ permalink: /craft/provocation/
     content="
     <h2>Enter Thrutopia</h2>
     <p>But what if there's a third story? Not over or under our challenges, but through them? A story where we're not victims or saviors, but <strong>crafters</strong> of our own shared future on this beautiful planet we call home?</p>
-    <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>It's not about perfection—it's about presence, community, creativity and care.</p>"
+    <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>It's not about perfection—it's about loving presence, community, creativity and care.</p>"
     accordion_content="<p>Thrutopia isn't about perfect solutions or total collapse. It's about:</p>
     <ul>
       <li>Embracing the messiness of life and learning to navigate it with grace and courage.</li>
@@ -81,7 +81,7 @@ content="
 " %}
 <div class="container">
   <div class="section-heading">
-    <h2>Three Intersecting Horizons</h2>
+    <h2>Three intersecting horizons</h2>
     <p>The past is compost for the future, and the present is where we shape what's emerging.</p>
   </div>
 {% include content-pod.html
@@ -97,7 +97,7 @@ content="
 <p>But how do we chart a course through uncertainty, grounded in hope and action?</p>
 <p>The Three Horizons Framework provides a way to navigate.</p>
 <details class='accordion'>
-        <summary class='accordion__trigger'>What are the Three Horizons?</summary>
+        <summary class='accordion__trigger'>What are the three horizons?</summary>
         <div class='accordion__content'>
           <p>The Three Horizons Framework is a way of understanding the past, present, and future as interconnected and interdependent. It helps us see where we've come from, where we are, and where we're going.</p>
           <p>Each horizon represents a different way of thinking, doing, and being in the world. By mapping and playing between these horizons, we can see how they interact and influence each other, and how we can craft the future we want to born.</p>
@@ -114,7 +114,7 @@ background_opacity="0.3"
 background_size="100%"
 background_position="center"
 content="
-<h2>Horizon One (H1): The Dominant System in Decline</h2><p>This is the world of business as usual. Extractive economies, top-down control, endless growth on a finite planet.
+<h2>Horizon one (H1) - the dominant systems in decline</h2><p>This is the world of business as usual. Extractive economies, top-down control, endless growth on a finite planet.
 It represents the institutions, ways of thinking, doing and creating that currently dominate but are no longer fit for purpose. These systems—extractive economies, hierarchical governance, and consumer-driven cultures—are at odds with sustaining life on Earth.</p>
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
@@ -150,7 +150,7 @@ background_image="assets/images/horizons/h2-blank.png"
 background_opacity="0.3"
 background_size="100%"
 background_position="center"
-content="<h2>Horizon Two (H2): Emergence of the Adjacent Possible</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. It is messy, contested, and full of friction as elements of both H1 and H3 collide. Some ideas will flourish, others will fade, but all teach us something. Horizon 2 is where the seeds of change become radicles. People are coming together to create new ways of living, working, and being that honour the Earth and each other.</p>
+content="<h2>Horizon two (H2) - emergence of the adjacent possible</h2><p>This is where things get interesting. New ideas, experiments, and possibilities are sprouting up like mushrooms after rain. It is messy, contested, and full of friction as elements of both H1 and H3 collide. Some ideas will flourish, others will fade, but all teach us something. Horizon 2 is where the seeds of change become radicles. People are coming together to create new ways of living, working, and being that honour the Earth and each other.</p>
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
         <div class='accordion__content'>
@@ -183,7 +183,7 @@ background_image="assets/images/horizons/h3-blank.png"
 background_opacity="0.3"
 background_size="100%"
 background_position="center"
-content="<h2>Horizon Three (H3): The World That Could Be</h2><p>This represents the systems and cultures of a flourishing future, or what Glenn Albrecht calls the <a href='https://symbioscene.com/invitation-to-the-symbiocene/' target='_blank'>Symbiocene</a>. These systems are regenerative, reciprocal, and attuned to the rhythms of life on Earth.</p>
+content="<h2>Horizon Three (H3) - the world that could be</h2><p>This represents the systems and cultures of a flourishing future, or what Glenn Albrecht calls the <a href='https://symbioscene.com/invitation-to-the-symbiocene/' target='_blank'>Symbiocene</a>. These systems are regenerative, reciprocal, and attuned to the rhythms of life on Earth.</p>
 <p>This horizon is where we dare to dream. It's a world where humans and nature thrive together, where communities are strong, and our economies serve life rather than the other way around.</p>
 <details class='accordion'>
         <summary class='accordion__trigger'>The challenge</summary>
@@ -218,25 +218,25 @@ background_opacity="0.3"
 background_size="100%"
 background_position="center"
 content='
-<h2 class="section-heading">The Intersections</h2>
+<h2 class="section-heading">The intersections</h2>
 <p class="mb-8">The tension between the horizons is not a problem to solve but a creative force to harness. Collective Futurecrafting works within this dynamic space.</p>
 
 <div class="flex-grid">
   <!-- Section 1 -->
   <div class="flex-grid__item">
-    <h3 class="flex-grid__title">Critiquing and Composting in H1</h3>
+    <h3 class="flex-grid__title">Critiquing and cmposting in H1</h3>
     <p class="flex-grid__text">Challenging extractive practices while composting old systems into resources for H2 and H3.</p>
   </div>
 
   <!-- Section 2 -->
   <div class="flex-grid__item">
-    <h3 class="flex-grid__title">Prototyping and Scaling in H2</h3>
-    <p class="flex-grid__text">Experimenting with adjacent possibilities and building networks to scale successful solutions.</p>
+    <h3 class="flex-grid__title">Prototyping and scaling in H2</h3>
+    <p class="flex-grid__text">Experimenting with adjacent possibilities, learning together and building networks to scale successful solutions to our shared challenges.</p>
   </div>
   <!-- Section 3 -->
   <div class="flex-grid__item">
-    <h3 class="flex-grid__title">Visioning and Anchoring H3</h3>
-    <p class="flex-grid__text">Using storytelling, rituals, and collective moral imagination to make H3 feel tangible and actionable in the present.</p>
+    <h3 class="flex-grid__title">Visioning and anchoring H3</h3>
+    <p class="flex-grid__text">Using storytelling, rituals, anchors to ancestral time and collective moral imagination to make H3 feel tangible and actionable in the present.</p>
   </div>
 </div>
 '
