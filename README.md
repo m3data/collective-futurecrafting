@@ -7,15 +7,18 @@ Grounded at the hyper-local level, Collective Futurecrafting is about bringing p
 - Climate change adaptation
 - Food security and regenerative agriculture
 - Social justice and equity
+- Mental health and intergenerational trauma
+- Education and lifelong learning
+- Sustainable urban design and development
 - Vulnerable populations and community services
 - Community resilience and wellbeing
 - Technology addiction and its social impact
 - Loneliness and civic engagement, and more.
 
-But our vision goes far beyond the local. We aim to create the conditions for a new model to emerge—one where **we, as Earthians**, can dream and build together. By creating networks of interconnected circles and **Community Learning and Action Nodes (CLANs)**, we envision establishing a **fractal governance structure**. This structure enables us to collaborate more effectively as a species, fostering a socio-cultural force with the power to transform how we:
+But our vision goes far beyond the local context. We aim to create the conditions for a new model to emerge—one where **we, as Earthians**, can dream and build together. By creating networks of interconnected circles and **Community Learning and Action Nodes (CLANs)**, we envision supporting a **fractal governance structure** and codesigning a socio-technical fabric we call the **WISDOM** protocol (Wiser Innovation Symbiotically Designed for Organismal Mutualism). This structure enables us to collaborate more effectively as a species, fostering a socio-cultural force with the power to transform how we:
 
-- **Do:** Create regenerative systems that work in harmony with nature.
-- **Relate:** Build meaningful relationships across diverse communities.
+- **Do:** creating regenerative systems that work in harmony with nature.
+- **Relate:** building meaningful relationships across diverse communities.
 - **Know:** Generate collective knowledge and share insights.
 - **Be:** Live in ways attuned to the flourishing of life on this planet.
 
@@ -25,10 +28,10 @@ At its core, a Futurecrafting Circle is a gathering space where people come toge
 - Collaboratively define actionable steps towards a shared future vision.
 - Reflect and learn as they take action.
 
-Through storytelling, co-creation, and iterative action, these Circles help reconnect us with ancient ways of coming together—face-to-face, heart-to-heart, and mind-to-mind.
+Through storytelling, somatic healing, playfulness, co-creation, and iterative action, these Circles help reconnect us with ancestral ways of coming together—face-to-face, heart-to-heart, and mind-to-mind.
 
 ## 🌀 Scaling through CLANs
-Futurecrafting Circles form the foundation of a broader network of **Community Learning and Action Nodes (CLANs)**. These nodes act as multidirectional relationship amplifiers for:
+Futurecrafting Circles form the foundation of a broader network of **Community Learning and Action Networks (CLANs)**. These localised networks act as multidirectional relationship amplifiers for:
 - Sharing stories and knowledge across communities,
 - Pooling resources and expertise,
 - Coordinating collective projects, and
@@ -36,33 +39,32 @@ Futurecrafting Circles form the foundation of a broader network of **Community L
 
 This interconnected system fosters **collaboration at scale** while preserving local autonomy, enhancing capabilities and affording for cultural diversity.
 
-## 🌍 Our Mission
+## 🌍 Our mission
 Create the conditions for a thriving, equitable, and regenerative future for all life on Earth.
 
 We aim to:
 1. Rekindle the spirit of collaboration and moral imagination that has sustained communities for millennia.
 2. Harness the power of modern technology and social innovation to amplify these age-old practices.
-3. Establish a new model of governance and collective action that reflects our interconnectedness and shared responsibility for the planet.
+3. Establish a new model of governance and collective action that reflects our interconnectedness with and shared responsibility for the planet we all call home.
 
-## 🔗 Get Involved
+## 🔗 Get involved
 We invite you to:
-- **Join a Futurecrafting Circle** in your community.
 - **Start your own Circle** with our resources and guidance.
-- **Collaborate with us** to build the tools, frameworks, and systems that will enable a flourishing future.
+- **Collaborate with us** to build the tools, playground, frameworks, and systems that will enable a flourishing future.
 
 Visit [our website](https://collectivefuturecrafting.net) for more details, resources, and upcoming events.
 
-## 🤝 How to Contribute
+## 🤝 How to contribute
 We welcome contributions of all kinds—whether you’re a developer, designer, writer, or just someone passionate about co-creating a better future.
 
-### Contributing to the Website
+### Contributing to the website
 This site is built using **[Jekyll](https://jekyllrb.com/docs/)**, a Ruby static site generator. 
 
 To contribute, follow these steps:
 
-1. **Fork the Repository**: Click the "Fork" button on the GitHub repository.
+1. **Fork the repository**: Click the "Fork" button on the GitHub repository.
 
-2. **Clone Your Fork**:
+2. **Clone your fork**:
 ```bash
    git clone https://github.com/<your-username>/collective-futurecrafting.git
    cd collective-futurecrafting
@@ -87,7 +89,7 @@ Install all gems (plugins) from the `Gemfile` with Bundler:
 bundle install
 ```
 
-4. **Run the Site Locally**:
+4. **Run the site locally**:
 ```bash
    bundle exec jekyll serve
 ```
@@ -96,14 +98,14 @@ bundle install
 
 6. Commit your changes and create a pull request.
 
-### Suggestions for Contributions
+### Suggestions for contributions
 
 - Propose new sections or improve existing ones.
 - Submit a blog post or article to share your ideas and stories.
 - Enhance accessibility or optimise performance.
 - Translate the site into other languages.
 
-## 🛠️ Development Setup
+## 🛠️ Development setup
 
 Here’s a quick guide to set up your local environment for development:
 
@@ -113,7 +115,7 @@ Here’s a quick guide to set up your local environment for development:
 - Bundler (`gem install bundler`)
 - Jekyll (`gem install jekyll`)
 
-### Key Files and Directories
+### Key files and directories
 
 - `_authors/`: Collection for authors, still to be developed.
 - `_data/`: YAML files for dynamic content (e.g., navigation).
