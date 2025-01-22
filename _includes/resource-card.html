@@ -1,7 +1,7 @@
 <div class="resource-card {% if include.resource.featured %}resource-card--featured{% endif %}">
     {% if include.resource.cover_image %}
       <div class="resource-card__image">
-        <a href="{{ include.resource.url }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ include.resource.url | relative_url }}">
           <img 
             src="{{ include.resource.cover_image | relative_url }}" 
             alt="{{ include.resource.title }}"
@@ -13,7 +13,7 @@
     <div class="resource-card__content">
       <span class="resource-card__type">{{ include.resource.type | capitalize }}</span>
       <h3 class="resource-card__title">
-        <a href="{{ include.resource.url }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ include.resource.url | relative_url }}">
           {{ include.resource.title }}
         </a>
       </h3>

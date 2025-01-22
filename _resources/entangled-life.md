@@ -4,7 +4,7 @@ type: "book"
 author: "Merlin Sheldrake"
 published_date: "2020-05-12"
 publisher: "Random House"
-url: "https://www.merlinsheldrake.com/entangled-life"
+website: "https://www.merlinsheldrake.com/entangled-life"
 cover_image: "/assets/images/resources/entangled-life.jpg"
 tags:
   - systems thinking

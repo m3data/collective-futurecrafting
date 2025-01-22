@@ -4,7 +4,7 @@ type: "book"
 author: "Lance Gunderson & C.S. Holling"
 published_date: "2001-10-01"
 publisher: "Island Press"
-url: "https://islandpress.org/books/panarchy"
+website: "https://islandpress.org/books/panarchy"
 cover_image: "/assets/images/resources/panarchy.jpg"
 tags:
   - resilience

@@ -1,0 +1,57 @@
+---
+layout: default
+title: Blog
+description: "Explore our latest thoughts and insights on collective futurecrafting"
+permalink: /blog/
+---
+<div class="container">
+<div class="blog-index">
+  <header class="blog-index__header">
+    <h1>Latest Posts</h1>
+    <p>Exploring ideas at the intersection of community, future-making, and collective wisdom</p>
+  </header>
+
+  <div class="blog-grid">
+    {% for post in site.posts %}
+      <article class="blog-card">
+        {% if post.featured_image %}
+          <div class="blog-card__image">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.image_alt }}" />
+            </a>
+          </div>
+        {% endif %}
+        
+        <div class="blog-card__content">
+          <header>
+            {% if post.categories %}
+              <div class="blog-card__categories">
+                {% for category in post.categories %}
+                  <span class="tag tag--category">{{ category }}</span>
+                {% endfor %}
+              </div>
+            {% endif %}
+            
+            <h2 class="blog-card__title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+          </header>
+
+          <div class="blog-card__meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%B %d, %Y" }}
+            </time>
+            {% assign words = post.content | number_of_words %}
+            {% assign read_time = words | divided_by: 180 | plus: 1 %}
+            <span class="blog-card__read-time">{{ read_time }} min read</span>
+          </div>
+
+          {% if post.excerpt %}
+            <p class="blog-card__excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+</div>
