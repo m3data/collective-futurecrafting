@@ -19,8 +19,8 @@ permalink: /craft/provocation/
   <div class="section-heading">
     <h2>Let's be real</h2>
     <p>Our world is at a breaking point. You can feel it, right? Climate chaos, social fragmentation, failing institutions, techno-optimists, surviellance captialism, the enshittification of our information ecologies—it's enough to make anyone want to pull the covers over their head beacause it's all too big, too complex, and well, damn right overwhelming.</p>
-    <p>But within this beautiful mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p>
-    <p>Collective Futurecrafting has emerged from this opportunity, as an invocation to all of us Earthians to help transform how we relate - to ourselves, each other, and the living world we are part of. And from within and through this transformation to craft something beautiful from the pieces of what's breaking. Futures worthy of our children's great great grandchildren and the plurality of pathways to get us there.</p>
+    <p>But within this beautiful mess lies an opportunity. Not just to adapt to the turbulance of the here and now, and what's coming, but to reimagine what's possible.</p><p>Like our coming of age rite of passage. We're being called to step into the unknown, to face the shadows of our past, and to craft a future that's worthy of many generations after us.</p>
+    <p>Collective Futurecrafting has emerged from this opportunity, as an invocation to all of us Earthians to help transform how we relate - to ourselves, each other, and the living world we are part of. And from within and through this transformation to craft something beautiful from the pieces of what's breaking.</p>
   </div>
   {% include content-pod.html 
     theme="terra-sky"
@@ -57,7 +57,7 @@ permalink: /craft/provocation/
     content="
     <h2>Enter Thrutopia</h2>
     <p>But what if there's a third story? Not over or under our challenges, but through them? A story where we're not victims or saviors, but <strong>crafters</strong> of our own shared future on this beautiful planet we call home?</p>
-    <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>Think of it like crafting a meal from what's in your garden. You work with what you have, learn from what works, and share the bounty with others. It's not about perfection—it's about presence, community, creativity and care.</p>"
+    <p>Thrutopia is a story of active hope, not because everything will be okay, but because we have the power to make it so. It's a story of courage, not because we know what's coming, but because we're willing to face it together.</p><p>It's not about perfection—it's about presence, community, creativity and care.</p>"
     accordion_content="<p>Thrutopia isn't about perfect solutions or total collapse. It's about:</p>
     <ul>
       <li>Embracing the messiness of life and learning to navigate it with grace and courage.</li>
@@ -244,7 +244,7 @@ content='
 
 {% include quote-callout.html 
   quote="The future is not written in stone. It's more like clay, waiting for many hands to craft it into an expression of our highest calling."
-  attribution="Origin Steward - Mathew Mytka"
+  attribution=""
   theme="terra-sky"
   size="large"
   align="center"

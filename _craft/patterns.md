@@ -46,7 +46,7 @@ permalink: /craft/patterns/
     <details class='accordion'>
         <summary class='accordion__trigger'>Modern movements</summary>
         <div class='accordion__content'>
-            <p>In more recent contexts, patterns of close-knit collaboration have proven similarly effective. Mark Engler and Paul Engler, in <a href='https://www.booktopia.com.au/this-is-an-uprising-mark-engler/book/9781568585703.html' target='_blank'>This Is an Uprising</a>, show how decentralised organizing circles have powered social movements. General Stanley McChrystal's <a href='https://www.booktopia.com.au/team-of-teams-general-stanley-mcchrystal/book/9780241250839.html' target='_blank'>Team of Teams</a> reveals how autonomous, connected units excel in complex environments.</p>
+            <p>In more recent contexts, patterns of close-knit collaboration have proven similarly effective. Mark Engler and Paul Engler, in <a href='https://www.booktopia.com.au/this-is-an-uprising-mark-engler/book/9781568585703.html' target='_blank'>This Is an Uprising</a>, show how decentralised organising circles have powered social movements. General Stanley McChrystal's <a href='https://www.booktopia.com.au/team-of-teams-general-stanley-mcchrystal/book/9780241250839.html' target='_blank'>Team of Teams</a> reveals how autonomous, connected units excel in complex environments.</p>
             <p>Whether in revolutions, social movements, or military contexts, small, purpose-driven groups consistently drive systemic change. These patterns show that relational trust and decentralisation aren't just nice-to-haves—they're essential for resilience in turbulent times.</p>
         </div>
     </details>
@@ -65,7 +65,7 @@ permalink: /craft/patterns/
             <p>As we experiment with these patterns, we invite you to join us in exploring how they can guide our collective futurecrafting. Together, we can weave a tapestry of collaboration that honours the wisdom of the past, the needs of the present, and the possibilities of the future.</p>
         </div>
     </details>
-    <p>This evolving work has also been deeply inspire by the work of <a href='https://www.thegoodshift.co/' target='_blank'>The Good Shift</a> (which spun out from the <a href='https://www.griffith.edu.au/griffith-business-school/centre-for-systems-innovation' target='_blank'>Griffith Centre for Systems Innovation</a>) who have been doing pioneering work in collectively crafting preferable futures.</p>"
+    <p class='protocol-note'>Deep gratitude for the work of <a href='https://www.thegoodshift.co/' target='_blank'>The Good Shift</a> (which spun out from the <a href='https://www.griffith.edu.au/griffith-business-school/centre-for-systems-innovation' target='_blank'>Griffith Centre for Systems Innovation</a>) who have been doing pioneering work in collectively crafting preferable futures.</p>"
 %}
 </div>
 <div class="container">
@@ -96,7 +96,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>1. Circles as relational foundations</h2>
+    <h2>Circles as relational foundations</h2>
     <p>At the heart of Collective Futurecrafting are circles—intimate groups where trust flourishes and transformation begins.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -115,7 +115,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>2. Nested collaboration</h2>
+    <h2>Nested collaboration</h2>
     <p>Like watersheds connecting streams to rivers to oceans, our work flows through nested scales of collaboration.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -133,13 +133,13 @@ permalink: /craft/patterns/
 {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>3. Cyclical processes</h2>
-    <p>Like the seasons, our work moves in cycles of reflection and action, allowing us to learn and adapt continuously.</p>
+    <h2>Cyclical learning</h2>
+    <p>Like the seasons, our work moves in cycles of ideation, questioning, action, and reflection allowing us to learn and adapt continuously.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
       <div class='accordion__content'>
         <ul>
-          <li><strong>Behaviour:</strong> groups engage in regular cycles of planning, acting, reflecting, and adapting.</li>
+          <li><strong>Behaviour:</strong> groups engage in regular cycles of relating, sense-making, acting, reflecting, and adapting.</li>
           <li><strong>Relationships:</strong> reflection builds deeper relational trust by acknowledging successes and failures collectively.</li>
           <li><strong>Structures:</strong> feedback loops are embedded within projects, allowing continuous learning and evolution.</li>
           <li><strong>Experience:</strong> participants feel the system is dynamic and responsive, fostering trust in the process and its outcomes.</li>
@@ -152,7 +152,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>4. Reciprocity and mutual benefit</h2>
+    <h2>Reciprocity and mutual benefit</h2>
     <p>Just as ecosystems thrive through mutual exchange, our work is grounded in giving and receiving in balance.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -160,7 +160,7 @@ permalink: /craft/patterns/
         <ul>
           <li><strong>Behaviour:</strong> resources, knowledge, and support are exchanged in ways that balance giving and receiving.</li>
           <li><strong>Relationships:</strong> emphasis on mutual benefit fosters respect, care, and accountability between participants.</li>
-          <li><strong>Structures:</strong> rituals and agreements formalize reciprocity, ensuring it remains a core practice.</li>
+          <li><strong>Structures:</strong> rituals and agreements formalise reciprocity, ensuring it remains a core practice.</li>
           <li><strong>Experience:</strong> people feel valued for their contributions and connected to others through shared care and responsibility.</li>
         </ul>
       </div>
@@ -171,7 +171,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>5. Self-organisation and emergence</h2>
+    <h2>Self-organisation and emergence</h2>
     <p>Like mycelial networks adapting to local conditions, our work emerges through organic self-organisation.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -190,7 +190,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>6. Storytelling as connector</h2>
+    <h2>Storytelling as connector</h2>
     <p>Stories are the threads that weave our communities together, connecting past, present, and future.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -209,7 +209,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>7. Healing as collective journey</h2>
+    <h2>Healing as collective journey</h2>
     <p>Like a forest regenerating after fire, we journey together through healing and transformation.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -228,7 +228,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>8. Playful prototyping and perpetual pilots</h2>
+    <h2>Playful prototyping and perpetual pilots</h2>
     <p>Like nature's constant experimentation, we learn best through playfully doing, testing, and adapting.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -247,7 +247,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="terra-sky"
     content="
-    <h2>9. Shared knowledge commons</h2>
+    <h2>Shared knowledge commons</h2>
     <p>Like traditional seed libraries, we cultivate and share wisdom for the benefit of all.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
@@ -266,7 +266,7 @@ permalink: /craft/patterns/
   {% include content-pod.html
     theme="sky-terra"
     content="
-    <h2>10. Intergenerational engagement</h2>
+    <h2>Intergenerational engagement</h2>
     <p>Like ancient trees nurturing saplings, we weave wisdom across generations.</p>
     <details class='accordion'>
       <summary class='accordion__trigger'>How it might work</summary>
