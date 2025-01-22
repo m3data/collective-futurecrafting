@@ -4,9 +4,9 @@ layout: default
 <div class="container">
 <article class="blog-post">
   <div class="blog-hero">
-    {% if page.featured_image %}
+    {% if page.image %}
       <div class="blog-hero__image">
-        <img src="{{ page.featured_image | relative_url }}" alt="{{ page.image_alt }}" />
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt }}" />
       </div>
     {% endif %}
     
@@ -101,9 +101,9 @@ layout: default
       <div class="related-posts__grid">
         {% for post in site.related_posts limit:3 %}
           <article class="related-post">
-            {% if post.featured_image %}
+            {% if post.image %}
             <div class="related-post__image">
-              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" />
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
             </div>
             {% endif %}
             <div class="related-post__content">

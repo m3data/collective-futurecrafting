@@ -3,7 +3,7 @@ layout: post
 title: "An Invocation to Future Crafters"
 date: 2025-01-13 09:11:00 +1000
 author: Mathew Mytka
-featured_image: /assets/images/posts/through-the-cracks.png
+image: /assets/images/posts/through-the-cracks.png
 image_alt: Sprouting plants breaking through soil, and the gaps in terracotta pavers reaching toward light
 categories:
   - Introduction

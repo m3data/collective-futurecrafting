@@ -66,10 +66,10 @@ layout: default
       <div class="post-grid">
         {% for post in author_posts %}
           <article class="post-card">
-            {% if post.featured_image %}
+            {% if post.image %}
               <div class="post-card__image">
                 <a href="{{ post.url | relative_url }}">
-                  <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" />
+                  <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
                 </a>
               </div>
             {% endif %}

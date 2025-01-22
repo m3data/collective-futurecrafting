@@ -4,7 +4,7 @@ title: "Collective Trauma and the Wounds that Want to Heal"
 description: "An exploration of collective trauma and systemic healing in modern society"
 author: "Mathew Mytka"
 date: 2024-01-09 00:00:00 +1000
-featured_image: "/assets/images/posts/trauma-healing.jpg"
+image: "/assets/images/posts/trauma-healing.jpg"
 image_alt: "Image of gongs and preparation for yogic somatic healing"
 categories: 
     - Systems Thinking 
