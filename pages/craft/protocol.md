@@ -18,9 +18,9 @@ permalink: /craft/protocol/
 <div class="container">
   <div class="section-heading">
     <h2>A protocol proposition</h2>
-    <p>How might we codesign the digital fabric to support a collective governance, action and intelligence system?</p>
+    <p>How might we collectively craft the digital fabric and social infrastructure to help transform into a planetary scale regenerative civilisation?</p>
     <p>We have some ideas...</p>
-    <p>What is espoused here is a vision of a living infrastructure that can support the emergence of a planetary-scale regenerative civilization.</p>
+    <p>What is espoused here is a vision of a living infrastructure that may support the emergence of a planetary-scale regenerative civilisation on Spaceship Earth.</p>
   </div>
 </div>
 <div class="content-pod-container">
@@ -198,7 +198,7 @@ permalink: /craft/protocol/
 {% capture parallax_content %}
 <h2>Contribute to co-creation</h2>
 <p>
-  If this excites you and you'd like to contribute to the emergence of a living infrastructure that can support the emergence of a planetary-scale regenerative civilization. Reach out to us and let's craft together.
+  If this excites you and you'd like to contribute to the emergence of a living infrastructure that can support the emergence of a planetary-scale regenerative civilisation. Reach out to us and let's craft together.
 </p>
 <a href='{{ '/get-involved#contact' | relative_url }}' class='button button--primary'>Contact us →</a>
 {% endcapture %}
