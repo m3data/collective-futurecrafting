@@ -5,7 +5,7 @@ video: "./assets/video/protocol-hero_videot.mp4"
 description: "A living network of circles, CLANs, and Rhiozomes working together through the WISDOM Protocol"
 permalink: /craft/protocol/
 ---
-<!-- TODO: Review and refine content on this page -->
+
 {% include page-hero.html
   title="WISDOM Protocol"
   subtitle="A living network for planetary transformation"

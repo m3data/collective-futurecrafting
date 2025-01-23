@@ -16,9 +16,6 @@ tags:
   - regenerative-design
 
 ---
-FINAL DRAFT - <!--TODO: --> Needs review, links and copyediting.
-
----
 
 We're in a phase transition[^1] as a species. A liminal space between worlds, beginnings and endings. And we must ask ourselves, given what we sense about this juncture in our history, how must we be? What must we do? What are we preparing to become?
 
@@ -70,18 +67,22 @@ The path to walk through all this is the one of preparing for the end times as w
 
 ## Walking thrutopian paths
 
-In 2010 while I was a "mature age student" at uni I did a pivotal subject called Utopias & Dystopias (a <a href="https://www.m3data.me/new-dawns-creative-essay/" target="_blank">creative essay</a> I wrote for this subject). This period brought with it a wide immersion in the utopian and dystopian literature and a hint at the thinking that was to shape the trajectory of my work in the coming decade. My professor was Dr Jeremy Walker, someone I had admired and who had inspired me. His more <a href="https://epress.lib.uts.edu.au/journals/index.php/mcs/article/view/8813" target="_blank">recent research work</a> on the Atlas Network, a shady web of people and "think-tanks" that colluded to support the No vote in Australia's recent referendum is noteworthy. It symbolises the current power structures, patterns and institutions that must be composted as we find and craft Thrutopian paths towards what Glen Albrecht calls the <a href="https://symbioscene.com/invitation-to-the-symbiocene/" target="_blank">Symbiocene</a>. An era after the Anthropocene where we are in right relation with the Earth and all her beings.
+In 2010 while I was a "mature age student" at uni I did a pivotal subject called Utopias & Dystopias (if you're curious see a <a href="https://www.m3data.me/new-dawns-creative-essay/" target="_blank">creative essay</a> I wrote for this subject). This period brought with it a wide immersion in the utopian and dystopian literature and a hint at the thinking that was to shape the trajectory of my work in the following decade. My professor was Dr Jeremy Walker, someone I admired and who had deeply inspired me. His more <a href="https://epress.lib.uts.edu.au/journals/index.php/mcs/article/view/8813" target="_blank">recent research work</a> on the Atlas Network, a shady web of people and "think-tanks" that colluded to support the No vote in Australia's recent referendum is noteworthy. It symbolises the current power structures, patterns and institutions that must be composted as we find and craft Thrutopian paths towards what Glen Albrecht calls the <a href="https://symbioscene.com/invitation-to-the-symbiocene/" target="_blank">Symbiocene</a>. An era after the Anthropocene where we are in right relation with the Earth and all her beings.
 
 Like composting itself, transformation requires both breaking down and building up. Over the past several years, I have noticed a deeper shift emerging—a dispersed movement focused on futures that is finding coherence. Not just the theoretical futures of an academic nature, these have increased in recent years as a result of the acknowledgement we have some serious adaption to do. But the lived futures being crafted in community gardens, citizen assemblies, platform coops, Decentralised Autonomous Organisations and Web3 communities,  around kitchen tables, in many spaces and places where people dare to dream differently. A <a href="https://www.wired.com/2008/06/scenius-or-comm/" target="_blank">scenius</a> of people, as Brian Eno calls it, who are bringing new patterns of belonging, of governance, of economy, of culture into being.
 
-Even in the political realms the Overton windows are seemingly shifting to more preferable policy. Of course there is variance based on where on this wonderful planet you are. And in my view none of what I see here where I am in Australia is radicle enough.
+Even in the political realms the Overton windows are seemingly shifting to more preferable policy. Of course there is variance based on where on this wonderful planet you are. Writing this at a time where we've just had another legit criminal made president of the US, it seems like a stretch to say that the political realms are shifting fast enough.
 
-Yet we need not wait for politicians, bureacrats in the Ministry of Futility[^3], for the WEFerati[^4], for Elonia Musk, for the current institutions to make the changes we most need for the transformation. It happens at the edges, in our communities, conversations and yarns. In the small rituals we practice. In the processing of our trauma and the quieter transformations we embrace.
+Where I am located on Spaceship Earth, on the East Coast of the Australian  continent, nothing in my view is radicle enough. Regulatory capture, the ongoing exploitation of people and the Earth, the lack of meaningful action on climate change and we could just go on and on. But I won't. For it is in the shadows that the light shines brightest. And it is in the shadows that the seeds of transformation are germinating.
+
+We need not wait for politicians, bureaucrats in the Ministry of Futility[^3], for the WEFerati[^4], for Elonia Musk, for the current institutions to make the changes we most need for the transformation. 
+
+It happens at the edges, in our communities, conversations and yarns. In the small rituals we practice. In the processing of our trauma and the quieter transformations we embrace. In positive deviance, and the small acts of loving kindness, rebellion, active hope and civil disobedience.
 
 [^3]: The Ministry of Futility is a fictional institution that represents the bureaucratic inertia and systemic failures that often prevent meaningful change. It's a nod to the challenges of navigating complex systems and the need for new approaches to governance and decision-making. I created a interactive fiction game called <a href='https://m3data.github.io/Ministry-of-Futility-Game/' target='_blank'>The Ministry of Futility</a> as a way to explore these themes.
 [^4]: WEFerati is a colloquial term referring to the elite attendees and proponents of the World Economic Forum's vision for the future. It's a playful nod to the power dynamics and techno-optimism often associated with the Davos crowd and their influence on global policy.
 
-This is what creates the conditions and paths to the Symbiocene.
+This is what creates the conditions for paths to the Symbiocene.
 
 ## Patterns wanting to be (re)born
 
@@ -93,13 +94,13 @@ Every morning when I enter my office and every <span class="footnote-ref">Future
 
 [^5]: Futurecrafting Friggsday refers to Friday, named after Frigg, or Freya, the Norse goddess of foresight - a dedicated day for contemplating and crafting futures. I have ritualised this day for the past year and similar to Fridays for Future, it is a day to contemplate and craft the futures we want to see.
 
-This ritual isn't mere metaphor—it's what one of my Shamanic teachers <a href="https://www.martispiegelman.org/" target="_blank">Marti Spiegelman</a> calls a technology of consciousness, an ancient tool for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
+This ritual isn't mere metaphor—it's what one of my Shamanic teachers <a href="https://www.martispiegelman.org/" target="_blank">Marti Spiegelman</a> calls a technology of consciousness, ancient tools for attuning to and participating in the evolution of awareness itself. These technologies, as old as human culture yet eternally renewed, are the original interfaces through which we've learned to navigate the subtle architectures of reality.
 
 As Marti teaches, consciousness is always evolving toward higher expressions of abundant life.
 
 Our role, as both vessels and stewards of this evolution, is to become competent practitioners of its organising principles. Through these embodied practices, we're not just observing the emergence of new possibilities—we're actively participating in their birth.
 
-These somatic technologies of consciousness form the foundation of Collective Futurecrafting, complementing circles and often preceding our use of digital tools. They are the deep scaffolding through which we sense, integrate, midwife the patterns wanting to be (re)born and hospice those that no longer serve.
+These technologies of consciousness form the foundation of Collective Futurecrafting, complementing the context of circles and often preceding our use of digital tools. They are the deep scaffolding through which we sense, integrate, and midwife the patterns wanting to be (re)born while hospicing those that no longer serve.
 
 ## Symbiotic intelligence and serious play
 
@@ -107,7 +108,7 @@ While Collective Futurecrafting's <a href="{{ '/about/origins/' | relative_url }
 
 Playfulness weaves through all of this as a fundamental force of evolution and learning for me. Through my work at <a href="https://tethix.co" target="_blank">Tethix</a> with <a href="https://ialja.com/" target="_blank">Alja Isaković</a>, and through both professional and personal explorations with tools like ChatGPT, Claude, and Midjourney, and the suite of APIs, I've experienced how these technological symbionts can amplify our capacity for pattern re/cognition and moral imagination. Not as oracles or answer machines, but more so as conversational partners in our ongoing learning process of becoming.
 
-While misguided use of these tools can lead to a lack of critical thinking, echo chambers, and the spread of misinformation, I've found that when used with intention, mindfulness and care, they can be powerful allies in our individual and collective sense-making. Something my Tethix cofounder and I have explored in reasonable depth over the past 2 years.
+While misguided use of these tools can lead to a lack of critical thinking, diminishing meta-cognition, echo chambers, and the spread of misinformation, I've found that when used with intention, mindfulness and care, they can be powerful allies in our individual and collective sense-making. Something my Tethix cofounder and I have explored in reasonable depth over the past 2 years.
 
 They have not replaced the relationships I have with preexisting lo/hi-tech tools; handwritten journalling, notetaking, whiteboarding and visual sketching. Nor reading books or articles online, listening to podcasts, or surfing the web with the eventual 42 tabs open in my browser. They have extended existing patterns of sense-making, learning, making, doing and being.
 
@@ -125,22 +126,22 @@ This technological entanglement isn't separate from our work of crafting futures
   <details class='accordion'>
         <summary class='accordion__trigger'>A note on ethical considerations</summary>
         <div class='accordion__content'>
-          <p>Now there are many ethical considerations we could delve 🙃 into when it comes to these technologies. From the extractive nature of the business models themselves, the ecological footprint of the current architechtures and supply chains, to the implications of misguided use on our critical thinking faculties as humans, not to mention questions of intimacy and emotional attachment.</p><p>Much of the work I have been immersed in over the last several years has been action research in these areas and more.</p><p>I don't want to get bogged down on these considerations in this post and will write more on this topic as it specifically relates to Collective Futurecrafting. But the ethical considerations are always present in my mind and heart as I navigate this process of becoming and are a core part of my everyday work in the field of tech ethics.</p><p>For now, I invite you to consider the ethical implications of your own use of these technologies and how they might be shaping your own sense-making and sense-giving.</p>
+          <p>Now there are many ethical considerations we could delve 😉 into when it comes to these technologies. From the extractive nature of the business models themselves, the ecological footprint of the current architechtures and supply chains, to the implications of misguided use on our critical thinking faculties as humans, not to mention questions of intimacy and emotional attachment.</p><p>Much of the work I have been immersed in over the last several years has been action research in these areas and more.</p><p>I don't want to get bogged down on these considerations in this post and will write more on this topic as it specifically relates to Collective Futurecrafting. But the ethical considerations are always present in my mind and heart as I navigate this process of becoming and are a core part of my everyday work in the field of tech ethics.</p><p>For now, I invite you to consider the ethical implications of your own use of these technologies and how they might be shaping your own sense-making and sense-giving.</p>
         </div>
       </details>"
 %}
 
 ## The architecture of small moves
 
-What has been re/cognised through this dance of human intelligence, of ancestral wisdom, of yarns with First Nations Elders, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 5 and 7) gathering regularly to listen deeply to their place, to process trauma, to prototype small interventions that might ripple outward, and to share stories and learnings through networks that mirror nature's own information highways.
+What has been re/cognised through this dance of human intelligence, of ancestral wisdom, of yarns with First Nations Elders of the Dharawal and Eora Nations, neighbours, colleagues, friends, family, plants and emerging technology, is deceptively simple: small circles of people (that sweet spot between 5 and 7) gathering regularly to listen deeply to their place, to process trauma, to prototype small interventions that might ripple outward, and to share stories and learnings through networks that mirror nature's own information highways.
 
 Now none of this is new. You can see these patterns explicity in <a href="https://www.sociocracyforall.org/" target="_blank">Sociocracy</a> and <a href="https://www.holacracy.org/" target="_blank">Holocracy</a>. In indigenous governance, in high trust teams and more. And just so many more Earthians finding ways to be and let these patterns work through them. (For a more extensive acknolwedgement see the <a href="{{ '/craft/patterns/#pattern-inspiration' | relative_url }}" target="_blank"> patterns</a> page.)
 
 But within and amidst the expression of these ancestral patterns of communing are <a href="" target="_blank">practices</a> to let them work through us. From the micro to the macro. These might be the somatic technologies of consciousness and ritual practices to embed and embody in daily life. Or the larger rituals of community gatherings and deep listening to the land and the stories of our ancestors on planet Earth. From the playful experimentation with new technologies to the serious play of crafting new narratives and making them real and positively impactful in the communities and ecologies in which we live. I imagine these principles, patterns and practices as a living system that we tend together.
 
-And really it's called Collective Futurecrafting because it's not about predicting or controlling the future, but about participating artfully in its emergence. Like gardening, it requires both intention and surrender, both careful tending and trust in life's inherent creativity and wisdom.
+And really it's called Collective Futurecrafting because it's not about predicting or controlling the future, but about participating artfully in its emergence as a craft itself. Like gardening, it requires both intention and surrender, both careful tending and trust in life's inherent creativity and wisdom.
 
-An ongoing process of becoming that will evolve. And learnings from this evolution will be shared in the open as I sit and commune with my fellow mission stewards and crafters. As we pilot the principles, patterns and practices through my local kids school P&C and in the various communities we are all part of. Playing it out as we live it out.
+It is an ongoing process of becoming that will evolve. And learnings from this evolution will be shared in the open as I sit and commune with my fellow mission stewards and community crafters. As we pilot the principles, patterns and practices through my local kids school P&C and in the various communities we are all part of. Playing it out as we live it out.
 
 In the words of <a href="https://adriennemareebrown.net/" target="_blank">Adrienne Maree Brown</a>
 
@@ -157,18 +158,18 @@ So, what is it we must practice in the process of becoming and crafting that whi
 
 ## An invocation to practice and craft together
 
-And so this emerges - both declaration and invocation. Gestated through garden contemplations, fungal teachings, and yarns that weave across time with Elders, ancestors, and friends. Through dances with digital minds that mirror back our own becoming.
+And so this emerges - both declaration and invocation. Gestated through garden contemplations, plant medicine teachings, and yarns that weave across time with Elders, ancestors, and friends. Through dances with digital minds that are mirroring back our own becoming.
 
 Because the Thrutopian path to the Symbiocene is not the straight lines of industrial thinking. It meanders like water finding its way, following the contours of emergence, shaped by the landscape of our relationsips, collective learning and unlearning. It's a journey through the territories of trust, through fields of failure and forests of feedback, guided by love for and with the living world.
 
-This is an invocation into practice:
+This is an invocation into praxis:
 
 - To gather in circles in your place, letting locality and seasonality guide your rhythm
 - To experiment with regenerative rituals that rewire patterns of relating
 - To share your learnings through stories that spiral outward (#CollectiveFuturecrafting)
-- To participate in crafting new narratives that midwife our species' metamorphosis
+- To participate in crafting new narratives that positively contribute to our species' metamorphosis
 
-For the future isn't a destination we arrive at, but a garden we tend together. It emerges through our daily practices, through the quality of our attention, through every small move that aligns with life's regenerative patterns.
+For the future isn't a destination we arrive at, but a shared story we craft together.
 
 The Thrutopian path to the Symbiocene begins here, in this eternal moment pregnant with possibility. The space between where what's dying feeds what's being born.
 
