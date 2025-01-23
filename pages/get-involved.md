@@ -9,7 +9,7 @@ permalink: /get-involved/
 <div class="container">
   <div class="section-heading">
     <h2>Craft with us</h2>
-    <p>Collective Futurecrafting is a seedling just beginning to emerge. This is an invitation to help nuruture and cultivate this living practice.</p>
+    <p>Collective Futurecrafting is a seedling just beginning to emerge. This is an invitation to help cultivate this living craft.</p>
   </div>
 
   {% include content-pod.html
