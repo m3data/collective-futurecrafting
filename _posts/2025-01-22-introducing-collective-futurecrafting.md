@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Thrutopian Paths and Germinating Radicle Seeds of the Symbiocene"
-date: 2025-01-19 16:20:11 +1000
+date: 2025-01-22 16:20:11 +1000
 author: Mathew Mytka
 image: /assets/images/posts/intro.jpg
 image_alt: Image of a forest with tree branch and a vine living in symbiosis
