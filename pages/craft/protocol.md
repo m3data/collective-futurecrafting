@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "The Protocol - Collective Futurecrafting"
+video: "./assets/video/mountains-test.mp4"
 description: "A living network of circles, CLANs, and Rhiozomes working together through the WISDOM Protocol"
 permalink: /craft/protocol/
 ---
@@ -9,10 +10,10 @@ permalink: /craft/protocol/
   title="WISDOM Protocol"
   subtitle="A living phygital network for planetary transformation"
   description="Like nature's networks of roots or rivers, we grow through interconnected layers of collaboration."
-  theme="gold-olive-terra"
+  video="/assets/video/mountains-test.mp4"
+  theme="sky-terra"
   size="large"
   align="center"
-  image="/assets/images/hero_nested-circle-logo.png"
 %}
 <div class="container">
   <div class="section-heading">

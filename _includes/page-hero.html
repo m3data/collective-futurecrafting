@@ -5,6 +5,7 @@
   - description: Optional longer description text
   - image: Optional background image path
   - image_alt: Alt text for the background image
+  - video: Optional background video path (MP4 format)
   - align: text alignment (left/center/right, defaults to left)
   - theme: color theme options:
       - nature: Pale green background with charcoal text
@@ -19,12 +20,16 @@
 {% endcomment %}
 
 <section class="page-hero {% if include.theme %}page-hero--{{ include.theme }}{% endif %} {% if include.size %}page-hero--{{ include.size }}{% endif %} {% if include.align %}page-hero--{{ include.align }}{% endif %} {% if include.gradient %}page-hero--gradient-{{ include.gradient }}{% endif %}">
-  {% if include.image %}
-    <div class="page-hero__background">
+  <div class="page-hero__background">
+    {% if include.video %}
+      <video autoplay muted loop playsinline class="page-hero__video">
+        <source src="{{ include.video | relative_url }}" type="video/mp4">
+      </video>
+    {% elsif include.image %}
       <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt }}" />
-      <div class="page-hero__overlay"></div>
-    </div>
-  {% endif %}
+    {% endif %}
+    <div class="page-hero__overlay"></div>
+  </div>
   
   <div class="page-hero__content">
     <div class="page-hero__inner">
