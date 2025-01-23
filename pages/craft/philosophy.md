@@ -6,7 +6,7 @@ permalink: /craft/philosophy/
 ---
 
 {% include page-hero.html
-  title="Living philosophy"
+  title="Living Philosophy"
   description=""
   theme="charcoal-pink-sky"
   size="large"

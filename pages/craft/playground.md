@@ -16,7 +16,7 @@ permalink: /craft/playground/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Playing and Learning Together</h2>
+    <h2>Learning through playing together</h2>
     <p>Take a moment to breath and pause. Now think back to when you were a little Earthian child...</p>
   </div>
 
@@ -55,7 +55,7 @@ content="
 <p>The best kind of learning together happens when we forget we're learning at all.</p>
 
 <h3>Want First Access?</h3>
-Our playground is still, and the first games are soon to emerge ready for playtesting. Subscribe to our substack to:
+Our playground is still, and the first games are soon to emerge ready for playtesting. Subscribe to our <a href='https://collectivefuturecrafting.substack.com/' target='_blank'>Substack</a> to:
 
 <ul>
   <li>Be first to playtest new games and activities</li>
@@ -65,14 +65,13 @@ Our playground is still, and the first games are soon to emerge ready for playte
 </ul>
 "
 %}
-<iframe src="https://collectivefuturecrafting.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; border-radius: 24px; background:white;" frameborder="0" scrolling="no"></iframe>
-</div>
+
 {% capture parallax_content %}
 <h2>Wanna help craft the playground?</h2>
 <p>
   We're designing some co-creation sessions to explore the possibility space.
 </p>
-<a href="{{ '/get-involved' | relative_url }}" class='button button--primary'>Get involved →</a>
+<a href="{{ '/get-involved#contact' | relative_url }}" class='button button--primary'>Get involved →</a>
 {% endcapture %}
 {% include parallax-section.html
 background="/assets/images/seed-of-life-hero-rough.svg"

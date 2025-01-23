@@ -6,7 +6,7 @@ permalink: /craft/provocation/
 ---
 
 {% include page-hero.html
-  title="A provocation"
+  title="Provocation"
   subtitle="Why Now?"
   description="The future isn't something that happens to us. It's something we craft together."
   theme="charcoal-pink-sky"
@@ -38,7 +38,7 @@ permalink: /craft/provocation/
     </ul>
     <p>Neither of these stories helps us navigate the real world we're living in. They keep us stuck in a cycle of fear and inaction, waiting for someone else to fix things for us.</p>"
     accordion_content="<p>Apocalyptic narratives abound as we find it easy to imagine that we're all doomed! The planet's dying, society's collapsing, and the best we can do is hunker down and hope for the best. Think of it like Mad Max meets The Hunger Games with a dash of Orwellian hot sauce, minus the cool costumes.</p>
-    <p>On the flip side, we have the techno-optimists who believe that technology will save us. We'll transcend our biological limitations and the laws of thermodynamics and all live in perfect harmony as happy consumers, owning nothing, renting everything, all with the help of our AI overlords, and we'll never have to worry about anything ever again. Picture Star Trek meets The Matrix with a sly side of Silicon Valley hubris.</p>
+    <p>On the flip side, we have the techno-optimists who believe that technology will save us. We'll transcend our biological limitations and the laws of thermodynamics and all live in perfect harmony as happy consumers, owning nothing, renting everything, all with the help of our AGI overlords, and we'll never have to worry about anything ever again. Picture Star Trek meets The Matrix with a sly side of Silicon Valley hubris.</p>
     <p>And there are many complex and nuanced stories in between. But the dominant narratives of our time tend to fall into these two camps, leaving us feeling powerless and disconnected from ourselves, each other and the world we're living in.</p>
     <p>If you'd like to learn more about this, check out:</p>
     <ul>

@@ -35,10 +35,10 @@ permalink: /about/origins/
 %}
 
 {% capture next_section_content %}
-<p>In October 2023, four Earthians sat around a virtual tea garden table in the <a href="https://app.gather.town/invite?token=F_z-hVdZR-upu-QQHjYJ">Tethix Archipelago</a>. The government wanted input on Australia's science and research priorities. Big stuff. But instead of getting tangled in BAU, we found ourselves dreaming bigger as the whispering circles wove magic in our minds.</p>
+<p>In October 2023, four Earthians sat around a virtual tea garden table in the <a href="https://app.gather.town/invite?token=F_z-hVdZR-upu-QQHjYJ">Tethix Archipelago</a>. The government wanted input on Australia's science and research priorities. Big stuff. But instead of getting tangled in the BAU of Horizon 1, we found ourselves dreaming bigger as the whispering circles wove magic in our minds.</p>
 
 <p>In these gatherings we sketched out something different. Not another top-down framework, but a way to bring together the old and the new.</p> 
-<p>To bring back the circles where humans have always done their best thinking - around fires, in gardens, at community gatherings and even around virtual tea garden tables like ours.</p>
+<p>To bring back the circles where humans have always done their best thinking and crafting - around fires, in gardens, at community gatherings and even around virtual tea garden tables like ours.</p>
 {% endcapture %}
 
 {% include two-column-section.html

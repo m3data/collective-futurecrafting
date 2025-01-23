@@ -19,15 +19,15 @@ permalink: /about/stewards/
 
 <div class="container">
   <div class="section-heading">
-    <h2>Breath of Fresh Care</h2>
-    <p>Our mission stewards are a radicle and diverse group of Earthians who are dedicated to creating the conditions that enable communities to craft flourishing futures together.</p>
+    <h2>Breath of fresh care</h2>
+    <p>Our mission stewards are a radicle group of Earthians who are dedicated to creating the conditions that enable communities to craft flourishing futures together.</p>
   </div>
   <div class="steward-grid">
     {% include steward-bio.html 
         name="Mathew Mytka"
         image="mathew-mytka.jpg"
         location="Dharawal Country, Sydney, Australia"
-        bio="Moral imagineer and systemic thinker and doer playing at the intersection of science, art, technology, and our shared humanity. Over the past 15+ years, Mat has navigated complexity across startups, federal governments initiatives, Fortune 50 companies, social movements and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
+        bio="Moral imagineer and systemic thinker, seer and doer playing at the intersection of science, art, technology, and our shared humanityas Earthians. Over the past 15+ years, Mat has navigated complexity across startups, federal governments initiatives, Fortune 50 companies, social movements and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
         linkedin="mathewmytka"
         website="https://m3data.me"
     %}

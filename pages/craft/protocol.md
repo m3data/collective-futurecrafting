@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "The Protocol - Collective Futurecrafting"
-video: "./assets/video/mountains-test.mp4"
+title: "WISDOM Protocol - Collective Futurecrafting"
+video: "./assets/video/protocol-hero_videot.mp4"
 description: "A living network of circles, CLANs, and Rhiozomes working together through the WISDOM Protocol"
 permalink: /craft/protocol/
 ---
 <!-- TODO: Review and refine content on this page -->
 {% include page-hero.html
   title="WISDOM Protocol"
-  subtitle="A living phygital network for planetary transformation"
+  subtitle="A living network for planetary transformation"
   description="Like nature's networks of roots or rivers, we grow through interconnected layers of collaboration."
-  video="/assets/video/mountains-test.mp4"
+  video="/assets/video/protocol-hero_video.mp4"
   theme="sky-terra"
   size="large"
   align="center"
@@ -18,7 +18,8 @@ permalink: /craft/protocol/
 <div class="container">
   <div class="section-heading">
     <h2>A protocol proposition</h2>
-    <p>How might we codesign the digital fabric to support a governance and collective action intelligence system?</p>
+    <p>How might we codesign the digital fabric to support a collective governance, action and intelligence system?</p>
+    <p>We have some ideas...</p>
     <p>What is espoused here is a vision of a living infrastructure that can support the emergence of a planetary-scale regenerative civilization.</p>
   </div>
 </div>
@@ -145,7 +146,7 @@ permalink: /craft/protocol/
   background_position="top right"
   content="
 <div class='protocol-section'>
-  <h2>The WISDOM infrastructure: nature's intelligence made visible through us</h2>
+  <h2>WISDOM infrastructure: nature's wisdom made visible through us</h2>
   
   <div class='protocol-subsection'>
     <h3>Living phygital infrastructure</h3>
@@ -159,7 +160,7 @@ permalink: /craft/protocol/
           <li>Shared knowledge gardens for collective learning</li>
           <li>Environmental sensing networks tracking impact</li>
           <li>Private and secure communication and data storage</li>
-          <li>Decentralised data commons for shared insights</li>
+          <li>Living Labs and open data commons</li>
           <li>Permeable boundaries for open governance</li>
           <li>Open-source technology for distributed collaboration</li>
         </ul>
@@ -171,8 +172,8 @@ permalink: /craft/protocol/
           <li>Fair resource distribution systems</li>
           <li>Conflict transformation processes</li>
           <li>Continuous learning protocols</li>
-          <li>Impact verification mechanisms</li>
-          <li>Regenerative feedback loops</li>
+          <li>Impact verification and attribution mechanisms</li>
+          <li>Near-realtime feedback loops</li>
           <li>Crafting literacy and capacity building</li>
           <li>Repurposing place-based infrastructure</li>
         </ul>
