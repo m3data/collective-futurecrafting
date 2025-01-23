@@ -15,7 +15,7 @@ Grounded at the hyper-local level, Collective Futurecrafting is about bringing p
 - Technology addiction and its social impact
 - Loneliness and civic engagement, and more.
 
-But our vision goes far beyond the local context. We aim to create the conditions for a new model to emerge—one where **we, as Earthians**, can dream and build together. By creating networks of interconnected circles and **Community Learning and Action Nodes (CLANs)**, we envision supporting a **fractal governance structure** and codesigning a socio-technical fabric we call the **WISDOM** protocol (Wiser Innovation Symbiotically Designed for Organismal Mutualism). This structure enables us to collaborate more effectively as a species, fostering a socio-cultural force with the power to transform how we:
+But our vision goes far beyond the local context. We aim to create the conditions for a new model to emerge—one where **we, as Earthians**, can dream and build together. By creating networks of interconnected circles and **Community Learning and Action Networks (CLANs)**, we envision supporting a **fractal governance structure** and codesigning a socio-technical fabric we call the **WISDOM** protocol (Wiser Innovation Symbiotically Designed for Organismal Mutualism). This structure enables us to collaborate more effectively as a species, fostering a socio-cultural force with the power to transform how we:
 
 - **Do:** creating regenerative systems that work in harmony with nature.
 - **Relate:** building meaningful relationships across diverse communities.
