@@ -195,6 +195,14 @@ permalink: /craft/protocol/
 </div>
 " %}
 </div>
+<div class="container">
+  <div class="section-heading">
+    <h2>Share your perspective now</h2>
+    <p>We've added a polis conversation below to gather your thoughts and feedback on the WISDOM Protocol and the framing question itself. Feel free to share your wisdom.</p>
+  </div>
+  <div class='polis' data-conversation_id='2wchcjv5nk'></div>
+<script async src='https://pol.is/embed.js'></script>
+</div>
 {% capture parallax_content %}
 <h2>Contribute to co-creation</h2>
 <p>
