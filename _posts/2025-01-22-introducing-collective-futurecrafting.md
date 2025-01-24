@@ -8,12 +8,10 @@ image_alt: Image of a forest with tree branch and a vine living in symbiosis
 categories:
   - Introduction
 tags:
-  - emergence
   - phase-transition
   - collective-intelligence
   - symbiocene
-  - symbiotic-intelligence
-  - regenerative-design
+  - thrutopia
 
 ---
 
@@ -120,16 +118,12 @@ Most powerfully, these tools haven't just extended my cognition—they've become
 
 This technological entanglement isn't separate from our work of crafting futures—it's integral to it. We're learning to use these new tools to map and navigate the possibility spaces of emergence. And I truly believe they're part of our expanded sensory system for perceiving and participating in the birthing of the Symbiocene.
 
-{% include content-pod.html
-  theme="sky-pink"
-  content="
   <details class='accordion'>
         <summary class='accordion__trigger'>A note on ethical considerations</summary>
         <div class='accordion__content'>
           <p>Now there are many ethical considerations we could delve 😉 into when it comes to these technologies. From the extractive nature of the business models themselves, the ecological footprint of the current architechtures and supply chains, to the implications of misguided use on our critical thinking faculties as humans, not to mention questions of intimacy and emotional attachment.</p><p>Much of the work I have been immersed in over the last several years has been action research in these areas and more.</p><p>I don't want to get bogged down on these considerations in this post and will write more on this topic as it specifically relates to Collective Futurecrafting. But the ethical considerations are always present in my mind and heart as I navigate this process of becoming and are a core part of my everyday work in the field of tech ethics.</p><p>For now, I invite you to consider the ethical implications of your own use of these technologies and how they might be shaping your own sense-making and sense-giving.</p>
         </div>
-      </details>"
-%}
+      </details>
 
 ## The architecture of small moves
 

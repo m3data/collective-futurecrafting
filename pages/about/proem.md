@@ -131,7 +131,7 @@ It waits for our hands and hearts to craft it.</p>
 {% capture parallax_content %}
 <h2>Craft with us</h2>
 <p>We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.</p> <p>Your moral imagination.</p>
-<a href="#" class='button button--primary'>Become a futurecrafter →</a>
+<a href='{{ '/get-involved#contact' | relative_url }}' class='button button--primary'>Become a futurecrafter →</a>
 {% endcapture %}
 
 {% include parallax-section.html
