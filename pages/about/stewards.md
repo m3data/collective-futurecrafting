@@ -26,7 +26,7 @@ permalink: /about/stewards/
     {% include steward-bio.html 
         name="Mathew Mytka"
         image="mathew-mytka.jpg"
-        location="Dharawal Country, Sydney, Australia"
+        location="Dharawal, Sydney, Australia"
         bio="Moral imagineer and systemic thinker, seer and doer playing at the intersection of science, art, technology, and our shared humanityas Earthians. Over the past 15+ years, Mat has navigated complexity across startups, federal governments initiatives, Fortune 50 companies, social movements and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
         linkedin="mathewmytka"
         website="https://m3data.me"
@@ -34,7 +34,7 @@ permalink: /about/stewards/
     {% include steward-bio.html 
         name="Gemma Palmer"
         image="gemma-masami-palmer.jpg"
-        location="Dharawal Country, Sydney, Australia"
+        location="Dharawal, Sydney, Australia"
         bio="Gemma is a healer and regenerative practitioner with a background in health science, permaculture, yoga, and meditation. Her work focuses on supporting the innate healing and growth of individuals, communities, and environments, drawing on ancestral knowledge, evidence-based practice, and a holistic understanding with mindful care. Gemma hopes she can make lasting positive change wherever the seed may grow."
         linkedin="gemma-p-576323224"
         website="https://www.gemmapalmer.au/about"
@@ -50,7 +50,7 @@ permalink: /about/stewards/
     {% include steward-bio.html 
         name="David Berigny"
         image="david-berigny.webp"
-        location="Gadigal Country, Sydney, Australia"
+        location="Gadigal, Sydney, Australia"
         bio="Systems designer committed to seeing the big picture, working at the intersection of design, research, strategy, and tech. He uses his experience in fields like farming, finance, and AI to help enable positive change. He developed the he <a href='http://www.mfoe.life' target='_blank'> Meta-Framework of Everything (MFoE)</a> to help simplify complex systems and explore how good design can improve lives and shape a better future."
         linkedin="davidberigny"
         website="https://www.berigny.org/"
