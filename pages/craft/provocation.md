@@ -224,7 +224,7 @@ content='
 <div class="flex-grid">
   <!-- Section 1 -->
   <div class="flex-grid__item">
-    <h3 class="flex-grid__title">Critiquing and cmposting in H1</h3>
+    <h3 class="flex-grid__title">Critiquing and composting in H1</h3>
     <p class="flex-grid__text">Challenging extractive practices while composting old systems into resources for H2 and H3.</p>
   </div>
 

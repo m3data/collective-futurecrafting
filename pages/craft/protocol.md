@@ -203,6 +203,22 @@ permalink: /craft/protocol/
   <div class='polis' data-conversation_id='2wchcjv5nk'></div>
 <script async src='https://pol.is/embed.js'></script>
 </div>
+<div class="container">
+  {% include content-pod.html
+    theme="sky-terra"
+    width="full"
+    align="left"
+    background_image="/assets/images/protocol-WISDOM.svg"
+    background_opacity="0.2"
+    background_size="80%"
+    background_position="top right"
+    content="<div class='protocol-section'>
+      <h2>A prototype as provocation</h2>
+      <p>Kincentrio is an artists expression that explores how we might design digital tools that help us in re/cognising our kinship with all living beings and ecosystems, integrating their voices into our governance and decision-making processes.</p>
+      <a href='https://sparkly-croquembouche-ce9d1c.netlify.app/' target='_blank' class='button button--primary'>Explore Kincentrio</a>
+    </div>"
+  %}
+</div>
 {% capture parallax_content %}
 <h2>Contribute to co-creation</h2>
 <p>
