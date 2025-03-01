@@ -61,7 +61,7 @@ permalink: /get-involved/
     width="full"
     align="left"
     content="
-    <h2>Emerging soon</h2>
+    <h2>Emerging soon in sync with the moon</h2>
     <div class='protocol-section'>
       <div class='protocol-subsection'>
         <h3>In germination</h3>
