@@ -3494,3 +3494,49 @@ sup a.footnote {
   }
 }
 
+.terra-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.terra-table th {
+  background: var(--color-terracotta);
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.terra-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(214, 138, 89, 0.2);
+  vertical-align: top;
+}
+
+.terra-table tr:nth-child(even) {
+  background: rgba(214, 138, 89, 0.05);
+}
+
+.terra-table tr:last-child td {
+  border-bottom: none;
+}
+
+.terra-table tr:hover {
+  background: rgba(214, 138, 89, 0.1);
+}
+
+@media (max-width: 768px) {
+  .terra-table {
+    overflow-x: auto;
+    display: block;
+  }
+  
+  .terra-table th, 
+  .table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}
