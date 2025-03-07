@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Living Story of Adapting Comunities to Thrive: Join in on the ACT"
+title: "A Living Story of Adapting Communities to Thrive: Join in on the ACT"
 date: 2025-03-06 11:11:11 +1000
 author: "Mathew Mytka"
 image: "/assets/images/posts/ACT-journey.png"
