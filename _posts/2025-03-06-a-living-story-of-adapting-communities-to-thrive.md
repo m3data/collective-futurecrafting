@@ -1,17 +1,14 @@
 ---
 layout: post
-title: "A Living Story of Community Adaptation: Join in on the ACT Mural"
+title: "A Living Story of Adapting Comunities to Thrive: Join in on the ACT"
 date: 2025-03-06 11:11:11 +1000
 author: "Mathew Mytka"
-image: /assets/images/posts/act-mural.jpg
+image: "/assets/images/posts/ACT-journey.png"
 image_alt: "Collaborative digital mural showing diverse contributions on the theme of community adaptation"
 categories:
   - Climate Adaptation
 tags:
-  - collective futurecrafting
-  - climate adaptation
-  - community resilience
-  - participatory design
+  - community wisdom 
 summary: "The ACT journey is living journey for collectively crafting thriving futures. Contribute your ideas, explore emerging adaptation strategies, and help weave a collective vision and emergent strategy for adapting communities to thrive."
 ---
 
@@ -19,7 +16,7 @@ Like rain pooling on parched earth, slowly finding channels to flow together int
 
 This is the essence of **Adapting Communities to Thrive (ACT)**. Co-creating a living, participatory journey where our diverse knowledge, experiences, and visions converge to map adaptation pathways. And today, we're opening a new channel for this convergence: **the ACT Mural**.
 
-This digital canvas isn't merely a tool—it's a living map of our collective intelligence, a space where the wisdom of many minds can mingle and multiply, revealing patterns that none of us could see alone.
+This digital canvas can become a living map of our collective intelligence, a space where the wisdom of many Earthians can mingle and multiply, revealing patterns that none of us could see alone.
 
 {% include parallax-section.html
   background="/assets/images/horizons/3-deep-horizons.png"
@@ -48,7 +45,7 @@ This isn't just another online whiteboard, it's living map of collective intelli
 
 ## Exploring the Three Horizons
 
-The Mural is structured around the **Three Horizons framework**: a powerful way to imagine and navigate transformation:
+The Mural is structured around the **Three Horizons framework**: a powerful way to imagine and navigate transformation.
 
 - **Horizon 1: Business-as-Usual & Current Challenges**: What's holding us back? What challenges do you see in your community? What are people saying—or not saying—about climate change?
 
@@ -79,15 +76,17 @@ Ready to join this collaborative space? Here's how to make the most of it:
    - Sticky notes sharing your experiences, worries, or hopes
    - Images from your community showing adaptation in action
    - Poems or stories about adaptation journeys
+   - Letters from the future imagining thriving communities
    - Links to projects that inspire you
    - Questions that need exploring
 
-Remember, this isn't about having perfect ideas or polished contributions. It's about bringing your authentic perspective into a growing collective intelligence. The Mural is a conversation—a place to both share and be inspired by others.
+Remember, this isn't about having perfect ideas or polished contributions. It's about bringing your authentic perspective into a growing collective intelligence. The Mural is a conversational place to both share and be inspired by others.
 
 ## What happens next?
 
 The Mural isn't a static exercise. It's a living process and just one part of the broader ACT journey. As patterns emerge, connections form, and insights arise, we'll be:
 
+- Hosting some online workshops with work through the ACT Mural experience together. <a href="https://tally.so/r/wkvNv1" target="_blank">Register your interest here</a> to be notified about upcoming sessions.
 - Weaving your contributions into futher stories and imagination exercises to share back with the larger community.
 - Bringing community stories, voices and wisdom into the **AdaptNSW Forum**
 - Creating a **visual archive of community wisdom** that continues to evolve
@@ -95,12 +94,21 @@ The Mural isn't a static exercise. It's a living process and just one part of th
 
 Your contributions become part of a growing body of knowledge about how we might adapt and thrive together. This participatory approach reflects a core insight: adaptation isn't something done *to* communities, but *by* communities, drawing on their inherent wisdom and creativity.
 
+_Note: Please be aware that the Mural is a public space, and your contributions will be visible to others. Please be aware of your own privacy and that of others you may share stories about, and only share content that you are comfortable with being public._
+
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/posts/enter-as-ACT-as-visitor.jpg" alt="Image of the Mural with instruction explaining to enter as a visitor" class="blog-image">
+</figure>
+<figure>
+  <img src="{{ site.baseurl }}/assets/images/posts/ACT-Mural-Outline.jpg" alt="Image of the Mural with instruction pointing how to start with the outline" class="blog-image">
+</figure>
+
 {% capture parallax_content %}
-<h2>Craft with us</h2>
+<h2>ACT with us</h2>
 <p>
-  We are just beginning on this intergenerational journey of Collective Futurecrafting, and we need your voice, your wisdom, your heart, your dreams.
+  We need your voice, your stories, your wisdom, your heart, your dreams. Just enter the Mural as a visitor and add your voice to the collective canvas.
 </p>
-<a href="https://app.mural.co/t/greaterthanexperience9110/m/greaterthanexperience9110/1740178225790/047b29a8f3ccaa94f770be062905b54e7ce2261e?sender=ubc2338b15fb7ad7803547648" target="_blank" class='button button--primary'>Join the Mural</a>
+<a href="https://app.mural.co/t/greaterthanexperience9110/m/greaterthanexperience9110/1740178225790/047b29a8f3ccaa94f770be062905b54e7ce2261e?sender=ubc2338b15fb7ad7803547648" target="_blank" class='button button--primary'>Enter as a visitor</a>
 {% endcapture %}
 
 {% include parallax-section.html
@@ -112,20 +120,22 @@ Your contributions become part of a growing body of knowledge about how we might
   content=parallax_content
 %}
 
-## Join the ACT journey
+## The broader the ACT journey
 
-The Mural is one piece of a larger journey of collective futurecrafting with the AdaptNSW community. Here are a few ways to get involved:
+The Mural is one piece of a larger journey of collective futurecrafting with the AdaptNSW community. Here are a few ways to get involved...
 
-**[Join the Mural as a visitor here](https://app.mural.co/t/greaterthanexperience9110/m/greaterthanexperience9110/1740178225790/047b29a8f3ccaa94f770be062905b54e7ce2261e?sender=ubc2338b15fb7ad7803547648)** - Add your voice to the collaborative canvas through words, images, and stories
+**Join the Pol.is** <a href="https://pol.is/2iyhcxfjkr" target="_blank"><strong>conversation here</strong></a> and share your perspective on what becomes possible when we weave together the transformative power of community-led adaptation
 
-**[Join the Pol.is conversation](https://pol.is/2iyhcxfjkr)** - Share your perspective on what becomes possible when we weave together the transformative power of community-led adaptation
+**Attend the AdaptNSW ACT event!** <a href="https://events.humanitix.com/adapting-communities-to-thrive" target="_blank"> Get your free tickets</a> and experience emerging insights through film, art and dialogue at our family-friendly evening on Friday, March 14th for Climate Action Week
 
-**[Attend the ACT event](https://events.humanitix.com/adapting-communities-to-thrive)** - Experience emerging insights through film, art and dialogue at our family-friendly evening on Friday, March 14th
-
-**[Explore the AdaptNSW website](https://www.climatechange.environment.nsw.gov.au/home)** - Connect with broader adaptation initiatives and trusted, localised climate information
+<a href="https://www.climatechange.environment.nsw.gov.au/home" target="_blank"> Explore the AdaptNSW website</a> and connect with broader adaptation initiatives and trusted, localised climate information
 
 **Invite others** - Share the this article with friends, family, or neighbours who might want to contribute their ideas about transformative climate adaptation and community thriving
 
-As Adrienne Maree Brown reminds us, "What we practice at the small scale sets the patterns for the whole system." The ACT journey invites us to practice adaptation together, weaving diverse knowledge and creativity into new possibilities for thriving.
-
-Let's ACT together.
+{% include quote-callout.html
+    quote="What we practice at the small scale sets the patterns for the whole system"
+    attribution="Adrienne Maree Brown"
+    theme="terra-sky"
+    size="large"
+    align="center"
+%}
