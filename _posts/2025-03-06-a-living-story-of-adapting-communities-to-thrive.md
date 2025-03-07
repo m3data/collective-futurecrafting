@@ -94,7 +94,7 @@ The Mural isn't a static exercise. It's a living process and just one part of th
 
 Your contributions become part of a growing body of knowledge about how we might adapt and thrive together. This participatory approach reflects a core insight: adaptation isn't something done *to* communities, but *by* communities, drawing on their inherent wisdom and creativity.
 
-_Note: Please be aware that the Mural is a public space, and your contributions will be visible to others. Please be aware of your own privacy and that of others you may share stories about, and only share content that you are comfortable with being public._
+_Note: The Mural is a public space, and your contributions will be visible to others. Please be aware of your own privacy and that of others you may share stories about, and only share content that you are comfortable with being public._
 
 <figure>
   <img src="{{ site.baseurl }}/assets/images/posts/enter-as-ACT-as-visitor.jpg" alt="Image of the Mural with instruction explaining to enter as a visitor" class="blog-image">
