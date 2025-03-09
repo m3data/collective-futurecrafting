@@ -35,7 +35,7 @@ permalink: /about/stewards/
         name="Gemma Palmer"
         image="gemma-masami-palmer.jpg"
         location="Dharawal, Sydney, Australia"
-        bio="Gemma is a healer and regenerative practitioner with a background in health science, permaculture, yoga, and meditation. Her work focuses on supporting the innate healing and growth of individuals, communities, and environments, drawing on ancestral knowledge, evidence-based practice, and a holistic understanding with mindful care. Gemma hopes she can make lasting positive change wherever the seed may grow."
+        bio="Gemma is a holistic wellbeing practitioner with a background in health science, permaculture, yoga, and meditation. Her work focuses on supporting the innate healing and growth of individuals, communities, and environments, drawing on ancestral knowledge, evidence-based practice, and a holistic understanding with mindful care. Gemma hopes she can make lasting positive change wherever the seed may grow."
         linkedin="gemma-p-576323224"
         website="https://www.gemmapalmer.au/about"
     %}
