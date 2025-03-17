@@ -32,7 +32,7 @@ This digital canvas can become a living map of our collective intelligence, a sp
 
 ## Why a Mural for Adaptation?
 
-The scale and complexity of climate adaptation requires a new form of collaborative intelligence. A form that can honor local knowledge while enabling shared learning across communities. One that inspire us to imagine and co-create a future where we can thrive.
+The scale and complexity of climate adaptation requires a new form of collaborative intelligence. A form that can honour local knowledge while enabling shared learning across communities. One that inspire us to imagine and co-create a future where we can thrive.
 
 The ACT Mural offers a space where:
 
@@ -47,7 +47,7 @@ This isn't just another online whiteboard, it's living map of collective intelli
 
 The Mural is structured around the **Three Horizons framework**: a powerful way to imagine and navigate transformation.
 
-- **Horizon 1: Business-as-Usual & Current Challenges**: What's holding us back? What challenges do you see in your community? What are people saying—or not saying—about climate change?
+- **Horizon 1: Business-as-Usual & Current Challenges**: What's holding us back? What challenges do you see in your community? What are people saying (or not saying) about climate change?
 
 - **Horizon 2: The Transition Zone**: How might we adapt together? What seeds are you planting, both literal and metaphorical? What emerging experiments inspire you? How might we build bridges between composting the old and crafting the new?
 
@@ -97,9 +97,6 @@ Your contributions become part of a growing body of knowledge about how we might
 _Note: The Mural is a public space, and your contributions will be visible to others. Please be aware of your own privacy and that of others you may share stories about, and only share content that you are comfortable with being public._
 
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/posts/enter-as-ACT-as-visitor.jpg" alt="Image of the Mural with instruction explaining to enter as a visitor" class="blog-image">
-</figure>
-<figure>
   <img src="{{ site.baseurl }}/assets/images/posts/ACT-Mural-Outline.jpg" alt="Image of the Mural with instruction pointing how to start with the outline" class="blog-image">
 </figure>
 
@@ -125,8 +122,6 @@ _Note: The Mural is a public space, and your contributions will be visible to ot
 The Mural is one piece of a larger journey of collective futurecrafting with the AdaptNSW community. Here are a few ways to get involved...
 
 **Join the Pol.is** <a href="https://pol.is/2iyhcxfjkr" target="_blank"><strong>conversation here</strong></a> and share your perspective on what becomes possible when we weave together the transformative power of community-led adaptation
-
-**Attend the AdaptNSW ACT event!** <a href="https://events.humanitix.com/adapting-communities-to-thrive" target="_blank"> Get your free tickets</a> and experience emerging insights through film, art and dialogue at our family-friendly evening on Friday, March 14th for Climate Action Week
 
 <a href="https://www.climatechange.environment.nsw.gov.au/home" target="_blank"> Explore the AdaptNSW website</a> and connect with broader adaptation initiatives and trusted, localised climate information
 
