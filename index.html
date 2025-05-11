@@ -8,101 +8,107 @@ date: 2024-12-13 00:00
 
 <main>
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-heading">
         <div class="container">
           <div class="hero-text">
-              <h1>Collective Futurecrafting</h1>
+              <h1 id="hero-heading">Collective Futurecrafting</h1>
               <p>The future is not written. It is crafted.</p>
-              <a href="{{ '/get-involved/' | relative_url }}" class="button button--primary">Get Involved</a>
+              <a href="{{ '/get-involved/' | relative_url }}" class="button button--primary" role="button">Get Involved</a>
           </div>
         </div>
     </section>
     <!-- Framing section -->
-    <section class="container">
+    <section class="container" aria-labelledby="framing-heading">
       <div class="section-heading">
-        <h2>What is Collective Futurecrafting?</h2>
+        <h2 id="framing-heading">What is Collective Futurecrafting?</h2>
         <p>Collective Futurecrafting is both an art and practice of weaving together our shared stories, strengths, skills, and ancestral wisdom. Co-creating futures worthy of our highest calling as Earthians on this beautiful planet we all call home.</p>
         <p>Through inner work, and small circles of connection and care, we learn to navigate complexity, heal relationships, and bring new possibilities to life—turning collective moral imagination into shared reality.</p>
         <p>Cocreating the conditions for the emergence of a planetary-scale regenerative civilisation.</p>
       </div>
     </section>
-  <!-- Story section -->
-  <section id="story-start" class="story-section">
+  <!-- Story sections -->
+  <article class="story-journey">
+    <header>
+      <h2 class="visually-hidden">Our Journey Story</h2>
+    </header>
+  <section id="story-start" class="story-section" aria-labelledby="story-heading-1">
     <div class="story-container">
       <div class="story-text">
-        <h2>In the beginning, there were circles.</h2>
+        <h2 id="story-heading-1">In the beginning, there were circles.</h2>
         <p>Before treaties and territories, before parliaments and protocols, humans gathered in circles. Around fires that held back the dark, beneath stars that mapped our stories, we sat together—listening, relating, sharing, dreaming of what was and what might be. These circles were our councils, our first universities, our first governments, our first theatres of imagination.</p>
         <p>As our world strains under the weight of many crises, these ancestral patterns of relating call to us again. Whispering of wisdom we may have forgotten but not lost.</p>
       </div>
       <div class="story-image">
-        <img src="assets/images/people-around-fire.svg" alt="illustration of people sitting in a circle around a fire in nature" />
+        <img src="assets/images/people-around-fire.svg" alt="People sitting in a circle around a fire in nature" />
       </div>
     </div>
   </section>
-  <section class="story-section">
+  <section class="story-section" aria-labelledby="story-heading-2">
     <div class="story-container">
       <div class="story-image">
-        <img src="assets/images/tapestry-of-life.svg" alt="tapestry of life illustration" />
+        <img src="assets/images/tapestry-of-life.svg" alt="Tapestry of life illustration showing interconnected threads" />
       </div>
       <div class="story-text">
-        <h2>In circles, magic happens.</h2>
+        <h2 id="story-heading-2">In circles, magic happens.</h2>
         <p>When we gather in small circles hierarchies can dissolve. Stories can flow. Trust can grow. And in that shared space of presence, we can remember who we are: not isolated individuals struggling against the tide of history, but threads in a vast tapestry of life, each with the power to weave new patterns of possibility.</p>
         <p>We are faced with unprecedented challenges. Climate change adaptation, social fragmentation, technological upheaval and more—these are not separate crises but symptoms of something deeper: our disconnection from each other, from the living Earth, from the sacred cycles that sustain all life.</p>
       </div>
     </div>
   </section>
-  <section class="story-section">
+  <section class="story-section" aria-labelledby="story-heading-3">
     <div class="story-container">
       <div class="story-text">
-        <h2>The space for new imaginings</h2>
+        <h2 id="story-heading-3">The space for new imaginings</h2>
         <p>Yet within this moment of patterns unraveling lies an opportunity for great transformation. The very systems that have brought us to this precipice are themselves fracturing, creating spaces for new patterns to emerge as triangles and circles collide. The question is not whether change will come, but what shape it will take.</p>
         <p>Will we continue down the path of extraction and separation, or will we choose to remember older ways of being—ways that re/cognise the fundamental relationality to and interconnectedness with of all life?</p>
       </div>
       <div class="story-image">
-        <img src="assets/images/clash-of-patterning.svg" alt="illustration of a fractured circle and triangles clashing in between themselves" />
+        <img src="assets/images/clash-of-patterning.svg" alt="Illustration of a fractured circle and triangles clashing in between themselves" />
       </div>
     </div>
   </section>
-  <section class="story-hero">
+  <section class="story-hero" aria-labelledby="cta-heading">
     <div class="story-hero-container">
       <div class="story-hero-text">
+        <h2 id="cta-heading" class="visually-hidden">Our Vision</h2>
         <p>Collective Futurecrafting is a response to these questions. A journey of being and becoming, acting and doing to live into. It is both old and new, and old ways anew. A synthesis of our ancestral wisdom as Earthians and the adjacent possibilities emerging in social innovation, of time-tested practices and the power of our collective <span class="bold-highlight">moral imagination</span>.</p>
         <p>It's a pathway to reimagine and re/cognise how we learn to be, how we learn to gather, decide, and act—not through top-down mandates but through the patient nurturing of relationships and the caring tending to the radicle seeds of change.</p>
       </div>
-      <a href="{{ '/craft/philosophy/' | relative_url }}" class="button button--primary">Learn more about the philosophy</a>
+      <a href="{{ '/craft/philosophy/' | relative_url }}" class="button button--primary" role="button">Learn more about the philosophy</a>
     </div>
   </section>
   <!-- Card Content Grid -->
-  <section class="content-grid">
+  <section class="content-grid" aria-labelledby="content-grid-heading">
     <div class="container">
+      <h2 id="content-grid-heading" class="visually-hidden">Explore Key Areas</h2>
       <div class="grid">
         <!-- Origins -->
-        <div class="card card--terracotta">
-          <h2>Origins</h2>
+        <article class="card card--terracotta">
+          <h3>Origins</h3>
           <p>Discover how the whispering of Circles helped Collective Futurecrafting emerge.</p>
-          <a href="{{ '/about/origins' | relative_url }}" class="button button--primary">Learn more</a>
-        </div>
+          <a href="{{ '/about/origins' | relative_url }}" class="button button--primary" role="button">Learn more</a>
+        </article>
 
         <!-- Proem -->
-        <div class="card card--olive-green">
-          <h2>Proem</h2>
+        <article class="card card--olive-green">
+          <h3>Proem</h3>
           <p>From a simple seed emerges the first roots, the radicle of potential and possibilities.</p>
-          <a href="{{ '/about/proem' | relative_url }}" class="button button--primary">Learn more</a>
-        </div>
+          <a href="{{ '/about/proem' | relative_url }}" class="button button--primary" role="button">Learn more</a>
+        </article>
 
         <!-- Craft -->
-        <div class="card card--sun-gold">
-          <h2>Craft</h2>
+        <article class="card card--sun-gold">
+          <h3>Craft</h3>
           <p>Explore the principles, patterns and practices for collectively crafting flourishing futures.</p>
-          <a href="{{ '/craft' | relative_url }}" class="button button--primary">Learn more</a>
-        </div>
+          <a href="{{ '/craft' | relative_url }}" class="button button--primary" role="button">Learn more</a>
+        </article>
 
         <!-- Get Involved -->
-        <div class="card card--sky-blue">
-          <h2>Get involved</h2>
+        <article class="card card--sky-blue">
+          <h3>Get involved</h3>
           <p>Learn how you can get involved and harness the power of your moral imagination.</p>
-          <a href="{{ '/get-involved' | relative_url }}" class="button button--primary">Learn more</a>
-        </div>
+          <a href="{{ '/get-involved' | relative_url }}" class="button button--primary" role="button">Learn more</a>
+        </article>
       </div>
     </div>
   </section>
@@ -111,8 +117,8 @@ date: 2024-12-13 00:00
 {% if page.url == '/' %}
 <script>
   // Mobile menu toggle
-  document.querySelector('.menu-toggle').addEventListener('click', function() {
-    document.querySelector('.nav-links').classList.toggle('active');
+  document.querySelector('.menu-toggle')?.addEventListener('click', function() {
+    document.querySelector('.nav-links')?.classList.toggle('active');
   });
 </script>
 {% endif %}
