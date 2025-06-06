@@ -27,7 +27,7 @@ permalink: /about/stewards/
         name="Mathew Mytka"
         image="mathew-mytka.jpg"
         location="Dharawal, Sydney, Australia"
-        bio="Moral imagineer and systemic thinker, seer and doer playing at the intersection of science, art, technology, and our shared humanityas Earthians. Over the past 15+ years, Mat has navigated complexity across startups, federal governments initiatives, Fortune 50 companies, social movements and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
+        bio="Moral imagineer and systemic thinker, seer and doer playing at the intersection of science, art, technology, and our shared humanity as Earthians. Over the past 15+ years, Mat has navigated complexity across startups, federal governments initiatives, Fortune 50 companies, social movements and grassroots communities, with an ethos oriented to designing conditions for mutually assured thriving."
         linkedin="mathewmytka"
         website="https://m3data.me"
     %}
