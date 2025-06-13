@@ -123,9 +123,9 @@ The Mural is one piece of a larger journey of collective futurecrafting with the
 
 **Join the Pol.is** <a href="https://pol.is/2iyhcxfjkr" target="_blank"><strong>conversation here</strong></a> and share your perspective on what becomes possible when we weave together the transformative power of community-led adaptation
 
-<a href="https://www.climatechange.environment.nsw.gov.au/home" target="_blank"> Explore the AdaptNSW website</a> and connect with broader adaptation initiatives and trusted, localised climate information
+<a href="https://www.climatechange.environment.nsw.gov.au/home" target="_blank"> Explore the AdaptNSW website</a> and connect with broader adaptation initiatives and trusted, localised climate information.
 
-**Invite others** - Share the this article with friends, family, or neighbours who might want to contribute their ideas about transformative climate adaptation and community thriving
+**Invite others** - Share this article with friends, family, or neighbours who might want to contribute their ideas about transformative climate adaptation and community thriving.
 
 {% include quote-callout.html
     quote="What we practice at the small scale sets the patterns for the whole system"
