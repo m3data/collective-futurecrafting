@@ -13,7 +13,7 @@ tags:
 summary: "Recap of the first ACT event during Climate Action Week, highlighting the community's desire for deeper participation and the next steps for collective adaptation efforts and emergent strategy."
 ---
 
-> "It felt like a party…"
+"It felt like a party…"
 
 That’s how one person described arriving at the ACT (Adapting Communities to Thrive) event during Climate Action Week back in April. And in many ways, it was.
 
