@@ -108,7 +108,7 @@ permalink: /craft/protocol/
   content="
 <div class='protocol-section'>
   <h2>Rhiozomes: living systems at scale</h2>
-  <p>Named after the horizontal stem systems that help plants spread and regenerate, Rhiozomes connect CLANs into bioregional networks capable of larger-scale regeneration.</p>
+  <p>Named after the horizontal stem systems that help plants spread and regenerate, Rhiozomes connect CLANs into bioregional networks that could connect up to the macro level of something like the UN. Forming a network capable of larger-scale regeneration.</p>
   <div class='protocol-subsection'>
     <h3>Vital functions</h3>
     <ul class='protocol-list'>
