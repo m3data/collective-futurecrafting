@@ -1,0 +1,109 @@
+- name: Dark Matter Labs
+  description: "Prototyping civic infrastructure for a regenerative civilization."
+  type: "Lab / Think Tank"
+  focus: ["Governance", "Deep Code", "Systemic Design"]
+  region: "Global (UK-based)"
+  website: "https://www.darkmatterlabs.org"
+  invitation: "Open to collaboration and experimentation"
+  cf_relation: "Shared ethos of re-patterning systems and shifting the deep code of civilization."
+  quote: "We sense the edges of the possible through deep codes and new myths."
+  theme: "terra-sky"
+
+- name: Terran Collective
+  description: "Building tools and culture for collective thriving through trust-based coordination."
+  type: "Collective / Tech Commons"
+  focus: ["Coordination", "Regenerative Economics", "Tech for Good"]
+  region: "California, USA"
+  website: "https://www.terran.io"
+  invitation: "Open-source and community-driven"
+  cf_relation: "Aligned with CF’s vision of relational, polycentric infrastructure."
+  quote: "Coordination is care."
+  theme: "sky-terra"
+
+- name: Regenerate Cascadia
+  description: "A regional movement building bioregional resilience through collaboration."
+  type: "Network / Movement"
+  focus: ["Bioregionalism", "Community Resilience", "Regenerative Governance"]
+  region: "Cascadia Bioregion"
+  website: "https://www.regeneratecascadia.org"
+  invitation: "Inviting bioregional weavers and stewards"
+  cf_relation: "Shares CF’s CLAN and Rhiozome principles."
+  quote: "Bioregional regeneration starts at home."
+  theme: "olive-gold"
+
+- name: Civic Square
+  description: "A neighbourhood platform for social and ecological transition in Birmingham."
+  type: "Place-Based Lab"
+  focus: ["Civic Imagination", "Social Infrastructure", "Urban Regeneration"]
+  region: "Birmingham, UK"
+  website: "https://civicsquare.cc"
+  invitation: "Co-designing with communities"
+  cf_relation: "Embodies Futurecrafting Circles in a local urban context."
+  quote: "The neighbourhood is the unit of change."
+  theme: "olive-gold"
+
+- name: Warm Data Labs
+  description: "Hosting contextual conversations that reveal patterns across systems."
+  type: "Practice / Methodology"
+  focus: ["Systems Sensing", "Transcontextuality", "Relational Intelligence"]
+  region: "Global (Founded by Nora Bateson)"
+  website: "https://batesoninstitute.org/warm-data-labs"
+  invitation: "Facilitator training and open labs"
+  cf_relation: "Supports CF’s embodied, relational learning practices."
+  quote: "Nothing lives in isolation."
+  theme: "charcoal-pink"
+
+- name: Hypha DAO
+  description: "Creating DAO tools for regenerative civilization and community economies."
+  type: "DAO Platform"
+  focus: ["Decentralized Governance", "Regenerative Finance", "Tech Infrastructure"]
+  region: "Global"
+  website: "https://hypha.earth"
+  invitation: "Welcoming regenerative pioneers"
+  cf_relation: "Provides potential infrastructure for WISDOM Protocol implementation."
+  quote: "DAO tools for a new civilization."
+  theme: "terra-sky"
+
+- name: The Emergence Network
+  description: "A translocal project that asks troubling questions in pursuit of different futures."
+  type: "Network / Inquiry"
+  focus: ["Decolonial Futures", "Mycelial Thinking", "Artful Disruption"]
+  region: "Global (Bayo Akomolafe and collaborators)"
+  website: "https://www.emergencenetwork.org"
+  invitation: "Inviting edge-walkers and sense-makers"
+  cf_relation: "Inspires CF’s moral imagination and poetic provocation."
+  quote: "The times are urgent; let us slow down."
+  theme: "pink-charcoal"
+
+- name: Prosocial World
+  description: "Helping groups work better together using evolutionary and contextual principles."
+  type: "Research + Practice Org"
+  focus: ["Group Dynamics", "Evolutionary Science", "Collective Intelligence"]
+  region: "Global"
+  website: "https://www.prosocial.world"
+  invitation: "Offers trainings and applied research"
+  cf_relation: "Supports CF’s circle-based governance and Ostrom-aligned models."
+  quote: "Together, we are smarter than any one of us."
+  theme: "terra-sky"
+
+- name: Art Earth Tech
+  description: "Bridging inner and outer regeneration through community and retreat spaces."
+  type: "Collective / Community"
+  focus: ["Spiritual Ecology", "Intentional Community", "Systems Change"]
+  region: "France & UK"
+  website: "https://www.artearthtech.com"
+  invitation: "Hosting circles and immersive residencies"
+  cf_relation: "Parallel experimentation with Futurecrafting Circles and embodied transformation."
+  quote: "Living well in a world worth living in."
+  theme: "charcoal-pink"
+
+- name: H3Uni – University for the Third Horizon
+  description: "Education for future consciousness and transformative leadership."
+  type: "Educational Initiative"
+  focus: ["Three Horizons", "Strategic Foresight", "Transformative Learning"]
+  region: "Global (UK-rooted)"
+  website: "https://www.h3uni.org"
+  invitation: "Offers online courses and learning journeys"
+  cf_relation: "CF draws on H3 as its time-holding framework for transformation."
+  quote: "The future is not a destination, it is a practice."
+  theme: "gold-olive"

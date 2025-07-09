@@ -1,0 +1,15 @@
+<div class="content-pod content-pod--half content-pod--left content-pod--padding-medium org-card {% for tag in org.focus %}focus-{{ tag | slugify }} {% endfor %}">
+  <div class="content-pod__background content-pod__background--{{ org.theme | default: 'terra-sky' }}"></div>
+  <div class="content-pod__content">
+    <h2>{{ org.name }}</h2>
+    <p><strong>{{ org.type }}</strong> — {{ org.region }}</p>
+    <p>{{ org.description }}</p>
+    <p><em>{{ org.cf_relation }}</em></p>
+    {% if org.website %}
+      <p><a href="{{ org.website }}" target="_blank" rel="noopener">Visit Website →</a></p>
+    {% endif %}
+    {% if org.quote %}
+      <blockquote class="quote">“{{ org.quote }}”</blockquote>
+    {% endif %}
+  </div>
+</div>

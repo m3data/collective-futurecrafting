@@ -27,6 +27,8 @@ main:
         url: /craft/protocol/
       - title: Playground
         url: /craft/playground/
+      - title: Weave
+        url: /craft/weaving/
   - title: Blog
     url: /blog/
   - title: Get Involved
