@@ -3,6 +3,7 @@ layout: default
 title: "Collective Futurecrafting Principles"
 description: "Explore the principles that guide the art and craft of collective futurecrafting."
 permalink: /craft/principles/
+published: false
 ---
 
 {% include page-hero.html

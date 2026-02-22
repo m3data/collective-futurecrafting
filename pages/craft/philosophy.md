@@ -3,6 +3,7 @@ layout: default
 title: "Philosophy - Axioms of Life and the Universe"
 description: "Axioms of Life and the Universe that guide the art and craft of Collective Futurecrafting."
 permalink: /craft/philosophy/
+published: false
 ---
 
 {% include page-hero.html

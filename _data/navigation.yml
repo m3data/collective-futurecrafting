@@ -1,35 +1,7 @@
 main:
   - title: About
     url: /about/
-    dropdown: true
-    subitems:
-      - title: Proem
-        url: /about/proem/
-      - title: Origins
-        url: /about/origins/
-      - title: Stewards
-        url: /about/stewards/
-  - title: Craft
-    url: /craft/
-    dropdown: true
-    subitems:
-      - title: Philosophy
-        url: /craft/philosophy/
-      - title: Provocation
-        url: /craft/provocation/  
-      - title: Principles
-        url: /craft/principles/
-      - title: Patterns
-        url: /craft/patterns/
-      - title: Practices
-        url: /craft/practices/
-      - title: Protocol
-        url: /craft/protocol/
-      - title: Playground
-        url: /craft/playground/
-      - title: Weave
-        url: /craft/weaving/
   - title: Blog
     url: /blog/
-  - title: Get Involved
-    url: /get-involved/
+  - title: Join
+    url: /join/

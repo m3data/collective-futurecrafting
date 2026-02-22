@@ -3,6 +3,7 @@ layout: page
 title: "Stewards - Earthian stewards of Collective Futurecrafting"
 description: "Learn about the Earthian stewards of Collective Futurecrafting"
 permalink: /about/stewards/
+published: false
 ---
 
 {% include page-hero.html 

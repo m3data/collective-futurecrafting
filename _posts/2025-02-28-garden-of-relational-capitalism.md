@@ -132,4 +132,4 @@ Healing begins when we see ourselves as gardeners, not consumers. When we nurtur
 
 You are invited to be a gardener—to see your choices as seeds, your relationships as roots, and your purpose as the soil that nourishes us all. The shift to relational capital isn't a destination—it's a practice. A daily choice to tend the garden, to see the world as a living, breathing ecosystem where every act of care ripples outward.
 
-**The time is now. The garden awaits. Will you [join us](/get-involved/)?**
+**The time is now. The garden awaits. Will you [join us](/join/)?**

@@ -19,13 +19,13 @@ collections:
     output: true
     permalink: /blog/:year/:month/:day/:title/
   resources:
-    output: true
+    output: false
     permalink: /resources/:title/
   authors:
     output: true
     permalink: /authors/:name/
   story_nodes:
-    output: true
+    output: false
 
 defaults:
   - scope:

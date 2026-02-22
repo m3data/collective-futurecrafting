@@ -3,6 +3,7 @@ layout: default
 title: "The Weave"
 description: "A living directory of kindred organizations and collectives aligned with the spirit of Collective Futurecrafting."
 permalink: /craft/weaving/
+published: false
 ---
 
 {% include page-hero.html

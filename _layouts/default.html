@@ -17,13 +17,8 @@
         
         <!-- CSS -->
         <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-        {% if page.url contains '/play' %}
-        <link rel="stylesheet" href="{{ '/assets/css/story-weaver.css' | relative_url }}">
-        {% endif %}
-
-        <!-- RSS feeds for blog posts and resources -->
+        <!-- RSS feed for blog posts -->
         <link rel="alternate" type="application/rss+xml" title="Collective Futurecrafting blog posts" href="{{ site.feed.collections.posts.path | relative_url }}" />
-        <link rel="alternate" type="application/rss+xml" title="Collective Futurecrafting resources" href="{{ site.feed.collections.resources.path | relative_url }}" />
     </head>
 <body>
     {% include welcome-modal.html %}
@@ -36,9 +31,6 @@
     <!-- JavaScript -->
     <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
     <script src="{{ '/assets/js/welcome-modal.js' | relative_url }}"></script>
-    {% if page.url contains '/play' %}
-    <script src="{{ '/assets/js/story-weaver.js' | relative_url }}" defer></script>
-    {% endif %}
     {% if page.layout == 'post' %}
     <script src="{{ '/assets/js/footnotes.js' | relative_url }}" defer></script>
     {% endif %}

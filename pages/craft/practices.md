@@ -3,6 +3,7 @@ layout: default
 title: "Collective Futurecrafting Practices"
 description: "Learn about the practices that support the art and craft of collective futurecrafting."
 permalink: /craft/practices/
+published: false
 ---
 
 {% include page-hero.html

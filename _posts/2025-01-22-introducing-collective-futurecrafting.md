@@ -167,4 +167,4 @@ For the future isn't a destination we arrive at, but a shared story we craft tog
 
 The Thrutopian path to the Symbiocene begins here, in this eternal moment pregnant with possibility. The space between where what's dying feeds what's being born.
 
-Will you <a href="{{ '/get-involved' | relative_url }}">craft with us</a>?
+Will you <a href="{{ '/join/' | relative_url }}">craft with us</a>?

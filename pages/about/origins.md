@@ -3,6 +3,7 @@ layout: page
 title: "Origins"
 description: "The emergence and evolution of Collective Futurecrafting"
 permalink: /about/origins/
+published: false
 ---
 <!-- Hero Section Start -->
 {% include page-hero.html 

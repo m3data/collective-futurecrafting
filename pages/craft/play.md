@@ -2,6 +2,7 @@
 layout: default
 title: "Play - A Mythic Journey into Collective Futurecrafting"
 permalink: /craft/play/
+published: false
 ---
 
 <div class="story-weaver">

@@ -4,6 +4,7 @@ title: "WISDOM Protocol - Collective Futurecrafting"
 video: "./assets/video/protocol-hero_videot.mp4"
 description: "A living network of circles, CLANs, and Rhiozomes working together through the WISDOM Protocol"
 permalink: /craft/protocol/
+published: false
 ---
 
 {% include page-hero.html

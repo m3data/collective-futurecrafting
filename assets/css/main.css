@@ -3544,10 +3544,134 @@ sup a.footnote {
     overflow-x: auto;
     display: block;
   }
-  
-  .terra-table th, 
+
+  .terra-table th,
   .table td {
     padding: 0.75rem 0.5rem;
     font-size: 0.9rem;
+  }
+}
+
+/* ============================================================
+   Homepage — Circle Invitation Sections
+   Lightweight styles for question, guidelines, and FAQ.
+   These replace heavy content-pod usage on the homepage.
+   ============================================================ */
+
+/* --- The Question (full-bleed dark moment) --- */
+.cf-question {
+  background: var(--color-charcoal);
+  color: #f5f0e8;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.cf-question__inner {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.cf-question blockquote {
+  font-family: 'Cormorant', Georgia, serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #e8ddd0;
+  margin: 0 0 1.8rem;
+  padding: 0;
+  border: none;
+}
+
+.cf-question blockquote p {
+  color: #e8ddd0;
+  margin: 0;
+}
+
+.cf-question > .cf-question__inner > p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #c4a882;
+}
+
+/* --- Guidelines --- */
+.cf-guidelines {
+  padding-bottom: 2rem;
+}
+
+.cf-guidelines__list {
+  display: grid;
+  gap: 0;
+  max-width: 780px;
+}
+
+.cf-guideline {
+  padding: 1.6rem 0 1.6rem 1.5rem;
+  border-left: 3px solid var(--color-olive-green);
+  border-bottom: 1px solid rgba(123, 147, 97, 0.15);
+}
+
+.cf-guideline:last-child {
+  border-bottom: none;
+}
+
+.cf-guideline h3 {
+  font-family: 'Cormorant', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  margin: 0 0 0.35rem;
+  line-height: 1.3;
+}
+
+.cf-guideline p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(66, 61, 51, 0.8);
+  margin: 0;
+}
+
+/* --- FAQ --- */
+.cf-faq {
+  padding-bottom: 2rem;
+}
+
+.cf-faq__list {
+  max-width: 780px;
+}
+
+.cf-faq__item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(214, 138, 89, 0.2);
+}
+
+.cf-faq__item:last-child {
+  border-bottom: none;
+}
+
+.cf-faq__item h3 {
+  font-family: 'Cormorant', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--color-charcoal);
+  margin: 0 0 0.4rem;
+  line-height: 1.3;
+}
+
+.cf-faq__item p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(66, 61, 51, 0.8);
+  margin: 0;
+}
+
+/* --- Responsive --- */
+@media (max-width: 767px) {
+  .cf-question {
+    padding: 3.5rem 1.5rem;
+  }
+
+  .cf-guideline {
+    padding: 1.2rem 0 1.2rem 1.2rem;
   }
 }

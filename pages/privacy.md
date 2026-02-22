@@ -48,7 +48,7 @@ You can:
 - Contact us with privacy questions
 
 ## Contact
-For privacy questions or concerns, <a href="{{ '/get-involved#contact' | relative_url }}" >contact us</a>
+For privacy questions or concerns, <a href="{{ '/join/#contact' | relative_url }}" >contact us</a>
 
 ## Changes
 We may update this notice occasionally. Check back for updates.

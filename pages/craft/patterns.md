@@ -3,6 +3,7 @@ layout: default
 title: "Collective Futurecrafting Patterns"
 description: "Learn about the patterns that guide the art and craft of collective futurecrafting."
 permalink: /craft/patterns/
+published: false
 ---
 
 {% include page-hero.html
